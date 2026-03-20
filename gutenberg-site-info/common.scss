@@ -1,0 +1,104 @@
+$block: km-site-info;
+$wrap: km-si-wrap;
+$abbr: km-si;
+
+.#{$block} {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  color: #fff;
+  padding: 45px 40px;
+  z-index: 5;
+  background: #606060;
+}
+
+.#{$block} .#{$wrap} {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.#{$block} .#{$abbr}-column {
+  position: relative;
+}
+
+/* Title
+========*/
+.#{$block} .#{$abbr}-title {
+  display: block;
+  font-weight: 700;
+  text-transform: none;
+  margin-bottom: 15px;
+  font-family: 'Lato';
+  letter-spacing: normal;
+}
+
+.#{$block} .#{$abbr}-title,
+.#{$block} .#{$abbr}-title a {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.#{$block} .#{$abbr}-title a {
+  transition: ease 0.2s color;
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+/* Links
+========*/
+.#{$block} .#{$abbr}-link {
+  font-size: 1.4rem;
+  font-weight: 600;
+  transition: ease 0.2s opacity;
+  color: inherit;
+}
+
+.#{$block} .#{$abbr}-link:hover {
+  color: inherit !important;
+  opacity: 0.8;
+}
+
+.#{$block} a[href^='mailto:'] {
+  white-space: nowrap;
+}
+
+/* Buttons
+==========*/
+.#{$block} .#{$abbr}-cta {
+  background: none;
+  cursor: pointer;
+}
+
+.#{$block} .#{$abbr}-cta-icon {
+  margin-left: auto !important;
+}
+
+@media (max-width: 1199px) {
+  .#{$block} .#{$wrap} {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .#{$block} .#{$wrap} {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .#{$block} .#{$abbr}-column a[href^='mailto:'] {
+    display: block;
+  }
+}
+
+@import 'content/content';
+@import 'individual-page-links/individual-page-links';
+@import 'content/content';
+@import 'auto-page-links/auto-page-links';

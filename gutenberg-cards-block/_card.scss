@@ -1,0 +1,231 @@
+$mainColour: #186aa5;
+$cardBg: #e8eff7;
+$mainBg: #186aa5;
+
+.#{$block} .#{$abbr}-card {
+  position: relative;
+  display: flex;
+  @include equal-width();
+  min-height: 200px; //756px;;
+  min-width: calc(100% / 3);
+  background-color: $cardBg;
+  color: $mainColour;
+  max-width: 33%;
+  // width: 618px !important;
+  // height: 655px !important;
+}
+
+.#{$block} .#{$abbr}-card .#{$abbr}-back {
+  position: relative;
+  box-sizing: border-box;
+  padding: 8% 6%;
+}
+
+.#{$block} .#{$abbr}-back .#{$abbr}c-title {
+  display: block;
+  font-size: 4rem;
+  margin-bottom: 22px;
+}
+
+.#{$block} .#{$abbr}-back .#{$abbr}c-content {
+  font-size: 1.6rem;
+}
+
+.#{$block} .#{$abbr}-image-right .#{$abbr}-back {
+  order: 1;
+}
+
+.#{$block} .#{$abbr}-image-right .#{$abbr}-front {
+  order: 2;
+}
+
+.#{$block} .#{$abbr}-card.#{$abbr}-has-image .#{$abbr}-front,
+.#{$block} .#{$abbr}-card.#{$abbr}-has-image .#{$abbr}-back {
+  transition: ease 0.4s opacity;
+}
+
+@media (min-width: 850px) {
+  .#{$block} .#{$abbr}-card {
+    position: relative;
+  }
+
+  // .#{$block} .#{$abbr}-card .#{$abbr}-front {
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  // }
+
+  // Remove below if image is absolute;
+  .#{$block} .#{$abbr}-card .#{$abbr}-front {
+    width: 100%;
+  }
+  .#{$block} .#{$abbr}-card .#{$abbr}-front img {
+    display: block;
+    width: 100%;
+  }
+  //End remove
+
+  .#{$block} .#{$abbr}-card .#{$abbr}-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .#{$block} .#{$abbr}-back .#{$abbr}c-content {
+    max-width: 466px;
+  }
+
+  /* If image is visible first
+============================*/
+
+  .#{$block}
+    .#{$abbr}-card.#{$abbr}-image-first.#{$abbr}-has-image
+    .#{$abbr}-back {
+    opacity: 0;
+    z-index: 0;
+  }
+
+  .#{$block}
+    .#{$abbr}-card.#{$abbr}-image-first.#{$abbr}-has-image
+    .#{$abbr}-front {
+    z-index: 20;
+  }
+
+  .#{$block}
+    .#{$abbr}-card.#{$abbr}-image-first.#{$abbr}-has-image:focus
+    .#{$abbr}-front,
+  .#{$block}
+    .#{$abbr}-card.#{$abbr}-image-first.#{$abbr}-has-image:hover
+    .#{$abbr}-front {
+    opacity: 0;
+    z-index: 0;
+  }
+
+  .#{$block}
+    .#{$abbr}-card.#{$abbr}-image-first.#{$abbr}-has-image:focus
+    .#{$abbr}-back,
+  .#{$block}
+    .#{$abbr}-card.#{$abbr}-image-first.#{$abbr}-has-image:hover
+    .#{$abbr}-back {
+    opacity: 1;
+    z-index: 20;
+  }
+
+  /* If constent is visible first
+============================*/
+
+  .#{$block}
+    .#{$abbr}-card.#{$abbr}-content-first.#{$abbr}-has-image
+    .#{$abbr}-back {
+    z-index: 20;
+  }
+
+  .#{$block}
+    .#{$abbr}-card.#{$abbr}-content-first.#{$abbr}-has-image
+    .#{$abbr}-front {
+    z-index: 0;
+    opacity: 0;
+  }
+
+  .#{$block}
+    .#{$abbr}-card.#{$abbr}-content-first:focus.#{$abbr}-has-image
+    .#{$abbr}-back,
+  .#{$block}
+    .#{$abbr}-card.#{$abbr}-content-first:hover.#{$abbr}-has-image
+    .#{$abbr}-back {
+    opacity: 0;
+    z-index: 0;
+  }
+
+  .#{$block}
+    .#{$abbr}-card.#{$abbr}-content-first:focus.#{$abbr}-has-image
+    .#{$abbr}-front,
+  .#{$block}
+    .#{$abbr}-card.#{$abbr}-content-first:hover.#{$abbr}-has-image
+    .#{$abbr}-front {
+    z-index: 20;
+    opacity: 1;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1200px) {
+  .#{$block} .#{$abbr}-card {
+    min-width: 50% !important;
+    width: 50%;
+    // min-height: 500px;
+  }
+  .#{$block} .#{$abbr}-back .#{$abbr}c-title {
+    font-size: 3rem;
+  }
+}
+
+// side by side content
+// @media (max-width: 980px) {
+//   .#{$block} .#{$abbr}-card {
+//     width: 100%;
+//     min-height: 0 !important;
+//     display: flex;
+//     flex-wrap: wrap;
+//   }
+
+//   .#{$block} .#{$abbr}-card .#{$abbr}-front {
+//     background-image: none !important;
+//   }
+
+//   .#{$block} .#{$abbr}-card .#{$abbr}-front img {
+//     display: block;
+//     margin: 0;
+//     width: 100%;
+//   }
+
+//   .#{$block} .#{$abbr}-card .#{$abbr}-front,
+//   .#{$block} .#{$abbr}-card .#{$abbr}-back {
+//     width: 50%;
+//   }
+
+//   .#{$block} .#{$abbr}-card > *:only-child {
+//     width: 100%;
+//   }
+
+//   .#{$block} .#{$abbr}-back .#{$abbr}c-title {
+//     font-size: 2.5rem;
+//   }
+// }
+
+@media (max-width: 850px) {
+  .#{$block} .#{$abbr}-card {
+    min-width: 50% !important;
+    width: 50%;
+  }
+  .#{$block} .#{$abbr}-card {
+    flex-direction: column;
+  }
+  .#{$block} .#{$abbr}-card .#{$abbr}-front img {
+    width: 100%;
+  }
+  .#{$block} .#{$abbr}-card .#{$abbr}-front,
+  .#{$block} .#{$abbr}-card .#{$abbr}-back {
+    width: 100%;
+  }
+  .#{$block} .#{$abbr}-back .#{$abbr}c-title {
+    font-size: 2rem;
+  }
+
+  .#{$block} .#{$abbr}-image-right .#{$abbr}-back {
+    order: 2;
+  }
+
+  .#{$block} .#{$abbr}-image-right .#{$abbr}-front {
+    order: 1;
+  }
+}
+@media (max-width: 640px) {
+  .#{$block} .#{$abbr}-card {
+    min-width: 100% !important;
+    width: 100%;
+  }
+}

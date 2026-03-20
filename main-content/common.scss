@@ -1,0 +1,58 @@
+/* Main content ( non ACF blocks ) */
+.main-content-wrap {
+  position: relative;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.main-content-wrap .main-content {
+  background: #fff;
+}
+
+.blog .main-content-wrap .main-content {
+  background: #eeedeb;
+}
+
+.km-core-content {
+  position: relative;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.wp-block-group__inner-container > h2,
+.km-core-content h2 {
+  display: block;
+  padding: 20px 0;
+}
+
+// Below is used if single.php uses post type setup
+.main-content-wrap.km-has-sidebar {
+  display: flex;
+  justify-content: center;
+  background: #eee;
+  padding: 110px 20px;
+}
+
+.km-awaiting-content {
+  position: relative;
+  box-sizing: border-box;
+  padding: 50px 40px 600px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.km-awaiting-content p {
+  display: block;
+  margin-top: 40px;
+}
+
+@media (max-width: 980px) {
+  .main-content-wrap.km-has-sidebar {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+  .wp-block-group__inner-container > h2,
+  .km-core-content h2 {
+    padding: 40px 0 30px;
+  }
+}

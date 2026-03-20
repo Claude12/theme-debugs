@@ -1,0 +1,184 @@
+/* CTA Button
+===============*/
+$ctaColor: grey;
+$ctaHoverColor: #000;
+$ctaBg: none;
+$ctaHoverBg: grey;
+
+.cta-set {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 0 -5px;
+}
+
+.cta-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-weight: 600;
+  border: 2px solid $ctaColor;
+  padding: 12px 20px;
+  transition: ease 0.2s background;
+  text-align: center;
+  text-decoration: none !important;
+  font-size: 1.6rem;
+  //fill: $ctaColor;
+  background-color: transparent;
+  border-radius: 2px;
+  margin: 5px;
+
+  &::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    content: '';
+    background: $ctaHoverBg;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.km-cta-popup-trigger {
+  cursor: pointer;
+}
+
+.cta-hover-y::before {
+  width: 100%;
+  height: 0;
+  transition: ease 0.2s height;
+}
+
+.cta-hover-x::before {
+  width: 0;
+  height: 100%;
+  transition: ease 0.2s width;
+}
+
+.cta-button span {
+  position: relative;
+  color: $ctaColor;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  transition: ease 0.2s color;
+  z-index: 5;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.cta-hover-x:focus::before,
+.cta-hover-x:hover::before {
+  width: 100%;
+}
+
+.cta-hover-y:focus::before,
+.cta-hover-y:hover::before {
+  height: 100%;
+}
+
+.cta-button:focus span,
+.cta-button:hover span {
+  color: $ctaHoverColor;
+}
+
+.cta-button .svg-icon {
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: inherit;
+    transition: ease 0.2s fill;
+  }
+}
+
+.cta-button:focus svg,
+.cta-button:hover svg {
+  fill: $ctaHoverColor;
+}
+
+/* Picker styling
+===============*/
+.km-button-picker.km-picker .km-selected-wrap,
+.km-button-picker.km-picker .km-ep-item-set .km-picker-item {
+  background: #676767;
+}
+
+.km-button-picker .km-picker-item:focus,
+.km-button-picker .km-picker-item:hover {
+  opacity: 1 !important;
+}
+
+.km-button-picker .ctas .cta-button:focus::before,
+.km-button-picker .ctas .cta-button:hover::before {
+  width: 100% !important;
+}
+
+/* Create buttons
+=============*/
+// ('colour','hoverColour','background','hoverBackground','border-colour')
+
+$ctas: (
+  // Black
+  (#fff, #000, #000, #fff, #000),
+  (#000, #fff, rgba(0, 0, 0, 0), #000, #000),
+  // Dark
+  (#fff, #2e2e2e, #2e2e2e, #fff, #2e2e2e),
+  (#2e2e2e, #fff, rgba(0, 0, 0, 0), #2e2e2e, #2e2e2e),
+  // Red
+  (#fff, #7c1833, #7c1833, #fff, #7c1833),
+  (#fff, #7c1833, #7c1833, #eeedeb, #7c1833),
+  (#7c1833, #fff, rgba(0, 0, 0, 0), #7c1833, #7c1833),
+  // Dark Red
+  (#fff, #5d071e, #5d071e, #fff, #5d071e),
+  (#5d071e, #fff, rgba(0, 0, 0, 0), #5d071e, #5d071e),
+  // White
+  (#7c1833, #fff, #fff, #7c1833, #fff),
+  (#fff, #7c1833, rgba(0, 0, 0, 0), #fff, #fff),
+  // Light Grey
+  (#7c1833, #eeedeb, #eeedeb, #7c1833, #eeedeb),
+  (#eeedeb, #7c1833, rgba(0, 0, 0, 0), #eeedeb, #eeedeb),
+  // Beige
+  (#f7f5ef, #7c1833, #7c1833, #f7f5ef, #7c1833),
+  (#7c1833, #f7f5ef, rgba(0, 0, 0, 0), #7c1833, #7c1833)
+);
+
+@for $i from 1 through length($ctas) {
+  $cta: nth($ctas, $i);
+
+  .cta-#{$i} {
+    background: nth($cta, 3);
+    border-color: nth($cta, 5);
+  }
+
+  .cta-#{$i} span {
+    color: nth($cta, 1);
+  }
+
+  .cta-#{$i} .svg-icon {
+    fill: nth($cta, 1);
+  }
+
+  .cta-#{$i}::before {
+    background: nth($cta, 4);
+  }
+
+  .cta-#{$i}:focus span,
+  .cta-#{$i}:hover span {
+    color: nth($cta, 2);
+  }
+
+  .cta-#{$i}:focus svg,
+  .cta-#{$i}:hover svg {
+    fill: nth($cta, 2);
+  }
+}

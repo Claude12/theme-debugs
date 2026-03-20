@@ -1,0 +1,76 @@
+.#{$block} .km-carousel-scroll-down {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 5;
+  fill: $controlsColour;
+  color: $controlsColour;
+  cursor: pointer;
+  opacity: 1;
+  transition: ease 0.2s opacity;
+
+  svg {
+    display: block;
+    width: 30px;
+    height: 30px;
+    fill: inherit;
+    transform-origin: 50% 50%;
+    animation: carousel-arrow 2.6s infinite alternate ease-in-out;
+  }
+}
+
+// .#{$block}:focus .km-carousel-scroll-down,
+// .#{$block}:hover .km-carousel-scroll-down {
+//   opacity: 1;
+// }
+
+.#{$block} .km-carousel-scroll-down:focus,
+.#{$block} .km-carousel-scroll-down:hover {
+  opacity: 0.6;
+}
+
+.#{$block} .km-carousel-scroll-down:focus svg,
+.#{$block} .km-carousel-scroll-down:hover svg,
+.#{$block} .km-carousel-scroll-down:focus span,
+.#{$block} .km-carousel-scroll-down:focus span {
+  color: inherit;
+  fill: inherit;
+}
+
+@keyframes carousel-arrow {
+  0% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(5px);
+    opacity: 0.9;
+  }
+}
+
+.#{$block} .km-carousel-scroll-down span {
+  display: block;
+  margin-top: 10px;
+  color: inherit;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.#{$block} .km-carousel-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+}
+
+@media (max-width: 980px) {
+  .#{$block} .km-carousel-scroll-down span {
+    margin-top: 5px;
+    font-size: 1.4rem;
+  }
+}

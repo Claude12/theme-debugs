@@ -1,0 +1,74 @@
+/* Links Strip
+    ================*/
+
+$bg: #fff;
+$colour: #7c1833;
+
+$block: km-links-strip;
+$abbr: km-ls;
+
+.#{$block} {
+  box-sizing: border-box;
+  padding: 0 40px;
+  background: $bg;
+}
+
+.#{$block}.#{$abbr}-space-small {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.#{$block}.#{$abbr}-space-large {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.#{$block}.#{$abbr}-space-none {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.#{$block} .#{$abbr}-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+}
+
+.#{$block} .#{$abbr}-title {
+  display: block;
+  color: $colour;
+  margin-bottom: 30px;
+}
+
+.#{$block} .#{$abbr}-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.#{$block} .#{$abbr}-link {
+  display: block;
+  margin: 10px;
+  transition: ease 0.2s opacity;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.#{$block} .#{$abbr}-link svg {
+  display: block;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  fill: $colour;
+}
+
+@media (max-width: 980px) {
+  .#{$block} {
+    padding: 20px 30px;
+  }
+}

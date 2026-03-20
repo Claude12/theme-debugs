@@ -1,0 +1,71 @@
+$block: km-watermark;
+
+/* Watermark
+============*/
+.#{$block} {
+  position: absolute;
+  transition: ease 1.2s transform, ease 2s opacity;
+}
+
+.#{$block}.km-animation-enabled img {
+  display: block;
+  margin: 0;
+  opacity: 1 !important;
+}
+
+/* Location
+===========*/
+
+.#{$block}.#{$block}-top-right {
+  right: 0;
+  top: 0;
+}
+
+body:not(.wp-admin) .#{$block}.#{$block}-top-left.#{$block}-offset,
+body:not(.wp-admin) .#{$block}.#{$block}-top-right.#{$block}-offset {
+  top: -50px;
+}
+
+.#{$block}.#{$block}-top-left {
+  top: 0;
+  left: 0;
+}
+
+.#{$block}.#{$block}-bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.#{$block}.#{$block}-bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+body:not(.wp-admin) .#{$block}.#{$block}-bottom-left.#{$block}-offset,
+body:not(.wp-admin) .#{$block}.#{$block}-bottom-right.#{$block}-offset {
+  bottom: -50px;
+}
+
+.#{$block} img {
+  display: block;
+  margin: 0;
+}
+
+/* Animate
+==========*/
+.#{$block}.#{$block}-top-left.km-animation-enabled,
+.#{$block}.#{$block}-bottom-left.km-animation-enabled {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.#{$block}.#{$block}-top-right.km-animation-enabled,
+.#{$block}.#{$block}-bottom-right.km-animation-enabled {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.#{$block}.km-animation-enabled.km-ani-on {
+  transform: translateX(0);
+  opacity: 1;
+}

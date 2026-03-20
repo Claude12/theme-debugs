@@ -1,0 +1,244 @@
+/* Panel Block
+==============*/
+
+$block: km-panel-block;
+$abbr: km-pb;
+$wrap: #{$abbr}-wrap;
+
+$grid: 1200px;
+$gutter: 9px; // space between divided by 2
+$mainColour: #425c5a;
+
+.#{$block} {
+  position: relative;
+  box-sizing: border-box;
+  padding: 150px 40px 132px;
+  color: $mainColour;
+  overflow: hidden;
+}
+
+.#{$block} .#{$wrap} {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: $grid;
+  margin: 0 auto;
+  z-index: 3;
+}
+
+/* Title
+========*/
+
+.#{$block} .#{$abbr}-title {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.#{$block} .#{$abbr}-title-center {
+  text-align: center;
+}
+
+.#{$block} .#{$abbr}-trigger {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  font-size: 2rem;
+  padding: 20px;
+}
+
+.#{$block} .#{$abbr}-trigger .km-pb-t-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.#{$block} .#{$abbr}-trigger .km-pb-t-wrap .icon {
+  display: none;
+}
+
+.#{$block} .#{$abbr}-panels.#{$abbr}p-content-center .#{$abbr}-t-wrap {
+  justify-content: center;
+}
+
+/* Intro text
+=============*/
+.#{$block} .#{$abbr}-intro {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.#{$block} .#{$abbr}-intro p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: inherit;
+}
+
+.#{$block} .#{$abbr}-intro-center {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Content
+========*/
+.#{$block} .#{$abbr}-content {
+  margin-bottom: 30px;
+}
+
+.#{$block} .#{$abbr}-panel-content-wrap {
+  padding: 0 20px 20px;
+}
+
+.#{$block} .#{$abbr}-content-center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Buttons
+==========*/
+.#{$block} .center-ctas {
+  justify-content: center;
+}
+
+/* Panels
+=========*/
+
+.#{$block} .#{$abbr}-panels {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.#{$block} .#{$abbr}-panels.#{$abbr}p-content-center {
+  text-align: center;
+}
+
+/* Panel Layout
+===============*/
+
+@media (min-width: 820px) {
+  .#{$block} .#{$abbr}-row-2 .#{$abbr}-panel {
+    width: calc(50% - #{$gutter});
+  }
+
+  .#{$block} .#{$abbr}-row-3 .#{$abbr}-panel {
+    width: calc(calc(100% / 3) - #{$gutter});
+  }
+}
+
+/* Single panel
+===============*/
+.#{$block} .#{$abbr}-panel {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0;
+  margin-bottom: 18px;
+}
+
+.#{$block} .#{$abbr}-row-3 .#{$abbr}-panel {
+  margin-bottom: 14px;
+}
+
+.#{$block} .#{$abbr}-panel-title {
+  color: $mainColour;
+}
+
+@media (max-width: 819px) {
+  .#{$block} .#{$abbr}-panels {
+    flex-direction: column;
+  }
+
+  .#{$block} .#{$abbr}-panel {
+    width: 100%;
+    margin-bottom: 21px;
+  }
+
+  .#{$block} {
+    padding: 70px 40px 52px;
+  }
+
+  .#{$block}.activateAccordion .#{$abbr}-panel-content {
+    height: 0;
+    overflow: hidden;
+    transition: ease 0.2s height;
+  }
+
+  .#{$block}.activateAccordion .#{$abbr}-trigger {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .#{$block}.activateAccordion .#{$abbr}-trigger .km-pb-t-wrap .icon {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    display: block;
+    animation: moveDownIcon 5s 2s alternate infinite;
+    svg {
+      display: block;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      margin-left: 10px;
+      fill: inherit;
+    }
+  }
+
+  .#{$block} .#{$abbr}-trigger .km-pb-t-wrap .icon svg {
+    transition: ease 0.2s transform;
+  }
+
+  .#{$block} .#{$abbr}-trigger.expanded .km-pb-t-wrap .icon svg {
+    transform: rotate(180deg);
+  }
+
+  .#{$block} .#{$abbr}-trigger .km-pb-arrow {
+    transition: ease 0.2s transform;
+  }
+
+  .#{$block} .#{$abbr}-trigger.expanded .km-pb-arrow {
+    transform: rotate(90deg);
+  }
+
+  .#{$block} .#{$abbr}-trigger:hover .km-pb-t-wrap .icon {
+    animation: iconHover 0.5s alternate infinite;
+  }
+}
+
+@keyframes moveDownIcon {
+  0% {
+    transform: translateY(0);
+  }
+  5% {
+    transform: translateY(5px);
+  }
+  10% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes iconHover {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 981px) {
+  .km-pb-t-wrap {
+    pointer-events: none;
+  }
+}

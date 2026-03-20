@@ -1,0 +1,79 @@
+$mainColour: #4f4f4f;
+
+.shortcode-img_content {
+  position: relative;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  color: $mainColour;
+  font-size: 1.5rem;
+  line-height: 20px;
+}
+
+.shortcode-img_content.card-strapline .sic-content {
+  margin: 0;
+  font-weight: 600;
+  font-size: 2rem;
+  box-sizing: border-box;
+  padding: 33px 20px;
+  line-height: 1.2;
+}
+
+.shortcode-img_content p {
+  margin: 0;
+}
+
+.shortcode-img_content .sic-image {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.shortcode-img_content.sic-full-image .sic-image {
+  width: 100%;
+}
+
+.shortcode-img_content .sic-content {
+  margin: 30px 0;
+}
+
+.shortcode-img_content .sic-title {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.shortcode-img_content .sic-cta {
+  margin-top: 40px;
+}
+
+/* If wrapped with block with class sic-block
+=============================================*/
+.shortcode-block.sic-block {
+  display: block;
+}
+
+.shortcode-block.sic-block .sb-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1400px) {
+  .shortcode-img_content.card-strapline .sic-content {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 980px) {
+  .shortcode-img_content.card-strapline .sic-content {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .shortcode-img_content.card-strapline .sic-content {
+    font-size: 1.5rem;
+  }
+}

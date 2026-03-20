@@ -1,0 +1,209 @@
+$mainColour: #7c1833;
+$accent: #7c1833;
+
+/* Bar Menu
+===========*/
+.bar-menu {
+  position: relative;
+  box-sizing: border-box;
+  z-index: 20;
+  margin-right: 18px;
+}
+
+.bar-menu > ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.bar-menu > ul > li {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-left: 18px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.bar-menu > ul > li > a {
+  color: $mainColour;
+  line-height: 1;
+  font-size: 1.5rem;
+}
+
+.bar-menu ul li a {
+  transition: ease 0.2s color;
+
+  &:hover {
+    color: #5d071e;
+  }
+}
+
+.bar-menu:not(.km-x-tiers) ul ul ul {
+  display: none !important;
+}
+
+.bar-menu .sub-menu-trigger {
+  display: none !important;
+}
+/* Sub Menu
+===========*/
+
+.bar-menu ul ul {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff;
+  min-width: 195px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  padding: 10px 0;
+
+  &::before {
+    position: absolute;
+    top: -8px;
+    right: 0;
+    content: '';
+    height: 15px;
+    width: 100%;
+  }
+}
+
+.bar-menu ul li:hover ul {
+  display: flex;
+}
+
+.bar-menu ul ul li {
+  z-index: 5;
+  box-sizing: border-box;
+  width: 100%;
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.bar-menu ul ul .sub-menu-trigger {
+  display: none;
+}
+
+.bar-menu ul ul li a {
+  color: $accent;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 400;
+  display: block;
+  padding: 10px 0;
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+/* Push menu only
+=================*/
+.bar-menu .push-menu-only {
+  display: none;
+}
+
+// Animation
+
+.bar-menu #primary-menu > .menu-item-has-children > .sub-menu {
+  transform: translateY(10px);
+  display: flex !important;
+  visibility: hidden;
+  opacity: 0;
+  transition: ease 0.2s opacity, ease 0.2s visibility, ease 0.2s transform;
+}
+
+.bar-menu #primary-menu > .menu-item-has-children:hover > .sub-menu {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+/* 3d tier of the menu
+======================*/
+
+.bar-menu.km-x-tiers .sub-menu .menu-item-has-children .sub-menu-trigger svg {
+  transform: rotate(-90deg);
+}
+
+.bar-menu.bar-menu.km-x-tiers
+  .sub-menu
+  .menu-item-has-children:hover
+  > a::after {
+  width: 100%;
+}
+
+.bar-menu.bar-menu.km-x-tiers .sub-menu .sub-menu {
+  width: 195px;
+  min-height: 100%;
+  justify-content: flex-start;
+  top: 0;
+  right: auto;
+  left: 100%;
+  box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.38);
+  transform: translateY(10px);
+  visibility: hidden;
+  opacity: 0;
+  transition: ease 0.2s opacity, ease 0.2s visibility, ease 0.2s transform;
+}
+
+.bar-menu.bar-menu.km-x-tiers
+  .sub-menu
+  .menu-item-has-children:hover
+  > .sub-menu {
+  transform: translateY(0) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.bar-menu.km-x-tiers .sub-menu .sub-menu-trigger {
+  display: block;
+}
+
+.bar-menu.km-x-tiers ul .menu-item-has-children {
+  display: flex;
+  align-items: center;
+}
+
+.bar-menu.km-x-tiers
+  .sub-menu
+  .menu-item-has-children.sub-menu-left
+  .sub-menu-trigger {
+  order: 1;
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+.bar-menu.km-x-tiers
+  .sub-menu
+  .menu-item-has-children.sub-menu-left
+  .sub-menu-trigger
+  svg {
+  transform: rotate(90deg);
+}
+
+.bar-menu.km-x-tiers .sub-menu .menu-item-has-children.sub-menu-left .sub-menu {
+  order: 3;
+}
+
+.bar-menu.km-x-tiers .sub-menu .menu-item-has-children.sub-menu-left > a {
+  order: 2;
+}
+
+.bar-menu.km-x-tiers .sub-menu .menu-item-has-children.sub-menu-left .sub-menu {
+  right: 100%;
+  left: auto;
+}
+
+/* Un comment if you require more than 3 tiers. */
+.bar-menu.km-x-tiers .sub-menu .sub-menu .sub-menu-trigger,
+.bar-menu.km-x-tiers .sub-menu .sub-menu .sub-menu {
+  display: none !important;
+}

@@ -1,0 +1,66 @@
+@import '../../assets/styles/theme/mixins';
+
+$block: km-gutenberg-card-content;
+$abbr: gcc;
+$mainColour: #186aa5;
+$titleColour: $mainColour;
+$mainBg: #e8eff7;
+
+.#{$block} {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  background: $mainBg;
+  justify-content: center;
+}
+
+.#{$block} .#{abbr}-part {
+  flex-grow: 2;
+}
+
+.#{$block} .gcc-center {
+  text-align: center;
+}
+
+/* Define card location
+=======================*/
+.#{$block}.#{$abbr}-card-right .#{$abbr}-card {
+  order: 2;
+}
+
+.#{$block}.#{$abbr}-card-right .#{$abbr}-section {
+  order: 1;
+}
+
+@media (min-width: 981px) {
+  .#{$block} {
+    padding: 108px;
+  }
+  .#{$block} .#{$abbr}-card,
+  .#{$block} .#{$abbr}-section {
+    @include equal-width();
+  }
+}
+
+@media (min-width: 981px) and (max-width: 1400px) {
+  .#{$block} {
+    padding: 100px 70px;
+  }
+}
+
+@media (max-width: 980px) {
+  .#{$block} {
+    flex-direction: column;
+    padding: 50px 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .#{$block} {
+    padding: 40px 20px;
+  }
+}
+
+@import './card';
+@import './section';

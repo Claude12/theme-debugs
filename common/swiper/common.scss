@@ -1,0 +1,24 @@
+@import 'arrows';
+@import 'bullets';
+@import 'fraction';
+
+.swiper-info {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.swiper-pagination-fraction {
+  width: auto;
+}
+
+.swiper-info-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-info-wrap .swn-icon {
+  width: 20px;
+  height: 20px;
+}

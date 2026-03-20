@@ -1,0 +1,582 @@
+$background: #73a1c2;
+$iconColour: #fff;
+$modalBody: #fff;
+$mainColour: #fff;
+$fontFamily: Arial;
+
+.kmm-active {
+  overflow: hidden;
+  height: 100%;
+}
+
+.km-timed-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  font-family: $fontFamily;
+  box-sizing: border-box;
+  padding: 40px 40px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //transition
+  z-index: -1;
+  visibility: hidden;
+  opacity: 0;
+  transition: ease 0.6s visibility, ease 0.6s opacity;
+}
+
+.km-timed-modal .ktmc-cross-wrap {
+  position: relative;
+}
+
+.km-timed-modal.km-modal-visible {
+  z-index: 1050;
+  visibility: visible;
+  opacity: 1;
+}
+
+.km-timed-modal .ktm-wrap {
+  position: relative;
+  background: $background;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 772px;
+  max-height: 60vh;
+  box-shadow: 0px 0px 40.67px 8.33px rgba(0, 0, 0, 0.23);
+  overflow-y: auto;
+  min-height: 170px;
+
+  //transition
+  transform: translateY(50px);
+  opacity: 0;
+  transition: ease 0.4s opacity, ease 0.4s transform;
+}
+
+.km-timed-modal.km-modal-visible .ktm-wrap {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.km-timed-modal .kmtc-inner-wrap {
+  position: relative;
+  box-sizing: border-box;
+  padding: 50px 30px 30px;
+}
+
+.km-timed-modal .ktm-head {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  z-index: 4;
+}
+
+.km-timed-modal .ktm-centralised-content .ktm-head {
+  text-align: center;
+}
+
+.km-timed-modal .ktm-head .ktmv-title {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  color: $mainColour;
+  font-size: 3.6rem;
+  margin-bottom: 30px;
+}
+
+.km-timed-modal .ktm-head .ktm-content {
+  display: block;
+  margin: 0;
+  color: $mainColour;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.km-timed-modal .ktm-body {
+  position: relative;
+  border-radius: 5px;
+  width: 90%;
+  background: $modalBody;
+  margin: 30px 0;
+  z-index: 4;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.km-timed-modal .ktm-centralised-content .ktm-body {
+  margin: 30px auto;
+}
+
+/* Background Image
+===================*/
+.ktmc-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+  }
+}
+
+/* CROSS
+========*/
+.ktm-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 40;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  background: $background;
+  padding: 5px;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  transition: ease 0.2s opacity;
+
+  &:focus,
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.ktmc-cross {
+  position: relative;
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 0 auto;
+  position: relative;
+  transition: all 0.2s ease-out;
+  transform: rotate(45deg);
+}
+
+.ktmc-line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  background: $mainColour;
+  border-radius: 20px;
+}
+
+.ktmc-line-1 {
+  width: 2px;
+  height: 100%;
+}
+
+.ktmc-line-2 {
+  height: 2px;
+  width: 100%;
+}
+
+@media (min-width: 981px) {
+  .km-timed-modal .ktm-wrap {
+    min-width: 500px;
+  }
+}
+
+@media (max-width: 980px) {
+  .km-timed-modal .ktm-wrap {
+    max-height: 60vh;
+  }
+  .km-timed-modal .ktm-head h2 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 640px) {
+  .km-timed-modal {
+    padding: 20px 20px 40px;
+  }
+  .km-timed-modal .kmtc-inner-wrap {
+    position: relative;
+    box-sizing: border-box;
+    padding: 50px 20px 20px;
+  }
+}
+
+/* Wide version of the popup
+============================*/
+.km-popup-wide.km-timed-modal {
+  padding: 0;
+  align-items: flex-start;
+  padding-top: 139px;
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.top-bar-alt .km-popup-wide.km-timed-modal {
+  padding-top: 93px;
+}
+
+.home.top-bar-alt .km-popup-wide.km-timed-modal {
+  padding-top: 139px;
+}
+
+.top-bar-alt.logged-in .km-popup-wide.km-timed-modal {
+  padding-top: 169px;
+}
+
+.home.logged-in .km-popup-wide.km-timed-modal,
+.logged-in .km-popup-wide.km-timed-modal {
+  padding-top: 215px;
+}
+
+.km-popup-wide.km-timed-modal .ktm-wrap {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 0;
+  max-height: 80vh;
+}
+
+.km-popup-wide.km-timed-modal .ktm-body {
+  width: 100%;
+}
+
+.km-popup-wide.km-timed-modal .ktmc-cross-wrap {
+  width: 100%;
+}
+
+.km-popup-wide .ktm-head {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.km-popup-wide .ktm-head h2 {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.km-popup-wide.km-timed-modal .ktm-head .ktm-content {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+  .km-popup-wide.km-timed-modal {
+    padding-top: 80px;
+  }
+}
+
+$prefix: #{'.km-popup-wide'};
+$mainColour: #606060;
+$secondaryColour: #73a1c2;
+$accentColour: #000;
+
+#{$prefix} .nf-form-fields-required {
+  display: none !important;
+}
+
+#{$prefix} input[type='text'],
+#{$prefix} input[type='email'],
+#{$prefix} input[type='tel'],
+#{$prefix} input[type='number'] {
+  background: none !important;
+  border: none !important;
+  border-bottom: 1px solid $mainColour !important;
+  height: 30px !important;
+  font-size: 14px !important;
+  color: $mainColour !important;
+}
+
+#{$prefix} input[type='text']:focus,
+#{$prefix} input[type='email']:focus,
+#{$prefix} input[type='tel']:focus,
+#{$prefix} input[type='number'],
+#{$prefix} .nf-form-content textarea:focus {
+  background: none !important;
+}
+
+#{$prefix} input[type='text'],
+#{$prefix} input[type='email'],
+#{$prefix} input[type='tel'],
+#{$prefix} input[type='number'],
+#{$prefix} .nf-form-content textarea {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#{$prefix} .ninja-forms-req-symbol {
+  color: $mainColour !important;
+}
+
+#{$prefix} .nf-field label {
+  font-size: 14px;
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+
+#{$prefix} .nf-field .nf-field-label {
+  position: relative;
+  margin-bottom: 0 !important;
+  transform: translateY(100%);
+  z-index: 2;
+  transition: ease 0.2s transform;
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+
+#{$prefix} .nf-field .nf-field-label.ninja-lbl-active {
+  transform: translateY(0);
+}
+
+#{$prefix} .nf-field:focus {
+  display: none;
+}
+
+#{$prefix} .nf-error.field-wrap .nf-field-element:after {
+  background: none !important;
+  color: $mainColour !important;
+  font-size: 13px !important;
+  top: 5px !important;
+  right: 5px !important;
+  bottom: 1px !important;
+  height: 20px !important;
+  width: 10px !important;
+  line-height: 20px !important;
+}
+
+#{$prefix} .nf-error-msg.nf-error-required-error {
+  font-size: 13px;
+  color: $mainColour !important;
+}
+
+#{$prefix} .nf-pass.field-wrap .nf-field-element:after {
+  color: $mainColour !important;
+  font-size: 19px !important;
+  height: 18px !important;
+  line-height: 1 !important;
+  top: 5px !important;
+  right: 5px !important;
+}
+
+#{$prefix} .nf-pass input {
+  background: none !important;
+}
+
+#{$prefix} .nf-form-content textarea {
+  background: none;
+  border: none !important;
+  border-bottom: 1px solid $mainColour !important;
+  border-radius: 0;
+  box-shadow: none;
+  color: $mainColour !important;
+  transition: all 0.5s;
+  font-size: 14px !important;
+  height: 100px !important;
+}
+
+#{$prefix} #ninja_forms_required_items,
+#{$prefix} .nf-field-container {
+  margin-bottom: 5px;
+}
+
+#{$prefix} input:-webkit-autofill,
+#{$prefix} input:-webkit-autofill:hover,
+#{$prefix} input:-webkit-autofill:focus,
+#{$prefix} input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s !important;
+}
+
+#{$prefix} input:-webkit-autofill {
+  -webkit-text-fill-color: $mainColour !important;
+}
+
+#{$prefix} .ninja-forms-req-symbol {
+  color: $mainColour;
+  text-align: center;
+}
+
+#{$prefix} .checkbox-wrap .nf-field-label {
+  transform: translateY(0) !important;
+}
+
+#{$prefix} .nf-form-content .label-above .nf-field-label,
+#{$prefix} .nf-form-content .label-below .nf-field-label,
+#{$prefix} .nf-form-content .label-hidden .nf-field-label {
+  width: 100%;
+  line-height: 1.2;
+}
+
+#{$prefix} .checkbox-wrap .nf-field-label label::before,
+#{$prefix} .checkbox-wrap .nf-field-label label::after {
+  display: none !important;
+}
+
+#{$prefix} .checkbox-wrap {
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+}
+
+#{$prefix} .checkbox-wrap .nf-field-label {
+  flex-grow: 2;
+  order: 2;
+}
+
+#{$prefix} .checkbox-wrap .nf-field-label label {
+  text-transform: none;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  display: block;
+  width: 100%;
+}
+
+#{$prefix} .checkbox-wrap input {
+  display: block !important;
+}
+
+#{$prefix} .checkbox-wrap .nf-field-element {
+  display: inline-block;
+  width: auto;
+  order: 1;
+  margin-right: 10px;
+}
+
+#{$prefix} .checkbox-wrap .nf-field-element input {
+  width: 18px !important;
+  height: 18px !important;
+  min-width: 18px;
+  min-height: 18px;
+}
+
+#{$prefix} .html-wrap {
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+#{$prefix} .html-wrap p {
+  font-size: 14px;
+}
+
+#{$prefix} .nf-field-container .checkbox-wrap .nf-field-label label {
+  margin: 0 !important;
+}
+
+.checkbox-container.label-above .checkbox-wrap label {
+  height: auto !important;
+}
+
+#{$prefix} .nf-field-container .nf-field-label label {
+  display: block;
+  width: 100%;
+}
+
+#{$prefix} .nf-form-content button,
+#{$prefix} .nf-form-content input[type='button'],
+#{$prefix} .nf-form-content input[type='submit'] {
+  background: none !important;
+  color: #7c1833 !important;
+  border: 2px solid #7c1833;
+  letter-spacing: 1px;
+  font-weight: 300;
+  transition: ease 0.2s background;
+  cursor: pointer;
+  margin: 0 auto;
+  padding: 11px 20px 6px;
+
+  &:hover {
+    background: #7c1833 !important;
+    color: #fff !important;
+  }
+}
+
+#{$prefix} .nf-field {
+  margin-top: 10px;
+}
+
+#{$prefix} .nf-form-content input[type='button'] {
+  margin-top: 10px;
+}
+
+#{$prefix} .nf-error-msg.nf-error-field-errors {
+  display: block;
+  text-align: center;
+  color: $mainColour;
+  padding: 10px 0;
+}
+
+#{$prefix} .checkbox-container.label-right .nf-field-element,
+#{$prefix} .checkbox-container .nf-field-element input {
+  display: block !important;
+}
+
+.checkbox-container.label-right .field-wrap > div {
+  width: auto !important;
+}
+
+#{$prefix} .nf-error .nf-error-msg {
+  color: $mainColour !important;
+  font-size: 13px;
+}
+
+/* Select styling
+=================*/
+#{$prefix} .list-select-wrap .nf-field-label {
+  margin-bottom: 5px !important;
+  transform: translateY(0) !important;
+}
+
+/* File uploads *
+=================*/
+#{$prefix} .nf-field .file_upload-wrap .nf-field-label {
+  position: relative;
+  margin-bottom: 0 !important;
+  transform: translateY(0) !important;
+  z-index: 2;
+  transition: ease 0.2s transform;
+  display: none !important;
+}
+
+#{$prefix} .nf-field .file_upload-wrap .nf-fu-progress {
+  height: 10px;
+  margin-bottom: 0;
+  margin-top: 5px;
+  overflow: hidden;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+#{$prefix} .nf-field .file_upload-wrap .nf-fu-fileinput-button {
+  width: auto !important;
+}
+
+#{$prefix} .nf-field .file_upload-wrap .nf-fu-button-cancel {
+  padding: 11px 12px;
+  margin-left: 10px;
+  width: auto !important;
+}
+
+#{$prefix} .nf-field .file_upload-wrap .nf-field-element {
+  width: auto;
+}
+
+#{$prefix} .nf-field .file_upload-wrap .nf-field-label {
+  margin-bottom: 10px !important;
+}

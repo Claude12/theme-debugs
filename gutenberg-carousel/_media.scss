@@ -1,0 +1,84 @@
+$block: km-carousel;
+
+/* Image
+========*/
+.#{$block}-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Video
+========*/
+.#{$block} .video-bg-wrapper.js-controlled-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #1b1b1b;
+}
+
+.#{$block} .video-bg-wrapper.js-controlled-video .video-block {
+  position: absolute;
+  width: 100%;
+  background: #1b1b1b;
+  height: 100%;
+  object-fit: cover;
+}
+
+/**
+ Styling below is used if data-fit-parent is not present on the video element. CSS will then controll video, but use with care : this zooms video.
+**/
+/* Video
+========*/
+.#{$block} .video-bg-wrapper:not(.js-controlled-video) {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.#{$block} .video-bg-wrapper:not(.js-controlled-video) .video-block {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background: #1b1b1b;
+  object-fit: cover;
+}
+
+@media (min-width: 1px) {
+  .#{$block} .video-bg-wrapper:not(.js-controlled-video) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+
+  .#{$block} .video-bg-wrapper:not(.js-controlled-video) .video-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+}
+
+// @media (min-aspect-ratio: 16/9) and (min-width: 981px) {
+//   .#{$block} .video-bg-wrapper:not(.js-controlled-video) .video-block {
+//     height: 100%;
+//     top: 0%;
+//   }
+// }
+
+// @media (max-aspect-ratio: 16/9) and (min-width: 981px) {
+//   .#{$block} .video-bg-wrapper:not(.js-controlled-video) .video-block {
+//     width: 100%;
+//     left: 0%;
+//   }
+// }

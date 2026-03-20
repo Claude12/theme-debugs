@@ -1,0 +1,117 @@
+/* Case study slider
+====================*/
+
+$block: km-get-in-touch;
+$wrap: km-git-wrap;
+$abbr: km-git;
+
+$mainColour: #fff;
+
+.#{$block} {
+  position: relative;
+  box-sizing: border-box;
+  background: #000;
+  padding: 150px 40px;
+  overflow: hidden;
+}
+
+.#{$block} .#{$wrap} {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.#{$block} .#{$abbr}-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  z-index: 5;
+  color: $mainColour;
+  box-sizing: border-box;
+}
+
+/* Image
+========*/
+.#{$block} .#{$abbr}-image-wrap {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translateX(50%) translateY(-50%);
+  width: 150%;
+  height: 150%;
+}
+
+.#{$block} .#{$abbr}-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-grow: 2;
+}
+
+.#{$block} .#{$abbr}-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  opacity: 0.55;
+  background: #000;
+  z-index: 2;
+}
+
+/* Content
+==========*/
+.#{$block} .#{$abbr}-intro {
+  display: block;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.#{$block} .#{$abbr}-title {
+  display: block;
+  margin: 20px 0;
+}
+
+.#{$block} .#{$abbr}-content {
+  width: 100%;
+  max-width: 792px;
+}
+
+.#{$block}.#{$abbr}-content-center .#{$abbr}-item {
+  text-align: center;
+}
+
+.#{$block}.#{$abbr}-content-center .#{$abbr}-content {
+  margin: 0 auto;
+}
+
+.#{$block} .#{$abbr}-ctas {
+  margin-top: 30px;
+}
+
+.#{$block}.#{$abbr}-content-center .#{$abbr}-ctas {
+  margin: 30px auto 0;
+}
+
+/* FORM
+=======*/
+.#{$block} .#{$abbr}-form {
+  position: relative;
+  width: 100%;
+  margin-top: 40px;
+  z-index: 6;
+}
+
+@media (max-width: 980px) {
+  .#{$block} {
+    padding: 70px 40px;
+  }
+}

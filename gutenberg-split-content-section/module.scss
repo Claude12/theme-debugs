@@ -1,0 +1,228 @@
+@import '../../assets/styles/theme/mixins';
+
+$block: split-content-section; // name your section and use as prefix
+$wrap: scs-wrap;
+$abbr: scs;
+
+$bg: #fff;
+$accentColour: none;
+
+/* Split content
+=================*/
+.#{$block} {
+  position: relative;
+  box-sizing: border-box;
+  background: $bg;
+  z-index: 2;
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.#{$block} + .#{$block} {
+  padding-top: 0;
+}
+
+.#{$block} .#{$wrap} {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.#{$block} .#{$abbr}-content-wrap {
+  box-sizing: border-box;
+}
+
+.#{$block} .#{$wrap}.#{$abbr}-img-right .#{$abbr}-image {
+  order: 2;
+}
+
+.#{$block} .#{$wrap}.#{$abbr}-img-right .#{$abbr}-content-wrap {
+  order: 1;
+}
+
+/* Image Block
+==============*/
+.#{$block} .#{$abbr}-image {
+  position: relative;
+  box-sizing: border-box;
+  min-height: 10px;
+}
+
+.#{$block} .#{$abbr}-image img {
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+
+@media (max-width: 980px) {
+  .#{$block} .#{$abbr}-image {
+    background: none !important;
+  }
+  .#{$block} .#{$abbr}-capped-width {
+    max-width: 100% !important;
+  }
+}
+
+/* Content
+==========*/
+.#{$block} .#{$abbr}-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-bottom: 35px;
+  max-width: 960px;
+}
+
+/* Intro text
+=============*/
+.#{$block} .#{$abbr}-intro {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.#{$block} .#{$abbr}-intro p {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: inherit;
+  letter-spacing: 1px;
+}
+
+/* Title
+========*/
+.#{$block} .#{$abbr}-title {
+  display: block;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 981px) {
+  .#{$block} .#{$abbr}-content-wrap {
+    padding: 90px 60px;
+  }
+
+  .#{$block} .#{$wrap} > * {
+    @include equal-width();
+  }
+
+  .#{$block} .#{$abbr}-content {
+    margin: 26px 0;
+    min-width: 49%;
+  }
+
+  .#{$block} .#{$abbr}-image {
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+    min-width: 51%;
+  }
+
+  .#{$block} .#{$wrap}.#{$abbr}-img-right .#{$abbr}-capped-width {
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 981px) and (max-width: 1400px) {
+  .#{$block} .#{$abbr}-content-wrap {
+    padding: 70px 50px;
+  }
+
+  // .#{$block} .#{$abbr}-content {
+  //   min-width: 60%;
+  // }
+
+  // .#{$block} .#{$abbr}-image {
+  //   min-width: 40%;
+  // }
+}
+
+@media (min-width: 981px) and (max-width: 1200px) {
+  .#{$block} .#{$abbr}-content-wrap {
+    padding: 60px;
+  }
+}
+
+@media (max-width: 980px) {
+  .#{$block} .#{$wrap} {
+    flex-direction: column;
+  }
+
+  .#{$block} .#{$abbr}-image {
+    min-height: 10px !important;
+  }
+
+  .#{$block} .#{$wrap}.#{$abbr}-img-right .#{$abbr}-image {
+    order: 1;
+  }
+
+  .#{$block} .#{$wrap}.#{$abbr}-img-right .#{$abbr}-content-wrap {
+    order: 2;
+  }
+  .#{$block} .#{$abbr}-content-wrap {
+    padding: 60px 40px;
+  }
+
+  .#{$block} .#{$abbr}-content {
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .#{$block} .#{$abbr}-intro {
+    font-size: 1.5rem;
+  }
+
+  .#{$block} .#{$abbr}-p-wrap p {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .#{$block} .#{$abbr}-title {
+    margin-bottom: 20px;
+  }
+
+  .#{$block} .#{$abbr}-p-wrap p {
+    margin-bottom: 10px;
+  }
+
+  .#{$block} .#{$abbr}-content-wrap {
+    padding: 40px 30px;
+  }
+}
+
+/* Entry animation
+==================*/
+
+.#{$block} .#{$wrap} .#{$abbr}-content-wrap,
+.#{$block} .#{$wrap} .#{$abbr}-image {
+  transition: ease 0.8s transform, ease 0.9s opacity;
+}
+
+.#{$block}.#{$abbr}-invisible .#{$abbr}-image {
+  transform: translateX(-40%);
+  opacity: 0.1;
+}
+
+.#{$block}.#{$abbr}-invisible .#{$abbr}-content-wrap {
+  transform: translateX(40%);
+  opacity: 0.1;
+}
+
+.#{$block}.#{$abbr}-invisible .#{$wrap}.#{$abbr}-img-right .#{$abbr}-image {
+  transform: translateX(40%);
+}
+
+.#{$block}.#{$abbr}-invisible
+  .#{$wrap}.#{$abbr}-img-right
+  .#{$abbr}-content-wrap {
+  transform: translateX(-40%);
+}
+
+.#{$block}.#{$abbr}-visible .#{$abbr}-image,
+.#{$block}.#{$abbr}-visible .#{$abbr}-content-wrap {
+  transform: translateX(0);
+  opacity: 1;
+}

@@ -1,0 +1,37 @@
+@import '../../assets/styles/theme/mixins.scss';
+
+$blockBg: #186aa5;
+
+/* Cards section
+================*/
+
+$block: gutenberg-cards-block;
+$abbr: gcb;
+
+.#{$block} {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0 0 30px 0;
+}
+
+@media(max-width: 640px){
+  .home .#{$block}{
+    display: none;
+  }
+}
+
+.home .#{$block} {
+  margin-bottom: 0!important;
+}
+
+
+
+.#{$block} .#{$abbr}-wrap {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@import './card';

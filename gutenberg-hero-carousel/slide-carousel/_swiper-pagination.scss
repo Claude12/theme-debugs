@@ -1,0 +1,35 @@
+$mainColour: $controlsColour;
+
+.#{$block} .swiper-pagination {
+  position: absolute;
+  right: 50%;
+  bottom: 18px;
+  transform: translateX(50%);
+  text-align: center;
+  transition: 300ms opacity;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $mainColour;
+  opacity: 0;
+  transition: ease 0.2s opacity;
+}
+
+.#{$block} .swiper-pagination-bullet {
+  margin-right: 5px;
+  border: 2px solid $mainColour;
+
+  svg {
+    fill: inherit;
+  }
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.#{$block}:focus .swiper-pagination,
+.#{$block}:hover .swiper-pagination {
+  opacity: 1;
+}

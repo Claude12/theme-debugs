@@ -1,0 +1,377 @@
+/*
+* 
+* module.scss - CSS has modular scope
+* common.scss - CSS has to be within km-bundle
+* critical.scss - CSS should be injected within head of the document ( Stuff above the fold )
+* 
+*/
+
+/* Media Block
+    ================*/
+
+$bg: #fff;
+$block: km-media-block;
+$abbr: km-mb;
+
+$icons: pause, play, sound-on, sound-off, dot, next, prev;
+$iconSrc: '/wp-content/themes/km_unicorn/assets/prod/gutenberg-media-block/icons.svg';
+
+@each $icon in $icons {
+  .km-icon-#{$icon} {
+    -webkit-mask-image: url(#{$iconSrc}##{$icon});
+    mask-image: url(#{$iconSrc}##{$icon});
+  }
+}
+
+.#{$block} {
+  position: relative;
+  box-sizing: border-box;
+  background: $bg;
+  border-top: 20px solid #fff;
+  border-bottom: 20px solid #fff;
+}
+
+.#{$block} .#{$abbr}-wrap {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  z-index: 2;
+}
+
+.#{$block}.#{$abbr}-single .#{$abbr}-wrap {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.#{$block}.#{$abbr}-no-stretch .#{$abbr}-wrap {
+  align-items: start;
+}
+
+.#{$block}.#{$abbr}-content-center {
+  text-align: center;
+}
+
+/* Layout
+=========*/
+.#{$block} .#{$abbr}-a,
+.#{$block} .#{$abbr}-b {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.#{$block} .#{$abbr}-a {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.#{$block} .#{$abbr}-b {
+  background: black;
+  color: #fff;
+}
+
+.#{$block} .#{$abbr}-media-left .#{$abbr}-b {
+  order: -1;
+}
+
+/* Video
+========*/
+.#{$block} .#{$abbr}-b.km-media-video {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.#{$block} .#{$abbr}-video {
+  width: 100%;
+  object-fit: cover;
+}
+
+.#{$block} .js-controlled-video .#{$abbr}-video {
+  position: absolute;
+  height: 100%;
+}
+
+/* Video controls
+=================*/
+.#{$block} .#{$abbr}-video-controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding: 0 20px;
+  width: 100%;
+  height: 50px;
+  z-index: 5;
+  color: currentColor;
+  opacity: 0;
+  visibility: hidden;
+  transition: ease 0.2s opacity, ease 0.2s visibility;
+}
+
+.#{$block} .#{$abbr}-b.km-media-video:hover .#{$abbr}-video-controls {
+  opacity: 1;
+  visibility: visible;
+}
+
+.#{$block} .#{$abbr}-control {
+  color: inherit;
+  padding: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: ease 0.2s opacity;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.#{$block} .#{$abbr}-video-controls .km-icon {
+  text-indent: -9999px;
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+  background-color: currentColor;
+  transition: ease 0.2s background-color;
+}
+
+/* Gallery
+==========*/
+.#{$block} .#{$abbr}-gallery,
+.#{$block} .#{$abbr}-gallery .swiper-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.#{$block} .#{$abbr}-gallery .#{$abbr}-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Controls
+===========*/
+.#{$block} .#{$abbr}-gallery .swiper-pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 10px;
+  z-index: 5;
+  opacity: 0;
+  visibility: hidden;
+  transition: ease 0.2s opacity, ease 0.2s visibility;
+}
+
+.#{$block} .#{$abbr}-b.km-media-gallery:hover .swiper-pagination {
+  opacity: 1;
+  visibility: visible;
+}
+
+.#{$block} .#{$abbr}-gallery .swiper-pagination-bullet {
+  position: relative;
+  color: currentColor;
+  width: auto;
+  height: auto;
+  margin: 0 5px;
+  cursor: pointer;
+
+  &::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: currentColor;
+    content: '';
+    z-index: 4;
+    border-radius: 100%;
+    opacity: 0;
+    transition: ease 0.2s opacity;
+  }
+
+  &.swiper-pagination-bullet-active::before {
+    opacity: 1;
+  }
+}
+
+.#{$block} .#{$abbr}-gallery .swiper-pagination-bullet .km-icon {
+  position: relative;
+  background: currentColor;
+  width: 15px;
+  height: 15px;
+}
+
+.#{$block} .#{$abbr}-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  border: none;
+  background: none;
+  outline: none;
+  color: currentColor;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  border-radius: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: ease 0.2s opacity, ease 0.2s visibility;
+
+  &.swiper-button-disabled {
+    pointer-events: none;
+    opacity: 0.6;
+  }
+}
+
+.#{$block} .#{$abbr}-b.km-media-gallery:hover .#{$abbr}-arrow {
+  opacity: 1;
+  visibility: visible;
+}
+
+.#{$block} .#{$abbr}-prev {
+  left: 10px;
+}
+
+.#{$block} .#{$abbr}-next {
+  right: 10px;
+}
+
+.#{$block} .#{$abbr}-arrow .km-icon {
+  width: 20px;
+  height: 20px;
+  background: currentColor;
+}
+
+/* Content
+    ==========*/
+.#{$block} .#{$abbr}-content {
+  position: relative;
+  box-sizing: border-box;
+  padding: 40px;
+  max-width: 600px;
+}
+
+.#{$block}.#{$abbr}-single .#{$abbr}-wrap .#{$abbr}-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.#{$block} .#{$abbr}-content h2,
+.#{$block} .#{$abbr}-content h3 {
+  margin-bottom: 20px;
+}
+
+.#{$block} .#{$abbr}-ctas {
+  margin-top: 20px;
+}
+
+.#{$block}.#{$abbr}-single .#{$abbr}-ctas {
+  justify-content: center;
+}
+
+@media (min-width: 981px) {
+  .#{$block} .#{$abbr}-media-right .#{$abbr}-a {
+    align-items: flex-end;
+  }
+}
+
+@media (max-width: 980px) {
+  .#{$block} .#{$abbr}-wrap {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .#{$block} .#{$abbr}-b {
+    height: 500px;
+    min-height: 0 !important;
+    order: -1;
+  }
+  .#{$block} .#{$abbr}-content {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .#{$block} .#{$abbr}-b {
+    height: 300px;
+  }
+}
+
+/* Animation
+============*/
+
+.#{$block}.#{$abbr}-animated {
+  overflow: hidden;
+}
+
+.#{$block}.#{$abbr}-animated .#{$abbr}-content {
+  transition: ease 0.6s opacity, ease 0.6s visibility, ease 0.6s transform;
+}
+
+.#{$block}.#{$abbr}-animated.animation-inactive .#{$abbr}-content {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.#{$block}.#{$abbr}-animated.animation-inactive
+  .#{$abbr}-media-left
+  .#{$abbr}-content {
+  transform: translateX(50px);
+}
+
+.#{$block}.#{$abbr}-animated.animation-inactive
+  .#{$abbr}-media-right
+  .#{$abbr}-content {
+  transform: translateX(-50px);
+}
+
+.#{$block}.#{$abbr}-animated.animation-active .#{$abbr}-content {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
+
+/* Layouts
+==========*/
+
+/* Constrained
+==============*/
+.#{$block}.#{$abbr}-layout-constrained .#{$abbr}-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.#{$block}.#{$abbr}-layout-constrained {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media (min-width: 981px) {
+  .#{$block}.#{$abbr}-layout-constrained .#{$abbr}-media-right .#{$abbr}-a {
+    margin-right: 40px;
+  }
+  .#{$block}.#{$abbr}-layout-constrained .#{$abbr}-media-left .#{$abbr}-a {
+    margin-left: 40px;
+  }
+}

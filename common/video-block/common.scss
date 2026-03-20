@@ -1,0 +1,118 @@
+$block: km-video-block;
+$abbr: km-video;
+$btnSize: 30px;
+$btnFill: #fff;
+
+.#{$block} {
+  overflow: hidden;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+  }
+}
+
+.#{$block},
+.#{$block} video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 980px) {
+  .#{$block} {
+    position: relative;
+    height: 400px;
+  }
+}
+
+@media (max-width: 640px) {
+  .#{$block} {
+    height: 300px;
+  }
+}
+
+/* Controls
+===========*/
+
+.#{$block} .#{$abbr}-controls {
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+.#{$block} .#{$abbr}-controls button {
+  position: relative;
+  width: $btnSize;
+  height: $btnSize;
+  z-index: 10;
+  cursor: pointer;
+  transition: ease 0.2s opacity;
+  margin: 0 5px;
+  opacity: 0;
+  fill: $btnFill;
+
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: inherit;
+  }
+
+  &:focus,
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.#{$block}:focus .#{$abbr}-controls button,
+.#{$block}:hover .#{$abbr}-controls button {
+  opacity: 1;
+}
+
+.#{$block} .#{$abbr}-controls .km-video-mutted .km-speaker-on,
+.#{$block} .#{$abbr}-controls .km-speaker-off {
+  display: none;
+}
+
+.#{$block} .#{$abbr}-controls .km-speaker-on,
+.#{$block} .#{$abbr}-controls .km-video-mutted .km-speaker-off {
+  display: block;
+}
+
+.#{$block} .#{$abbr}-controls .#{$abbr}-play,
+.#{$block} .#{$abbr}-controls .#{$abbr}-pause {
+  display: none;
+}
+
+.#{$block} .#{$abbr}-controls .video-btn-active {
+  display: block;
+}
+
+.#{$block}.km-video-controls-center .#{$abbr}-mute,
+.#{$block}.km-video-controls-side .#{$abbr}-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.#{$block}.km-video-controls-center .#{$abbr}-play,
+.#{$block}.km-video-controls-center .#{$abbr}-pause {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translateX(50%) translateY(-50%);
+}
+
+.#{$block}:focus .#{$abbr}-controls button:focus,
+.#{$block}:hover .#{$abbr}-controls button:hover {
+  opacity: 0.7;
+}

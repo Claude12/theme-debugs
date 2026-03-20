@@ -1,0 +1,178 @@
+.km-google-directions {
+  position: relative;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.km-google-directions .km-gd-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* Button
+=========*/
+.km-google-directions .km-gd-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-weight: 600;
+  border: 2px solid #000;
+  padding: 12px 20px;
+  transition: ease 0.2s background;
+  text-align: center;
+  font-size: 1.3rem;
+  background-color: transparent;
+  text-decoration: none !important;
+  border-radius: 2px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 5px 0;
+
+  &::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    content: '';
+    width: 0;
+    height: 100%;
+    transition: ease 0.2s width;
+  }
+
+  span {
+    position: relative;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    transition: ease 0.2s color;
+    z-index: 5;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+}
+
+.km-google-directions .km-gd-btn:focus::before,
+.km-google-directions .km-gd-btn:hover::before {
+  width: 100%;
+}
+
+/* Input
+=========*/
+.km-google-directions .km-gd-param {
+  display: block;
+  height: 42px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-radius: 3px;
+  margin-right: 10px;
+  flex-grow: 2;
+  padding: 5px 10px;
+  background: none;
+  margin: 5px 5px 5px 0;
+}
+
+.km-google-directions .km-gd-param:-webkit-autofill,
+.km-google-directions .km-gd-param:-webkit-autofill:hover,
+.km-google-directions .km-gd-param:-webkit-autofill:focus,
+.km-google-directions .km-gd-param:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* On Light BG (dark mode)
+==============*/
+$darkColour: #303647;
+
+.km-google-directions.dark .km-gd-btn {
+  border-color: $darkColour;
+  &::before {
+    background: $darkColour;
+  }
+}
+
+.km-google-directions.dark .km-gd-btn:focus,
+.km-google-directions.dark .km-gd-btn:hover {
+  border-color: $darkColour;
+}
+
+.km-google-directions.dark .km-gd-btn span {
+  color: $darkColour;
+}
+
+.km-google-directions.dark .km-gd-btn:focus span,
+.km-google-directions.dark .km-gd-btn:hover span {
+  color: #fff;
+}
+
+.km-google-directions.dark .km-gd-param {
+  color: $darkColour;
+  border-color: $darkColour;
+}
+
+.km-google-directions.dark .km-gd-param::placeholder {
+  color: $darkColour;
+  opacity: 1;
+}
+
+.km-google-directions.dark .km-gd-param:-ms-input-placeholder {
+  color: $darkColour;
+}
+
+.km-google-directions.dark .km-gd-param::-ms-input-placeholder {
+  color: $darkColour;
+}
+
+/* On dark BG
+==============*/
+$lightColour: #b2ad86;
+
+.km-google-directions.light .km-gd-btn {
+  border-color: $lightColour;
+  &::before {
+    background: $lightColour;
+  }
+}
+
+.km-google-directions.light .km-gd-btn:focus,
+.km-google-directions.light .km-gd-btn:hover {
+  border-color: $lightColour;
+}
+
+.km-google-directions.light .km-gd-btn span {
+  color: $lightColour;
+}
+
+.km-google-directions.light .km-gd-btn:focus span,
+.km-google-directions.light .km-gd-btn:hover span {
+  color: #fff;
+}
+
+.km-google-directions.light .km-gd-param {
+  color: $lightColour;
+  border-color: $lightColour;
+}
+
+.km-google-directions.light .km-gd-param::placeholder {
+  color: $lightColour;
+  opacity: 1;
+}
+
+.km-google-directions.light .km-gd-param:-ms-input-placeholder {
+  color: $lightColour;
+}
+
+.km-google-directions.light .km-gd-param::-ms-input-placeholder {
+  color: $lightColour;
+}
+
+@media (max-width: 640px) {
+  .km-google-directions .km-gd-param,
+  .km-google-directions .km-gd-btn {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

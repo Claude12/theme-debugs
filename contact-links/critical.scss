@@ -1,0 +1,174 @@
+$block: contact-links;
+$abbr: cl;
+$mainColour: #fff;
+$accent: #73a1c2;
+
+/* Contact Links
+================*/
+
+.#{$block} {
+  position: relative;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+.#{$block} .#{$abbr}-items {
+  display: flex;
+  align-items: center;
+}
+
+.#{$block} .#{$abbr}-item {
+  margin-right: 30px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.#{$block} .#{$abbr}-item a {
+  display: flex;
+  align-items: center;
+  color: $mainColour;
+}
+
+.#{$block} .#{$abbr}-item .#{$abbr}-title {
+  display: block;
+  width: 100%;
+}
+
+.#{$block} .#{$abbr}-item .cl-icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: $accent;
+  }
+}
+
+.top-bar-scroll .#{$block} .#{$abbr}-item a {
+  color: #435c5a;
+}
+
+/* Button Link
+==============*/
+.#{$block} .#{$abbr}-button {
+  min-width: 115px;
+  text-align: center;
+
+  &:only-of-type,
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.#{$block} .#{$abbr}-button::after {
+  display: none !important;
+}
+
+.#{$block} .#{$abbr}-button a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 4px 16px;
+  border: 2px solid $accent;
+  color: $mainColour;
+
+  &::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 0;
+    height: 100%;
+    transition: ease 0.2s width;
+    background: $accent;
+  }
+  &:hover {
+    color: $mainColour;
+  }
+  &:hover::before {
+    width: 100%;
+  }
+}
+
+.#{$block} .#{$abbr}-button a span {
+  position: relative;
+  display: block;
+  z-index: 2;
+  font-weight: 400;
+}
+
+.top-bar-scroll .#{$block} .#{$abbr}-button a {
+  color: #435c5a;
+  &:hover {
+    color: $mainColour;
+    font-weight: 700;
+  }
+}
+
+.#{$block} .#{$abbr}-item.#{$abbr}-button .#{$abbr}-icon svg {
+  fill: $mainColour;
+}
+
+.top-bar-scroll .#{$block} .#{$abbr}-item.#{$abbr}-button .#{$abbr}-icon svg {
+  fill: #435c5a;
+}
+
+.#{$block} .#{$abbr}-item.#{$abbr}-button:hover .#{$abbr}-icon svg {
+  fill: $mainColour;
+}
+
+/* Icon Only
+============*/
+
+.#{$block} .#{$abbr}-item.#{$abbr}-icon-only .#{$abbr}-title {
+  display: none;
+}
+
+.#{$block} .#{$abbr}-item.#{$abbr}-icon-only .#{$abbr}-icon {
+  margin-right: 0;
+}
+
+/** Location specific styling
+=============================*/
+@media (min-width: 813px) {
+  .#{$block}.footer-quick-links {
+    margin: 0 15px 0 0;
+  }
+}
+
+.#{$block}.footer-quick-links .#{$abbr}-item a {
+  color: #fff;
+}
+
+.#{$block}.footer-quick-links .#{$abbr}-item {
+  position: relative;
+  margin-right: 15px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.#{$block}.footer-quick-links .#{$abbr}-item .#{$abbr}-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.#{$block}.footer-quick-links .#{$abbr}-item .#{$abbr}-icon svg {
+  fill: #fff;
+}
+
+.#{$block}.footer-quick-links .underline-hover::after {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  background: #fff;
+  margin-top: 5px;
+}

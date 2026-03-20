@@ -1,0 +1,399 @@
+$modalBg: #fff;
+$mainColour: #73a1c2;
+$headingBg: #fff;
+$headingColour: $mainColour;
+$buttonBg: #73a1c2;
+$buttonColour: #fff;
+$overlayBg: $mainColour;
+
+.privacy-manager {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5002;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px;
+  display: none;
+}
+.pm-active {
+  overflow: hidden;
+}
+.pm-active .privacy-manager {
+  display: flex;
+}
+
+/* Overlay
+==========*/
+
+.privacy-manager .pm-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $overlayBg;
+}
+
+/* Modal
+========*/
+.privacy-manager .pm-modal {
+  position: relative;
+  z-index: 20;
+  background: $modalBg;
+  color: $mainColour;
+  font-size: 1.8rem;
+  width: 100%;
+  max-width: 833px;
+  overflow: hidden;
+}
+
+/* Modal Heading
+================*/
+.privacy-manager .pm-heading {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  background: $headingBg;
+  padding: 17px 35px;
+}
+
+.privacy-manager .pm-title {
+  font-size: 2.8rem;
+  line-height: 1.2;
+  font-weight: 600;
+  color: $headingColour;
+}
+
+.privacy-manager .pm-close {
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.privacy-manager .pm-close .pm-icon-wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  background: $buttonBg;
+  fill: $buttonColour;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    transition: ease 0.2s opacity;
+  }
+
+  svg {
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 20px;
+    fill: inherit;
+    z-index: 2;
+  }
+}
+
+.privacy-manager .pm-close .pm-icon-wrap:hover::after {
+  opacity: 0.2;
+}
+
+/* Form
+=======*/
+
+.privacy-manager .pm-form {
+  position: relative;
+  box-sizing: border-box;
+  padding: 30px 35px;
+  max-height: 610px;
+  overflow-y: auto;
+}
+
+/* Cookie Item
+==============*/
+.privacy-manager .pmf-item {
+  position: relative;
+}
+
+.privacy-manager .pmf-locked .pmf-choice {
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.privacy-manager .pmf-head {
+  position: relative;
+  display: flex;
+  align-items: center;
+  line-height: 1.2;
+}
+
+.privacy-manager .pmf-info {
+  display: block;
+  margin: 15px 0 20px;
+}
+
+.privacy-manager .pmf-head .pmf-choice-title {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 0;
+  color: inherit !important;
+}
+
+.privacy-manager .pmf-icon-wrap {
+  position: relative;
+  display: block;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  fill: $mainColour;
+  margin-right: 16px;
+}
+
+.privacy-manager .pmf-icon-wrap svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: ease 0.4s opacity;
+}
+
+.privacy-manager .pm-item-inactive .pm-denied,
+.privacy-manager .pm-item-active .pm-accepted {
+  opacity: 1;
+}
+
+/* Checkbox
+===========*/
+.pmf-choice,
+.pmf-choice input[type='checkbox'] {
+  width: 90px;
+  height: 30px;
+}
+
+.pmf-choice {
+  position: relative;
+  background: $buttonBg;
+  border-radius: 50px;
+  margin-left: auto;
+  color: $buttonColour;
+}
+
+.pmf-choice::before,
+.pmf-choice::after {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  z-index: 0;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: inherit;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+.pmf-choice::after {
+  content: 'off';
+  right: 0;
+  padding-right: 5px;
+}
+
+.pmf-choice::before {
+  left: 0;
+  content: 'on';
+  padding-left: 5px;
+}
+
+.pmf-choice label {
+  position: absolute;
+  top: 15%;
+  left: 5px;
+  display: block;
+  width: 34px;
+  height: calc(100% - 30%);
+  cursor: pointer;
+  z-index: 1;
+  background: $buttonColour;
+  border-radius: 50px;
+  transition: ease 0.4s transform;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.pmf-choice input[type='checkbox'] {
+  position: relative;
+  z-index: 10;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.pmf-choice input[type='checkbox']:checked + label {
+  transform: translateX(45px);
+}
+
+/* Control Buttons
+==================*/
+.privacy-manager .pmf-controls {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.privacy-manager .pmf-control {
+  background: $buttonBg;
+  color: $buttonColour;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.2;
+  box-sizing: border-box;
+  padding: 20px;
+  transition: ease 0.2s opacity;
+  cursor: pointer;
+  margin-right: 20px;
+  border: none;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.privacy-manager button {
+  border: none;
+  padding: 0;
+}
+
+.privacy-manager .pmf-control:last-child {
+  margin-right: 0;
+}
+
+/* Privacy options updated
+==========================*/
+
+.privacy-manager .pm-updated-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 35px;
+  color: $buttonColour;
+  background: $buttonBg;
+  display: flex;
+  transform: translateY(-100%);
+  align-items: center;
+  transition: ease 0.2s transform;
+}
+
+.privacy-manager .pm-modal.pm-updated .pm-updated-info {
+  transform: translateY(0);
+}
+
+.privacy-manager .pm-update-icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  fill: $buttonColour;
+  margin-right: 20px;
+
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: inherit;
+  }
+}
+
+.privacy-manager .pm-updated-info p {
+  display: block;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 980px), (min-width: 981px) and (max-height: 750px) {
+  .privacy-manager .pm-title {
+    font-size: 2.5rem;
+  }
+  .privacy-manager .pmf-head .pmf-choice-title {
+    font-size: 1.6rem;
+  }
+  .privacy-manager .pmf-info {
+    font-size: 1.5rem;
+  }
+  .pmf-choice::before,
+  .pmf-choice::after {
+    font-size: 1.3rem;
+  }
+  .privacy-manager .pmf-control {
+    font-size: 1.6rem;
+    padding: 15px;
+    margin-right: 10px;
+  }
+  .privacy-manager .pm-update-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .privacy-manager .pm-updated-info p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .privacy-manager .pm-heading {
+    padding: 17px 20px;
+  }
+  .privacy-manager .pm-form {
+    padding: 20px;
+    max-height: 300px;
+  }
+  .privacy-manager .pm-title {
+    font-size: 2rem;
+  }
+  .privacy-manager .pmf-head .pmf-choice-title {
+    font-size: 1.4rem;
+  }
+  .privacy-manager .pmf-info {
+    font-size: 1.4rem;
+  }
+  .privacy-manager .pmf-control {
+    font-size: 1.4rem;
+    padding: 10px;
+    margin: 0 0 10px 0;
+  }
+  .privacy-manager .pmf-control:last-child {
+    margin-bottom: 0;
+  }
+  .privacy-manager .pmf-controls {
+    flex-direction: column;
+  }
+  .privacy-manager .pmf-choice-title {
+    flex-grow: 2;
+  }
+  .privacy-manager .pmf-result {
+    display: none;
+  }
+  .privacy-manager .pmf-choice {
+    margin-left: 5px;
+  }
+  .privacy-manager .pm-updated-info {
+    padding: 0 20px;
+  }
+}

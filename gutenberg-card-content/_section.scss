@@ -1,0 +1,53 @@
+.#{$block} .#{$abbr}-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 36px 36px 36px;
+}
+
+/* Position form
+================*/
+.#{$block} .#{$abbr}-section.#{$abbr}s-form-first .#{$abbr}s-wrap {
+  order: 2;
+}
+
+.#{$block} .#{$abbr}-section.#{$abbr}s-form-first .#{$abbr}s-form {
+  order: 1;
+}
+
+/* Title
+========*/
+
+.#{$block} .#{$abbr}s-title {
+  display: block;
+  color: $mainColour;
+  margin-bottom: 22px;
+}
+
+/* Content
+==========*/
+.#{$block} .#{$abbr}s-content {
+  position: relative;
+}
+
+/* Form
+========*/
+
+.#{$block} .#{$abbr}s-form {
+  margin: 20px 0;
+}
+
+.#{$block} .#{$abbr}s-form .nf-form-content {
+  max-width: 100%;
+}
+
+@media (max-width: 980px) {
+  .#{$block}.#{$abbr}-card-left .#{$abbr}-section {
+    padding: 36px 0 0 0;
+  }
+
+  .#{$block}.#{$abbr}-card-right .#{$abbr}-section {
+    padding: 0 0 36px 0;
+  }
+}

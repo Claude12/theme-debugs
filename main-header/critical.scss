@@ -1,0 +1,38 @@
+@import '../../assets/styles/theme/variables';
+
+.main-header {
+  position: relative;
+  z-index: 30;
+  margin-right: auto;
+}
+
+.main-header .home-link {
+  display: block;
+  transition: ease 0.2s opacity;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  &:focus,
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+/* Logo switch
+==============*/
+.top-bar .main-header .home-link {
+  width: 144px;
+  height: 93px;
+  background-image: url('/wp-content/themes/km_unicorn/assets/images/main-logo.svg');
+}
+
+@media (max-width: #{$pushMenuBreakpoint - 1px}) {
+  .top-bar .main-header {
+    margin: 0 auto;
+  }
+  .top-bar .main-header .home-link {
+    width: 157px;
+    height: 48px;
+    background-image: url('/wp-content/themes/km_unicorn/assets/images/mobile-main-logo.svg');
+  }
+}

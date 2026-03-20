@@ -1,0 +1,49 @@
+$live: #b1265c;
+$dev: #20a18c;
+$textColour: #fff;
+
+.km-env-notification-active {
+  padding-top: 44px;
+}
+
+.km-environment-alert {
+  position: fixed;
+  left: 0;
+  margin-top: -44px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1031;
+  box-sizing: border-box;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  font-family: Arial;
+  font-weight: 400;
+  color: $textColour;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.km-environment-alert .km-env-bold {
+  font-weight: 700;
+}
+
+.km-env-live {
+  background-color: $live;
+
+  border-bottom: 5px solid darken($live, 5%);
+}
+
+.km-env-dev {
+  background-color: $dev;
+  border-bottom: 5px solid darken($dev, 5%);
+}
+
+@media (max-width: 980px) {
+  .km-environment-alert .km-env-desktop {
+    display: none;
+  }
+}

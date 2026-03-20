@@ -1,0 +1,36 @@
+$borderColour: #fff;
+$bulletColour: #73a1c2;
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  display: block;
+  border-radius: 0;
+  background: inherit;
+  opacity: 1;
+  margin: 0 2px;
+  transition: ease 0.2s opacity;
+  border: 2px solid $borderColour;
+
+  &:focus,
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.swiper-pagination-bullet.swn-bullet svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  fill: none;
+  transition: ease 0.2s fill;
+}
+
+.swiper-pagination-bullet.swn-bullet:not(.swiper-pagination-bullet-active) svg {
+  fill: none !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active svg {
+  fill: $bulletColour;
+}

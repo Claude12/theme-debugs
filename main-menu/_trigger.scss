@@ -1,0 +1,119 @@
+/* Menu Trigger
+==============*/
+$dimensions: 30px;
+$bgNormal: none;
+$lineBg: #7c1833;
+
+.main-menu-toggle {
+  position: relative;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: $bgNormal;
+  width: $dimensions;
+  height: 20px;
+  cursor: pointer;
+  z-index: 651;
+  transition: ease 0.2s opacity;
+
+  &:focus,
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.top-bar-scroll .main-menu-toggle {
+  display: flex;
+}
+
+/* Trigger Lines
+================*/
+.mmt-lines,
+.mmt-lines span {
+  display: block;
+  box-sizing: border-box;
+  transition: ease 0.4s opacity;
+}
+
+.mmt-lines {
+  position: relative;
+  width: $dimensions;
+  height: $dimensions;
+  transition: ease 0.6s transform;
+}
+
+.mmt-lines span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: $lineBg;
+}
+
+.mmt-lines span:nth-of-type(1) {
+  top: 0;
+}
+
+.mmt-lines span:nth-of-type(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.mmt-lines span:nth-of-type(3) {
+  bottom: 0;
+}
+
+.push-menu-active .mmt-lines span:nth-of-type(1) {
+  transform: translateY(18px) rotate(-315deg);
+}
+
+.push-menu-active .mmt-lines span:nth-of-type(2) {
+  opacity: 0;
+}
+
+.push-menu-active .mmt-lines span:nth-of-type(3) {
+  transform: translateY(-15px) rotate(315deg);
+}
+
+/* Push menu cross
+==================*/
+.push-menu-wrap .push-menu-cross {
+  display: block;
+  width: 36px;
+  height: 36px;
+  transition: ease 0.4s transform;
+
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: $lineBg;
+  }
+}
+
+.push-menu-wrap .mm-toggle:hover .push-menu-cross {
+  transform: rotate(360deg);
+}
+
+/* Configure toggle within menu active state
+============================================*/
+
+.push-menu-active .top-bar .mm-toggle {
+  display: none;
+}
+
+.push-menu-active .top-bar .push-menu-wrap .mm-toggle {
+  display: block;
+}
+
+.push-menu-active .top-bar .push-menu-wrap .main-menu-toggle {
+  width: 37px;
+  height: 39px;
+}
+
+@media (max-width: 640px) {
+  .push-menu-active .top-bar .push-menu-wrap .main-menu-toggle {
+    top: 26px;
+    right: 20px;
+  }
+}

@@ -1,0 +1,84 @@
+$block: km-common-form;
+$formClass: ppc-form;
+
+.#{$block} {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 572px;
+  border-radius: 10px;
+  padding: 25px 30px;
+  color: #425c5a;
+}
+
+.#{$block} .km-common-form-content {
+  font-size: 1.8rem;
+}
+
+.#{$block} .km-common-form-content p {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Form override
+================*/
+.#{$formClass}.nf-form-cont .nf-form-content {
+  padding: 0;
+}
+
+// .#{$formClass}.nf-form-cont .nf-multi-cell .nf-cell {
+//   padding: 0;
+// }
+
+.#{$formClass}.nf-form-cont .nf-form-content button,
+.#{$formClass}.nf-form-cont .nf-form-content input[type='button'],
+.#{$formClass}.nf-form-cont .nf-form-content input[type='submit'] {
+  background: #b20f63 !important;
+  color: #fff !important;
+  border: 2px solid #b20f63;
+  width: calc(100% + 10px);
+  margin-left: -5px;
+}
+
+.#{$formClass}.nf-form-cont .nf-form-content button:hover,
+.#{$formClass}.nf-form-cont .nf-form-content input[type='button']:hover,
+.#{$formClass}.nf-form-cont .nf-form-content input[type='submit']:hover {
+  background: darken(#b20f63, 5%) !important;
+  color: #fff !important;
+}
+
+/* Buttons
+==========*/
+.km-common-form-btns-ctas {
+  flex-direction: column;
+  margin: 0 !important;
+}
+
+.km-common-form-btns-cta {
+  margin: 0 0 10px 0;
+  width: 100%;
+
+  &:last-child,
+  &:only-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 1300px) {
+  .#{$block} {
+    max-width: 400px;
+  }
+  .km-common-form .km-common-form-content h4 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .#{$block} {
+    max-width: 100%;
+  }
+
+  .km-form-block .km-common-form {
+    margin: 30px 0 0 0;
+  }
+}

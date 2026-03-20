@@ -1,0 +1,18 @@
+.#{$block} .fn-fraction {
+  color: $accent;
+}
+
+.#{$block} .swiper-pagination-bullet {
+  border-color: $accent;
+  background: none;
+}
+
+.km-testimonial-block .swiper-pagination-bullet svg {
+  fill: $accent;
+}
+
+@media (max-width: 980px) {
+  .km-testimonial-block .km-tb-wrap > .swn-button {
+    display: none;
+  }
+}

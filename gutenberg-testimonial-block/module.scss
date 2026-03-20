@@ -1,0 +1,47 @@
+$block: km-testimonial-block;
+$abbr: km-tb;
+$grid: 1200px;
+$iconSize: 40px;
+$mainColour: #1b1b1b;
+$accent: #7c1833;
+
+.#{$block} {
+  position: relative;
+  box-sizing: border-box;
+  padding: 60px 40px;
+  background: #fff;
+  border-bottom: 20px solid #fff;
+}
+
+.#{$block} .#{$abbr}-wrap,
+.#{$block} .#{$abbr}-title {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: $grid;
+  margin: 0 auto;
+}
+
+.#{$block} .#{$abbr}-wrap {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  color: $mainColour;
+}
+
+.#{$block} .#{$abbr}-title {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 980px) {
+  .#{$block} {
+    padding: 40px 30px;
+  }
+}
+
+@import './swiper';
+@import './single';
+@import './icons';
