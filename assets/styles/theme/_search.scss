@@ -1,0 +1,136 @@
+$base: search;
+$block: search-results;
+$abbr: sr;
+
+$mainColour: #fff;
+$accent: #606060;
+$secondaryAccent: #7c1833;
+
+.#{$base} .#{$block} {
+  position: relative;
+  box-sizing: border-box;
+  padding: 60px 30px;
+  width: 100%;
+  max-width: 1088px;
+  margin: 0 auto;
+}
+
+.search .top-bar {
+  transform: translateY(0) !important;
+}
+
+/* Header
+=========*/
+.search-results-header {
+  height: 245px;
+  background: $secondaryAccent;
+}
+
+/* Title
+========*/
+.#{$block} .#{$abbr}-title {
+  display: block;
+  color: $accent;
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+  font-weight: 700 !important;
+}
+
+/* Item
+=======*/
+.#{$block} .#{$abbr}-item {
+  display: block;
+  background: $accent;
+  color: $mainColour;
+  margin-bottom: 17px;
+  box-sizing: border-box;
+  padding: 20px;
+  transition: ease 0.2s background;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.#{$block} .#{$abbr}-item:hover {
+  background: darken($accent, 5%);
+}
+
+.#{$block} .#{$abbr}-item .rt-reading-time {
+  display: none !important;
+}
+
+.#{$block} .#{$abbr}-item-more {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: $mainColour;
+}
+
+.#{$block} .#{$abbr}-item-more svg {
+  display: block;
+  fill: #fff;
+  width: 18px;
+  height: 12px;
+  margin-left: 7px;
+  transition: ease 0.2s transform;
+}
+
+.#{$block} .#{$abbr}-item:hover .#{$abbr}-item-more svg {
+  animation: moveSingleLinkIcon 0.6s alternate infinite;
+}
+
+/* Search navigation
+====================*/
+.#{$base} {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.#{$base} .pagination {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 30px 20px;
+}
+
+.#{$base} .pagination .screen-reader-text {
+  display: none;
+}
+
+.#{$base} .pagination {
+  font-weight: 700;
+  color: $accent;
+}
+
+.#{$base} .pagination .current {
+  color: #1b1b1b;
+}
+
+.#{$base} .pagination .page-numbers {
+  margin: 0 5px;
+}
+
+@media (max-width: 980px) {
+  .search-results-header {
+    height: 150px;
+  }
+  .#{$base} .#{$block} {
+    padding: 0;
+  }
+  .search-results .sr-title {
+    box-sizing: border-box;
+    padding: 14px 19px;
+    margin-bottom: 0;
+  }
+  .search-no-results-message {
+    box-sizing: border-box;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 640px) {
+  .search-results-header {
+    height: 92px;
+  }
+}

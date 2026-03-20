@@ -1,0 +1,52 @@
+[
+    {
+        "key": "group_5ece179cf280c",
+        "title": "Icon picker",
+        "fields": [
+            {
+                "key": "field_5ece17a1eda22",
+                "label": "",
+                "name": "picker",
+                "type": "km_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "picker_class_name": "",
+                "picker_type": "icon",
+                "item_options": "arrow-link : Arrow link\r\nchain-link : Chain link\r\nphone : Phone\r\nemail : Email\r\ntwitter : Twitter\r\nfacebook : Facebook\r\nlinkedin : Linkedin\r\npinterest : Pinterest\r\nyoutube : Youtube\r\ninstagram : Instagram\r\nchevron : Chevron\r\nchevron-right : Chevron right\r\nchevron-up : Chevron up\r\nchevron-left : Chevron left\r\nchevron-down : Chevron down\r\ncross : Cross\r\nplay : Play\r\npause : Pause",
+                "show_title": 0,
+                "enable_filtering": 1,
+                "filter_attribute": "label",
+                "markup_location": "",
+                "colours_from_file": "assets\/styles\/colours.php"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "!=",
+                    "value": "post"
+                },
+                {
+                    "param": "post_type",
+                    "operator": "!=",
+                    "value": "page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": false,
+        "description": ""
+    }
+]

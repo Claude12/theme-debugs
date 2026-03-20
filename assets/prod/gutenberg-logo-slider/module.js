@@ -1,0 +1,1 @@
+"use strict";function logo_slider_init(){initSwiper(".km-logo-slider",{cap:7,slidesPerViewBreakpoint:1200,enableMedia:"(min-width: 100px)",swiperProps:{spaceBetween:0,centeredSlides:!0,breakpoints:{320:{slidesPerView:1},640:{slidesPerView:2},1200:{slidesPerView:3},1400:{slidesPerView:4},1600:{slidesPerView:5}}}})}logo_slider_init();

@@ -1,0 +1,1 @@
+"use strict";kmIntersect(Array.from(document.querySelectorAll(".km-counter-block.animation-on")),{observerProps:{threshold:[.9]},on:function(e,r){e=e.target;Array.from(e.getElementsByClassName("km-cbi-number")).forEach(function(e){animateValue(e,0,e.dataset.number,500)}),r.unobserve(e)}});

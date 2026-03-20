@@ -1,0 +1,602 @@
+@import 'admin-override';
+@import 'variables';
+@import 'mixins';
+@import 'ninja_forms';
+@import 'restyled-forms-light';
+@import 'restyled-forms-dark';
+@import 'bullets';
+@import 'tables';
+@import 'search';
+@import 'sidebar';
+@import 'single';
+
+$mainAccent: #7c1833;
+$gutenbergAdminEditorBlock: edit-post-visual-editor;
+
+html,
+.main-footer,
+.category .km-post-type-feed {
+  background-color: $mainAccent;
+}
+
+body {
+  font-family: 'Lato', 'Segoe UI', Tahoma, 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #606060;
+  background-color: #fff;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #7c1833;
+  max-width: 160px;
+  margin: 0 auto;
+}
+
+.wp-block-group {
+  background-color: #fff;
+}
+
+.secondary-font {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+}
+
+/* HEADINGS 
+=============*/
+
+.#{$gutenbergAdminEditorBlock} h1,
+body:not(.wp-admin) h1,
+.#{$gutenbergAdminEditorBlock} .heading-x,
+body:not(.wp-admin) .heading-x {
+  font-size: 4rem;
+  letter-spacing: (150 / 1000) * 1em;
+}
+
+.#{$gutenbergAdminEditorBlock} h2,
+body:not(.wp-admin) h2,
+.#{$gutenbergAdminEditorBlock} .heading-xx,
+body:not(.wp-admin) .heading-xx {
+  font-size: 2.8rem;
+  letter-spacing: (150 / 1000) * 1em;
+}
+
+.#{$gutenbergAdminEditorBlock} h3,
+body:not(.wp-admin) h3,
+.#{$gutenbergAdminEditorBlock} .heading-xxx,
+body:not(.wp-admin) .heading-xxx {
+  font-size: 2rem;
+  letter-spacing: (50 / 1000) * 1em;
+}
+
+.#{$gutenbergAdminEditorBlock} h4,
+body:not(.wp-admin) h4,
+.#{$gutenbergAdminEditorBlock} .heading-xxxx,
+body:not(.wp-admin) .heading-xxxx {
+  font-size: 1.8rem;
+  letter-spacing: (50 / 1000) * 1em;
+}
+
+.#{$gutenbergAdminEditorBlock} h5,
+body:not(.wp-admin) h5,
+.#{$gutenbergAdminEditorBlock} .heading-xxxxx,
+body:not(.wp-admin) .heading-xxxxx {
+  font-size: 1.8rem;
+}
+
+.#{$gutenbergAdminEditorBlock} h6,
+body:not(.wp-admin) h6,
+.#{$gutenbergAdminEditorBlock} .heading-xxxxxx,
+body:not(.wp-admin) .heading-xxxxxx {
+  font-size: 1.8rem;
+}
+
+.#{$gutenbergAdminEditorBlock} h1,
+.#{$gutenbergAdminEditorBlock} h2,
+.#{$gutenbergAdminEditorBlock} h3,
+.#{$gutenbergAdminEditorBlock} h4,
+body:not(.wp-admin) h1,
+body:not(.wp-admin) h2,
+body:not(.wp-admin) h3,
+body:not(.wp-admin) h4 {
+  line-height: 1.2;
+}
+
+.km-wysiwyg h2,
+.km-wysiwyg h3,
+.km-wysiwyg h4 {
+  color: inherit;
+}
+.#{$gutenbergAdminEditorBlock} h1,
+.#{$gutenbergAdminEditorBlock} h2,
+.#{$gutenbergAdminEditorBlock} h3,
+.#{$gutenbergAdminEditorBlock} h4,
+.#{$gutenbergAdminEditorBlock} h5,
+.#{$gutenbergAdminEditorBlock} h6,
+body:not(.wp-admin) h1,
+body:not(.wp-admin) h2,
+body:not(.wp-admin) h3,
+body:not(.wp-admin) h4,
+body:not(.wp-admin) h5,
+body:not(.wp-admin) h6 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: futura-pt, sans-serif;
+}
+
+@media (max-width: 980px) {
+  .#{$gutenbergAdminEditorBlock} h1,
+  body:not(.wp-admin) h1,
+  .#{$gutenbergAdminEditorBlock} .heading-x,
+  body:not(.wp-admin) .heading-x {
+    font-size: 3.8rem;
+  }
+  .#{$gutenbergAdminEditorBlock} h2,
+  body:not(.wp-admin) h2,
+  .#{$gutenbergAdminEditorBlock} .heading-xx,
+  body:not(.wp-admin) .heading-xx {
+    font-size: 2.6rem;
+  }
+  .#{$gutenbergAdminEditorBlock} h3,
+  body:not(.wp-admin) h3,
+  .#{$gutenbergAdminEditorBlock} .heading-xxx,
+  body:not(.wp-admin) .heading-xxx {
+    font-size: 1.9rem;
+  }
+  .#{$gutenbergAdminEditorBlock} h4,
+  body:not(.wp-admin) h4,
+  .#{$gutenbergAdminEditorBlock} .heading-xxxx,
+  body:not(.wp-admin) .heading-xxxx {
+    font-size: 1.7rem;
+  }
+
+  .#{$gutenbergAdminEditorBlock} h5,
+  body:not(.wp-admin) h5,
+  .#{$gutenbergAdminEditorBlock} .heading-xxxxx,
+  body:not(.wp-admin) .heading-xxxxx {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .#{$gutenbergAdminEditorBlock} h1,
+  body:not(.wp-admin) h1,
+  .#{$gutenbergAdminEditorBlock} .heading-x,
+  body:not(.wp-admin) .heading-x {
+    font-size: 3rem;
+  }
+
+  .#{$gutenbergAdminEditorBlock} h2,
+  body:not(.wp-admin) h2,
+  .#{$gutenbergAdminEditorBlock} .heading-xx,
+  body:not(.wp-admin) .heading-xx {
+    font-size: 2.6rem;
+  }
+
+  .#{$gutenbergAdminEditorBlock} h3,
+  body:not(.wp-admin) h3,
+  .#{$gutenbergAdminEditorBlock} .heading-xxx,
+  body:not(.wp-admin) .heading-xxx {
+    font-size: 2.2rem;
+  }
+
+  .#{$gutenbergAdminEditorBlock} h4,
+  body:not(.wp-admin) h4,
+  .#{$gutenbergAdminEditorBlock} .heading-xxxx,
+  body:not(.wp-admin) .heading-xxxx {
+    font-size: 2rem;
+  }
+}
+
+.intro-title {
+  font-size: 1.8rem;
+  letter-spacing: (75 / 1000) * 1em;
+}
+
+/* TYPOGRAPHY
+=============*/
+
+p {
+  margin: 0 0 10px 0;
+}
+
+a {
+  color: $mainAccent;
+  transition: ease 0.2s color;
+}
+
+a[href^='mailto:'] {
+  white-space: nowrap;
+}
+
+a:hover,
+a:active {
+  color: #1b1b1b;
+}
+
+/* BLOCKQUOTE
+=============*/
+blockquote {
+  background: $mainAccent;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+blockquote p:last-child:not(:only-child) {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+blockquote + * {
+  padding-top: 20px;
+}
+
+/* TEXT HIGLIGHTING
+===================*/
+
+::-moz-selection {
+  color: #fbfbfb;
+  background-color: #7c1833;
+}
+
+::selection {
+  color: #fbfbfb;
+  background-color: #7c1833;
+}
+
+/* underline hover effect
+=========================*/
+.km-footer-list li a::after,
+.underline-hover::after {
+  display: block;
+  content: '';
+  height: 2px;
+  width: 0;
+  transition: ease 0.2s width;
+  background: $mainAccent;
+}
+
+.bar-menu ul li:hover a::after {
+  width: 100%;
+}
+
+.bar-menu ul li:hover li a::after {
+  width: 0;
+}
+
+.bar-menu ul li:hover li a:hover::after {
+  width: 100%;
+}
+
+.main-nav ul li a:hover:after,
+.secondary-menu ul li a:hover::after,
+.underline-hover:hover::after,
+.km-footer-list li a:hover::after {
+  width: 100%;
+}
+
+// https://codex.wordpress.org/Content_Width
+figure.size-auto,
+figure.size-full,
+figure.size-large,
+figure.size-medium,
+figure.size-thumbnail,
+figure.size-auto img,
+figure.size-full img,
+figure.size-large img,
+figure.size-medium img,
+figure.size-thumbnail img,
+img.size-auto,
+img.size-full,
+img.size-large,
+img.size-medium,
+img.size-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+
+/* WYSIWYG fields should have class of km-wysiwyg. 
+* This will enforce link colour inheritance
+===========================================*/
+.km-wysiwyg {
+  width: 100%; // For media purposes within WYSIWYG
+  max-width: 900px;
+}
+
+.km-wysiwyg img {
+  display: block;
+  margin: 0;
+}
+
+.km-wysiwyg a {
+  color: inherit;
+  font-weight: 600;
+}
+
+.km-wysiwyg a:focus,
+.km-wysiwyg a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+[class*='-link-colour'] a {
+  font-weight: 400;
+}
+
+[class*='-link-colour'] a:focus,
+[class*='-link-colour'] a:hover {
+  text-decoration: none;
+}
+
+.reset-button {
+  @include reset-button();
+}
+
+/** Div that contains data attribute for swiper navigation
+==========================================================*/
+.km-nav-colour-prop {
+  height: 0;
+  overflow: hidden;
+  font-size: 0;
+}
+
+/* No posts message 
+===================*/
+.km-post-feed-info {
+  position: relative;
+  box-sizing: border-box;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Search page
+==============*/
+.km-search-result {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Reading time
+===============*/
+.rt-reading-time {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #425c5a;
+}
+
+/* Single Page (Default post) 
+============================*/
+.km-single-post-container {
+  background: #fff;
+  width: 100%;
+  max-width: 1072px;
+  margin: 120px auto;
+  box-sizing: border-box;
+  padding: 60px;
+}
+
+.km-single-post-container img {
+  display: block;
+  max-width: 100%;
+}
+
+.km-single-post-container .km-core-content {
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 100%;
+}
+
+.blog .km-post-type-feed {
+  padding: 132px 40px;
+}
+
+@media (max-width: 700px) {
+  .blog .km-post-type-feed {
+    padding: 70px 30px;
+  }
+}
+
+/* CPT landing page pagination
+==============================*/
+.cpt-nav {
+  position: relative;
+  align-items: center;
+  width: 100%;
+  z-index: 4;
+  padding: 40px 20px;
+  color: #7c1833;
+}
+
+.cpt-nav .nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cpt-nav .km-pt-nav-item {
+  display: block;
+  width: 19px;
+  height: 19px;
+
+  svg {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    fill: currentColor;
+    transition: ease 0.2s opacity;
+  }
+}
+
+.cpt-nav .page-numbers {
+  display: block;
+  color: inherit;
+}
+
+.cpt-nav .page-numbers:hover svg {
+  opacity: 0.6;
+}
+
+.cpt-nav .page-numbers {
+  margin: 0 5px;
+}
+
+/** Div that contains data attribute for swiper navigation
+==========================================================*/
+.km-nav-colour-prop {
+  height: 0;
+  overflow: hidden;
+  font-size: 0;
+}
+
+@media (max-width: 980px) {
+  .km-single-post-container {
+    margin: 70px auto;
+    padding: 40px;
+  }
+}
+
+/* Lazy load styles
+===================*/
+.lazy-bg-image {
+  background-image: none !important;
+  background-color: #eee;
+}
+
+/* Intagram feed
+================*/
+.main-content .sbi {
+  background: #fff;
+}
+
+/* Yoast Breadcrumbs
+====================*/
+.yoast-breadcrumbs {
+  padding: 14px 17px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-left: -10px;
+  background: #fff;
+  color: #7c1833;
+}
+
+.yoast-breadcrumbs a {
+  position: relative;
+  color: #7c1833;
+  transition: ease 0.2s color;
+  &:hover {
+    color: #7c1833;
+  }
+}
+
+.yoast-breadcrumbs a,
+.yoast-breadcrumbs .breadcrumb_last {
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.yoast-breadcrumbs .breadcrumb_last {
+  color: #7c1833;
+}
+
+/* Additional Gutenberg block styling
+=====================================*/
+h1.remove-heading-spacing,
+h2.remove-heading-spacing,
+h3.remove-heading-spacing,
+h4.remove-heading-spacing,
+h5.remove-heading-spacing,
+h6.remove-heading-spacing {
+  padding-bottom: 0;
+}
+
+.km-remove-bottom-border {
+  border-bottom: none !important;
+}
+
+.km-remove-top-border {
+  border-top: none !important;
+}
+
+.km-remove-left-border {
+  border-left: none !important;
+}
+
+.km-remove-right-border {
+  border-right: none !important;
+}
+
+.km-add-bottom-border {
+  border-bottom: 20px solid #fff !important;
+}
+
+.km-add-top-border {
+  border-top: 20px solid #fff !important;
+}
+
+.km-add-left-border {
+  border-left: 20px solid #fff !important;
+}
+
+.km-add-right-border {
+  border-right: 20px solid #fff !important;
+}
+
+.km-remove-spacing {
+  padding-top: 0 !important;
+}
+
+.km-cta-strip.km-remove-spacing .kcs-wrap {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.km-core-content .wp-block-table {
+  border-left: 30px solid rgba(255, 255, 255, 0);
+  border-right: 30px solid rgba(255, 255, 255, 0);
+  margin: 0 auto;
+  background-clip: padding-box;
+}
+
+.wp-block-table {
+  display: block !important;
+  max-width: 960px;
+  display: block;
+  overflow-x: auto;
+}
+
+.wp-block-table.centered {
+  margin: 0 auto;
+}
+
+.wp-block-table table {
+  white-space: nowrap;
+  width: 100%;
+}
+
+.wp-block-table table th,
+.wp-block-table table td {
+  white-space: nowrap;
+  word-break: unset !important;
+}
+
+.main-content iframe {
+  max-width: 100%;
+}
+
+.blocks-gallery-grid .blocks-gallery-item {
+  padding-left: 0;
+}
+
+.blocks-gallery-grid .blocks-gallery-item::before {
+  display: none;
+}

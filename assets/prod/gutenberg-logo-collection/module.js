@@ -1,0 +1,1 @@
+"use strict";gsap_scaleIn(".km-logo-collection",".km-lcl-item-wrap");

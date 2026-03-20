@@ -1,0 +1,34 @@
+{
+  "libraries": ["swiper"],
+  "polyfills": [],
+  "ketchupPlugins": [
+    "KetchupAccordion",
+    "TimedAction",
+    "Cookie",
+    "PrivacyManager",
+    "KetchupSwiper",
+    "KetchupModal",
+    "KetchupAccordion",
+    "KetchupVideoBg",
+    "BrowserDetector"
+  ],
+  "globalFuncs": [
+    "gsap",
+    "updateSwiperColours",
+    "DOMAnimations",
+    "aniLabel",
+    "detectProp",
+    "addSlug",
+    "ajaxLoadMore",
+    "cookieNotification",
+    "scrollClass",
+    "scrollToElement",
+    "kmIntersect",
+    "fitVideo",
+    "lazyVideo",
+    "lazyBgImage",
+    "animateValue",
+    "pushMenu",
+    "videoControls"
+  ]
+}

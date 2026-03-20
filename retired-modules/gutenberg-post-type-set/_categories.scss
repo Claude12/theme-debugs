@@ -1,0 +1,63 @@
+@import '../../assets/styles/theme/mixins';
+
+.km-ptc-categories {
+  position: relative;
+  box-sizing: border-box;
+  margin-bottom: 44px;
+}
+
+.km-ptc-cat-wrap {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.km-ptc-cat-wrap .km-ptc-cat-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+.km-ptc-cat-wrap .km-ptc-cat-list .km-ptc-btn {
+  position: relative;
+  @include reset-button();
+  background: $accentBG;
+  margin: 8px;
+  box-sizing: border-box;
+  padding: 12px 23px;
+  cursor: pointer;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    content: '';
+    background: #000;
+    opacity: 0.3;
+    transition: ease 0.2s width;
+  }
+}
+
+.km-ptc-cat-wrap .km-ptc-cat-list .km-ptc-btn:hover::before {
+  width: 100%;
+}
+
+.km-ptc-cat-wrap .km-ptc-cat-list .km-ptc-btn span {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  color: $accentColour;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  z-index: 2;
+}
+
+.km-ptc-catd-all.km-ptc-all-active,
+.km-ptc-cat-wrap .km-ptc-cat-list .km-ptc-btn.km-ptc-selected {
+  background: darken($accentBG, 10%) !important;
+}

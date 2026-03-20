@@ -1,0 +1,66 @@
+$bulletWidth: 7px;
+$bulletHeight: 7px;
+$bulletSpace: 16px;
+
+.km-wysiwyg ol li,
+.km-wysiwyg ul li {
+  margin-left: 0;
+  box-sizing: border-box;
+  padding-left: $bulletSpace;
+}
+
+.km-wysiwyg ol + *,
+.km-wysiwyg ul + * {
+  margin-top: 10px;
+}
+
+.km-wysiwyg p + ol,
+.km-wysiwyg p + ul {
+  margin-top: 10px;
+}
+
+.km-wysiwyg ol li li,
+.km-wysiwyg ul li li {
+  margin-left: 5px;
+}
+
+.km-wysiwyg ul li::before {
+  display: inline-block;
+  width: $bulletWidth;
+  height: $bulletHeight;
+  min-width: $bulletWidth;
+  min-height: $bulletHeight;
+  content: url('../svg-icons/generated-bullet-icons.svg#brown-bullet-icon');
+}
+
+.km-wysiwyg ul li::before,
+.km-wysiwyg ol li::before {
+  margin-left: -#{$bulletSpace};
+  margin-right: 5px;
+}
+
+// Numbered lists
+@for $i from 1 through 50 {
+  .km-wysiwyg ol li:nth-child(#{$i})::before {
+    content: '#{$i}.' !important;
+    color: #7c1833;
+  }
+}
+
+// Centered bullets
+.km-centered-bullet-list li {
+  justify-content: center;
+}
+
+// Alphanumeric
+// add alphanumeric-list to any ul or ul
+$alphaNum: a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w,
+  x, y, z, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W,
+  X, Y, Z, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9;
+
+@for $index from 1 through length($alphaNum) {
+  $c: nth($alphaNum, $index);
+  .km-wysiwyg .alphanumeric-list li:nth-child(#{$index})::before {
+    content: '#{$c})' !important;
+  }
+}

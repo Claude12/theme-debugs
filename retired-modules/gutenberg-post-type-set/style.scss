@@ -1,0 +1,87 @@
+$block: km-post-type-feed;
+$wrap: km-ptf-wrap;
+$mainBg: #1b1b1b;
+$mainColour: #fff;
+$accentBG: #73a1c2;
+$accentColour: $mainColour;
+
+/* Post type Set
+================*/
+
+.#{$block} {
+  position: relative;
+  box-sizing: border-box;
+  //display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.#{$block} .#{$wrap} {
+  //position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  //width: 100%;
+  margin: 0 -15px 0 0;
+}
+
+.#{$block} .post-type-ctas {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Separator Line
+=================*/
+.#{$block} .km-pi-separator-line {
+  display: block;
+  line-height: 1;
+  background: #939393;
+  height: 1px;
+  width: 80%;
+  max-width: 996px;
+  margin: 0 auto 70px;
+}
+
+@media (max-width: 1400px) {
+  .#{$block} .km-pi-separator-line {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 980px) {
+  .#{$block} .km-pi-separator-line {
+    margin-bottom: 30px;
+  }
+}
+
+/* Section title
+================*/
+.#{$block} .km-pi-title {
+  display: block;
+  font-weight: 600;
+  margin: 10px 0 15px;
+  color: #20598a;
+}
+
+/* Control category logic
+=========================*/
+.km-post-type-block .km-ptf-wrap.km-filter-in-use .km-sortable-card {
+  display: none;
+}
+
+.km-post-type-block
+  .km-ptf-wrap.km-filter-in-use
+  .km-sortable-card.km-ptc-active {
+  display: block;
+}
+.km-post-type-block .km-ptf-wrap.km-filter-not-in-use .km-sortable-card {
+  display: block;
+}
+
+@import 'categories';
+@import 'load-more';
+//@import './templates/case-studies';
+//@import './templates/post';

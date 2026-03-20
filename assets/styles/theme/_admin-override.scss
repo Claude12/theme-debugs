@@ -1,0 +1,189 @@
+/* 
+Place all admin area overrides here. This works because km-bundle.min.css is pulled into admin area
+*/
+
+.block-editor-editor-skeleton__html-container {
+  font-size: 62.5%;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  width: 100%;
+}
+
+.wp-admin {
+  color: #444;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.wp-admin h1 {
+  color: #23282d;
+  font-size: 2em;
+}
+
+.wp-admin h2,
+.wp-admin h3 {
+  color: #23282d;
+  font-size: 1.3em;
+  margin: 1em 0;
+}
+.wp-admin h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+.wp-admin h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0;
+}
+
+.wp-admin ol,
+.wp-admin ul {
+  padding: 0;
+}
+
+.wp-admin ul {
+  list-style: none;
+}
+
+.wp-admin ol {
+  list-style-type: decimal;
+  margin-left: 2em;
+}
+
+.wp-admin ul.ul-disc {
+  list-style: disc outside;
+}
+
+.wp-admin ul.ul-square {
+  list-style: square outside;
+}
+
+.wp-admin ol.ol-decimal {
+  list-style: decimal outside;
+}
+
+.wp-admin ol.ol-decimal,
+.wp-admin ul.ul-disc,
+ul.ul-square {
+  margin-left: 1.8em;
+}
+
+.wp-admin ol.ol-decimal > li,
+.wp-admin ul.ul-disc > li,
+ul.ul-square > li {
+  margin: 0 0 0.5em;
+}
+
+.wp-admin .wp-block {
+  max-width: 96%;
+}
+
+.wp-admin b,
+.wp-admin strong {
+  font-weight: 600;
+}
+
+.wp-admin .pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.wp-admin hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #fafafa;
+}
+
+.wp-admin .checkbox {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wp-admin fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.wp-admin .update-messages h2,
+.wp-admin .update-php h2,
+.wp-admin h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+.wp-admin .postbox .inside h2,
+.wp-admin .wrap [class$='icon32'] + h2,
+.wp-admin .wrap h1,
+.wp-admin .wrap > h2:first-child {
+  font-size: 23px;
+  font-weight: 400;
+  margin: 0;
+  padding: 9px 0 4px 0;
+  line-height: 1.3;
+}
+
+.wp-admin .media-attachments-filter-heading {
+  margin: 0;
+}
+
+.wp-admin #collapse-menu {
+  font-size: 14px;
+}
+
+.components-modal__frame input[type='radio'],
+.components-popover input[type='radio'],
+.edit-post-header input[type='radio'],
+.edit-post-sidebar input[type='radio'],
+.edit-post-text-editor input[type='radio'],
+.edit-post-visual-editor input[type='radio'],
+.editor-post-publish-panel input[type='radio'] {
+  width: 20px;
+  height: 20px;
+}
+
+.components-modal__frame input[type='radio']:checked:before,
+.components-popover input[type='radio']:checked:before,
+.edit-post-header input[type='radio']:checked:before,
+.edit-post-sidebar input[type='radio']:checked:before,
+.edit-post-text-editor input[type='radio']:checked:before,
+.edit-post-visual-editor input[type='radio']:checked:before,
+.editor-post-publish-panel input[type='radio']:checked:before {
+  width: 11px;
+  height: 11px;
+  margin: 2px 0 0 3px;
+}
+
+ul.acf-radio-list li input[type='checkbox'],
+ul.acf-radio-list li input[type='radio'],
+ul.acf-checkbox-list li input[type='checkbox'],
+ul.acf-checkbox-list li input[type='radio'] {
+  width: 20px;
+  height: 20px;
+}
+
+.wp-admin .is-sidebar-opened .block-editor-editor-skeleton__sidebar {
+  font-size: 14px;
+}
+
+/* Theme specific overrides */
+.wp-admin .scs-intro p,
+.wp-admin .pb-intro p,
+.wp-admin .qbi-title p,
+.wp-admin .cc-intro p,
+.wp-admin .kgb-intro p,
+.wp-admin .cc-intro p,
+.wp-admin .title-intro p {
+  margin: 0;
+}
+
+@media (min-width: 1500px) {
+  .interface-complementary-area {
+    width: 40vw;
+  }
+}

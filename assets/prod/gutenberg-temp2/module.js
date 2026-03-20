@@ -1,0 +1,1 @@
+"use strict";function temp2_1616171782331_init(){initSwiper(".km-temp2",{cap:1,slidesPerViewBreakpoint:1200,enableMedia:"(min-width: 100px)",swiperProps:{spaceBetween:0,breakpoints:{320:{slidesPerView:1}}}})}temp2_1616171782331_init();

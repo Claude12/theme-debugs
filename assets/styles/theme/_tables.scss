@@ -1,0 +1,37 @@
+/* Table Styles
+=======================*/
+$block: main-content;
+$gridWidth: 1200px;
+$accent: #7c1833;
+
+.#{$block} table {
+  border-collapse: collapse;
+  border-spacing: 10px;
+}
+
+.#{$block} table,
+.#{$block} th,
+.#{$block} td {
+  border: 1px solid #fff;
+}
+
+.#{$block} table th,
+.#{$block} table td {
+  padding: 10px;
+}
+
+.#{$block} table thead {
+  background: $accent;
+  color: #fff;
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.#{$block} table tbody tr {
+  background: #f7f5ef;
+}
+
+.#{$block} table tbody tr:nth-child(2n + 1) {
+  background: #eeedeb;
+}

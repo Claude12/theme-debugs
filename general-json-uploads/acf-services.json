@@ -1,0 +1,53 @@
+[
+    {
+        "key": "group_5f918ce3233fa",
+        "title": "Services",
+        "fields": [
+            {
+                "key": "field_5f918ce764deb",
+                "label": "Services",
+                "name": "services",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Service One": "Service One",
+                    "Service Two": "Service Two",
+                    "Service Three": "Service Three",
+                    "Service Four": "Service Four",
+                    "Service Five": "Service Five"
+                },
+                "default_value": [],
+                "allow_null": 1,
+                "multiple": 1,
+                "ui": 1,
+                "ajax": 0,
+                "return_format": "value",
+                "placeholder": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": false,
+        "description": ""
+    }
+]
