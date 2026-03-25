@@ -1,1 +1,0 @@
-"use strict";function case_study_slider_init(){initSwiper(".km-case-study-slider",{cap:1,slidesPerViewBreakpoint:1200,enableMedia:"(min-width: 100px)",swiperProps:{fadeEffect:{crossFade:!0},effect:"fade",spaceBetween:0,breakpoints:{320:{slidesPerView:1}}}})}case_study_slider_init();

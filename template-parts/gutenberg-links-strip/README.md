@@ -1,2 +1,0 @@
-
-# Gutenberg block: Links Strip

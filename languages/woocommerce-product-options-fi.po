@@ -1,0 +1,1192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Options 2.5.0\n"
+"Report-Msgid-Bugs-To: https://barn2.com/support-center/\n"
+"Last-Translator: Barn2 Plugins <support@barn2.com>\n"
+"Language-Team: Barn2 Plugins <support@barn2.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-07-07T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-02-17 19:50+0000\n"
+"Language: fi\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: woocommerce-product-options\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+#: woocommerce-product-options.php
+msgid "WooCommerce Product Options"
+msgstr "WooCommerce-tuotevaihtoehdot"
+
+#. Plugin URI of the plugin
+#: woocommerce-product-options.php
+msgid "https://barn2.com/wordpress-plugins/woocommerce-product-options/"
+msgstr "https://barn2.com/wordpress-plugins/woocommerce-product-options/"
+
+#. Description of the plugin
+#: woocommerce-product-options.php
+msgid "Add extra options to your WooCommerce products, with over 14 option types, optional fees for each option, min/max quantities, and conditional logic."
+msgstr "Lisää ylimääräisiä vaihtoehtoja WooCommerce-tuotteillesi, yli 14 vaihtoehtotyypillä, valinnaisilla maksuilla jokaiselle vaihtoehdolle, min./max. määrillä ja ehdollisella logiikalla."
+
+#. Author of the plugin
+#: woocommerce-product-options.php
+msgid "Barn2 Plugins"
+msgstr "Barn2 Plugins"
+
+#. Author URI of the plugin
+#: woocommerce-product-options.php
+msgid "https://barn2.com"
+msgstr "https://barn2.com"
+
+#: dependencies/barn2/barn2-lib/src/Admin/Settings_API_Helper.php:154
+msgid "[View page]"
+msgstr "[Näytä sivu]"
+
+#: dependencies/barn2/barn2-lib/src/Admin/Settings_API_Helper.php:615
+#: dependencies/barn2/barn2-lib/src/WooCommerce/Admin/Custom_Settings_Fields.php:138
+msgid "Size"
+msgstr "Koko"
+
+#: dependencies/barn2/barn2-lib/src/Admin/Settings_Util.php:70
+#: assets/js/admin/wpo-settings-page.js:29
+#: assets/js/admin/wpo-settings-page.js:34
+msgid "Documentation"
+msgstr "Dokumentaatio"
+
+#: dependencies/barn2/barn2-lib/src/Admin/Settings_Util.php:70
+msgid "Support"
+msgstr "Tuki"
+
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Admin_Links.php:38
+#: src/Admin/Settings_Tab/General.php:61
+msgid "Settings"
+msgstr "Asetukset"
+
+#. translators: %s: The plugin name
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Admin_Links.php:54
+msgid "View %s documentation"
+msgstr "Näytä %s dokumentaatio"
+
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Admin_Links.php:55
+msgid "Docs"
+msgstr "Dokumentit"
+
+#. translators: 1: licence key link start, 2: license key link end
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Plugin_Updater.php:155
+msgid "Activate %1$syour license key%2$s to enable updates."
+msgstr "Aktivoi %1$syour license key%2$s, jotta päivitykset voidaan ottaa käyttöön."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Plugin_Updater.php:212
+msgid "Auto-updates unavailable."
+msgstr "Automaattiset päivitykset eivät ole käytettävissä."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:59
+msgid "License key successfully activated."
+msgstr "Lisenssiavain aktivoitiin onnistuneesti."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:59
+msgid "There was an error activating your license key."
+msgstr "Lisenssiavaimen aktivoinnissa tapahtui virhe."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:63
+msgid "License key successfully deactivated."
+msgstr "Lisenssiavain deaktivoitiin onnistuneesti."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:63
+msgid "There was an error deactivating your license key, please try again."
+msgstr "Lisenssiavaimen deaktivoimisessa tapahtui virhe, yritä uudelleen."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:66
+msgid "The license key looks good!"
+msgstr "Lisenssiavain näyttää hyvältä!"
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:66
+msgid "There's a problem with your license key."
+msgstr "Lisenssiavaimessasi on ongelma."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:108
+msgid "License key"
+msgstr "Lisenssiavain"
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:110
+msgid "The licence key is contained in your order confirmation email."
+msgstr "Lisenssiavain on sisällytetty tilausvahvistussähköpostiisi."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:113
+msgid "License Key"
+msgstr "Lisenssiavain"
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:132
+msgid "Check"
+msgstr "Tarkista"
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:132
+msgid "Activate"
+msgstr "Aktivoi"
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:132
+msgid "Deactivate"
+msgstr "Deaktivoi"
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:140
+msgid "License key deactivated."
+msgstr "Lisenssiavain poistettu käytöstä."
+
+#. translators: 1: the plugin name, 2: settings link start, 3: settings link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Notices.php:84
+msgid "Thank you for installing %1$s. To get started, please %2$s enter your license key%3$s."
+msgstr "Kiitos, että asensit %1$s. Aloittaaksesi, %2$s syötä lisenssiavaimesi%3$s."
+
+#. translators: 1: the plugin name, 2: renewal link start, 3: renewal link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Notices.php:109
+msgid "Your license key for %1$s has expired. %2$sClick here to renew for 20%% discount%3$s."
+msgstr "Lisenssiavaimesi %1$s on vanhentunut. %2$sKlikkaa tästä uusia 20%% alennuksella%3$s."
+
+#. translators: 1: the plugin name, 2: renewal link start, 3: renewal link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Notices.php:134
+msgid "You no longer have a valid license for %1$s. Please %2$spurchase a new license key%3$s to continue using the plugin."
+msgstr "Sinulla ei ole enää voimassa olevaa lisenssiä %1$s:lle. %2$sOsta uusi lisenssiavain%3$s jatkaaksesi lisäosan käyttöä."
+
+#. translators: 1: the plugin name, 2: settings link start, 3: settings link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Notices.php:162
+msgid "%1$s - your site has moved to a new domain. Please %2$sreactivate your license key%3$s."
+msgstr "%1$s - sivustosi on siirtynyt uuteen domainiin. %2$sAktivoi lisenssiavain uudelleen%3$s."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/EDD_Licensing.php:170
+msgid "An error has occurred, please try again."
+msgstr "Virhe on tapahtunut, yritä uudelleen."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:93
+msgid "Your license key is active."
+msgstr "Lisenssiavaimesi on aktiivinen."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:113
+msgid "Please enter your license key."
+msgstr "Ole hyvä ja syötä lisenssiavain."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:115
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:401
+msgid "Your license key is invalid."
+msgstr "Lisenssiavain on virheellinen."
+
+#. translators: 1: account page link start, 2: account page link end
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:345
+msgid "Invalid license key - please check your order confirmation email or %1$sAccount%2$s."
+msgstr "Virheellinen lisenssiavain - tarkista tilausvahvistussähköpostisi tai %1$sTili%2$s."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:351
+msgid "No URL was supplied for activation, please contact support."
+msgstr "Aktivointia varten ei toimitettu URL-osoitetta, ota yhteyttä tukeen."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:354
+msgid "License key mismatch, please contact support."
+msgstr "Lisenssiavaimet eivät täsmää, ota yhteyttä tukeen."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:357
+msgid "This license is for a bundled product and cannot be activated."
+msgstr "Tämä lisenssi on paketoidulle tuotteelle, eikä sitä voida aktivoida."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:361
+msgid "Your license key is not valid for this plugin."
+msgstr "Lisenssiavain ei ole voimassa tälle lisäosalle."
+
+#. translators: %s: The number of sites the license is activated on
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:367
+msgid "%s site active"
+msgid_plural "%s sites active"
+msgstr[0] "%s sivu aktiivinen"
+msgstr[1] "%s sivua aktiivinen"
+
+#. translators: %s: The sites active description, e.g. '2 sites active'
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:370
+msgid "Your license key has reached its activation limit (%s)."
+msgstr "Lisenssiavain on saavuttanut aktivointirajan (%s)."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:371
+#: dependencies/barn2/barn2-lib/src/Util.php:35
+msgid "Read more"
+msgstr "Lue lisää"
+
+#. translators: support for RTL, 1: the license error, 2: a link
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:373
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:391
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %s: The license expiry date
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:386
+msgid "Your license key expired on %s."
+msgstr "Lisenssiavain on vanhentunut %s."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:389
+msgid "Renew now for 20% discount."
+msgstr "Uudista nyt 20 % alennuksella."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:611
+msgid "Your license key is not active. Please reactivate or save the settings."
+msgstr "Lisenssiavain ei ole aktiivinen. Aktivoi se uudelleen tai tallenna asetukset."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:615
+msgid "Your license key has expired."
+msgstr "Lisenssiavain on vanhentunut."
+
+#. translators: 1: purchase link start, 2: purchase link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:621
+msgid "Your license key has been disabled. Please %1$spurchase a new license key%2$s to continue using the plugin."
+msgstr "Lisenssiavain on poistettu käytöstä. Ole hyvä ja %1$spurchase a new license key%2$s jatkaaksesi liitännäisen käyttöä."
+
+#. translators: %1$s: Plugin name. %2$s: PHP version required.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:103
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:112
+msgid "%1$s requires PHP %2$s or greater. Please update the PHP version used by your web server."
+msgstr "%1$s vaatii PHP %2$s tai uudemman. Ole hyvä ja päivitä web-palvelimen käyttämä PHP-versio."
+
+#. translators: %1$s: Plugin name. %2$s: WP version required.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:136
+msgid "%1$s requires WordPress %2$s or greater. Please update your WordPress installation."
+msgstr "%1$s vaatii WordPress %2$s tai uudemman. Ole hyvä ja päivitä WordPress-asennuksesi."
+
+#. translators: %1$s: Plugin name. %2$s: Update Core <a> tag open. %3$s: <a> tag close. %4$s: WP version required.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:146
+msgid "%1$s requires WordPress %4$s or greater. Please %2$supdate%3$s your WordPress installation."
+msgstr "%1$s vaatii WordPress %4$s tai uudemman. Ole hyvä ja %2$supdate%3$s WordPress-asennuksesi."
+
+#. translators: %1$s: Plugin name.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:169
+msgid "%1$s requires WooCommerce to be installed and active."
+msgstr "%1$s vaatii WooCommerce:n asennettavaksi ja aktiiviseksi."
+
+#. translators: %1$s: Plugin name. %2$s: WooCommerce link. %3$s Install/Upgrade/Activate WooCommerce link.
+#. translators: %1$s: Plugin name. %2$s: EDD link. %3$s Install/Upgrade/Activate EDD link.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:175
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:224
+msgid "%1$s requires %2$s to be installed and active.%3$s"
+msgstr "%1$s vaatii %2$s asennettavaksi ja aktiiviseksi.%3$s"
+
+#. translators: %1$s: Plugin name. %2$s: WooCommerce version required.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:189
+msgid "%1$s requires WooCommerce %2$s or greater. Please update your WooCommerce setup first."
+msgstr "%1$s vaatii WooCommerce %2$s tai uudemman. Ole hyvä ja päivitä WooCommerce-asennuksesi ensin."
+
+#. translators: %1$s: Plugin name. %2$s: WooCommerce link. %3$s WooCommerce version required. %4$s Install/Upgrade/Activate WooCommerce link.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:195
+msgid "%1$s requires %2$s %3$s or greater. Please %4$s your WooCommerce setup first."
+msgstr "%1$s vaatii %2$s %3$s tai uudemman. Ole hyvä ja %4$s WooCommerce-asennuksesi ensin."
+
+#. translators: %1$s: Plugin name.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:218
+msgid "%1$s requires Easy Digital Downloads to be installed and active."
+msgstr "%1$s vaatii Easy Digital Downloads:n asennettavaksi ja aktiiviseksi."
+
+#: dependencies/barn2/barn2-lib/src/Plugin/Simple_Plugin.php:102
+msgid "%1$s could not complete its first activation because the following error occurred:<br>%2$s"
+msgstr "%1$s ei voinut suorittaa ensimmäistä aktivointiaan, koska seuraava virhe tapahtui:<br>%2$s"
+
+#. translators: %1$s: plugin name
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:123
+msgid "%1$s database update required"
+msgstr "%1$s tietokannan päivitys vaaditaan"
+
+#. translators: %1$s: plugin name
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:125
+msgid "<p>%1$s has been updated! To keep things running smoothly, we have to update your database to the newest version. The database update process runs in the background and may take a little while, so please be patient.</p>"
+msgstr "<p>%1$s on päivitetty! Jotta asiat toimisivat sujuvasti, meidän on päivitettävä tietokannan uuteen versioon. Tietokannan päivitysprosessi toimii taustalla ja voi kestää hetken, joten ole hyvä ja ole kärsivällinen.</p>"
+
+#. translators: %1$s: plugin name
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:127
+msgid "%1$s database update done"
+msgstr "%1$s tietokannan päivitys valmis"
+
+#. translators: %1$s: plugin name
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:129
+msgid "<p>%1$s database update complete. Thank you for updating to the latest version!</p>"
+msgstr "<p>%1$s tietokannan päivitys on valmis. Kiitos, että päivitit viimeisimpään versioon!</p>"
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:310
+msgid "You do not have sufficient permissions to perform this action."
+msgstr "Sinulla ei ole riittäviä oikeuksia tämän toiminnon suorittamiseen."
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:314
+msgid "An upgrade is already in progress. Please wait until it completes."
+msgstr "Päivitys on jo käynnissä. Ole hyvä ja odota, kunnes se valmistuu."
+
+#: dependencies/barn2/barn2-lib/src/Util.php:555
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr "Ei voitu muodostaa yhteyttä tiedostojärjestelmään. Vahvista käyttäjätunnuksesi."
+
+#: dependencies/barn2/barn2-lib/src/Util.php:580
+msgid "You don't have permission to activate the plugin."
+msgstr "Sinulla ei ole oikeuksia liitännäisen aktivoimiseen."
+
+#: dependencies/barn2/setup-wizard/src/Api.php:100
+msgid "You do not have permission to view the setup wizard."
+msgstr "Sinulla ei ole oikeuksia katsella asetusten ohjattua käyttöliittymää."
+
+#: dependencies/barn2/setup-wizard/src/Api.php:104
+msgid "Authentication required."
+msgstr "Todentaminen vaaditaan."
+
+#: dependencies/barn2/setup-wizard/src/Api.php:187
+msgid "Could not find the appropriate step."
+msgstr "Sopivaa vaihetta ei löytynyt."
+
+#: dependencies/barn2/setup-wizard/src/Api.php:232
+msgid "Please enter a license key."
+msgstr "Ole hyvä ja syötä lisenssiavain."
+
+#: dependencies/barn2/setup-wizard/src/Api.php:235
+msgid "Invalid action requested."
+msgstr "Pyydetty toiminto on virheellinen."
+
+#. translators: %s: The name of the plugin.
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:350
+msgid "%s setup wizard"
+msgstr "%s asennusohjelma"
+
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:440
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:513
+msgid "Warning: This will overwrite your existing settings for %s. Are you sure you want to continue?"
+msgstr "Varoitus: Tämä korvataan olemassa olevat asetuksesi %s. Oletko varma, että haluat jatkaa?"
+
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:490
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:498
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:552
+msgid "Setup wizard"
+msgstr "Asennusohjelma"
+
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:493
+msgid "If you need to access the setup wizard again, please click on the button below."
+msgstr "Jos tarvitset pääsyn asennusohjelmaan uudelleen, napsauta alla olevaa painiketta."
+
+#: dependencies/barn2/setup-wizard/src/Steps/Cross_Selling.php:23
+msgid "More"
+msgstr "Lisää"
+
+#: dependencies/barn2/setup-wizard/src/Steps/Cross_Selling.php:24
+msgid "Extra features"
+msgstr "Lisäominaisuudet"
+
+#: dependencies/barn2/setup-wizard/src/Steps/Cross_Selling.php:25
+msgid "Enhance your site with these fantastic plugins from Barn2."
+msgstr "Paranna sivustoasi näillä upeilla liitännäisillä Barn2:lta."
+
+#: dependencies/barn2/setup-wizard/src/Steps/Ready.php:23
+#: src/Admin/Wizard/Steps/Completed.php:21
+msgid "Ready"
+msgstr "Valmis"
+
+#: dependencies/barn2/setup-wizard/src/Steps/Ready.php:24
+msgid "Setup Complete"
+msgstr "Asennus valmis"
+
+#: dependencies/barn2/setup-wizard/src/Steps/Welcome.php:25
+#: dependencies/barn2/setup-wizard/src/Steps/Welcome_Free.php:24
+#: src/Admin/Wizard/Steps/License_Verification.php:21
+msgid "Welcome"
+msgstr "Tervetuloa"
+
+#: dependencies/barn2/setup-wizard/src/Util.php:28
+#: src/Fields/Select.php:83
+#: assets/js/modules/dropdown.js:1
+msgid "Select an option"
+msgstr "Valitse vaihtoehto"
+
+#: src/Admin/Admin_Controller.php:87
+msgid "Security error"
+msgstr "Turvallisuusvirhe"
+
+#: src/Admin/Admin_Controller.php:88
+msgid "The authorization to perform this action expired. Please reload the page and try again"
+msgstr "Toiminnon valtuutus on vanhentunut. Lataa sivu uudelleen ja yritä uudelleen"
+
+#: src/Admin/Admin_Controller.php:123
+msgid "Permission error"
+msgstr "Oikeusvirhe"
+
+#: src/Admin/Admin_Controller.php:124
+msgid "You do not have permission to install plugins."
+msgstr "Sinulla ei ole oikeuksia asentaa laajennuksia."
+
+#: src/Admin/Admin_Controller.php:140
+msgid "Already installed"
+msgstr "Jo asennettu"
+
+#: src/Admin/Admin_Controller.php:141
+msgid "The WooCommerce Live Preview plugin is already installed."
+msgstr "WooCommerce Live Preview -laajennus on jo asennettu."
+
+#: src/Admin/Admin_Controller.php:172
+msgid "License error"
+msgstr "Lisenssivirhe"
+
+#: src/Admin/Admin_Controller.php:173
+msgid "Your license doesn't include WooCommerce Live Preview. Please go to the settings page and check your license. Then try again."
+msgstr "Lisenssisi ei sisällä WooCommerce Live Preview -toimintoa. Siirry asetussivulle ja tarkista lisenssisi. Yritä sitten uudelleen."
+
+#: src/Admin/Admin_Controller.php:191
+msgid "Successfully installed"
+msgstr "Asennettu onnistuneesti"
+
+#. translators: %s is the link to the product options page
+#: src/Admin/Admin_Controller.php:194
+msgid "The WooCommerce Live Preview plugin has been successfully installed. Now go to %s and enable live preview for each option that you wish to use it for."
+msgstr "WooCommerce Live Preview -laajennus on asennettu onnistuneesti. Nyt siirry %s ja ota live-esikatselu käyttöön jokaiselle vaihtoehdolle, jota haluat käyttää."
+
+#: src/Admin/Admin_Controller.php:195
+#: src/Admin/Settings_Page.php:164
+#: src/Admin/Settings_Page.php:165
+#: src/Admin/Settings_Page.php:182
+#: src/Admin/Settings_Tab/Product_Options.php:41
+#: src/Plugin_Setup.php:124
+msgid "Product Options"
+msgstr "Tuotevaihtoehdot"
+
+#: src/Admin/Admin_Controller.php:210
+msgid "Installation error"
+msgstr "Asennusvirhe"
+
+#. translators: %s is the link to the downloads page
+#: src/Admin/Admin_Controller.php:215
+msgid "An error occurred while installing or activating WooCommerce Live Preview (Error code: %1$s).<br>Please reload the page and try again. If the error persists, please go to your %2$s and try to manually install the plugin."
+msgstr "Asennettaessa tai aktivoitaessa WooCommerce Live Preview -laajennusta tapahtui virhe (Virhekoodi: %1$s).<br>Lataa sivu uudelleen ja yritä uudelleen. Jos virhe jatkuu, siirry %2$s ja yritä asentaa laajennus manuaalisesti."
+
+#: src/Admin/Admin_Controller.php:217
+msgid "Barn2 downloads page"
+msgstr "Barn2 lataussivu"
+
+#: src/Admin/Admin_Controller.php:401
+msgid "Product Attributes"
+msgstr "Tuoteattribuutit"
+
+#: src/Admin/Admin_Controller.php:405
+msgid "Invetory properties"
+msgstr "Varaston ominaisuudet"
+
+#: src/Admin/Admin_Controller.php:409
+msgid "Shipping properties"
+msgstr "Toimitusominaisuudet"
+
+#: src/Admin/Attribute_Term.php:106
+msgid "The attribute has associated attribute based options in <strong>WooCommerce Product Options</strong>, however this term is not configured. Please configure the term in the following options: <br/><br/> %s"
+msgstr "Attribuutilla on siihen liittyviä attribuuttiperusteisia vaihtoehtoja <strong>WooCommerce-tuotevaihtoehdoissa</strong>, mutta tätä termiä ei ole määritetty. Määritä termi seuraavissa vaihtoehdoissa: <br/><br/> %s"
+
+#: src/Admin/Settings_Page.php:81
+msgid "PHP Intl extension required"
+msgstr "PHP Intl -laajennus vaaditaan"
+
+#: src/Admin/Settings_Page.php:82
+msgid "The PHP Intl extension is required for the WooCommerce Product Options plugin to work correctly. Please ask your hosting provider to enable this extension."
+msgstr "WooCommerce-tuotevaihtoehto -laajennuksen toimiminen oikein edellyttää PHP Intl -laajennusta. Pyydä web-hosting-palveluntarjoajaasi ottamaan tämä laajennus käyttöön."
+
+#: src/Admin/Settings_Page.php:92
+#: src/Admin/Settings_Page.php:99
+msgid "Install WooCommerce Live Preview"
+msgstr "Asenna WooCommerce Live Preview"
+
+#. translators: %s: Link to install the bonus plugin.
+#: src/Admin/Settings_Page.php:95
+msgid "Thanks for adding the Live Preview add-on to WooCommerce Product Options. Please install it and then enable it on the product options that you wish to use it for. %s"
+msgstr "Kiitos, että lisäsit Live Preview -lisäosan WooCommerce-tuotevaihtoehtoihin. Asenna se ja ota se sitten käyttöön niissä tuotevaihtoehdoissa, joissa haluat käyttää sitä. %s"
+
+#: src/Admin/Settings_Page.php:214
+msgid "This tab doesn't exist."
+msgstr "Tätä välilehteä ei ole."
+
+#: src/Admin/Settings_Tab/General.php:81
+msgid "General"
+msgstr "Yleinen"
+
+#: src/Admin/Settings_Tab/General.php:84
+msgid "The following options control the WooCommerce Product Options extension."
+msgstr "Seuraavat vaihtoehdot hallitsevat WooCommerce-tuotevaihtoehtoihin liittyvää laajennusta."
+
+#: src/Admin/Settings_Tab/General.php:123
+msgid "Settings saved."
+msgstr "Asetukset tallennettu."
+
+#: src/Admin/Settings_Tab/General.php:136
+msgid "Uninstall"
+msgstr "Poista asennus"
+
+#: src/Admin/Settings_Tab/General.php:139
+msgid "The following options control the uninstallation of the WooCommerce Product Options extension."
+msgstr "Seuraavat vaihtoehdot hallitsevat WooCommerce-tuotevaihtoehtoihin liittyvän laajennuksen poistamista."
+
+#: src/Admin/Settings_Tab/General.php:144
+msgid "Delete data"
+msgstr "Poista tiedot"
+
+#. translators: %s is the plugin name.
+#: src/Admin/Settings_Tab/General.php:149
+msgid "Permanently delete all %s settings and data when uninstalling the plugin."
+msgstr "Poista pysyvästi kaikki %s asetukset ja tiedot, kun poistat lisäosan."
+
+#: src/Admin/Settings_Tab/General.php:182
+#: assets/js/admin/wpo-settings-page.js:32
+msgid "Live Preview"
+msgstr "Reaaliaikainen esikatselu"
+
+#: src/Admin/Settings_Tab/General.php:185
+msgid "The following options control the WooCommerce Live Preview extension."
+msgstr "Seuraavat asetukset hallitsevat WooCommerce Reaaliaikainen esikatselu -laajennusta."
+
+#: src/Admin/Settings_Tab/General.php:188
+msgid "Customize button text"
+msgstr "Mukauta painikkeen tekstiä"
+
+#: src/Admin/Settings_Tab/General.php:193
+msgid "The text used for the customize button."
+msgstr "Mukauta-painikkeen käytettävä teksti."
+
+#: src/Admin/Settings_Tab/General.php:198
+#: src/Admin/Settings_Tab/General.php:219
+#: src/Admin/Settings_Tab/General.php:244
+#: assets/js/admin/wpo-settings-page.js:32
+msgid "Upgrade"
+msgstr "Päivitä"
+
+#: src/Admin/Settings_Tab/General.php:207
+#: assets/js/admin/wpo-settings-page.js:32
+msgid "Customize"
+msgstr "Mukauta"
+
+#: src/Admin/Settings_Tab/General.php:210
+msgid "Preview label"
+msgstr "Esikatselun etiketti"
+
+#: src/Admin/Settings_Tab/General.php:215
+msgid "The label for the previews on the cart and checkout pages."
+msgstr "Etiketti esikatseluille ostoskori- ja maksusivulla."
+
+#: src/Admin/Settings_Tab/General.php:227
+msgid "Preview"
+msgstr "Esikatselu"
+
+#: src/Admin/Settings_Tab/General.php:230
+msgid "Google Fonts API Key"
+msgstr "Google Fonts API-avain"
+
+#. translators: basic instruction about Google Fonts API Key.
+#: src/Admin/Settings_Tab/General.php:240
+msgid "To use Google fonts, it is necessary to add your Google API Key."
+msgstr "Google-fonttien käyttämiseksi on tarpeen lisätä oma Google API -avaimesi."
+
+#: src/Admin/Settings_Tab/Import_Export.php:42
+msgid "Import/Export"
+msgstr "Tuo/Vienn"
+
+#: src/Admin/Version_Updater.php:120
+msgid "All price formulas have been successfully converted. Please double-check that everything works as expected."
+msgstr "Kaikki hintakaavat on onnistuneesti muunnettu. Tarkista vielä, että kaikki toimii odotetusti."
+
+#. translators: %1$s: link to backup database page
+#: src/Admin/Version_Updater.php:135
+msgid "Your price formulas will be upgraded to the new version.<br>We strongly recommend you %1$s now and export of all your option groups before updating your formulas."
+msgstr "Hintakaavasi päivitetään uuteen versioon.<br>Suosittelemme vahvasti, että %1$s nyt ja vie kaikki vaihtoehtoryhmäsi ennen kuin päivität kaavojasi."
+
+#: src/Admin/Version_Updater.php:136
+msgid "backup your database"
+msgstr "varmuuskopioi tietokantaasi"
+
+#: src/Admin/Version_Updater.php:142
+msgid "Export option groups"
+msgstr "Vie vaihtoehtoryhmät"
+
+#: src/Admin/Version_Updater.php:147
+msgid "Update price formulas"
+msgstr "Päivitä hintakaavat"
+
+#: src/Admin/Wizard/Steps/Completed.php:22
+msgid "Complete Setup"
+msgstr "Suorita asennus"
+
+#: src/Admin/Wizard/Steps/Completed.php:35
+msgid "Congratulations, you have finished setting up the plugin. Now it’s time to start adding options to your products."
+msgstr "Onnittelut, olet saanut lisäosan asennettua. Nyt on aika alkaa lisätä vaihtoehtoja tuotteisiisi."
+
+#: src/Admin/Wizard/Steps/License_Verification.php:22
+msgid "Welcome to WooCommerce Product Options."
+msgstr "Tervetuloa WooCommerce-tuotevaihtoehtoihin."
+
+#: src/Admin/Wizard/Steps/License_Verification.php:23
+msgid "Use this setup wizard to activate your license key and choose any complementary plugins. After that, you’ll be ready to start creating product options!"
+msgstr "Käytä tätä asennusohjelmaa aktivoidaksesi lisenssiavaimesi ja valitaksesi kaikki täydentävät lisäosat. Tämän jälkeen olet valmis aloittamaan tuotevaihtoehtojen luomisen!"
+
+#. translators: %1$s: Option name %2$s: Product name
+#. translators: %s: Option name
+#. translators: %1: Option name %2: Product name
+#: src/Fields/Abstract_Field.php:253
+#: src/Fields/Checkboxes.php:66
+#: src/Fields/Date_Picker.php:73
+#: src/Fields/File.php:83
+msgid "\"%1$s\" is a required field for \"%2$s\"."
+msgstr "\"%1$s\" on pakollinen kenttä \"%2$s\":lle."
+
+#. translators: %1$s: Option name %2$s: Product name
+#. translators: %s: Option name
+#: src/Fields/Abstract_Field.php:263
+#: src/Fields/Checkboxes.php:78
+msgid "Invalid option choice for \"%1$s\" on \"%2$s\"."
+msgstr "Virheellinen vaihtoehdon valinta \"%1$s\":lle \"%2$s\":ssa."
+
+#. translators: %1$s: A space or an empty string, %2$s: Option choice percentage increase
+#: src/Fields/Abstract_Field.php:926
+msgid "+%1$s%2$s%1$s%%"
+msgstr "+%1$s%2$s%1$s%%"
+
+#. translators: %1$s: A space or an empty string, %2$s: Option choice percentage decrease
+#: src/Fields/Abstract_Field.php:930
+msgid "-%1$s%2$s%1$s%%"
+msgstr "-%1$s%2$s%1$s%%"
+
+#. translators: %s: Option choice price per character
+#: src/Fields/Abstract_Field.php:937
+msgid "%s per character"
+msgstr "%s per merkki"
+
+#. translators: %s: Option choice price per character
+#: src/Fields/Abstract_Field.php:941
+msgid "%s per uploaded file"
+msgstr "%s per ladattu tiedosto"
+
+#: src/Fields/Abstract_Field.php:1375
+msgid "Edit this option"
+msgstr "Muokkaa tätä vaihtoehtoa"
+
+#. translators: %1$s: Min quantity %2$s: Option name %3$s: Product name
+#: src/Fields/Checkboxes.php:95
+msgid "You must select at least %1$d option for \"%2$s\" on \"%3$s\"."
+msgid_plural "You must select at least %1$d options for \"%2$s\" on \"%3$s\"."
+msgstr[0] "Sinun on valittava vähintään %1$d vaihtoehto \"%2$s\":lle \"%3$s\":ssa."
+msgstr[1] "Sinun on valittava vähintään %1$d vaihtoehtoa \"%2$s\":lle \"%3$s\":ssa."
+
+#. translators: %1$s: Max quantity %2$s: Option name %3$s: Product name
+#: src/Fields/Checkboxes.php:113
+msgid "You can only select up to %1$d option for \"%2$s\" on \"%3$s\"."
+msgid_plural "You can only select up to %1$d options for \"%2$s\" on \"%3$s\"."
+msgstr[0] "Voit valita vain enintään %1$d vaihtoehto \"%2$s\":lle \"%3$s\":ssa."
+msgstr[1] "Voit valita vain enintään %1$d vaihtoehtoa \"%2$s\":lle \"%3$s\":ssa."
+
+#: src/Fields/Date_Picker.php:86
+msgid "\"%1$s\" is not a valid date for \"%2$s\"."
+msgstr "\"%1$s\" ei ole voimassa oleva päivämäärä \"%2$s\":lle."
+
+#: src/Fields/Date_Picker.php:101
+msgid "Invalid minimum date for \"%1$s\"."
+msgstr "Virheellinen vähimmäispäivämäärä \"%1$s\":lle."
+
+#: src/Fields/Date_Picker.php:105
+msgid "\"%1$s\" is before the minimum date for \"%2$s\"."
+msgstr "\"%1$s\" on ennen vähimmäispäivämäärää \"%2$s\":lle."
+
+#: src/Fields/Date_Picker.php:119
+msgid "Invalid maximum date for \"%1$s\"."
+msgstr "Virheellinen enimmäispäivämäärä \"%1$s\":lle."
+
+#: src/Fields/Date_Picker.php:126
+msgid "\"%1$s\" is after the maximum date for \"%2$s\"."
+msgstr "\"%1$s\" on jälkeen enimmäispäivämäärän \"%2$s\":lle."
+
+#: src/Fields/Date_Picker.php:143
+msgid "Invalid disabled date for \"%1$s\"."
+msgstr "Virheellinen poistettu päivämäärä \"%1$s\":lle."
+
+#: src/Fields/Date_Picker.php:147
+msgid "\"%1$s\" is an excluded date for \"%2$s\"."
+msgstr "\"%1$s\" on suljettu päivämäärä \"%2$s\":lle."
+
+#: src/Fields/Date_Picker.php:154
+msgid "\"%1$s\" is a disabled past date for \"%2$s\"."
+msgstr "\"%1$s\" on poistettu menneisyydessä \"%2$s\":lle."
+
+#: src/Fields/Date_Picker.php:159
+msgid "\"%1$s\" is a disabled future date for \"%2$s\"."
+msgstr "\"%1$s\" on poistettu tulevaisuudessa \"%2$s\":lle."
+
+#: src/Fields/Date_Picker.php:166
+msgid "\"%1$s\" is a disabled date for \"%2$s\"."
+msgstr "\"%1$s\" on poistettu päivämäärä \"%2$s\":lle."
+
+#: src/Fields/Date_Picker.php:179
+msgid "\"%1$s\" is a disabled day for \"%2$s\"."
+msgstr "\"%1$s\" on poistettu päivä \"%2$s\":lle."
+
+#: src/Fields/Date_Picker.php:190
+msgid "\"%1$s\" is before the minimum time for \"%2$s\"."
+msgstr "\"%1$s\" on ennen vähimmäisaikaa \"%2$s\":lle."
+
+#: src/Fields/Date_Picker.php:199
+msgid "\"%1$s\" is after the maximum time for \"%2$s\"."
+msgstr "\"%1$s\" on maksimiajan jälkeen \"%2$s\"."
+
+#: src/Fields/Date_Picker.php:210
+msgid "\"%1$s\" is not a valid hour increment for \"%2$s\"."
+msgstr "\"%1$s\" ei ole voimassa oleva tuntiväli \"%2$s\":lle."
+
+#: src/Fields/Date_Picker.php:221
+msgid "\"%1$s\" is not a valid minute increment for \"%2$s\"."
+msgstr "\"%1$s\" ei ole voimassa oleva minuutinväli \"%2$s\":lle."
+
+#. translators: %1: Maxmimum number of files %2: Option name %3: Product name
+#: src/Fields/File.php:98
+msgid "You can only upload up to %1$d files(s) for \"%2$s\" on \"%3$s\"."
+msgstr "Voit ladata vain enintään %1$d tiedostoa \"%2$s\" \"%3$s\":ssä."
+
+#: src/Fields/File.php:218
+#: assets/js/modules/file-upload.js:1
+msgid "Drop files here to upload"
+msgstr "Pudota tiedostot tänne ladattavaksi"
+
+#: src/Fields/Number.php:78
+msgid "Please enter a valid number."
+msgstr "Ole hyvä ja syötä voimassa oleva numero."
+
+#. translators: %s: minimum number
+#: src/Fields/Number.php:85
+msgid "Please enter a number greater than or equal to %s."
+msgstr "Ole hyvä ja syötä numero, joka on suurempi tai yhtä suuri kuin %s."
+
+#. translators: %s: maximum number
+#: src/Fields/Number.php:92
+msgid "Please enter a number less than or equal to %s."
+msgstr "Ole hyvä ja syötä numero, joka on pienempi tai yhtä suuri kuin %s."
+
+#. translators: %s: step value
+#: src/Fields/Number.php:103
+msgid "Please enter a valid number. The value must be in steps of %1$s, starting from %2$s."
+msgstr "Ole hyvä ja syötä voimassa oleva numero. Arvon on oltava %1$s:n askelissa, alkaen %2$s:sta."
+
+#: src/Fields/Products.php:333
+#: src/Fields/Products.php:647
+msgid "Add to cart"
+msgstr "Lisää ostoskoriin"
+
+#: src/Fields/Products.php:470
+msgid "Select a product"
+msgstr "Valitse tuote"
+
+#: src/Fields/Products.php:991
+#: src/Fields/Products.php:998
+msgid "The selected product is not valid."
+msgstr "Valittu tuote ei ole voimassa."
+
+#. translators: %1$d: Min quantity %2$s: Option name %3$s: Product name
+#: src/Fields/Text.php:109
+msgid "You must input at least %1$d character for \"%2$s\" on \"%3$s\"."
+msgid_plural "You must input at least %1$d characters for \"%2$s\" on \"%3$s\"."
+msgstr[0] "Sinun on syötettävä vähintään %1$d merkki \"%2$s\" \"%3$s\":ssä."
+msgstr[1] "Sinun on syötettävä vähintään %1$d merkkiä \"%2$s\" \"%3$s\":ssä."
+
+#. translators: %1$d: Max quantity %2$s: Option name %3$s: Product name
+#: src/Fields/Text.php:124
+msgid "You can only input up to %1$d character for \"%2$s\" on \"%3$s\"."
+msgid_plural "You can only input up to %1$d characters for \"%2$s\" on \"%3$s\"."
+msgstr[0] "Voit syöttää vain enintään %1$d merkin \"%2$s\" \"%3$s\":ssä."
+msgstr[1] "Voit syöttää vain enintään %1$d merkkiä \"%2$s\" \"%3$s\":ssä."
+
+#: src/Handlers/Add_To_Cart.php:124
+#: src/Handlers/Add_To_Cart.php:132
+msgid "Select options"
+msgstr "Valitse vaihtoehdot"
+
+#: src/Handlers/Add_To_Cart.php:126
+msgid "This product has options that may be chosen on the product page"
+msgstr "Tällä tuotteella on vaihtoehtoja, jotka voidaan valita tuotteen sivulla"
+
+#: src/Handlers/Add_To_Cart.php:298
+msgid "%1$s &times; %2$s"
+msgstr "%1$s & kertaa; %2$s"
+
+#. translators: %1$s: link to the shop/cart, %2$s: product title, %3$s: list of additional products
+#: src/Handlers/Add_To_Cart.php:314
+msgid "%1$s has been added to your cart, together with the following additional products: %2$s"
+msgstr "%1$s on lisätty ostoskoriisi yhdessä seuraavien lisätuotteiden kanssa: %2$s"
+
+#. translators: %s is the group name, %s is the option name
+#: src/Integration/WPML.php:108
+msgid "Group %1$s, option %2$s, name"
+msgstr "Ryhmälle %1$s, vaihtoehto %2$s, nimi"
+
+#. translators: %s is the group name, %s is the option name
+#: src/Integration/WPML.php:114
+msgid "Group %1$s, option %2$s, description"
+msgstr "Ryhmälle %1$s, vaihtoehto %2$s, kuvaus"
+
+#. translators: %s is the group name, %s is the option name
+#: src/Integration/WPML.php:121
+msgid "Group %1$s, option %2$s, content"
+msgstr "Ryhm&auml; %1$s, vaihtoehto %2$s, sisältö"
+
+#. translators: %s is the group name, %s is the option name, %d is the choice index
+#: src/Integration/WPML.php:129
+msgid "Group %1$s, option %2$s, label %3$d"
+msgstr "Ryhm&auml; %1$s, vaihtoehto %2$s, etiketti %3$d"
+
+#: src/Rest/Routes/File_Upload.php:58
+#: src/Rest/Routes/File_Upload.php:62
+#: src/Rest/Routes/Formula.php:66
+msgid "Insufficient data supplied."
+msgstr "Tarjottu tieto on riittämätön."
+
+#: src/Rest/Routes/File_Upload.php:68
+#: src/Rest/Routes/File_Upload.php:72
+msgid "Insufficient data supplied"
+msgstr "Tarjottu tieto on riittämätön"
+
+#: src/Rest/Routes/File_Upload.php:76
+msgid "File type is not allowed."
+msgstr "Tiedostotyyppi ei ole sallittu."
+
+#: src/Rest/Routes/Formula.php:78
+msgid "Invalid option ID."
+msgstr "Virheellinen vaihtoehdon ID."
+
+#: src/Rest/Routes/Group.php:58
+msgid "An array of group IDs."
+msgstr "Taulukko ryhmien ID:istä."
+
+#: src/Rest/Routes/Group.php:104
+#: src/Rest/Routes/Group.php:126
+#: src/Rest/Routes/Group.php:1848
+msgid "The unique identifier for the group."
+msgstr "Yksilöllinen tunniste ryhmälle."
+
+#: src/Rest/Routes/Group.php:155
+msgid "An array of group_id => menu_order data."
+msgstr "Taulukko group_id => menu_order -tiedosta."
+
+#: src/Rest/Routes/Group.php:202
+msgid "An array of product IDs."
+msgstr "Taulukko tuotteen ID:istä."
+
+#: src/Rest/Routes/Group.php:207
+msgid "A search to filter products by name or SKU."
+msgstr "Haku tuotteiden suodattamiseksi nimen tai SKU:n mukaan."
+
+#: src/Rest/Routes/Group.php:227
+msgid "An array of category IDs."
+msgstr "Taulukko kategorian ID:istä."
+
+#: src/Rest/Routes/Group.php:247
+msgid "Search term to filter user roles."
+msgstr "Hakutermi käyttäjäroolien suodattamiseen."
+
+#: src/Rest/Routes/Group.php:269
+#: src/Rest/Routes/Group.php:299
+#: src/Rest/Routes/Group.php:1526
+msgid "No groups"
+msgstr "Ei ryhmiä"
+
+#: src/Rest/Routes/Group.php:479
+msgid "No group"
+msgstr "Ei ryhmää"
+
+#: src/Rest/Routes/Group.php:505
+msgid "Something went wrong while creating the group"
+msgstr "Jotain meni pieleen ryhmää luodessa"
+
+#: src/Rest/Routes/Group.php:523
+#: src/Rest/Routes/Group.php:1319
+msgid "Something went wrong: could not create an option."
+msgstr "Jotain meni pieleen: vaihtoehdon luominen epäonnistui."
+
+#: src/Rest/Routes/Group.php:560
+msgid "Something went wrong while duplicating the group"
+msgstr "Jotain meni pieleen ryhmää kopioitaessa"
+
+#: src/Rest/Routes/Group.php:988
+#: src/Rest/Routes/Group.php:1061
+msgid "Something went wrong: could not update the selected group"
+msgstr "Jotain meni pieleen: valitun ryhmän päivittäminen epäonnistui"
+
+#: src/Rest/Routes/Group.php:1015
+msgid "Something went wrong: could not update an option."
+msgstr "Jotain meni pieleen: vaihtoehdon päivittäminen epäonnistui."
+
+#: src/Rest/Routes/Group.php:1090
+msgid "Something went wrong: could not find the group"
+msgstr "Jotain meni pieleen: ryhmää ei löydetty"
+
+#: src/Rest/Routes/Group.php:1113
+#: src/Rest/Routes/Option.php:295
+msgid "Something went wrong with reodering."
+msgstr "Jotain meni pieleen järjestämisessä."
+
+#. translators: 1: option name, 2: formula name
+#: src/Rest/Routes/Group.php:1185
+msgid "The option \"%1$s\" no longer exists. Please update the formula \"%2$s\"."
+msgstr "Vaihtoehtoa \"%1$s\" ei enää ole. Päivitä kaava \"%2$s\"."
+
+#: src/Rest/Routes/Group.php:1585
+msgid "Guest"
+msgstr "Vieras"
+
+#: src/Rest/Routes/Group.php:1629
+msgid "Missing parameters. Please provide either \"include\" or \"search\" parameter."
+msgstr "Puuttuvat parametrit. Anna joko \"include\" tai \"search\" parametri."
+
+#: src/Rest/Routes/Group.php:1651
+msgid "No products"
+msgstr "Ei tuotteita"
+
+#: src/Rest/Routes/Group.php:1698
+msgid "No search term provided"
+msgstr "Ei hakutermia annettu"
+
+#: src/Rest/Routes/Group.php:1771
+msgid "No categories"
+msgstr "Ei kategorioita"
+
+#: src/Rest/Routes/Group.php:1808
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "No user roles found"
+msgstr "Ei käyttäjärooleja löytynyt"
+
+#: src/Rest/Routes/Group.php:1813
+msgid "Guest (Logged Out Users)"
+msgstr "Vieras (Kirjautumattomat käyttäjät)"
+
+#: src/Rest/Routes/Group.php:1853
+msgid "The menu order for the group."
+msgstr "Valikon järjestys ryhmälle."
+
+#: src/Rest/Routes/Group.php:1858
+msgid "The name for the group."
+msgstr "Ryhmä nimi."
+
+#: src/Rest/Routes/Group.php:1863
+msgid "Indicates whether the group name should be displayed."
+msgstr "Ilmaisee, pitäisikö ryhmän nimeä näyttää."
+
+#: src/Rest/Routes/Group.php:1868
+msgid "The visiblity status for the group."
+msgstr "Ryhmä näkyvyysstatus."
+
+#: src/Rest/Routes/Group.php:1876
+msgid "The products for the group."
+msgstr "Ryhmä tuotteet."
+
+#: src/Rest/Routes/Group.php:1884
+msgid "The products to exclude for for the group."
+msgstr "Ryhmästä poistettavat tuotteet."
+
+#: src/Rest/Routes/Group.php:1892
+msgid "The categories for the group."
+msgstr "Ryhmä kategoriat."
+
+#: src/Rest/Routes/Group.php:1900
+msgid "The categories to exclude for the group."
+msgstr "Ryhmästä poistettavat kategoriat."
+
+#: src/Rest/Routes/Group.php:1908
+msgid "The roles the group is visible to."
+msgstr "Roolit, joihin ryhmä on näkyvissä."
+
+#: src/Rest/Routes/Group.php:1916
+msgid "The roles the group is not visible to."
+msgstr "Roolit, joihin ryhmä ei ole näkyvissä."
+
+#: src/Rest/Routes/Group.php:1921
+msgid "Any specific extra settings for the group."
+msgstr "Muut erityiset asetukset ryhmälle."
+
+#: src/Rest/Routes/Group.php:1926
+msgid "The options for the group."
+msgstr "Ryhmä vaihtoehdot."
+
+#: src/Rest/Routes/Group.php:1933
+#: src/Rest/Routes/Option.php:80
+#: src/Rest/Routes/Option.php:128
+#: src/Rest/Routes/Option.php:324
+msgid "The unique identifier for the option."
+msgstr "Vaihtoehdon ainutlaatuinen tunniste."
+
+#: src/Rest/Routes/Group.php:1938
+#: src/Rest/Routes/Option.php:329
+msgid "The Group ID to which the option belongs."
+msgstr "Ryhmä ID, johon vaihtoehto kuuluu."
+
+#: src/Rest/Routes/Group.php:1943
+#: src/Rest/Routes/Option.php:334
+msgid "The menu order for the option."
+msgstr "Vaihtoehdon valikon järjestys."
+
+#: src/Rest/Routes/Group.php:1948
+#: src/Rest/Routes/Option.php:339
+msgid "The name for the option."
+msgstr "Vaihtoehdon nimi."
+
+#: src/Rest/Routes/Group.php:1953
+#: src/Rest/Routes/Option.php:344
+msgid "The visiblity status for the option."
+msgstr "Vaihtoehdon näkyvyysstatus."
+
+#: src/Rest/Routes/Group.php:1958
+#: src/Rest/Routes/Option.php:349
+msgid "The field type for the option."
+msgstr "Kenttätyyppi vaihtoehdolle."
+
+#: src/Rest/Routes/Group.php:1963
+#: src/Rest/Routes/Option.php:354
+msgid "The choices for the option."
+msgstr "Valinnat vaihtoehdolle."
+
+#: src/Rest/Routes/Group.php:1968
+#: src/Rest/Routes/Option.php:359
+msgid "Indicates whether the option is required."
+msgstr "Ilmaisee, onko vaihtoehto pakollinen."
+
+#: src/Rest/Routes/Group.php:1973
+#: src/Rest/Routes/Option.php:364
+msgid "Indicates whether the option name should be displayed."
+msgstr "Ilmaisee, tulisiko vaihtoehdon nimi näyttää."
+
+#: src/Rest/Routes/Group.php:1978
+msgid "Any specific extra settings for the option."
+msgstr "Muut erityiset asetukset vaihtoehdolle."
+
+#: src/Rest/Routes/Group.php:1983
+msgid "Settings for the datepicker"
+msgstr "Asetukset päivämäärävalitsimelle"
+
+#: src/Rest/Routes/Group.php:1988
+msgid "The choice type for the option."
+msgstr "Valintatyyppi vaihtoehdolle."
+
+#: src/Rest/Routes/Group.php:1993
+msgid "The selected attribute for the option."
+msgstr "Valittu attribuutti vaihtoehdolle."
+
+#: src/Rest/Routes/Group.php:1998
+msgid "The date format for the option."
+msgstr "Päivämäärämuoto vaihtoehdolle."
+
+#: src/Rest/Routes/Group.php:2003
+msgid "The minimum date for the option."
+msgstr "Minimipäivämäärä vaihtoehdolle."
+
+#: src/Rest/Routes/Group.php:2008
+msgid "The maximum date for the option."
+msgstr "Maksimipäivämäärä vaihtoehdolle."
+
+#: src/Rest/Routes/Group.php:2013
+msgid "The days to disable for the option."
+msgstr "Päivät, jotka on poistettava käytöstä vaihtoehdolle."
+
+#: src/Rest/Routes/Group.php:2021
+msgid "The dates to disable for the option."
+msgstr "Päivät, jotka on poistettava käytöstä vaihtoehdolle."
+
+#: src/Rest/Routes/Group.php:2026
+msgid "Indicates whether past dates should be disabled for the option."
+msgstr "Ilmaisee, tulisiko menneitä päivämääriä olla käytettävissä vaihtoehdolle."
+
+#: src/Rest/Routes/Group.php:2031
+msgid "Indicates whether future dates should be disabled for the option."
+msgstr "Ilmaisee, tulisiko tulevia päivämääriä olla käytettävissä vaihtoehdolle."
+
+#: src/Rest/Routes/Group.php:2036
+msgid "Indicates whether the time should be enabled for the option."
+msgstr "Ilmaisee, tulisiko aika olla käytettävissä vaihtoehdolle."
+
+#: src/Rest/Routes/Group.php:2041
+msgid "The minimum time for the option."
+msgstr "Minimiaika vaihtoehdolle."
+
+#: src/Rest/Routes/Group.php:2046
+msgid "The maximum time for the option."
+msgstr "Maksimiaika vaihtoehdolle."
+
+#: src/Rest/Routes/Group.php:2053
+msgid "The minute increment for the option."
+msgstr "Minuutin lisäys vaihtoehdolle."
+
+#: src/Rest/Routes/Group.php:2060
+msgid "The hour increment for the option."
+msgstr "Tunnin lisäys vaihtoehdolle."
+
+#: src/Rest/Routes/Option.php:60
+msgid "The unique identifier for the parent group."
+msgstr "Yksilöllinen tunniste vanhemmalle ryhmälle."
+
+#: src/Rest/Routes/Option.php:148
+msgid "An array of option_id => menu_order data."
+msgstr "Taulukko option_id => menu_order -tiedosta."
+
+#: src/Rest/Routes/Option.php:170
+#: src/Rest/Routes/Option.php:188
+msgid "No options"
+msgstr "Ei vaihtoehtoja"
+
+#: src/Rest/Routes/Option.php:206
+msgid "No option"
+msgstr "Ei vaihtoehtoa"
+
+#: src/Rest/Routes/Option.php:230
+msgid "Something went wrong while creating the option"
+msgstr "Jotain meni pieleen vaihtoehdon luomisen aikana"
+
+#: src/Rest/Routes/Option.php:253
+msgid "Something went wrong: could not update the selected option"
+msgstr "Jotain meni pieleen: valittua vaihtoehtoa ei voitu päivittää"
+
+#: src/Rest/Routes/Option.php:274
+msgid "Something went wrong: could not find the option"
+msgstr "Jotain meni pieleen: vaihtoehtoa ei voitu löytää"
+
+#: src/Upload_Directory.php:37
+msgid "The files uploaded via WooCommerce Product Options are not currently protected."
+msgstr "WooCommerce-tuotevaihtoehdoilla ladatut tiedostot eivät ole tällä hetkellä suojattuja."
+
+#: src/Upload_Directory.php:38
+msgid "To protect them, you must add this <a href=\"https://barn2.com/kb/\">NGINX redirect rule</a>. If you have already done this, or it does not apply to your site, you may permanently dismiss this notice."
+msgstr "Suojataksesi ne, sinun on lisättävä tämä <a href=\"https://barn2.com/kb/\">NGINX ohjaussääntö</a>. Jos olet jo tehnyt tämän tai se ei koske sivustoasi, voit pysyvästi hylätä tämän ilmoituksen."
+
+#. translators: %s: option name
+#: src/Util/Cart.php:85
+msgid "The option \"%s\" is not supported."
+msgstr "Vaihtoehto \"%s\" ei ole tuettu."
+
+#: src/Util/Display.php:127
+msgid "Total:"
+msgstr "Yhteensä:"
+
+#: src/Util/Util.php:283
+#: assets/js/admin/wpo-settings-page.js:29
+#: assets/js/modules/price-formulas.js:1
+msgid "Weight"
+msgstr "Paino"
+
+#: src/Util/Util.php:287
+#: assets/js/admin/wpo-settings-page.js:29
+#: assets/js/modules/price-formulas.js:1
+msgid "Length"
+msgstr "Pituus"
+
+#: src/Util/Util.php:291
+#: assets/js/admin/wpo-settings-page.js:29
+#: assets/js/modules/price-formulas.js:1
+msgid "Width"
+msgstr "Leveys"
+
+#: src/Util/Util.php:295
+#: assets/js/admin/wpo-settings-page.js:29
+#: assets/js/modules/price-formulas.js:1
+msgid "Height"
+msgstr "Korkeus"
+
+#: src/Fields/Abstract_Field.php:922
+msgctxt "one-time fee"
+msgid "%s"
+msgstr "%s"
+
+#: src/Fields/Abstract_Field.php:933
+msgctxt "quantity-based fee"
+msgid "%s"
+msgstr "%s"
+
+#: src/Handlers/Add_To_Cart.php:310
+msgctxt "Item name in quotes"
+msgid "&ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo;"

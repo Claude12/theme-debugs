@@ -1,0 +1,20 @@
+import { getModules, initModules } from '../wpo-single-product/module-loader';
+
+( function ( $ ) {
+	__webpack_public_path__ = window?.wpoSettings?.module_path_url;
+
+	/**
+	 * WooCommerce Restauarant Ordering (Custom init)
+	 */
+	$( document.body ).on( 'wro:modal:open', ( event ) => {
+		const cartForms = jQuery( event.target ).find( 'form.cart' ).get();
+		wpoSettings.add_to_cart_button_selector = '.wc-restaurant-product button.buy';
+
+		getModules().then( ( modules ) => {
+			initModules( modules, cartForms );
+			wpoSettings.add_to_cart_button_selector = null;
+		} ).catch( ( error ) => {
+			console.error( error );
+		} );
+	} );
+} )( jQuery );
