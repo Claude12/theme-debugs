@@ -1,0 +1,155 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Products Visibility By User Roles\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-08 10:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: addify_product_visibility.php:109
+msgid "af-product-visibility"
+msgstr ""
+
+#: addify_product_visibility.php:110 class_afpvu_admin.php:44
+#: class_afpvu_admin.php:44
+msgid "Products Visibility"
+msgstr ""
+
+#: class_afpvu_admin.php:56
+msgid "Products Visibility Settings"
+msgstr ""
+
+#: class_afpvu_admin.php:61
+msgid "Global Visibility"
+msgstr ""
+
+#: class_afpvu_admin.php:62 class_afpvu_admin.php:193
+msgid "Visibility By User Roles"
+msgstr ""
+
+#: class_afpvu_admin.php:63 class_afpvu_admin.php:1048
+msgid "General Settings"
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: class_afpvu_admin.php:104 class_afpvu_admin.php:659
+msgid "Show/Hide"
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: class_afpvu_admin.php:109
+msgid "Select either you want to show products or hide products."
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: class_afpvu_admin.php:121 class_afpvu_admin.php:672
+msgid "Select Products"
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: class_afpvu_admin.php:126
+msgid "Select products on which you want to apply."
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: class_afpvu_admin.php:136 class_afpvu_admin.php:703
+msgid "Select Categories"
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: class_afpvu_admin.php:141
+msgid "Select categories on which products on which you want to apply."
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: class_afpvu_admin.php:151 class_afpvu_admin.php:940
+msgid "Select CMS Pages"
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: class_afpvu_admin.php:156
+msgid "Select cms pages on which you want to apply."
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: class_afpvu_admin.php:166 class_afpvu_admin.php:995
+msgid "Custom Message"
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: class_afpvu_admin.php:171
+msgid ""
+"This message will be displayed when user try to access restircted catalog."
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: class_afpvu_admin.php:218
+msgid "Allow Search Engines to Index"
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: class_afpvu_admin.php:223
+msgid ""
+"Allow search engines to crawl and index hidden products, categories and "
+"other pages. While using global option when you hide products from guest "
+"users they will stay hidden for search engines as well i.e. Google won’t be "
+"able to rank those pages in search results. Please check this box if you "
+"want Google to crawl and rank hidden pages."
+msgstr ""
+
+#: class_afpvu_admin.php:234
+msgid "Global Visibility Settings"
+msgstr ""
+
+#: class_afpvu_admin.php:235
+msgid ""
+"This will help you to show or hide products for all customers including "
+"guests."
+msgstr ""
+
+#: class_afpvu_admin.php:236 class_afpvu_admin.php:597
+msgid ""
+"Please note that Visibility by User Roles have high priority. If following "
+"configurations are active for any user role – the global settings won’t work "
+"for that specific role."
+msgstr ""
+
+#: class_afpvu_admin.php:244 class_afpvu_admin.php:663
+msgid "Hide"
+msgstr ""
+
+#: class_afpvu_admin.php:245 class_afpvu_admin.php:664
+msgid "Show"
+msgstr ""
+
+#: class_afpvu_admin.php:645
+msgid "Enable for this Role"
+msgstr ""
+
+#. Name of the plugin
+msgid "Products Visibility By User Roles"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WooCommerce Products Visibility by User Roles plugin allows you to decide "
+"which products will be visible site-wide for each user role."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.addifypro.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "Addify"
+msgstr ""

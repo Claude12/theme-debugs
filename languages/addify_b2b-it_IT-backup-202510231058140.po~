@@ -1,0 +1,2282 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce B2B Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-26 06:36+0000\n"
+"PO-Revision-Date: 2020-08-27 11:42+0000\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.2; wp-5.5"
+
+#: addify_b2b.php:299
+msgid "af-product-visibility"
+msgstr "visibilità prodotto-af"
+
+#: addify_b2b.php:300 class_afb2b_admin.php:128
+msgid "Products Visibility"
+msgstr ""
+"Visibilità dei prodotti\n"
+
+#: addify_b2b.php:384 addify_b2b.php:397 class_afb2b_admin.php:70
+#: class_afb2b_admin.php:70
+msgid "Registration Fields"
+msgstr "Campi di registrazione"
+
+#: addify_b2b.php:385
+msgid "Registration Field"
+msgstr "Campo di registrazione"
+
+#: addify_b2b.php:386 addify_b2b.php:387
+msgid "Add New Field"
+msgstr "Aggiungi nuovo campo"
+
+#: addify_b2b.php:388
+msgid "Edit Registration Field"
+msgstr ""
+"Modifica campo di registrazione\n"
+
+#: addify_b2b.php:389
+msgid "New Registration Field"
+msgstr "Nuovo campo di registrazione"
+
+#: addify_b2b.php:390
+msgid "View Registration Field"
+msgstr "Visualizza il campo di registrazione"
+
+#: addify_b2b.php:391
+msgid "Search Registration Field"
+msgstr "Cerca campo di registrazione"
+
+#: addify_b2b.php:393
+msgid "No registration field found"
+msgstr "Nessun campo di registrazione trovato"
+
+#: addify_b2b.php:394
+msgid "No registration field found in trash"
+msgstr "Nessun campo di registrazione trovato nel cestino"
+
+#: addify_b2b.php:396
+msgid "All Fields"
+msgstr "Tutti i campi"
+
+#: addify_b2b.php:422
+msgid "Request for Quote Rules"
+msgstr "Richiesta di regole di preventivo"
+
+#: addify_b2b.php:423
+msgid "Request for QuotevRule"
+msgstr "Richiesta di regole di preventivo"
+
+#: addify_b2b.php:424 addify_b2b.php:425 addify_b2b.php:478
+msgid "Add New Rule"
+msgstr "Aggiungi nuova regola"
+
+#: addify_b2b.php:426 addify_b2b.php:480
+msgid "Edit Rule"
+msgstr "Modifica regola"
+
+#: addify_b2b.php:427 addify_b2b.php:481
+msgid "New Rule"
+msgstr "Nuova regola"
+
+#: addify_b2b.php:428 addify_b2b.php:482
+msgid "View Rule"
+msgstr "Visualizza regola"
+
+#: addify_b2b.php:429 addify_b2b.php:483
+msgid "Search Rule"
+msgstr "Regola di ricerca"
+
+#: addify_b2b.php:431 addify_b2b.php:485
+msgid "No rule found"
+msgstr "Nessuna regola trovata"
+
+#: addify_b2b.php:432 addify_b2b.php:486
+msgid "No rule found in trash"
+msgstr "Nessuna regola trovata nel cestino"
+
+#: addify_b2b.php:434 addify_b2b.php:488
+msgid "All Rules"
+msgstr "Tutte le regole"
+
+#: addify_b2b.php:435 additional_classes/class_afb2b_rfq_front.php:2433
+msgid "Request for Quote"
+msgstr ""
+"Richiesta di preventivo\n"
+
+#: addify_b2b.php:464
+msgid "All Quotes"
+msgstr "Tutte le citazioni"
+
+#: addify_b2b.php:476 addify_b2b.php:477
+msgid "Role Based Pricing Rules"
+msgstr "Regole dei prezzi basate sul ruolo"
+
+#: addify_b2b.php:479 includes/csp_product_level_variable_product.php:140
+#: includes/csp_product_level.php:138 includes/csp_rule_level.php:395
+msgid "Add Rule"
+msgstr "Aggiungi regola"
+
+#: addify_b2b.php:489 class_afb2b_admin.php:76 class_afb2b_admin.php:76
+#: class_afb2b_admin.php:134
+msgid "Role Based Pricing"
+msgstr "Prezzi basati sul ruolo"
+
+#. page title
+#: class_afb2b_admin.php:59 class_afb2b_admin.php:60
+msgid "B2B"
+msgstr "B2B"
+
+#: class_afb2b_admin.php:68
+msgid "B2B Settings"
+msgstr ""
+"Impostazioni B2B\n"
+
+#: class_afb2b_admin.php:68 class_afb2b_admin.php:123
+msgid "Settings"
+msgstr ""
+"impostazioni\n"
+
+#: class_afb2b_admin.php:72
+msgid "Request a Quote Rules"
+msgstr ""
+"Richiedi un preventivo Regole\n"
+
+#: class_afb2b_admin.php:74 class_afb2b_admin.php:215
+msgid "All Submitted Quotes"
+msgstr "Tutte le citazioni inviate"
+
+#: class_afb2b_admin.php:130
+msgid "Request a Quote"
+msgstr ""
+"Richiedi un preventivo\n"
+
+#: class_afb2b_admin.php:132
+msgid "B2B Registration"
+msgstr ""
+"Registrazione B2B\n"
+
+#: class_afb2b_admin.php:135
+msgid "Tax-Exempt"
+msgstr ""
+"Esente da imposte\n"
+
+#: class_afb2b_admin.php:136
+msgid "Shipping"
+msgstr ""
+"spedizione\n"
+
+#: class_afb2b_admin.php:137
+msgid "Payments"
+msgstr ""
+"Pagamenti\n"
+
+#: class_afb2b_admin.php:147
+msgid "Global Settings"
+msgstr ""
+"Impostazioni globali\n"
+
+#. ID used to identify the field throughout the theme
+#: class_afb2b_admin.php:151 includes/afb2b_product_visibility_settings.php:132
+msgid "Visibility By User Roles"
+msgstr ""
+"Visibilità per ruoli utente\n"
+
+#: class_afb2b_admin.php:155 class_afb2b_admin.php:190
+#: class_afb2b_admin.php:260 class_afb2b_admin.php:337
+#: includes/afb2b_product_visibility_settings.php:1006
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+#: class_afb2b_admin.php:195
+msgid "Fields Settings"
+msgstr "Impostazioni dei campi"
+
+#: class_afb2b_admin.php:200
+msgid "Redirect Settings"
+msgstr ""
+"Impostazioni di reindirizzamento\n"
+
+#: class_afb2b_admin.php:205
+msgid "Captcha Settings"
+msgstr ""
+"Impostazioni captcha\n"
+
+#: class_afb2b_admin.php:210
+msgid "All Quote Rules"
+msgstr ""
+"Tutte le regole di citazione\n"
+
+#: class_afb2b_admin.php:265
+msgid "Enable Default Fields"
+msgstr "Abilita campi predefiniti"
+
+#: class_afb2b_admin.php:270
+msgid "User Role Settings"
+msgstr "Impostazioni ruolo utente"
+
+#: class_afb2b_admin.php:275
+msgid "Approve New User Settings"
+msgstr "Approvare le nuove impostazioni utente"
+
+#: class_afb2b_admin.php:280
+msgid "Email Settings"
+msgstr "Impostazioni dell 'email"
+
+#: class_afb2b_admin.php:285
+msgid "All Registration Fields"
+msgstr ""
+"Tutti i campi di registrazione\n"
+
+#: class_afb2b_admin.php:342
+msgid "All Role Based Pricing Rules"
+msgstr ""
+"Tutte le regole di determinazione del prezzo basate sui ruoli\n"
+
+#: class_afb2b_admin.php:385
+msgid "General"
+msgstr ""
+"Generale\n"
+
+#: class_afb2b_admin.php:390
+msgid "Customers and Roles"
+msgstr ""
+"Clienti e ruoli\n"
+
+#: class_afb2b_admin.php:395
+msgid "Exemption Request"
+msgstr ""
+"Richiesta di esenzione\n"
+
+#: class_afb2b_admin.php:400
+msgid "Email & Notification"
+msgstr ""
+"Notifica per email\n"
+
+#: class_afb2b_admin.php:405
+msgid "Guest Users"
+msgstr ""
+"Utenti ospiti\n"
+
+#: includes/addify-afrfq-edit-form.php:19
+msgid "View Quote"
+msgstr "Vedi preventivo"
+
+#: includes/addify-afrfq-edit-form.php:25
+msgid "Quote #:"
+msgstr ""
+"Preventivo #:\n"
+
+#: includes/addify-afrfq-edit-form.php:45
+#: includes/addify-afrfq-edit-form.php:66
+#: includes/addify-afrfq-edit-form.php:90
+#: includes/addify-afrfq-edit-form.php:114
+#: includes/addify-afrfq-edit-form.php:138
+#: includes/addify-afrfq-edit-form.php:161
+#: includes/addify-afrfq-edit-form.php:184
+#: includes/addify-afrfq-edit-form.php:208
+#: includes/addify-afrfq-edit-form.php:232
+#: additional_classes/class_afb2b_rfq_front.php:2053
+#: additional_classes/class_afb2b_rfq_front.php:2071
+#: additional_classes/class_afb2b_rfq_front.php:2089
+#: additional_classes/class_afb2b_rfq_front.php:2107
+#: additional_classes/class_afb2b_rfq_front.php:2125
+#: additional_classes/class_afb2b_rfq_front.php:2143
+#: additional_classes/class_afb2b_rfq_front.php:2161
+#: additional_classes/class_afb2b_rfq_front.php:2179
+#: additional_classes/class_afb2b_rfq_front.php:2197
+msgid ":"
+msgstr ":"
+
+#: includes/addify-afrfq-edit-form.php:139
+#: additional_classes/class_afb2b_rfq_front.php:2128
+msgid "Click to View"
+msgstr "Clicca per vedere"
+
+#: includes/addify-afrfq-edit-form.php:247
+#: includes/addify_quote_request_page.php:74
+#: additional_classes/class_afb2b_rfq_front.php:2220
+#: additional_classes/class_afb2b_rfq_front.php:2726
+msgid "Product"
+msgstr ""
+"Prodotto\n"
+
+#: includes/addify-afrfq-edit-form.php:248
+#: includes/addify_quote_request_page.php:75
+msgid "Product SKU"
+msgstr "Codice prodotto"
+
+#: includes/addify-afrfq-edit-form.php:249
+#: includes/addify_quote_request_page.php:76
+#: additional_classes/class_afb2b_rfq_front.php:2222
+#: additional_classes/class_afb2b_rfq_front.php:2728
+msgid "Quantity"
+msgstr "Quantità"
+
+#: includes/csp_product_level_variable_product.php:3
+#: includes/csp_product_level.php:4 includes/csp_product_level.php:150
+msgid "Important Notes:"
+msgstr "Note importanti:"
+
+#: includes/csp_product_level_variable_product.php:5
+#: includes/csp_product_level.php:6 includes/csp_product_level.php:152
+msgid "Pricing Priority:"
+msgstr "Priorità dei prezzi:"
+
+#: includes/csp_product_level_variable_product.php:7
+#: includes/csp_product_level.php:8 includes/csp_product_level.php:154
+msgid "Price Specific to a Customer"
+msgstr ""
+"Prezzo specifico per un cliente\n"
+"\n"
+
+#: includes/csp_product_level_variable_product.php:8
+#: includes/csp_product_level.php:9 includes/csp_product_level.php:155
+msgid "Price Specific to a Role"
+msgstr "Prezzo specifico per un ruolo"
+
+#: includes/csp_product_level_variable_product.php:9
+#: includes/csp_product_level.php:10 includes/csp_product_level.php:156
+msgid "Regular Product Price"
+msgstr "Regular Product Price"
+
+#: includes/csp_product_level_variable_product.php:17
+#: includes/csp_product_level.php:16 includes/csp_rule_level.php:304
+#: additional_classes/class_afb2b_role_based_pricing_admin.php:63
+msgid "Role Based Pricing(By Customers)"
+msgstr ""
+"Prezzi basati sui ruoli (per cliente)\n"
+"\n"
+
+#: includes/csp_product_level_variable_product.php:18
+#: includes/csp_product_level.php:17 includes/csp_rule_level.php:305
+msgid ""
+"If more than one rule is applied on same customer then rule that is added "
+"last will be applied."
+msgstr ""
+"Se viene applicata più di una regola sullo stesso cliente, verrà applicata "
+"la regola aggiunta per ultima."
+
+#: includes/csp_product_level_variable_product.php:23
+#: includes/csp_product_level.php:22 includes/csp_rule_level.php:310
+msgid "Customer"
+msgstr ""
+"Cliente\n"
+
+#: includes/csp_product_level_variable_product.php:24
+#: includes/csp_product_level_variable_product.php:155
+#: includes/csp_product_level.php:23 includes/csp_product_level.php:167
+#: includes/csp_rule_level.php:311 includes/csp_rule_level.php:414
+msgid "Adjustment Type"
+msgstr "Tipo di regolazione"
+
+#: includes/csp_product_level_variable_product.php:25
+#: includes/csp_product_level_variable_product.php:156
+#: includes/csp_product_level.php:24 includes/csp_product_level.php:168
+#: includes/csp_rule_level.php:312 includes/csp_rule_level.php:415
+msgid "Value"
+msgstr "Valore"
+
+#: includes/csp_product_level_variable_product.php:26
+#: includes/csp_product_level_variable_product.php:157
+#: includes/csp_product_level.php:25 includes/csp_product_level.php:169
+#: includes/csp_rule_level.php:313 includes/csp_rule_level.php:416
+msgid "Min Qty"
+msgstr ""
+"La mia quantità\n"
+
+#: includes/csp_product_level_variable_product.php:27
+#: includes/csp_product_level_variable_product.php:158
+#: includes/csp_product_level.php:26 includes/csp_product_level.php:170
+#: includes/csp_rule_level.php:314 includes/csp_rule_level.php:417
+msgid "Max Qty"
+msgstr "Qtà massima"
+
+#: includes/csp_product_level_variable_product.php:28
+#: includes/csp_product_level.php:27 includes/csp_product_level.php:171
+#: includes/csp_rule_level.php:418
+msgid "Replace Orignal Price?"
+msgstr ""
+"Sostituire il prezzo originale?\n"
+
+#: includes/csp_product_level_variable_product.php:30
+#: includes/csp_product_level_variable_product.php:161
+#: includes/csp_product_level.php:29 includes/csp_product_level.php:173
+#: includes/csp_rule_level.php:317 includes/csp_rule_level.php:420
+msgid ""
+"This will only work for Fixed Price, Fixed Decrease and Percentage Decrease."
+msgstr ""
+"Funzionerà solo per Prezzo fisso, Diminuzione fissa e Diminuzione "
+"percentuale."
+
+#: includes/csp_product_level_variable_product.php:33
+#: includes/csp_product_level.php:32 includes/csp_rule_level.php:320
+msgid "Remove"
+msgstr ""
+"Rimuovere\n"
+
+#: includes/csp_product_level_variable_product.php:79
+#: includes/csp_product_level_variable_product.php:189
+#: includes/csp_product_level_variable_product.php:223
+#: includes/csp_product_level_variable_product.php:272
+#: includes/csp_product_level.php:79 includes/csp_product_level.php:201
+#: includes/csp_product_level.php:234 includes/csp_product_level.php:277
+#: includes/csp_rule_level.php:358 includes/csp_rule_level.php:455
+#: includes/csp_rule_level.php:489 includes/csp_rule_level.php:535
+msgid "Fixed Price"
+msgstr "Prezzo fisso"
+
+#: includes/csp_product_level_variable_product.php:80
+#: includes/csp_product_level_variable_product.php:190
+#: includes/csp_product_level_variable_product.php:224
+#: includes/csp_product_level_variable_product.php:273
+#: includes/csp_product_level.php:80 includes/csp_product_level.php:202
+#: includes/csp_product_level.php:235 includes/csp_product_level.php:278
+#: includes/csp_rule_level.php:359 includes/csp_rule_level.php:456
+#: includes/csp_rule_level.php:490 includes/csp_rule_level.php:536
+msgid "Fixed Increase"
+msgstr "Aumento fisso"
+
+#: includes/csp_product_level_variable_product.php:81
+#: includes/csp_product_level_variable_product.php:191
+#: includes/csp_product_level_variable_product.php:225
+#: includes/csp_product_level_variable_product.php:274
+#: includes/csp_product_level.php:81 includes/csp_product_level.php:203
+#: includes/csp_product_level.php:236 includes/csp_product_level.php:279
+#: includes/csp_rule_level.php:360 includes/csp_rule_level.php:457
+#: includes/csp_rule_level.php:491 includes/csp_rule_level.php:537
+msgid "Fixed Decrease"
+msgstr "Riduzione fissa"
+
+#: includes/csp_product_level_variable_product.php:82
+#: includes/csp_product_level_variable_product.php:192
+#: includes/csp_product_level_variable_product.php:226
+#: includes/csp_product_level_variable_product.php:275
+#: includes/csp_product_level.php:82 includes/csp_product_level.php:204
+#: includes/csp_product_level.php:237 includes/csp_product_level.php:280
+#: includes/csp_rule_level.php:361 includes/csp_rule_level.php:458
+#: includes/csp_rule_level.php:492 includes/csp_rule_level.php:538
+msgid "Percentage Decrease"
+msgstr "Diminuzione percentuale"
+
+#: includes/csp_product_level_variable_product.php:83
+#: includes/csp_product_level_variable_product.php:193
+#: includes/csp_product_level_variable_product.php:227
+#: includes/csp_product_level_variable_product.php:276
+#: includes/csp_product_level.php:83 includes/csp_product_level.php:205
+#: includes/csp_product_level.php:238 includes/csp_product_level.php:281
+#: includes/csp_rule_level.php:362 includes/csp_rule_level.php:459
+#: includes/csp_rule_level.php:493 includes/csp_rule_level.php:539
+msgid "Percentage Increase"
+msgstr "Aumento percentuale"
+
+#: includes/csp_product_level_variable_product.php:116
+#: includes/csp_product_level_variable_product.php:309
+#: includes/csp_product_level.php:114 includes/csp_product_level.php:314
+#: includes/csp_rule_level.php:572
+msgid "X"
+msgstr "X"
+
+#: includes/csp_product_level_variable_product.php:148
+#: includes/csp_product_level.php:162 includes/csp_rule_level.php:407
+#: additional_classes/class_afb2b_role_based_pricing_admin.php:70
+msgid "Role Based Pricing(By User Roles)"
+msgstr "Prezzi basati sui ruoli (per ruoli utente)"
+
+#: includes/csp_product_level_variable_product.php:154
+#: includes/csp_product_level.php:166 includes/csp_rule_level.php:413
+msgid "User Role"
+msgstr "Ruolo dell'utente"
+
+#: includes/csp_product_level_variable_product.php:159
+#: includes/csp_rule_level.php:315
+msgid "Replace Original Price?"
+msgstr ""
+"Sostituire il prezzo originale?\n"
+
+#: includes/csp_product_level_variable_product.php:188
+#: includes/csp_product_level_variable_product.php:222
+#: includes/csp_product_level.php:200 includes/csp_product_level.php:233
+#: includes/csp_rule_level.php:454 includes/csp_rule_level.php:488
+msgid "---Select Adjustment Type---"
+msgstr "--- Seleziona il tipo di regolazione ---"
+
+#: includes/csp_product_level_variable_product.php:219
+#: includes/csp_product_level.php:230 includes/csp_rule_level.php:485
+msgid "Non LoggedIn/Guest"
+msgstr "Non registrato / Guest"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:12
+msgid "Additional Fields Section Title"
+msgstr "Titolo sezione campi aggiuntivi"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:17
+msgid ""
+"This is the title for the section where additional fields are displayed on "
+"front end registration form."
+msgstr ""
+"Questo è il titolo della sezione in cui vengono visualizzati campi "
+"aggiuntivi nel modulo di registrazione del front-end."
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:34
+#: includes/afb2b_rfq_settings.php:280
+msgid "Site Key"
+msgstr "Chiave del sito"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:39
+#: includes/afb2b_rfq_settings.php:285
+msgid ""
+"This is Google reCaptcha site key, you can get this from Google. Without "
+"this key Google reCaptcha will not work."
+msgstr ""
+"Questa è la chiave del sito di Google reCaptcha, puoi ottenerla da Google. "
+"Senza questa chiave, Google reCaptcha non funzionerà.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:49
+#: includes/afb2b_rfq_settings.php:295
+msgid "Secret Key"
+msgstr "Chiave segreta"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:54
+#: includes/afb2b_rfq_settings.php:300
+msgid ""
+"This is Google reCaptcha secret key, you can get this from Google. Without "
+"this key Google reCaptcha will not work."
+msgstr ""
+"Questa è la chiave segreta di Google reCaptcha, puoi ottenerla da Google. "
+"Senza questa chiave, Google reCaptcha non funzionerà.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:73
+msgid "Enable User Role Selection"
+msgstr "Abilita selezione ruolo utente"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:78
+msgid ""
+"Enable/Disable User Role selection on registration page. If this is enable "
+"then a user role dropdown will be shown on registration page."
+msgstr ""
+"Abilita / Disabilita la selezione del ruolo utente nella pagina di "
+"registrazione. Se è abilitato, verrà visualizzato un menu a discesa del "
+"ruolo utente nella pagina di registrazione.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:88
+msgid "User Role Field Label"
+msgstr "Etichetta campo ruolo utente"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:93
+msgid "Field label for user role selection select box."
+msgstr "Casella di selezione etichetta campo per selezione ruolo utente."
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:103
+#: includes/tax-exempt/exempt_customers_roles.php:27
+#: includes/tax-exempt/exempt_request.php:12
+msgid "Select User Roles"
+msgstr "Seleziona ruoli utente"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:108
+msgid ""
+"Select which user roles you want to show in dropdown on registration page. "
+"Note: Administrator role is not available for show in dropdown."
+msgstr ""
+"Seleziona i ruoli utente che desideri mostrare nel menu a discesa nella "
+"pagina di registrazione. Nota: il ruolo di amministratore non è disponibile "
+"per la visualizzazione nel menu a discesa.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:127
+msgid "Enable Approve New User"
+msgstr "Abilita Approva nuovo utente"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:132
+msgid ""
+"Enable/Disable Approve new user. When this option is enabled all new "
+"registered users will be set to Pending until admin approves"
+msgstr ""
+"Abilita / Disabilita Approvazione nuovo utente. Quando questa opzione è "
+"abilitata, tutti i nuovi utenti registrati verranno impostati su In sospeso "
+"fino all'approvazione dell'amministratore"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:142
+msgid "Enable Approve New User at Checkout Page"
+msgstr ""
+"Abilita Approva nuovo utente nella pagina di pagamento\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:147
+msgid ""
+"Enable/Disable Approve new user at the Checkout page. If you enable it, the "
+"order of the customer with registration will be placed and pending status is "
+"assigned to the user. Once the user logout from the site, he will not able "
+"to log in again until the administrator approves the user. If you disable it,"
+" the user will be approved automatically when registered from the checkout "
+"page."
+msgstr ""
+"Abilita / Disabilita Approva nuovo utente nella pagina Checkout. Se lo "
+"abiliti, verrà effettuato l'ordine del cliente con registrazione e "
+"all'utente verrà assegnato lo stato in sospeso. Una volta che l'utente si "
+"disconnette dal sito, non sarà in grado di accedere nuovamente fino a quando "
+"l'amministratore non avrà approvato l'utente. Se lo disabiliti, l'utente "
+"verrà approvato automaticamente quando registrato dalla pagina di checkout.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:157
+msgid "Exclude User Roles"
+msgstr "Escludi ruoli utente"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:162
+msgid ""
+"Select which user roles users you want to exclude from manual approval. "
+"These user roles users will be automatically approved."
+msgstr ""
+"Seleziona quali ruoli utente desideri escludere dall'approvazione manuale. "
+"Questi ruoli utente verranno automaticamente approvati."
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:179
+msgid "Message for Users when Account is Created"
+msgstr "Messaggio per gli utenti quando viene creato l'account"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:184
+msgid ""
+"First message that will be displayed to user when he/she completes the "
+"registration process, this message will be displayed only when manual "
+"approval is required. "
+msgstr ""
+"Primo messaggio che verrà mostrato all'utente al termine del processo di "
+"registrazione, questo messaggio verrà visualizzato solo quando è richiesta "
+"l'approvazione manuale.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:194
+msgid "Message for Users when Account is pending for approval"
+msgstr "Messaggio per gli utenti quando l'account è in attesa di approvazione"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:199
+msgid ""
+"This will be displayed when user will attempt to login after registration "
+"and his/her account is still pending for admin approval. "
+msgstr ""
+"Questo verrà visualizzato quando l'utente tenterà di accedere dopo la "
+"registrazione e il suo account è ancora in attesa di approvazione da parte "
+"dell'amministratore.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:209
+msgid "Message for Users when Account is disapproved"
+msgstr "Messaggio per gli utenti quando l'account non è stato approvato"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:214
+msgid "Message for Users when Account is Disapproved By Admin."
+msgstr ""
+"Messaggio per gli utenti quando l'account non è approvato "
+"dall'amministratore."
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:235
+msgid "Admin Email Address"
+msgstr "Indirizzo e-mail amministratore"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:240
+msgid ""
+"This email address will be used for getting new user email notification for "
+"admin, if this is empty then default WordPress admin email address will be "
+"used."
+msgstr ""
+"Questo indirizzo e-mail verrà utilizzato per ricevere la notifica e-mail del "
+"nuovo utente per l'amministratore, se è vuoto, verrà utilizzato l'indirizzo "
+"e-mail dell'amministratore di WordPress predefinito.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:251
+msgid "Enable admin email notification"
+msgstr ""
+"Abilita la notifica e-mail dell'amministratore\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:256
+msgid "Enable or Disable new user notification to admin from this module. "
+msgstr ""
+"Abilita o disabilita la notifica del nuovo utente all'amministratore da "
+"questo modulo.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:267
+msgid "Admin Email Subject"
+msgstr "Amministratore Oggetto email"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:272
+msgid ""
+"This email subject is used when new user notification is sent to admin. "
+msgstr ""
+"Questo oggetto e-mail viene utilizzato quando la notifica di un nuovo utente "
+"viene inviata all'amministratore."
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:282
+msgid "Admin Email Text"
+msgstr ""
+"Testo e-mail amministratore\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:287
+msgid ""
+"This email text will be used when new user notification is sent to admin. If "
+"Approve new user is active then you can write text about new user approval."
+msgstr ""
+"Questo testo di posta elettronica verrà utilizzato quando la notifica di un "
+"nuovo utente viene inviata all'amministratore. Se Approva nuovo utente è "
+"attivo, è possibile scrivere un testo sulla nuova approvazione dell'utente."
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:299
+msgid "Enable welcome email notification"
+msgstr ""
+"Abilita la notifica e-mail di benvenuto\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:304
+msgid "Enable or Disable welcome email notification from this module. "
+msgstr ""
+"Abilita o disabilita la notifica e-mail di benvenuto da questo modulo.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:315
+msgid "Welcome/Pending Email Subject"
+msgstr ""
+"Oggetto e-mail di benvenuto / in sospeso\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:320
+msgid ""
+"This is the email subject; this subject is used when the email is sent to "
+"the user on account creation to include fields data and manual approval "
+"message."
+msgstr ""
+"Questo è l'oggetto dell'e-mail; questo argomento viene utilizzato quando l'e-"
+"mail viene inviata all'utente al momento della creazione dell'account per "
+"includere i dati dei campi e il messaggio di approvazione manuale."
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:330
+msgid "Welcome/Pending Email Body Text"
+msgstr ""
+"Testo corpo e-mail di benvenuto / in attesa\n"
+"\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:335
+msgid ""
+"This is the email body; when a new customer registers this email be "
+"automatically sent and the custom fields will be included in that email. "
+"This body text will be included along with the default fields data."
+msgstr ""
+"Questo è il corpo dell'email; quando un nuovo cliente registra questa e-mail "
+"verrà automaticamente inviata e i campi personalizzati saranno inclusi in "
+"quella e-mail. Questo testo del corpo verrà incluso insieme ai dati dei "
+"campi predefiniti."
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:346
+msgid "Approved Email Subject"
+msgstr "Oggetto email approvato"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:351
+msgid ""
+"This is the approved email subject, this subject is when used when account "
+"is approved by administrator.  "
+msgstr ""
+"Questo è l'oggetto e-mail approvato, questo oggetto viene utilizzato quando "
+"l'account è approvato dall'amministratore.\n"
+"\t\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:361
+msgid "Approved Email Text"
+msgstr "Testo email approvato"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:366
+msgid ""
+"This is the approved email message, this message is used when account is "
+"approved by administrator. "
+msgstr ""
+"Questo è il messaggio di posta elettronica approvato, questo messaggio viene "
+"utilizzato quando l'account è approvato dall'amministratore."
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:377
+msgid "Disapproved Email Subject"
+msgstr ""
+"Oggetto email non approvato\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:382
+msgid ""
+"This is the disapproved email subject, this subject is used when account is "
+"disapproved by administrator."
+msgstr ""
+"Questo è l'oggetto e-mail non approvato, questo oggetto viene utilizzato "
+"quando l'account non è approvato dall'amministratore."
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:392
+msgid "Disapproved Email Text"
+msgstr ""
+"Testo e-mail non approvato\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:397
+msgid ""
+"This is the disapproved email message, this message is used when account is "
+"disapproved by administrator."
+msgstr ""
+"Questo è il messaggio di posta elettronica non approvato, questo messaggio "
+"viene utilizzato quando l'account non è approvato dall'amministratore."
+
+#: includes/afb2b_registration_settings.php:414
+msgid "Manage registration module general settings from here."
+msgstr "Gestisci le impostazioni generali del modulo di registrazione da qui."
+
+#: includes/afb2b_registration_settings.php:430
+msgid "Google reCaptcha Settings"
+msgstr "Impostazioni di Google reCaptcha"
+
+#: includes/afb2b_registration_settings.php:454
+msgid ""
+"Manage user role settings from here. Choose whether you want to show user "
+"role dropdown on registration page or not and choose which user roles you "
+"want to show in dropdown on registration page."
+msgstr ""
+"Gestisci le impostazioni del ruolo utente da qui. Scegli dove vuoi mostrare "
+"il menu a discesa del ruolo utente nella pagina di registrazione o meno e "
+"scegli quali ruoli utente vuoi mostrare nel menu a discesa nella pagina di "
+"registrazione."
+
+#: includes/afb2b_registration_settings.php:521
+msgid "Manage Approve new user settings from here."
+msgstr "Gestisci Approvazione delle nuove impostazioni utente da qui."
+
+#: includes/afb2b_registration_settings.php:588
+msgid "Approve New User Messages Settings"
+msgstr "Approvare le impostazioni dei nuovi messaggi utente"
+
+#: includes/afb2b_registration_settings.php:621
+msgid "Manage Email Settings from here."
+msgstr ""
+"Gestisci le impostazioni e-mail da qui.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_product_visibility_settings.php:12
+msgid "Enable Global Visibility"
+msgstr ""
+"Abilita visibilità globale\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_product_visibility_settings.php:17
+msgid "Enable or Disable global visibility."
+msgstr ""
+"Abilita o disabilita la visibilità globale.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_product_visibility_settings.php:27
+#: includes/afb2b_product_visibility_settings.php:593
+msgid "Show/Hide"
+msgstr "Mostra/Nascondi"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_product_visibility_settings.php:32
+msgid "Select either you want to show products or hide products."
+msgstr "Seleziona se vuoi mostrare i prodotti o nascondere i prodotti."
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_product_visibility_settings.php:43
+#: includes/afb2b_product_visibility_settings.php:606
+#: includes/csp_rule_level.php:29
+msgid "Select Products"
+msgstr "Seleziona prodotti"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_product_visibility_settings.php:48
+msgid "Select products on which you want to apply."
+msgstr ""
+"Seleziona i prodotti che desideri.\n"
+"\t\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_product_visibility_settings.php:58
+#: includes/afb2b_product_visibility_settings.php:637
+#: includes/csp_rule_level.php:61
+msgid "Select Categories"
+msgstr "Seleziona categorie"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_product_visibility_settings.php:63
+msgid "Select categories on which products on which you want to apply."
+msgstr ""
+"Seleziona le categorie dei prodotti che vuoi.\n"
+"\n"
+"\t\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_product_visibility_settings.php:74
+#: includes/afb2b_product_visibility_settings.php:876
+msgid "Redirection Mode"
+msgstr "reindirizzamento"
+
+#: includes/afb2b_product_visibility_settings.php:88
+#: includes/afb2b_product_visibility_settings.php:470
+#: includes/afb2b_product_visibility_settings.php:899
+#: includes/afb2b_product_visibility_settings.php:910
+msgid "Custom URL"
+msgstr "URL personalizzato"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_product_visibility_settings.php:93
+msgid ""
+"Redirect to this custom URL when user try to access restricted catalog. e.g "
+"http://www.example.com"
+msgstr ""
+"Reindirizza a questo URL personalizzato quando l'utente tenta di accedere al "
+"catalogo con restrizioni. ad esempio http://www.example.com\n"
+
+#: includes/afb2b_product_visibility_settings.php:105
+#: includes/afb2b_product_visibility_settings.php:471
+#: includes/afb2b_product_visibility_settings.php:900
+#: includes/afb2b_product_visibility_settings.php:923
+msgid "Custom Message"
+msgstr "Messaggio personalizzato"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_product_visibility_settings.php:110
+msgid ""
+"This message will be displayed when user try to access restricted catalog."
+msgstr ""
+"Questo messaggio verrà visualizzato per gli utenti ospiti.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_product_visibility_settings.php:155
+msgid "Allow Search Engines to Index"
+msgstr "Consenti ai motori di ricerca di indicizzare"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_product_visibility_settings.php:160
+msgid ""
+"Allow search engines to crawl and index hidden products, categories and "
+"other pages. While using global option when you hide products from guest "
+"users they will stay hidden for search engines as well i.e. Google won’t be "
+"able to rank those pages in search results. Please check this box if you "
+"want Google to crawl and rank hidden pages."
+msgstr ""
+"Consenti ai motori di ricerca di eseguire la scansione e l'indicizzazione di "
+"prodotti, categorie e altre pagine nascoste. Quando si utilizza l'opzione "
+"globale quando si nascondono i prodotti dagli utenti ospiti, questi "
+"rimarranno nascosti anche per i motori di ricerca, ad esempio Google non "
+"sarà in grado di classificare tali pagine nei risultati di ricerca. "
+"Seleziona questa casella se desideri che Google esegua la scansione e "
+"classifichi le pagine nascoste."
+
+#: includes/afb2b_product_visibility_settings.php:173
+msgid "Global Visibility Settings"
+msgstr ""
+"Impostazioni di visibilità globale\n"
+
+#: includes/afb2b_product_visibility_settings.php:174
+msgid ""
+"This will help you to show or hide products for all customers including "
+"guests."
+msgstr ""
+"Questo ti aiuterà a mostrare o nascondere i prodotti per tutti i clienti, "
+"inclusi gli ospiti.\n"
+
+#: includes/afb2b_product_visibility_settings.php:175
+msgid ""
+"Please note that Visibility by User Roles have high priority. If "
+"configurations are active for any user role – the global settings won’t work "
+"for that specific role."
+msgstr ""
+"Tieni presente che la visibilità per ruoli utente ha la massima priorità. Se "
+"le configurazioni sono attive per qualsiasi ruolo utente, le impostazioni "
+"globali non funzioneranno per quel ruolo specifico.\n"
+
+#: includes/afb2b_product_visibility_settings.php:191
+#: includes/afb2b_product_visibility_settings.php:597
+msgid "Hide"
+msgstr ""
+"Nascondere\n"
+
+#: includes/afb2b_product_visibility_settings.php:192
+#: includes/afb2b_product_visibility_settings.php:598
+msgid "Show"
+msgstr ""
+"Mostrare\n"
+
+#: includes/afb2b_product_visibility_settings.php:522
+msgid ""
+"Please note that Visibility by User Roles have high priority. If following "
+"configurations are active for any user role – the global settings won’t work "
+"for that specific role."
+msgstr ""
+"Tieni presente che la visibilità per ruoli utente ha la massima priorità. Se "
+"le seguenti configurazioni sono attive per qualsiasi ruolo utente, le "
+"impostazioni globali non funzioneranno per quel ruolo specifico.\n"
+
+#: includes/afb2b_product_visibility_settings.php:579
+msgid "Enable for this Role"
+msgstr "Abilita per questo ruolo"
+
+#: includes/afb2b_role_based_pricing_settings.php:12
+msgid "Min Qty Error Message"
+msgstr "Messaggio di errore Qtà minima"
+
+#: includes/afb2b_role_based_pricing_settings.php:28
+msgid "Max Qty Error Message"
+msgstr "Messaggio di errore Qtà massima"
+
+#: includes/afb2b_role_based_pricing_settings.php:45
+msgid "Update Cart Error Message"
+msgstr "Messaggio di errore del carrello di aggiornamento"
+
+#: includes/afb2b_role_based_pricing_settings.php:62
+msgid "Manage module general settings from here."
+msgstr ""
+"Gestisci le impostazioni generali del modulo da qui.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afreg_def_fields.php:11
+msgid "Default Fields"
+msgstr ""
+"Campi predefiniti\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afreg_def_fields.php:16
+msgid "Enable/Disable Default Fields of WooCommerce."
+msgstr ""
+"Abilita / Disabilita i campi predefiniti di WooCommerce.\n"
+
+#: includes/afreg_def_fields.php:27
+msgid "Default Fields for Registration Settings"
+msgstr ""
+"Campi predefiniti per le impostazioni di registrazione\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_rfq_settings.php:12
+msgid "Quote Basket Placement"
+msgstr ""
+"Posizionamento del carrello preventivi\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_rfq_settings.php:17
+msgid ""
+"Select Menu where you want to show Mini Quote Basket. If there is no menu "
+"then you have to create menu in WordPress menus otherwise mini quote basket "
+"will not show."
+msgstr ""
+"Selezionare il menu in cui si desidera mostrare il Mini carrello delle "
+"quotazioni. Se non è presente alcun menu, è necessario creare un menu nei "
+"menu di WordPress, altrimenti il mini cestino dei preventivi non verrà "
+"visualizzato."
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_rfq_settings.php:27
+msgid "Quote Basket Style"
+msgstr ""
+"Citare lo stile del cestino\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_rfq_settings.php:32
+msgid "Select the design of Quote Basket"
+msgstr ""
+"Seleziona il design di Quote Basket\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_rfq_settings.php:42
+msgid "Enable for Guest"
+msgstr "Abilita per Ospite"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_rfq_settings.php:47
+msgid "Enable or Disable quote for guest users."
+msgstr "Abilita o disabilita il preventivo per gli utenti ospiti."
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_rfq_settings.php:57
+msgid "Enable Ajax add to Quote (Shop Page)"
+msgstr "Abilita Ajax Aggiungi al preventivo (Pagina del negozio)"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_rfq_settings.php:62
+msgid "Enable or Disable Ajax add to quote on shop page."
+msgstr ""
+"Abilita o disabilita Ajax Aggiungi al preventivo nella pagina del negozio."
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_rfq_settings.php:72
+msgid "Enable Ajax add to Quote (Product Page)"
+msgstr "Abilita Ajax Aggiungi al preventivo (Pagina del prodotto)"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_rfq_settings.php:77
+msgid "Enable or Disable Ajax add to quote on product page."
+msgstr ""
+"Abilita o disabilita Ajax Aggiungi al preventivo nella pagina del prodotto."
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_rfq_settings.php:87
+msgid "Success Message"
+msgstr "Messaggio di successo"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_rfq_settings.php:92
+msgid ""
+"This message will appear on quote submission page, when user submit quote."
+msgstr ""
+"Questo messaggio verrà visualizzato nella pagina di invio del preventivo, "
+"quando l'utente invia il preventivo."
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_rfq_settings.php:102
+msgid "Email Subject"
+msgstr "Oggetto dell'email"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_rfq_settings.php:107
+msgid ""
+"This subject will be used when email is sent to user when quote is submitted."
+msgstr ""
+"Questo oggetto verrà utilizzato quando l'e-mail viene inviata all'utente "
+"quando viene inviato il preventivo.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_rfq_settings.php:117
+msgid "Email Response Text"
+msgstr ""
+"Testo di risposta via email\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_rfq_settings.php:122
+msgid ""
+"This text will be used when email is sent to user when quote is submitted."
+msgstr ""
+"Questo testo verrà utilizzato quando l'e-mail viene inviata all'utente "
+"quando viene inviato il preventivo.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_rfq_settings.php:132
+msgid "Send Email to Customer"
+msgstr ""
+"Invia e-mail al cliente\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_rfq_settings.php:137
+msgid ""
+"Enable this if you want to send email to customer after submitting a Quote."
+msgstr ""
+"Abilitalo se desideri inviare un'e-mail al cliente dopo aver inviato un "
+"preventivo.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_rfq_settings.php:148
+msgid "Include Copy of Quote in Email"
+msgstr ""
+"Includi una copia del preventivo nell'e-mail\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_rfq_settings.php:153
+msgid ""
+"Enable this if you want to include a copy of quote details in the email sent "
+"to customer. The quote details will be embedded along the with the above "
+"email body text."
+msgstr ""
+"Abilitalo se desideri includere una copia dei dettagli del preventivo nell'e-"
+"mail inviata al cliente. I dettagli del preventivo verranno incorporati "
+"insieme al testo del corpo dell'email sopra.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_rfq_settings.php:163
+#: includes/tax-exempt/email_notification.php:12
+#: includes/tax-exempt/email_notification.php:27
+#: includes/tax-exempt/email_notification.php:43
+msgid "Admin/Shop Manager Email"
+msgstr "Email amministratore / responsabile negozio"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_rfq_settings.php:168
+msgid ""
+"All admin emails that are related to our module will be sent to this email "
+"address. If this email is empty then default admin email address is used."
+msgstr ""
+"Tutte le e-mail di amministrazione correlate al nostro modulo verranno "
+"inviate a questo indirizzo e-mail. Se questa e-mail è vuota, viene "
+"utilizzato l'indirizzo e-mail amministratore predefinito. "
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_rfq_settings.php:189
+msgid "Request a Quote Form Fields"
+msgstr ""
+"Campi modulo Richiedi un preventivo\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_rfq_settings.php:211
+msgid "Redirect to Quote Page"
+msgstr ""
+"Reindirizza alla pagina del preventivo\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_rfq_settings.php:216
+msgid "Redirect to Quote page after a product added to Quote successfully."
+msgstr ""
+"Reindirizza alla pagina Preventivo dopo che un prodotto è stato aggiunto "
+"correttamente a Preventivo.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_rfq_settings.php:226
+msgid "Redirect After Quote Submission"
+msgstr ""
+"Reindirizzamento dopo l'invio del preventivo\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_rfq_settings.php:231
+msgid "Redirect to any page after Quote is submitted successfully."
+msgstr ""
+"Reindirizza a qualsiasi pagina dopo che il preventivo è stato inviato con "
+"successo.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_rfq_settings.php:241
+msgid "URL of Page to Redirect after Quote Submission"
+msgstr ""
+"URL della pagina da reindirizzare dopo l'invio del preventivo\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_rfq_settings.php:246
+msgid "URL of page to redirect after Quote is submitted successfully."
+msgstr "preventivo "
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_rfq_settings.php:265
+msgid "Enable Captcha"
+msgstr "Abilita Captcha"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_rfq_settings.php:270
+msgid "Enable Google reCaptcha field on the Request a Quote Form."
+msgstr "Abilita il campo Google reCaptcha nel modulo Richiedi un preventivo."
+
+#: includes/afb2b_rfq_settings.php:316
+msgid ""
+"This will help you to hide price and add to cart and show request a quote "
+"button for selected user roles including the guests users."
+msgstr ""
+"Questo ti aiuterà a nascondere il prezzo e aggiungere al carrello e mostrare "
+"il pulsante di richiesta di preventivo per i ruoli utente selezionati, "
+"inclusi gli utenti ospiti.\n"
+
+#: includes/afb2b_rfq_settings.php:333
+msgid "---Choose Menu---"
+msgstr "---Menu di scelta---"
+
+#: includes/afb2b_rfq_settings.php:450
+msgid "This will help you to add fields on the quote form."
+msgstr ""
+"Questo ti aiuterà ad aggiungere campi nel modulo di preventivo.\n"
+
+#: includes/afb2b_rfq_settings.php:506
+msgid "Name Field"
+msgstr "Nome campo"
+
+#: includes/afb2b_rfq_settings.php:514
+msgid "Enable Name Field"
+msgstr "Abilita campo Nome"
+
+#: includes/afb2b_rfq_settings.php:519
+msgid "Enable Name field on the Request a Quote Form."
+msgstr "Abilitare il campo Nome nel modulo Richiedi un preventivo."
+
+#: includes/afb2b_rfq_settings.php:526 includes/afb2b_rfq_settings.php:619
+#: includes/afb2b_rfq_settings.php:712 includes/afb2b_rfq_settings.php:807
+#: includes/afb2b_rfq_settings.php:908 includes/afb2b_rfq_settings.php:1014
+#: includes/afb2b_rfq_settings.php:1110 includes/afb2b_rfq_settings.php:1206
+#: includes/afb2b_rfq_settings.php:1302
+msgid "is Required?"
+msgstr "è obbligatorio?"
+
+#: includes/afb2b_rfq_settings.php:531
+msgid "Check if you want to make Name field required."
+msgstr ""
+"Controlla se vuoi rendere obbligatorio il campo Nome.\n"
+
+#: includes/afb2b_rfq_settings.php:538 includes/afb2b_rfq_settings.php:631
+#: includes/afb2b_rfq_settings.php:724 includes/afb2b_rfq_settings.php:819
+#: includes/afb2b_rfq_settings.php:920 includes/afb2b_rfq_settings.php:1026
+#: includes/afb2b_rfq_settings.php:1122 includes/afb2b_rfq_settings.php:1218
+#: includes/afb2b_rfq_settings.php:1314
+msgid "Sort Order"
+msgstr ""
+"Ordinamento\n"
+"\n"
+
+#: includes/afb2b_rfq_settings.php:543
+msgid "Sort Order of the Name field."
+msgstr ""
+"Ordinamento del campo Nome.\n"
+
+#: includes/afb2b_rfq_settings.php:550 includes/afb2b_rfq_settings.php:643
+#: includes/afb2b_rfq_settings.php:736 includes/afb2b_rfq_settings.php:831
+#: includes/afb2b_rfq_settings.php:932 includes/afb2b_rfq_settings.php:1038
+#: includes/afb2b_rfq_settings.php:1134 includes/afb2b_rfq_settings.php:1230
+#: includes/afb2b_rfq_settings.php:1326
+msgid "Label"
+msgstr "Etichetta"
+
+#: includes/afb2b_rfq_settings.php:555
+msgid "Label of the Name field."
+msgstr ""
+"Etichetta del campo Nome.\n"
+
+#: includes/afb2b_rfq_settings.php:599
+msgid "Email Field"
+msgstr ""
+"Campo email\n"
+"\n"
+
+#: includes/afb2b_rfq_settings.php:607
+msgid "Enable Email Field"
+msgstr "Abilita campo e-mail"
+
+#: includes/afb2b_rfq_settings.php:612
+msgid "Enable Email field on the Request a Quote Form."
+msgstr "Abilita il campo Email nel modulo Richiedi un preventivo."
+
+#: includes/afb2b_rfq_settings.php:624
+msgid "Check if you want to make Email field required."
+msgstr ""
+"Controlla se vuoi rendere obbligatorio il campo Email.\n"
+
+#: includes/afb2b_rfq_settings.php:636
+msgid "Sort Order of the Email field."
+msgstr ""
+"Ordinamento del campo Email.\n"
+
+#: includes/afb2b_rfq_settings.php:648
+msgid "Label of the Email field."
+msgstr ""
+"Etichetta del campo Email.\n"
+
+#: includes/afb2b_rfq_settings.php:692
+msgid "Company Field"
+msgstr "Campo dell'azienda"
+
+#: includes/afb2b_rfq_settings.php:700
+msgid "Enable Company Field"
+msgstr "Abilita campo azienda"
+
+#: includes/afb2b_rfq_settings.php:705
+msgid "Enable Company field on the Request a Quote Form."
+msgstr "Abilita il campo Azienda nel modulo Richiedi un preventivo."
+
+#: includes/afb2b_rfq_settings.php:717
+msgid "Check if you want to make Company field required."
+msgstr ""
+"Controlla se vuoi rendere obbligatorio il campo Azienda.\n"
+
+#: includes/afb2b_rfq_settings.php:729
+msgid "Sort Order of the Company field."
+msgstr ""
+"Ordinamento del campo Azienda.\n"
+
+#: includes/afb2b_rfq_settings.php:741
+msgid "Label of the Company field."
+msgstr ""
+"Etichetta del campo Azienda.\n"
+
+#: includes/afb2b_rfq_settings.php:786
+msgid "Phone Field"
+msgstr ""
+"Campo telefono\n"
+
+#: includes/afb2b_rfq_settings.php:795
+msgid "Enable Phone Field"
+msgstr "Abilita campo telefono"
+
+#: includes/afb2b_rfq_settings.php:800
+msgid "Enable Phone field on the Request a Quote Form."
+msgstr "Abilita il campo Telefono nel modulo Richiedi un preventivo."
+
+#: includes/afb2b_rfq_settings.php:812
+msgid "Check if you want to make Phone field required."
+msgstr "Controlla se vuoi rendere obbligatorio il campo Telefono."
+
+#: includes/afb2b_rfq_settings.php:824
+msgid "Sort Order of the Phone field."
+msgstr "Ordinamento del campo Telefono."
+
+#: includes/afb2b_rfq_settings.php:836
+msgid "Label of the Phone field."
+msgstr "Etichetta del campo Telefono."
+
+#: includes/afb2b_rfq_settings.php:888
+msgid "File/Image Upload Field"
+msgstr "Campo di caricamento file / immagini"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_rfq_settings.php:896 includes/tax-exempt/general.php:87
+msgid "Enable File Upload Field"
+msgstr "Abilita campo caricamento file"
+
+#: includes/afb2b_rfq_settings.php:901
+msgid "Enable File/Image Upload field on the Request a Quote Form."
+msgstr ""
+"Abilitare il campo Caricamento file / immagini nel modulo Richiedi un "
+"preventivo."
+
+#: includes/afb2b_rfq_settings.php:913
+msgid "Check if you want to make File/Image Upload field required."
+msgstr ""
+"Controlla se vuoi rendere obbligatorio il campo Caricamento file / immagini."
+"\n"
+"\n"
+
+#: includes/afb2b_rfq_settings.php:925
+msgid "Sort Order of the File/Image Upload field."
+msgstr ""
+"Ordinamento del campo Caricamento file / immagini.\n"
+
+#: includes/afb2b_rfq_settings.php:937
+msgid "Label of the File/Image Upload field."
+msgstr ""
+"Etichetta del campo Caricamento file / immagine.\n"
+
+#: includes/afb2b_rfq_settings.php:944
+msgid "Allowed Types"
+msgstr "Tipi consentiti"
+
+#: includes/afb2b_rfq_settings.php:949
+msgid ""
+"Allowed file upload types. e.g (png,jpg,txt). Add comma separated, please do "
+"not use dot(.)."
+msgstr ""
+"Tipi di caricamento file consentiti. ad esempio (png, jpg, txt). Aggiungi "
+"una virgola di separazione, non utilizzare il punto (.)."
+
+#: includes/afb2b_rfq_settings.php:994
+msgid "Message Field"
+msgstr "Campo messaggi"
+
+#: includes/afb2b_rfq_settings.php:1002
+msgid "Enable Message Field"
+msgstr "Abilita campo messaggi"
+
+#: includes/afb2b_rfq_settings.php:1007
+msgid "Enable Message field on the Request a Quote Form."
+msgstr "Abilita il campo Messaggio nel modulo Richiedi un preventivo."
+
+#: includes/afb2b_rfq_settings.php:1019
+msgid "Check if you want to make Message field required."
+msgstr ""
+"Controlla se vuoi rendere obbligatorio il campo Messaggio.\n"
+
+#: includes/afb2b_rfq_settings.php:1031
+msgid "Sort Order of the Message field."
+msgstr ""
+"Ordinamento del campo Messaggio.\n"
+
+#: includes/afb2b_rfq_settings.php:1043
+msgid "Label of the Message field."
+msgstr ""
+"Etichetta del campo Messaggio.\n"
+
+#: includes/afb2b_rfq_settings.php:1089
+msgid "Field 1"
+msgstr "Campo 1"
+
+#: includes/afb2b_rfq_settings.php:1098
+msgid "Enable Field 1"
+msgstr "Abilita campo 1"
+
+#: includes/afb2b_rfq_settings.php:1103
+msgid "Enable Additional Field 1 on the Request a Quote Form."
+msgstr "Abilitare il campo aggiuntivo 1 nel modulo Richiedi un preventivo."
+
+#: includes/afb2b_rfq_settings.php:1115
+msgid "Check if you want to make Additional Field 1 field required."
+msgstr "Controlla se vuoi rendere obbligatorio il campo Campo aggiuntivo 1."
+
+#: includes/afb2b_rfq_settings.php:1127
+msgid "Sort Order of the Additional Field 1 field."
+msgstr ""
+"Ordinamento del campo Campo aggiuntivo 1.\n"
+
+#: includes/afb2b_rfq_settings.php:1139
+msgid "Label of the Additional Field 1 field."
+msgstr ""
+"Etichetta del campo Campo aggiuntivo 1.\n"
+"\n"
+
+#: includes/afb2b_rfq_settings.php:1185 includes/afb2b_rfq_settings.php:1281
+msgid "Field 2"
+msgstr "Campo 2"
+
+#: includes/afb2b_rfq_settings.php:1194
+msgid "Enable Field 2"
+msgstr "Abilita campo 2"
+
+#: includes/afb2b_rfq_settings.php:1199
+msgid "Enable Additional Field 2 on the Request a Quote Form."
+msgstr "Abilitare il campo aggiuntivo 2 nel modulo Richiedi un preventivo."
+
+#: includes/afb2b_rfq_settings.php:1211
+msgid "Check if you want to make Additional Field 2 field required."
+msgstr "Controlla se vuoi rendere obbligatorio il campo Campo aggiuntivo 2."
+
+#: includes/afb2b_rfq_settings.php:1223
+msgid "Sort Order of the Additional Field 2 field."
+msgstr ""
+"Ordinamento del campo Campo aggiuntivo 2.\n"
+
+#: includes/afb2b_rfq_settings.php:1235
+msgid "Label of the Additional Field 2 field."
+msgstr ""
+"Etichetta del campo Campo aggiuntivo 2.\n"
+
+#: includes/afb2b_rfq_settings.php:1290
+msgid "Enable Field 3"
+msgstr "Abilita campo 3"
+
+#: includes/afb2b_rfq_settings.php:1295
+msgid "Enable Additional Field 3 on the Request a Quote Form."
+msgstr "Abilitare il campo aggiuntivo 3 nel modulo Richiedi un preventivo."
+
+#: includes/afb2b_rfq_settings.php:1307
+msgid "Check if you want to make Additional Field 3 field required."
+msgstr "Controlla se vuoi rendere obbligatorio il campo Campo aggiuntivo 3."
+
+#: includes/afb2b_rfq_settings.php:1319
+msgid "Sort Order of the Additional Field 3 field."
+msgstr ""
+"Ordinamento del campo Campo aggiuntivo 3.\n"
+
+#: includes/afb2b_rfq_settings.php:1331
+msgid "Label of the Additional Field 3 field."
+msgstr ""
+"Etichetta del campo Campo aggiuntivo 3.\n"
+
+#: includes/afb2b_rfq_settings.php:1354
+msgid ""
+"Manage the redirect to quote page after Add to Quote and redirect to any "
+"page after quote form submission ."
+msgstr ""
+"Gestisci il reindirizzamento alla pagina del preventivo dopo Aggiungi a "
+"preventivo e reindirizza a qualsiasi pagina dopo l'invio del modulo di "
+"preventivo.\n"
+
+#: includes/afb2b_rfq_settings.php:1389
+msgid "Manage Google reCaptcha settings."
+msgstr ""
+"Gestisci le impostazioni di Google reCaptcha.\n"
+
+#: includes/addify_quote_request_page.php:174
+msgid "Remove this item"
+msgstr "Rimuovi questo articolo"
+
+#: includes/addify_quote_request_page.php:380
+msgid "Submit"
+msgstr "Invia"
+
+#: includes/addify_quote_request_page.php:390
+msgid "Your quote is currently empty."
+msgstr "Il tuo preventivo è attualmente vuoto."
+
+#: includes/addify_quote_request_page.php:391
+msgid "Return To Shop"
+msgstr "Ritorna al negozio"
+
+#. ID used to identify the field throughout the theme
+#: includes/addify-payments-by-user-roles.php:11
+#: includes/payments/addify-payments-by-user-roles.php:11
+msgid "Select Payement Method for User Roles"
+msgstr ""
+"Seleziona Metodo di pagamento per ruoli utente\n"
+
+#: includes/addify-payments-by-user-roles.php:49
+#: includes/shipping/addify-shipping-by-user-roles-settings.php:92
+#: includes/payments/addify-payments-by-user-roles.php:49
+#: includes/payments/addify-payments-by-user-roles.php:94
+msgid "Select Payment Methods:"
+msgstr ""
+"Seleziona metodi di pagamento:\n"
+
+#: includes/csp_rule_level.php:9
+#: additional_classes/class_afb2b_rfq_admin.php:88
+#: additional_classes/class_afb2b_role_based_pricing_admin.php:348
+msgid "Rule Priority"
+msgstr ""
+"Priorità alle regole\n"
+"\n"
+
+#: includes/csp_rule_level.php:13
+msgid ""
+"Provide number between 0 and 100, If more than one rules are applied on same "
+"item then rule with higher priority will be applied. 1 is high and 100 is "
+"low."
+msgstr ""
+"Fornire un numero compreso tra 0 e 100. Se più di una regola viene applicata "
+"allo stesso articolo, verrà applicata la regola con priorità più alta. 1 è "
+"alto e 100 è basso.\n"
+
+#: includes/csp_rule_level.php:18
+#: additional_classes/class_afb2b_rfq_admin.php:134
+msgid "Apply on All Products"
+msgstr "Applica a tutti i prodotti"
+
+#: includes/csp_rule_level.php:24
+#: additional_classes/class_afb2b_rfq_admin.php:140
+msgid "Check this if you want to apply this rule on all products."
+msgstr ""
+"Seleziona questa opzione se desideri applicare questa regola su tutti i "
+"prodotti."
+
+#: additional_classes/class_afb2b_rfq_front.php:915
+msgid " items in quote"
+msgstr ""
+"articoli in preventivo\n"
+
+#: additional_classes/class_afb2b_rfq_front.php:1036
+msgid " View Quote"
+msgstr "Vedi preventivo"
+
+#: additional_classes/class_afb2b_rfq_front.php:1043
+msgid "No products in quote basket."
+msgstr "Nessun prodotto nel carrello preventivo."
+
+#: additional_classes/class_afb2b_rfq_front.php:1073
+msgid "has been added to your quote."
+msgstr "è stato aggiunto al tuo preventivo."
+
+#: additional_classes/class_afb2b_rfq_front.php:1712
+msgid "Sorry, your nonce did not verify."
+msgstr "Spiacenti, il tuo nonce non è verificato."
+
+#: additional_classes/class_afb2b_rfq_front.php:1737
+#: additional_classes/class_afb2b_rfq_front.php:1760
+#: additional_classes/class_afb2b_rfq_front.php:1783
+#: additional_classes/class_afb2b_rfq_front.php:1808
+#: additional_classes/class_afb2b_rfq_front.php:1831
+#: additional_classes/class_afb2b_rfq_front.php:1856
+#: additional_classes/class_afb2b_rfq_front.php:1879
+#: additional_classes/class_afb2b_rfq_front.php:1902
+#: additional_classes/class_afb2b_rfq_front.php:1922
+msgid " is a required field!"
+msgstr ""
+"è un campo obbligatorio!\n"
+
+#: additional_classes/class_afb2b_rfq_front.php:1954
+msgid "Invalid file type!"
+msgstr ""
+"Tipo di file non valido!\n"
+
+#: additional_classes/class_afb2b_rfq_front.php:1968
+msgid "Invalid reCaptcha!"
+msgstr "ReCaptcha non valido!"
+
+#: additional_classes/class_afb2b_rfq_front.php:1971
+msgid "reCaptcha is required!"
+msgstr "reCaptcha è richiesto!"
+
+#: additional_classes/class_afb2b_rfq_front.php:2211
+msgid "Quote Info:"
+msgstr "Informazioni sulle quotazioni:"
+
+#: additional_classes/class_afb2b_rfq_front.php:2221
+#: additional_classes/class_afb2b_rfq_front.php:2727
+msgid "SKU"
+msgstr "SKU"
+
+#: additional_classes/class_afb2b_rfq_front.php:2390
+msgid "You have recieved a new quote request."
+msgstr "Hai ricevuto una nuova richiesta di preventivo."
+
+#: additional_classes/class_afb2b_rfq_front.php:2401
+msgid "Request a quote!"
+msgstr ""
+"Richiedi un preventivo!\n"
+
+#: additional_classes/class_afb2b_rfq_front.php:2457
+msgid "Failed! Unable to process your request."
+msgstr "Non riuscito! Impossibile elaborare la tua richiesta."
+
+#: additional_classes/class_afb2b_rfq_front.php:2569
+#: additional_classes/class_afb2b_rfq_front.php:2692
+msgid "Quotes"
+msgstr "Regola di preventivo per prodotti selezionati"
+
+#: additional_classes/class_afb2b_rfq_front.php:2716
+#: additional_classes/class_afb2b_rfq_front.php:2718
+msgid "Quote "
+msgstr ""
+"Preventivo\n"
+
+#: additional_classes/class_afb2b_rfq_front.php:2716
+#: additional_classes/class_afb2b_rfq_front.php:2718
+#: additional_classes/class_afb2b_rfq_front.php:2885
+msgid "#"
+msgstr "#"
+
+#: additional_classes/class_afb2b_rfq_front.php:2718
+msgid " was placed on "
+msgstr ""
+"è stato posizionato\n"
+
+#: additional_classes/class_afb2b_rfq_front.php:2720
+msgid "Quote Details"
+msgstr ""
+"Dettagli preventivo\n"
+
+#: additional_classes/class_afb2b_rfq_front.php:2873
+msgid "Quote"
+msgstr ""
+"Preventivo\n"
+
+#: additional_classes/class_afb2b_rfq_front.php:2874
+#: additional_classes/class_afb2b_rfq_admin.php:630
+msgid "Date"
+msgstr "Data\t"
+
+#: additional_classes/class_afb2b_rfq_front.php:2875
+msgid "Action"
+msgstr "Aziona"
+
+#: additional_classes/class_afb2b_rfq_front.php:2893
+#: additional_classes/class_afb2b_rfq_admin.php:660
+msgid "View"
+msgstr "Visualizza"
+
+#: additional_classes/class_afb2b_rfq_front.php:2906
+msgid "Go to shop"
+msgstr ""
+"Vai a fare la spesa\n"
+
+#: additional_classes/class_afb2b_rfq_front.php:2906
+msgid "No quote has been made yet."
+msgstr "Nessun preventivo è stato ancora fatto."
+
+#: additional_classes/class_afb2b_rfq_admin.php:55
+msgid "Rule Settings"
+msgstr "Salva le impostazioni"
+
+#: additional_classes/class_afb2b_rfq_admin.php:77
+#: additional_classes/class_afb2b_rfq_admin.php:599
+msgid "Rule Type"
+msgstr ""
+"Tipo di regola\n"
+
+#: additional_classes/class_afb2b_rfq_admin.php:80
+#: additional_classes/class_afb2b_rfq_admin.php:613
+msgid "Quote Rule for Guest Users"
+msgstr "Regola di preventivo per utenti ospiti"
+
+#: additional_classes/class_afb2b_rfq_admin.php:81
+#: additional_classes/class_afb2b_rfq_admin.php:611
+msgid "Quote Rule for Registered Users"
+msgstr ""
+"Regola preventivo per utenti registrati\n"
+
+#: additional_classes/class_afb2b_rfq_admin.php:93
+msgid ""
+"Provide value from high priority 1 to Low priority 10. If more than one rule "
+"are applied on same item rule with high priority will be applied."
+msgstr ""
+"Fornire un valore da priorità alta 1 a priorità bassa 10. Se più di una "
+"regola viene applicata allo stesso elemento, verrà applicata la regola con "
+"priorità alta.\n"
+
+#: additional_classes/class_afb2b_rfq_admin.php:101
+msgid "Quote for User Roles"
+msgstr ""
+"Citazione per ruoli utente\n"
+
+#: additional_classes/class_afb2b_rfq_admin.php:146
+msgid "Quote Rule for Selected Products"
+msgstr "Regola di preventivo per prodotti selezionati"
+
+#: additional_classes/class_afb2b_rfq_admin.php:173
+msgid "Quote Rule for Selected Categories"
+msgstr "Regola di preventivo per le categorie selezionate"
+
+#: additional_classes/class_afb2b_rfq_admin.php:409
+msgid "Hide Price"
+msgstr "Nascondi il prezzo"
+
+#: additional_classes/class_afb2b_rfq_admin.php:414
+msgid "No"
+msgstr "No"
+
+#: additional_classes/class_afb2b_rfq_admin.php:415
+msgid "Yes"
+msgstr "sì"
+
+#: additional_classes/class_afb2b_rfq_admin.php:424
+msgid "Hide Price Text"
+msgstr "Nascondi testo prezzo"
+
+#: additional_classes/class_afb2b_rfq_admin.php:436
+msgid "Display the above text when price is hidden, e.g \"Price is hidden\""
+msgstr ""
+"Visualizza il testo sopra quando il prezzo è nascosto, ad es. \"Il prezzo è "
+"nascosto\""
+
+#: additional_classes/class_afb2b_rfq_admin.php:444
+msgid "Hide Add to Cart Button"
+msgstr "Nascondi il pulsante Aggiungi al carrello"
+
+#: additional_classes/class_afb2b_rfq_admin.php:450
+msgid "Replace Add to Cart button with a Quote Button"
+msgstr ""
+"Sostituisci il pulsante Aggiungi al carrello con un pulsante preventivo\n"
+
+#: additional_classes/class_afb2b_rfq_admin.php:454
+msgid "Keep Add to Cart button and add a new Quote Button"
+msgstr ""
+"Mantieni il pulsante Aggiungi al carrello e aggiungi un nuovo pulsante "
+"Preventivo"
+
+#: additional_classes/class_afb2b_rfq_admin.php:458
+msgid "Replace Add to Cart with custom button"
+msgstr "Sostituisci Aggiungi al carrello con il pulsante personalizzato"
+
+#: additional_classes/class_afb2b_rfq_admin.php:463
+msgid "Keep Add to Cart and add a new custom button"
+msgstr ""
+"Mantieni Aggiungi al carrello e aggiungi un nuovo pulsante personalizzato"
+
+#: additional_classes/class_afb2b_rfq_admin.php:473
+msgid "Custom Button Link"
+msgstr "Collegamento pulsante personalizzato"
+
+#: additional_classes/class_afb2b_rfq_admin.php:485
+msgid "Link for custom button e.g \"http://www.example.com\""
+msgstr "Link per pulsante personalizzato, ad es. \"Http://www.example.com\""
+
+#: additional_classes/class_afb2b_rfq_admin.php:493
+msgid "Custom Button Label"
+msgstr "Etichetta pulsante personalizzata"
+
+#: additional_classes/class_afb2b_rfq_admin.php:505
+msgid "Display the above label on custom button, e.g \"Request a Quote\""
+msgstr ""
+"Visualizza l'etichetta sopra sul pulsante personalizzato, ad es. \"Richiedi "
+"un preventivo\""
+
+#: additional_classes/class_afb2b_rfq_admin.php:600
+#: additional_classes/class_afb2b_role_based_pricing_admin.php:349
+msgid "Date Published"
+msgstr "Data di pubblicazione"
+
+#: additional_classes/class_afb2b_rfq_admin.php:627
+msgid "Quote #"
+msgstr ""
+"Preventivo #\n"
+
+#: additional_classes/class_afb2b_rfq_admin.php:628
+msgid "Customer Name"
+msgstr "Nome del cliente"
+
+#: additional_classes/class_afb2b_rfq_admin.php:629
+msgid "Customer Email"
+msgstr ""
+"Email cliente\n"
+
+#: additional_classes/class_afb2b_rfq_admin.php:660
+msgid "View this item"
+msgstr "Visualizza questo articolo"
+
+#: additional_classes/class_afb2b_role_based_pricing_admin.php:238
+msgid "Rule Details"
+msgstr "Dettagli regola"
+
+#. ID used to identify the field throughout the theme
+#: includes/tax-exempt/exempt_customers_roles.php:12
+msgid "Choose Customers"
+msgstr ""
+"Scegli clienti\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/exempt_customers_roles.php:17
+#: includes/tax-exempt/general.php:17
+msgid "Enable/Disable tax for tax-exempted and approved users."
+msgstr ""
+"Abilita / disabilita le tasse per gli utenti esentati e approvati.\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/exempt_customers_roles.php:32
+msgid "Choose user roles to grant them tax exemption status."
+msgstr ""
+"Scegli i ruoli utente per concedere loro lo stato di esenzione fiscale.\n"
+
+#: includes/tax-exempt/exempt_customers_roles.php:45
+msgid ""
+"In this section, you can specify the customers and user roles who are "
+"exempted from tax. These customers and roles are not required to fill the "
+"tax form from \"My Account\" page."
+msgstr ""
+"In questa sezione è possibile specificare i clienti e i ruoli utente "
+"esentati dalle tasse. Questi clienti e ruoli non sono tenuti a compilare il "
+"modulo fiscale dalla pagina \"Account personale\".\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/tax-exempt/guest_user.php:12
+msgid "Show tax exemption message"
+msgstr ""
+"Mostra messaggio di esenzione fiscale\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/guest_user.php:17
+msgid ""
+"If this option is checked then a message will be displayed for guest user "
+"about tax exemption."
+msgstr ""
+"Se questa opzione è selezionata, verrà visualizzato un messaggio per "
+"l'utente ospite sull'esenzione fiscale.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/tax-exempt/guest_user.php:27
+#: includes/tax-exempt/exempt_request.php:58
+msgid "Message Text"
+msgstr ""
+"Messaggio di testo\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/guest_user.php:32
+msgid "This message will be displayed for guest users."
+msgstr ""
+"Questo messaggio verrà visualizzato per gli utenti ospiti.\n"
+
+#: includes/tax-exempt/guest_user.php:43
+msgid "Show tax exemption message for guest users."
+msgstr ""
+"Mostra il messaggio di esenzione fiscale per gli utenti ospiti.\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/email_notification.php:17
+msgid ""
+"All admin emails that are related to our module will be sent to this email "
+"address."
+msgstr ""
+"Tutte le e-mail di amministrazione correlate al nostro modulo verranno "
+"inviate a questo indirizzo e-mail. "
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/email_notification.php:32
+msgid ""
+"This message will be shown when user add or update tax info in my account."
+msgstr ""
+"Questo messaggio verrà visualizzato quando l'utente aggiunge o aggiorna le "
+"informazioni fiscali nel mio account.\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/email_notification.php:48
+msgid ""
+"This subject will be used when a user add or update tax info from my account."
+msgstr ""
+"Questo oggetto verrà utilizzato quando un utente aggiunge o aggiorna le "
+"informazioni fiscali dal mio account.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/tax-exempt/email_notification.php:58
+msgid "Admin Email Message"
+msgstr ""
+"Messaggio e-mail dell'amministratore\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/email_notification.php:63
+msgid ""
+"This message will be used when a user add or update tax info from my account."
+msgstr ""
+"Questo messaggio verrà utilizzato quando un utente aggiunge o aggiorna le "
+"informazioni fiscali dal mio account.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/tax-exempt/email_notification.php:73
+msgid "Approve Tax Info Email Subject"
+msgstr ""
+"Approva l'oggetto dell'email con le informazioni fiscali\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/email_notification.php:78
+msgid "This subject will be used when admin approves submitted tax info."
+msgstr ""
+"Questo oggetto verrà utilizzato quando l'amministratore approva le "
+"informazioni fiscali inviate.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/tax-exempt/email_notification.php:88
+msgid "Approve Tax Info Email Message"
+msgstr ""
+"Approva messaggio e-mail con informazioni fiscali\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/email_notification.php:93
+msgid "This message will be used when admin approves submitted tax info."
+msgstr ""
+"Questo messaggio verrà utilizzato quando l'amministratore approva le "
+"informazioni fiscali inviate.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/tax-exempt/email_notification.php:103
+msgid "Disapprove Tax Info Email Subject"
+msgstr ""
+"Oggetto email con informazioni fiscali non approvate\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/email_notification.php:108
+msgid "This subject will be used when admin disapprove submitted tax info."
+msgstr ""
+"Questo oggetto verrà utilizzato quando l'amministratore non approva le "
+"informazioni fiscali inviate.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/tax-exempt/email_notification.php:118
+msgid "Disapprove Tax Info Email Message"
+msgstr ""
+"Messaggio e-mail per la mancata approvazione delle informazioni fiscali\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/email_notification.php:123
+msgid "This message will be used when admin disapprove submitted tax info."
+msgstr ""
+"Questo messaggio verrà utilizzato quando l'amministratore non approva le "
+"informazioni fiscali inviate.\n"
+
+#: includes/tax-exempt/email_notification.php:134
+msgid "Email & Notification Settings"
+msgstr ""
+"Impostazioni email e notifiche\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/tax-exempt/general.php:12
+msgid "Remove Tax Automatically"
+msgstr ""
+"Rimuovi automaticamente le tasse\n"
+
+#: includes/tax-exempt/general.php:17
+msgid ""
+"Enable this checkbox will disable tax for all tax-exempted and approved "
+"users."
+msgstr ""
+"Abilitare questa casella di controllo disabiliterà le tasse per tutti gli "
+"utenti esentati e approvati.\n"
+
+#: includes/tax-exempt/general.php:17
+msgid ""
+"Disable this checkbox will show a checkbox in the checkout page to notify "
+"them that tax exemption is available"
+msgstr ""
+"Disabilita questa casella di controllo verrà visualizzata una casella di "
+"controllo nella pagina di pagamento per informarli che è disponibile "
+"l'esenzione fiscale\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/tax-exempt/general.php:27
+msgid "Enable Text Field"
+msgstr ""
+"Abilita campo di testo\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/general.php:32
+msgid ""
+"This text field will be shown in tax form in user my account page. This "
+"field can be used to collect name, tax id etc."
+msgstr ""
+"Questo campo di testo verrà visualizzato nel modulo fiscale nella pagina del "
+"mio account dell'utente. Questo campo può essere utilizzato per raccogliere "
+"nome, codice fiscale ecc.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/tax-exempt/general.php:42
+msgid "Text Field Label"
+msgstr ""
+"Etichetta campo di testo\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/general.php:47
+msgid "Label of text field."
+msgstr ""
+"Etichetta del campo di testo.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/tax-exempt/general.php:57
+msgid "Enable Textarea Field"
+msgstr ""
+"Abilita campo Textarea\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/general.php:62
+msgid ""
+"This textarea field will be shown in tax form in user my account page. This "
+"field can be used to collect additional info etc."
+msgstr ""
+"Questo campo dell'area di testo verrà mostrato nel modulo fiscale nella "
+"pagina del mio account dell'utente. Questo campo può essere utilizzato per "
+"raccogliere informazioni aggiuntive, ecc.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/tax-exempt/general.php:72
+msgid "Textarea Field Label"
+msgstr ""
+"Etichetta campo di testo\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/general.php:77
+msgid "Label of textarea field."
+msgstr ""
+"Etichetta del campo textarea.\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/general.php:92
+msgid ""
+"This file upload field will be shown in tax form in user my account page. "
+"This field can be used to collect tax certificate etc."
+msgstr ""
+"Questo campo di caricamento del file verrà mostrato nel modulo fiscale nella "
+"pagina del mio account dell'utente. Questo campo può essere utilizzato per "
+"raccogliere il certificato fiscale, ecc.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/tax-exempt/general.php:102
+msgid "File Upload Field Label"
+msgstr ""
+"Etichetta campo di caricamento file\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/general.php:107 includes/tax-exempt/general.php:122
+msgid "Label of file upload field."
+msgstr ""
+"Etichetta del campo di caricamento del file.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/tax-exempt/general.php:117
+msgid "Allowed File Types"
+msgstr "Tipi di file consentiti "
+
+#: includes/tax-exempt/general.php:135
+msgid ""
+"In general settings you can enable/disable tax for specific users and choose "
+"which field(s) you want to show on the tax exemption request form."
+msgstr ""
+"Nelle impostazioni generali è possibile abilitare / disabilitare le tasse "
+"per utenti specifici e scegliere quali campi visualizzare nel modulo di "
+"richiesta di esenzione fiscale.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/tax-exempt/exempt_request.php:27
+msgid "Auto Approve Tax Exempt Request"
+msgstr ""
+"Approvazione automatica della richiesta di esenzione fiscale\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/exempt_request.php:32
+msgid ""
+"If this option is checked then tax exempt requests will be auto-approved and "
+"users of above selected user roles will be eligible for tax exempt right "
+"after submitting the info."
+msgstr ""
+"Se questa opzione è selezionata, le richieste di esenzione fiscale verranno "
+"approvate automaticamente e gli utenti dei ruoli utente selezionati sopra "
+"saranno idonei all'esenzione fiscale subito dopo aver inviato le "
+"informazioni.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/tax-exempt/exempt_request.php:43
+msgid "Show Tax Exemption Message on Checkout Page"
+msgstr ""
+"Mostra il messaggio di esenzione fiscale nella pagina di pagamento\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/exempt_request.php:48
+msgid ""
+"If this option is checked then a message will be displayed for the above "
+"selected user role users about tax exemption."
+msgstr ""
+"Se questa opzione è selezionata, verrà visualizzato un messaggio per gli "
+"utenti con ruolo utente sopra selezionato sull'esenzione fiscale.\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/tax-exempt/exempt_request.php:63
+msgid "This will be visible for the user roles customer has selected above."
+msgstr ""
+"Questo sarà visibile per i ruoli utente che il cliente ha selezionato sopra."
+"\n"
+
+#: includes/tax-exempt/exempt_request.php:74
+msgid ""
+"Select user roles for whom you want to display tax exemption form in \"My "
+"Account\" page."
+msgstr ""
+"Seleziona i ruoli utente per i quali desideri visualizzare il modulo di "
+"esenzione fiscale nella pagina \"Account personale\".\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/shipping/addify-shipping-by-user-roles-settings.php:11
+msgid "Select Shipping Methods for User Roles"
+msgstr "Select Shipping Methods for User Roles"
+
+#: includes/shipping/addify-shipping-by-user-roles-settings.php:47
+msgid "Select Shipping Methods:"
+msgstr ""
+"Seleziona metodi di spedizione:\n"
+
+#: includes/shipping/addify-shipping-by-user-roles-settings.php:84
+#: includes/payments/addify-payments-by-user-roles.php:86
+msgid "Guest"
+msgstr ""
+"ospite\n"
+
+#. Name of the plugin
+msgid "B2B for WooCommerce"
+msgstr ""
+"B2B per WooCommerce\n"
+
+#. Description of the plugin
+msgid ""
+"WooCommerce B2b Plugin. (PLEASE TAKE BACKUP BEFORE UPDATING THE PLUGIN)."
+msgstr ""
+"Plugin B2b per WooCommerce. (SI PREGA DI EFFETTUARE IL BACKUP PRIMA DI "
+"AGGIORNARE IL PLUGIN).\n"
+
+#. URI of the plugin
+msgid "https://woocommerce.com/products/b2b-for-woocommerce/"
+msgstr "https://woocommerce.com/products/b2b-for-woocommerce/"
+
+#. Author of the plugin
+msgid "Addify"
+msgstr "Addify"
+
+#. Author URI of the plugin
+msgid "http://www.addifypro.com"
+msgstr "http://www.addifypro.com"

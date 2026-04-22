@@ -1,0 +1,173 @@
+
+
+
+.afb2b_role_template_header{
+    display: flex;
+    column-gap: 15px;
+    padding-left: 5px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.afb2b_role_deals_icon{
+    width: 32px;
+    height: 32px;
+}
+
+
+.afb2b_role_template_header h2{
+    margin: 0px;
+    padding:0px;
+    font-weight: bold;
+}
+
+.afb2b_role_card_div{
+    max-width: 530px;
+    display: grid;
+    /* grid-template-columns: 41% 41%; */
+    grid-template-columns: 48% 48%;
+
+    grid-column-gap: 4%;
+    padding: 0px 6px;
+    grid-row-gap: 10px;
+}
+.afb2b_role_card_div:hover{
+    cursor: pointer;
+}
+.afb2b_role_inner_small_box {
+    max-width: 230px;
+    padding: 10px;
+    /* border: 1px solid rgb(177, 180, 176); */
+    margin-bottom: 10px; 
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.afb2b_role_card_inner_heading {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.afb2b_role_sale_tag {
+    background-color: red;
+    color: white;
+    padding: 3px 5px;
+    font-size: 12px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+.afb2b_role_offer_data_contianer{
+    padding-top: 12px;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: 43% 50%;
+    column-gap: 8%;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+.afb2b_role_card_inner_text p{
+    margin: 0px 0px 3px 0px;
+}
+
+.afb2b_role_card_inner_text del,
+.afb2b_role_list_price_text del,
+.afb2b_role_no_discount{
+    color: #ada6a6;
+}
+
+.afb2b_role_list_inner_container{
+    display: grid;
+    grid-template-columns: 3% 64% 28%;
+    box-sizing: border-box;
+    align-items: center;
+    column-gap: 3%;
+}
+
+.afb2b_role_list_inner_container:hover{
+    cursor: pointer;
+}
+
+.afb2b_role_list_box{
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 12px; 
+    /* position: relative; */
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.afb2b_role_list_price_text p{
+    margin: 0px;
+}
+
+
+.afb2b_role_list_inner_container .heading {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.afb2b_role_table_div table{
+    width: auto;
+}
+
+.afb2b_role_table thead tr th{
+    width: 25%;
+}
+
+.afb2b_role_table_div table th{
+    padding: 8px 15px;
+}
+
+.afb2b_role_table_div table td
+{
+
+    padding: 3px 25px
+}
+
+.dynamic_price_display{
+    display: none;
+}
+.dynamic_price_display{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .afb2b_role_table thead tr th{
+        width: 10%;
+    }
+
+    .afb2b_role_table_div table th{
+        padding: 8px 10px;
+    }
+    
+    .afb2b_role_table_div table td
+    {
+    
+        padding: 3px 10px
+    }
+
+    .afb2b_role_card_div{
+         grid-template-columns: 48% 48%
+    }
+
+    .afb2b_role_inner_small_box {
+        max-width: 90%;
+    }
+
+    .afb2b_role_list_inner_container {
+        grid-template-columns: 8% 50% 26%;
+        column-gap: 4%;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .afb2b_role_card_div{
+        grid-template-columns: 100%
+   }
+}

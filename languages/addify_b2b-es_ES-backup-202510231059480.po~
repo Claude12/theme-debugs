@@ -1,0 +1,5132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce B2B Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-26 06:36+0000\n"
+"PO-Revision-Date: 2024-04-23 13:24+0000\n"
+"Last-Translator: \n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.5.2"
+
+#: woocommerce-request-a-quote/templates/quote/mini-quote.php:39
+msgid " items in quote"
+msgstr ""
+"artículos en cotización\n"
+
+#: addify_b2b.php:161
+msgid ""
+" Kindly activate soap application from your server to validate VIES VAT "
+"number validation."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:731
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:1023
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:268
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:485
+msgid " Link"
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/quote/mini-quote-dropdown.php:163
+msgid " View Quote"
+msgstr "Ver cotización"
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account-old-quotes.php:25
+msgid " was placed on "
+msgstr ""
+"fue colocado en\n"
+
+#: woocommerce-request-a-quote/templates/my-account/quote-list-table.php:36
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account-old-quotes.php:23
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account-old-quotes.php:25
+msgid "#"
+msgstr "#"
+
+#. %s: label
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote-fields.php:613
+#, php-format
+msgid "%1$s size is too large. Max size for file is %2$s KB"
+msgstr ""
+
+#. %s: Attribute name.
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote.php:623
+#, fuzzy, php-format
+#| msgid " is a required field!"
+msgid "%s is a required field"
+msgid_plural "%s are required fields"
+msgstr[0] "¡es un campo obligatorio!"
+msgstr[1] ""
+
+#. %s: label
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote-fields.php:588
+#, php-format
+msgid "%s is not a valid email address"
+msgstr ""
+
+#. %s: label
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote-fields.php:622
+#, php-format
+msgid "%s is not a valid phone number."
+msgstr ""
+
+#. %s: label
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote-fields.php:565
+#, php-format
+msgid "%s is required field"
+msgstr ""
+
+#. %s: Label
+#: woocommerce-request-a-quote/includes/pdf/templates/customer-info.php:23
+#, php-format
+msgid "%s:"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:444
+msgid ""
+"(Selectbox, Multi Selectbox, Checkbox, Multi Checkbox and Radio Button field "
+"types are allowed)"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:244
+#, fuzzy
+#| msgid ":"
+msgid "."
+msgstr ":"
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-user-email-class.php:107
+#: user-registration-plugin-for-woocommerce/classes/afreg-user-email-class.php:109
+#: user-registration-plugin-for-woocommerce/classes/afreg-user-email-class.php:133
+#: user-registration-plugin-for-woocommerce/classes/afreg-user-email-class.php:147
+#: user-registration-plugin-for-woocommerce/classes/afreg-user-email-class.php:150
+#: user-registration-plugin-for-woocommerce/classes/afreg-user-email-class.php:153
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:101
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:126
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:128
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:154
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:168
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:171
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:174
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:110
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:128
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:146
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:164
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:182
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:200
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:218
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:235
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:253
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:271
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:304
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:306
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:330
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:344
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:347
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:350
+#: user-registration-plugin-for-woocommerce/classes/afreg-pending-user-email-class.php:121
+#: user-registration-plugin-for-woocommerce/classes/afreg-pending-user-email-class.php:123
+#: user-registration-plugin-for-woocommerce/classes/afreg-pending-user-email-class.php:146
+#: user-registration-plugin-for-woocommerce/classes/afreg-pending-user-email-class.php:160
+#: user-registration-plugin-for-woocommerce/classes/afreg-pending-user-email-class.php:163
+#: user-registration-plugin-for-woocommerce/classes/afreg-pending-user-email-class.php:166
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:142
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:167
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:169
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:195
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:209
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:212
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:215
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:110
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:128
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:146
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:164
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:182
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:200
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:218
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:235
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:253
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:271
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:304
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:306
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:329
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:343
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:346
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:349
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:95
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:97
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:122
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:136
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:139
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:142
+#: woocommerce-tax-exempt-plugin/classes/aftax-info-user-email-class.php:89
+#: woocommerce-tax-exempt-plugin/classes/aftax-info-user-email-class.php:95
+#: woocommerce-tax-exempt-plugin/classes/aftax-info-user-email-class.php:100
+#: woocommerce-tax-exempt-plugin/classes/aftax-info-admin-email-class.php:146
+#: woocommerce-tax-exempt-plugin/classes/aftax-info-admin-email-class.php:152
+#: woocommerce-tax-exempt-plugin/classes/aftax-info-admin-email-class.php:157
+#: woocommerce-tax-exempt-plugin/classes/aftax-approve-info-admin-email-class.php:96
+#: woocommerce-tax-exempt-plugin/classes/aftax-approve-info-admin-email-class.php:102
+#: woocommerce-tax-exempt-plugin/classes/aftax-approve-info-admin-email-class.php:107
+#: woocommerce-tax-exempt-plugin/classes/aftax-expire-info-user-email-class.php:91
+#: woocommerce-tax-exempt-plugin/classes/aftax-expire-info-user-email-class.php:97
+#: woocommerce-tax-exempt-plugin/classes/aftax-expire-info-user-email-class.php:102
+#: woocommerce-tax-exempt-plugin/classes/aftax-approve-info-user-email-class.php:99
+#: woocommerce-tax-exempt-plugin/classes/aftax-approve-info-user-email-class.php:105
+#: woocommerce-tax-exempt-plugin/classes/aftax-approve-info-user-email-class.php:110
+#: woocommerce-tax-exempt-plugin/classes/aftax-expire-info-admin-email-class.php:96
+#: woocommerce-tax-exempt-plugin/classes/aftax-expire-info-admin-email-class.php:102
+#: woocommerce-tax-exempt-plugin/classes/aftax-expire-info-admin-email-class.php:107
+#: woocommerce-tax-exempt-plugin/classes/aftax-disapprove-info-email-class.php:99
+#: woocommerce-tax-exempt-plugin/classes/aftax-disapprove-info-email-class.php:105
+#: woocommerce-tax-exempt-plugin/classes/aftax-disapprove-info-email-class.php:110
+msgid ": "
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:54
+msgid "[{site_title}]: New User Registration"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:44
+msgid "[{site_title}]: User Updated"
+msgstr ""
+
+#: woocommerce-request-a-quote/front/class-af-r-f-q-front.php:307
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:36
+#: woocommerce-request-a-quote/admin/settings/email-settings.php:18
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-status.php:19
+msgid "Accepted"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:64
+msgid "Account disapproved on {site_title}"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:217
+#: woocommerce-request-a-quote/templates/my-account/quote-list-table.php:23
+#: addify-user-role-editor/includes/admin/view/add-new-user-role.php:124
+msgid "Action"
+msgstr "Acción"
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:501
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:672
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:686
+msgid "Active"
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-restrictions.php:146
+msgid "Add"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:94
+msgid ""
+"Add a unique name for each quote field. It is also used as meta_key to store "
+"values in database. Once publish, you will not be able to modify it."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:178
+msgid "Add Comma separated file extensions. Ex. pdf,txt,jpg."
+msgstr ""
+
+#: addify-user-role-editor/includes/admin/view/add-new-user-role.php:62
+msgid "Add Custom Capabilities"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:90
+msgid ""
+"Add email address of the customer for which might want to add prices. If you "
+"need to import prices by user role any, please leave this empty."
+msgstr ""
+
+#: addify-cart-based-discount/class-discount-cart-main.php:45
+#: addify-cart-based-discount/class-discount-cart-main.php:46
+msgid "Add New"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/addify-registration-addon-main.php:72
+#: user-registration-plugin-for-woocommerce/addify-registration-addon-main.php:73
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:156
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:157
+msgid "Add New Field"
+msgstr "Agregar nuevo campo"
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:243
+msgid "Add New Option"
+msgstr ""
+
+#: addify_b2b.php:593
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:116
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:117
+#: addify-order-restrictions/includes/class-af-order-restrictions.php:31
+#: addify-order-restrictions/includes/class-af-order-restrictions.php:32
+msgid "Add New Rule"
+msgstr "Agregar nueva regla"
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:215
+msgid "Add Option(s) for fields types ( Select, Multi-Select and Radio )."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-details.php:41
+msgid "Add product"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-details.php:78
+msgid "Add product(s)"
+msgstr ""
+
+#: addify_b2b.php:594 includes/csp_product_level_variable_product.php:131
+#: includes/csp_product_level_variable_product.php:270
+#: includes/csp_rule_level.php:450 includes/csp_rule_level.php:591
+#: includes/csp_product_level.php:138 includes/csp_product_level.php:284
+msgid "Add Rule"
+msgstr "Agregar regla"
+
+#: woocommerce-request-a-quote/templates/product/custom-button.php:20
+#: woocommerce-request-a-quote/templates/product/simple.php:20
+#: woocommerce-request-a-quote/templates/product/simple-out-of-stock.php:20
+#: woocommerce-request-a-quote/templates/product/variable.php:16
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-details.php:68
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:421
+msgid "Add to Quote"
+msgstr ""
+
+#: addify-user-role-editor/includes/admin/af-ure-admin.php:114
+msgid "Add User Role"
+msgstr ""
+
+#. ID used to identify this section and with which to register options.
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:53
+msgid "Add/Update info Email Messages"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:34
+msgid "Add/Update Tax Info Message"
+msgstr ""
+
+#. Author of the plugin
+msgid "Addify"
+msgstr "Addify"
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-approve-info-admin-email-class.php:19
+msgid "Addify Approve Tax Information Email to Admin"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-approve-info-user-email-class.php:19
+msgid "Addify Approve Tax Information Email to Customer"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-disapprove-info-email-class.php:19
+msgid "Addify Disapprove Tax Information Email to Customer"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-expire-info-admin-email-class.php:19
+msgid "Addify Expire Tax Information Email to Admin"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-expire-info-user-email-class.php:19
+msgid "Addify Expire Tax Information Email to Customer"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:17
+msgid "Addify Registration Approved User Email to Customer"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:17
+msgid "Addify Registration Disapproved User Email to Customer"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:17
+msgid "Addify Registration New User Email Admin"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-user-email-class.php:17
+msgid "Addify Registration New User Email to Customer"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-pending-user-email-class.php:17
+msgid "Addify Registration Pending User Email to Customer"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:19
+msgid "Addify Registration Update User Email Admin"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-info-admin-email-class.php:19
+msgid "Addify Tax Information Email to Admin"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-info-user-email-class.php:19
+msgid "Addify Tax Information Email to Customer"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:279
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:321
+msgid "Additional content"
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:12
+msgid "Additional Fields Section Title"
+msgstr "Título de sección de campos adicionales"
+
+#: woocommerce-request-a-quote/admin/settings/email-settings.php:29
+msgid "Additional Message"
+msgstr ""
+
+#: includes/csp_product_level_variable_product.php:24
+#: includes/csp_product_level_variable_product.php:146
+#: includes/csp_rule_level.php:362 includes/csp_rule_level.php:469
+#: includes/csp_product_level.php:23 includes/csp_product_level.php:167
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-restrictions.php:73
+msgid "Adjustment Type"
+msgstr "Tipo de ajuste"
+
+#: includes/role-based/import_prices_csv.php:93
+msgid "Adjustment Type: "
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:28
+msgid "Adjustment/Discount Type"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/email-settings.php:15
+msgid "Admin (New Quote)"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:61
+msgid "Admin Email Message"
+msgstr ""
+"Mensaje de correo electrónico del administrador\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:273
+msgid "Admin Email Text (My Account Update)"
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:257
+msgid "Admin Email Text (New User)"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:16
+msgid "Admin/Shop Manager Email"
+msgstr "Correo electrónico del administrador / gerente de la tienda"
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/emails-setting.php:22
+msgid "Admin/Shop manager Email Address(es)"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/convert-quote-to-order.php:133
+msgid "Administrator"
+msgstr ""
+
+#: addify_b2b.php:207
+#: products-visibility-by-user-roles/addify_product_visibility.php:52
+msgid "af-product-visibility"
+msgstr "Af-visibilidad del producto af"
+
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:21
+msgid ""
+"All admin emails that are related to our module will be sent to this email "
+"address."
+msgstr ""
+"Todos los correos electrónicos de administrador relacionados con nuestro "
+"módulo se enviarán a esta dirección de correo electrónico. "
+
+#: woocommerce-request-a-quote/admin/settings/tabs/emails-setting.php:26
+msgid ""
+"All admin emails that are related to our module will be sent to this email "
+"address. If this email is empty then default admin email address is used. "
+"You can add more than one email addresses separated by comma (,)."
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-product-restrictions.php:54
+msgid "All Products"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:206
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:140
+msgid "All Quotes"
+msgstr "Todas las cotizaciones"
+
+#: class_afb2b_admin.php:356
+msgid "All Registration Fields"
+msgstr ""
+"Todos los campos de registro\n"
+
+#: class_afb2b_admin.php:419
+msgid "All Role Based Pricing Rules"
+msgstr "Todas las reglas de precios basadas en roles"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: products-visibility-by-user-roles/settings/general.php:20
+msgid ""
+"Allow search engines to crawl and index hidden products, categories and "
+"other pages. While using global option when you hide products from guest "
+"users they will stay hidden for search engines as well i.e. Google won’t be "
+"able to rank those pages in search results. Please check this box if you "
+"want Google to crawl and rank hidden pages."
+msgstr ""
+"Permita que los motores de búsqueda rastreen e indexen productos ocultos, "
+"categorías y otras páginas. Si bien utiliza la opción global cuando oculta "
+"los productos de los usuarios invitados, también permanecerán ocultos para "
+"los motores de búsqueda, es decir, Google no podrá clasificar esas páginas "
+"en los resultados de búsqueda. Marque esta casilla si desea que Google "
+"rastree y clasifique las páginas ocultas."
+
+#. ID used to identify the field throughout the theme
+#: products-visibility-by-user-roles/settings/general.php:15
+msgid "Allow Search Engines to Index"
+msgstr "Permitir que los motores de búsqueda indexen"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:105
+msgid "Allow User to Edit Role in My Account"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:185
+msgid "Allowed File Size"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:172
+msgid "Allowed File Types"
+msgstr "Tipos de archivo "
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:205
+msgid "Allowed File Types(Add Comma(,) separated types. e.g png,jpg,gif)"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:720
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:258
+msgid "Allowed file types:"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/general.php:139
+msgid "Allowed Upload File Types"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:42
+msgid ""
+"Alternatively, You can add quote basket by placing the short code [addify-"
+"mini-quote]."
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-restrictions.php:39
+msgid "Amount Range"
+msgstr ""
+
+#: addify-user-role-editor/includes/admin/af-ure-admin.php:186
+msgid "Apply"
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-restrictions.php:50
+msgid "Apply Discount to"
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-product-restrictions.php:63
+msgid "Apply discount to all or specific products"
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-product-restrictions.php:42
+msgid "Apply discount to entire cart or to specific products in cart."
+msgstr ""
+
+#: includes/csp_rule_level.php:18
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:46
+msgid "Apply on All Products"
+msgstr "Aplicar en todos los productos"
+
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:57
+msgid "Apply on out of stock products only."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:1525
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:1753
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:1754
+msgid "Approve"
+msgstr ""
+
+#: includes/afb2b_registration_settings.php:557
+msgid "Approve New User Messages Settings"
+msgstr "Aprobar nuevas configuraciones de mensajes de usuario"
+
+#: class_afb2b_admin.php:346 includes/afb2b_registration_settings.php:488
+msgid "Approve New User Settings"
+msgstr "Aprobar nueva configuración de usuario"
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:105
+msgid "Approve Tax Info Email Message (Admin)"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:122
+msgid "Approve Tax Info Email Message (Customer)"
+msgstr ""
+
+#. ID used to identify this section and with which to register options.
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:97
+#, fuzzy
+#| msgid "Approve Tax Info Email Message"
+msgid "Approve Tax info Email Messages"
+msgstr ""
+"Aprobar mensaje de correo electrónico con información fiscal\n"
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:795
+msgid "Approve Without Email"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:285
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:794
+msgid "Approved"
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:328
+msgid "Approved Email Text"
+msgstr "Texto de correo electrónico aprobado"
+
+#: addify-user-role-editor/includes/admin/view/add-new-user-role.php:123
+msgid "Assign Customer "
+msgstr ""
+
+#: addify-user-role-editor/includes/admin/af-ure-admin.php:160
+#: addify-user-role-editor/includes/admin/af-ure-admin.php:176
+msgid "Assign Role"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/request.php:34
+msgid "Auto Approve Tax Exempt Request"
+msgstr ""
+"Solicitud de aprobación automática de exención de impuestos\n"
+
+#: woocommerce-tax-exempt-plugin/settings/general.php:22
+msgid ""
+"Automatically remove tax from checkout. Keep this unchecked if you want to "
+"show a checkbox on checkout page to let customers manually remove tax."
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:152
+#: woocommerce-request-a-quote/templates/quote/quote-table.php:115
+msgid "Available on backorder"
+msgstr ""
+
+#: addify-order-restrictions/includes/admin/meta-boxes/rule/general.php:148
+msgid ""
+"Available placeholders are: {remaining_qunatity}, {remaining_amount}, "
+"{exceeded_quntiity}, {exceeded_amount}."
+msgstr ""
+
+#. %s: list of placeholders
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:245
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:287
+#, php-format
+msgid "Available placeholders: %s"
+msgstr ""
+
+#. page title
+#: class_afb2b_admin.php:60 class_afb2b_admin.php:61
+msgid "B2B"
+msgstr "B2B"
+
+#: addify_b2b.php:159
+msgid "B2B for WooComerce:"
+msgstr ""
+
+#. Name of the plugin
+msgid "B2B for WooCommerce"
+msgstr ""
+"B2B para WooCommerce\n"
+
+#: class_afb2b_admin.php:194
+msgid "B2B Registration"
+msgstr ""
+"Registro B2B\n"
+
+#: class_afb2b_admin.php:85
+msgid "B2B Settings"
+msgstr ""
+"Configuración B2B\n"
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/layout.php:77
+msgid "Background Color"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:43
+msgid "Billing Address 1"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:44
+msgid "Billing Address 2"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:45
+msgid "Billing City"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:42
+msgid "Billing Company"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:48
+msgid "Billing Email"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:40
+msgid "Billing First Name"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:41
+msgid "Billing Last Name"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:47
+msgid "Billing Phone"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:46
+msgid "Billing Postcode"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:600
+msgid "Button Text"
+msgstr ""
+
+#: woocommerce-request-a-quote/front/class-af-r-f-q-front.php:310
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:39
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-status.php:22
+msgid "Cancelled"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/email-settings.php:22
+msgid "Cancelled/Rejected"
+msgstr ""
+
+#. %s: post type
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:180
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:164
+#, php-format
+msgid "Cannot create existing %s."
+msgstr ""
+
+#: addify-user-role-editor/includes/admin/view/add-new-user-role.php:53
+msgid "Capabilities Type"
+msgstr ""
+
+#: class_afb2b_admin.php:201
+#: addify-cart-based-discount/class-discount-cart-main.php:48
+#: addify-cart-based-discount/class-discount-cart-main.php:54
+#: addify-cart-based-discount/include/admin/class-dcv-discount-cart-admin.php:119
+#: addify-cart-based-discount/include/admin/class-dcv-discount-cart-admin.php:120
+msgid "Cart Discounts"
+msgstr ""
+
+#: addify-cart-based-discount/class-discount-cart-main.php:43
+#: addify-cart-based-discount/class-discount-cart-main.php:44
+msgid "Cart Discounts Rules"
+msgstr ""
+
+#: addify-cart-based-discount/class-discount-cart-main.php:55
+msgid "Cart published"
+msgstr ""
+
+#: addify-order-restrictions/includes/admin/meta-boxes/rule/general.php:110
+msgid "Cart subtotal"
+msgstr ""
+
+#: addify-order-restrictions/includes/admin/meta-boxes/rule/general.php:113
+msgid "Cart Total"
+msgstr ""
+
+#: addify-cart-based-discount/class-discount-cart-main.php:56
+msgid "Cart updated"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:99
+msgid "Cautions:"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:63
+msgid ""
+"Check this if you want to apply this rule for \"out of stock products\" only."
+msgstr ""
+
+#: includes/csp_rule_level.php:24
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:52
+msgid "Check this if you want to apply this rule on all products."
+msgstr "Check this if you want to apply this rule on all products."
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:180
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:28
+msgid "Checkbox"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/exempted_customer_roles.php:17
+#: addify-order-restrictions/includes/admin/meta-boxes/rule/general.php:28
+#: addify-order-restrictions/includes/admin/meta-boxes/rule/general.php:56
+msgid "Choose Customers"
+msgstr ""
+"Elija clientes\n"
+
+#: woocommerce-tax-exempt-plugin/settings/exempted_customer_roles.php:22
+msgid "Choose customers whom you want to give tax exemption."
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-date-restrictions.php:37
+msgid ""
+"Choose start and end date for discount rule to apply. Leave empty for no "
+"duration limit."
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:95
+msgid ""
+"Choose to replace to display new price as special price along with existing "
+"one or just show the new price by replacing the existing one."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/settings/request.php:22
+msgid "Choose user roles to allow them to request for tax exemption."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/settings/exempted_customer_roles.php:39
+msgid "Choose user roles to grant them tax exemption status."
+msgstr ""
+"Elija roles de usuario para otorgarles el estado de exención de impuestos.\n"
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:290
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:332
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:734
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:1028
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:272
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:489
+msgid "Click here to download"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:122
+msgid "Click here to View"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:186
+msgid "Color Picker"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/layout.php:49
+msgid "Company Address"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/layout.php:22
+msgid "Company Logo"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/layout.php:35
+msgid "Company Name"
+msgstr ""
+
+#: addify-order-restrictions/includes/admin/meta-boxes/rule/general.php:105
+msgid "Compare Cart Amount"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:52
+msgid "Congradulations your {site_title} account has been approved!"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:269
+msgid "contact 7 form ID."
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-list-table.php:66
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:275
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-details.php:84
+msgid "Convert to Order"
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:72
+msgid "Converted by"
+msgstr ""
+
+#: woocommerce-request-a-quote/front/class-af-r-f-q-front.php:308
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:37
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-status.php:20
+msgid "Converted to Order"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/email-settings.php:19
+msgid "Converted to Order(Admin)"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/email-settings.php:20
+msgid "Converted to Order(Customer)"
+msgstr ""
+
+#: addify-user-role-editor/includes/admin/view/add-new-user-role.php:59
+msgid "Copy User Role Capabilities"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-details-table.php:21
+msgid "Cost"
+msgstr ""
+
+#: addify-user-role-editor/includes/admin/view/add-new-user-role.php:101
+msgid "Create"
+msgstr ""
+
+#: addify-user-role-editor/includes/admin/view/add-new-user-role.php:111
+msgid "Create User Role"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:15
+msgid "CSV file must be in this format."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:1086
+msgid "Current"
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:67
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-status.php:29
+msgid "Current Status"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:413
+msgid "Custom Button Label"
+msgstr "Etiqueta de botón personalizada"
+
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:393
+msgid "Custom Button Link"
+msgstr "Enlace de botón personalizado"
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:475
+msgid "Custom CSS for field."
+msgstr ""
+
+#: products-visibility-by-user-roles/settings/visibility-by-user-roles.php:411
+#: products-visibility-by-user-roles/settings/visibility-by-user-roles.php:434
+#: products-visibility-by-user-roles/settings/global-visibility.php:110
+#: products-visibility-by-user-roles/settings/global-visibility.php:444
+msgid "Custom Message"
+msgstr "Mensaje personalizado"
+
+#. ID used to identify this section and with which to register options.
+#: class_afb2b_admin.php:258
+#: woocommerce-request-a-quote/admin/settings/settings.php:28
+#: woocommerce-request-a-quote/admin/settings/tabs/custom-message.php:15
+msgid "Custom Messages"
+msgstr "Mensajes personalizados"
+
+#: products-visibility-by-user-roles/settings/visibility-by-user-roles.php:410
+#: products-visibility-by-user-roles/settings/visibility-by-user-roles.php:421
+#: products-visibility-by-user-roles/settings/global-visibility.php:93
+#: products-visibility-by-user-roles/settings/global-visibility.php:443
+msgid "Custom URL"
+msgstr "URL personalizada"
+
+#: includes/csp_product_level_variable_product.php:23
+#: includes/csp_rule_level.php:361 includes/csp_product_level.php:22
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote.php:911
+msgid "Customer"
+msgstr ""
+"Cliente\n"
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:511
+msgid "Customer Details filled by customer customer when submitting the form."
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:25
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:704
+msgid "Customer Email"
+msgstr "Correo electrónico del cliente"
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:78
+msgid "Customer Email Message"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:90
+msgid "Customer Email: "
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:505
+msgid "Customer ID/User ID."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:443
+#: woocommerce-request-a-quote/includes/pdf/templates/customer-info.php:16
+msgid "Customer Information"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:703
+msgid "Customer Name"
+msgstr "Nombre del cliente"
+
+#: class_afb2b_admin.php:477
+msgid "Customers and Roles"
+msgstr ""
+"Clientes y roles\n"
+
+#: woocommerce-request-a-quote/admin/settings/tabs/button.php:40
+#: woocommerce-request-a-quote/admin/settings/tabs/button.php:135
+msgid "Customize place quote background color."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/button.php:26
+#: woocommerce-request-a-quote/admin/settings/tabs/button.php:121
+msgid "Customize place quote button text."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/button.php:54
+#: woocommerce-request-a-quote/admin/settings/tabs/button.php:149
+msgid "Customize place quote text color."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:602
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:644
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:706
+#: woocommerce-request-a-quote/templates/my-account/quote-list-table.php:22
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:22
+msgid "Date"
+msgstr "Fecha"
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:187
+msgid "Date Picker"
+msgstr ""
+
+#: additional_classes/class_afb2b_role_based_pricing_admin.php:556
+msgid "Date Published"
+msgstr "Fecha de publicación"
+
+#: addify-cart-based-discount/include/admin/class-dcv-discount-cart-admin.php:157
+msgid "Date Restrictions"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:23
+msgid "DateTime"
+msgstr ""
+
+#: woocommerce-request-a-quote/front/class-af-r-f-q-front.php:309
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:38
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-status.php:21
+msgid "Declined"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/email-settings.php:21
+msgid "Declined/Products not available"
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/afreg_def_fields.php:11
+msgid "Default Fields"
+msgstr ""
+"Campos predeterminados\n"
+
+#: includes/afreg_def_fields.php:27
+msgid "Default Fields for Registration Settings"
+msgstr ""
+"Campos predeterminados para la configuración de registro\n"
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:640
+msgid "Default Value"
+msgstr ""
+
+#: addify-user-role-editor/includes/admin/view/add-new-user-role.php:236
+msgid "Delete User Role"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:153
+msgid "Dependency"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:191
+msgid "Description"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:297
+msgid "Description Field"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:469
+msgid "Description of field."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:302
+msgid "Disable"
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/cart-based-discount/cart-based-discount-settings.php:12
+msgid "Disable Coupons"
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/cart-based-discount/cart-based-discount-settings.php:39
+msgid "Disable for B2B"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/layout.php:136
+msgid "Disable for Customers"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/layout.php:140
+msgid "Disable PDF download for customers in my account quotes grid."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:249
+msgid "Disable Quote and show Add to Cart Button"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:53
+msgid "Disable quote basket for user roles"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:57
+msgid ""
+"Disable quote basket for user roles. Enable for all user roles by default."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:248
+msgid "Disable Quote Button"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:1526
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:1756
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:1757
+msgid "Disapprove"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:149
+msgid "Disapprove Tax Info Email Message (Customer)"
+msgstr ""
+
+#. ID used to identify this section and with which to register options.
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:141
+#, fuzzy
+#| msgid "Disapprove Tax Info Email Message"
+msgid "Disapprove Tax info Email Messages"
+msgstr ""
+"Rechazar mensaje de correo electrónico con información fiscal\n"
+
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:286
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:796
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:1690
+msgid "Disapproved"
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:346
+msgid "Disapproved Email Text"
+msgstr "Texto de correo electrónico rechazado"
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-restrictions.php:33
+msgid "Discount Based on"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:29
+msgid "Discount Price/Value"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:94
+msgid "Discount Price: "
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/class-dcv-discount-cart-admin.php:143
+msgid "Discount Settings"
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-restrictions.php:76
+msgid "Discount Value "
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-message-restrictions.php:21
+msgid "Display Message"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:38
+msgid "Display Name"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:641
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:655
+msgid "Display Order"
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-message-restrictions.php:39
+msgid ""
+"Display Success Message: This message will be displayed when a discount is "
+"applied based on above conditions. Customize message using variables - "
+"{discount_amount}, {prod_name}"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:425
+msgid "Display the above label on custom button, e.g \"Request a Quote\""
+msgstr ""
+"Muestre la etiqueta anterior en el botón personalizado, por ejemplo, "
+"\"Solicitar una cotización\""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:360
+msgid "Display the above text when price is hidden, e.g \"Price is hidden\""
+msgstr ""
+"Mostrar el texto anterior cuando el precio está oculto, por ejemplo, \"El "
+"precio está oculto\""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/editors-settings.php:36
+msgid "Divi Builder Compatibility"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:282
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:310
+msgid "Do you want to include tax exemption?"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-status.php:54
+msgid "download pdf"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-user-email-class.php:77
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:83
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:91
+#: user-registration-plugin-for-woocommerce/classes/afreg-pending-user-email-class.php:91
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:122
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:91
+msgid "E-mail: "
+msgstr ""
+
+#: addify-user-role-editor/includes/admin/view/add-new-user-role.php:228
+msgid "Edit Capabilities"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:158
+#, fuzzy
+#| msgid "Email Field"
+msgid "Edit Field"
+msgstr "Campo de correo electrónico"
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:198
+msgid "Edit Quote"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/addify-registration-addon-main.php:74
+msgid "Edit Registration Field"
+msgstr "Editar campo de registro"
+
+#: addify_b2b.php:595
+#: addify-cart-based-discount/class-discount-cart-main.php:47
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:118
+#: addify-order-restrictions/includes/class-af-order-restrictions.php:33
+msgid "Edit Rule"
+msgstr "Editar regla"
+
+#. ID used to identify this section and with which to register options.
+#: woocommerce-request-a-quote/admin/settings/tabs/editors-settings.php:15
+msgid "Editors & Builders Settings"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:439
+msgid "Either to show field in my account. on/off"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:433
+msgid "Either to show field in registration. on/off"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/editors-settings.php:22
+msgid "Elementor Compatibility"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:177
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:18
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:39
+msgid "Email"
+msgstr ""
+
+#: class_afb2b_admin.php:487
+msgid "Email & Notification"
+msgstr ""
+"Notificación de correo electrónico\n"
+
+#. ID used to identify this section and with which to register options.
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:8
+msgid "Email & Notification Settings"
+msgstr ""
+"Configuración de correo electrónico y notificaciones\n"
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:271
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:313
+msgid "Email heading"
+msgstr ""
+
+#: class_afb2b_admin.php:351
+msgid "Email Settings"
+msgstr ""
+"Ajustes del correo electrónico\n"
+
+#: woocommerce-request-a-quote/admin/settings/email-settings.php:40
+msgid ""
+"Email Settings for each status of quote. Messages will be display before "
+"quote table in emails."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:288
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:330
+msgid "Email type"
+msgstr ""
+
+#: class_afb2b_admin.php:262
+#: woocommerce-request-a-quote/admin/settings/settings.php:32
+msgid "Emails"
+msgstr "Correos electrónicos"
+
+#. ID used to identify this section and with which to register options.
+#: woocommerce-request-a-quote/admin/settings/tabs/emails-setting.php:15
+msgid "Emails Settings"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:301
+#: woocommerce-tax-exempt-plugin/settings/general.php:185
+#: woocommerce-tax-exempt-plugin/settings/general.php:221
+#: woocommerce-tax-exempt-plugin/settings/general.php:257
+msgid "Enable"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:22
+msgid "Enable (Out of stock)"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:84
+msgid "Enable Ajax add to Quote (Product Page)"
+msgstr ""
+"Habilitar Ajax agregar a la cotización (página del producto)\n"
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:98
+msgid "Enable Ajax add to Quote (Shop Page)"
+msgstr "Habilitar Ajax agregar a la cotización (página de la tienda)"
+
+#: woocommerce-request-a-quote/admin/settings/tabs/editors-settings.php:54
+msgid ""
+"Enable another solution if your add to cart is not replaced by plugin Button."
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:145
+msgid "Enable Approve New User"
+msgstr "Habilitar Aprobar nuevo usuario"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:160
+msgid "Enable Approve New User at Checkout Page"
+msgstr "Habilitar Aprobar nuevo usuario en la página de pago"
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/captcha-settings.php:22
+msgid "Enable Captcha"
+msgstr "Habilitar Captcha"
+
+#: includes/cart-based-discount/cart-based-discount-settings.php:16
+msgid "Enable checkbox to disable coupons when cart discount is applied."
+msgstr ""
+
+#: includes/cart-based-discount/cart-based-discount-settings.php:43
+msgid ""
+"Enable checkbox to remove cart discount if the product level discount is "
+"applied using Addify B2B or Addify Role Base Pricing."
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/quote-attributes.php:84
+msgid "Enable convert to order"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/quote-attributes.php:88
+msgid ""
+"Enable convert to order for customers(Quote Status: In Process, Accepted."
+msgstr ""
+
+#: class_afb2b_admin.php:336
+msgid "Enable Default Fields"
+msgstr "Habilitar campos predeterminados"
+
+#: user-registration-plugin-for-woocommerce/admin/afreg_def_admin.php:7
+msgid "Enable Default Registration Fields"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/afreg_def_admin.php:8
+msgid ""
+"Enable default woocommerce registration fields on registration page. When "
+"user enter these fields data will be populated on billing fields "
+"automatically."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/quote-attributes.php:102
+msgid ""
+"Enable display of quote converted (User/Admin) in my-account quote details."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/editors-settings.php:40
+msgid "Enable Divi Builder Compatibility."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/editors-settings.php:26
+msgid "Enable Elementor compatibility"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/general.php:105
+msgid "Enable File Upload Field"
+msgstr ""
+"Habilitar campo de carga de archivos\n"
+
+#: products-visibility-by-user-roles/settings/visibility-by-user-roles.php:90
+msgid "Enable for this Role"
+msgstr "Habilitar para este rol"
+
+#. ID used to identify the field throughout the theme
+#: products-visibility-by-user-roles/settings/global-visibility.php:14
+msgid "Enable Global Visibility"
+msgstr ""
+"Habilitar la visibilidad global\n"
+
+#: woocommerce-request-a-quote/admin/settings/tabs/captcha-settings.php:26
+msgid "Enable Google reCaptcha field on the Request a Quote Form."
+msgstr ""
+"Habilite el campo Google reCaptcha en el Formulario de solicitud de "
+"presupuesto."
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/quote-attributes.php:36
+msgid "Enable offered price"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/quote-attributes.php:41
+msgid "Enable offered price and subtotal(offered price) of quote basket."
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: products-visibility-by-user-roles/settings/global-visibility.php:19
+msgid "Enable or Disable global visibility."
+msgstr ""
+"Activar o desactivar la visibilidad global.\n"
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/emails-setting.php:36
+msgid "Enable Pdf send to Admin by Email"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/emails-setting.php:51
+msgid "Enable Pdf send to Customer by Email"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/quote-attributes.php:22
+msgid "Enable product price"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/quote-attributes.php:26
+msgid "Enable product price, subtotal and total of quote basket."
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/quote-attributes.php:98
+msgid "Enable quote converter display"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/quote-attributes.php:74
+msgid "Enable tax calculation of quote basket items."
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/quote-attributes.php:70
+msgid "Enable tax Display"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/layout.php:110
+msgid "Enable Term & Conditions in pdf."
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/layout.php:106
+msgid "Enable Term and Condition"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/general.php:35
+msgid "Enable Text Field"
+msgstr ""
+"Habilitar campo de texto\n"
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/general.php:71
+msgid "Enable Textarea Field"
+msgstr ""
+"Habilitar el campo Textarea\n"
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:250
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:292
+#, fuzzy
+#| msgid "Enable admin email notification"
+msgid "Enable this email notification"
+msgstr ""
+"Habilitar la notificación por correo electrónico del administrador\n"
+
+#: includes/afb2b_role_based_pricing_settings.php:13
+msgid "Enable Tiered Pricing Table"
+msgstr ""
+
+#: includes/afb2b_role_based_pricing_settings.php:18
+msgid "Enable tiered pricing table on the product page."
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:73
+msgid "Enable User Role Selection"
+msgstr ""
+"Habilitar la selección de roles de usuario\n"
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:248
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:290
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:297
+msgid "Enable/Disable"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:88
+#, fuzzy
+#| msgid "Enable or Disable Ajax add to quote on product page."
+msgid "Enable/Disable Ajax add to quote on product page."
+msgstr ""
+"Habilite o deshabilite ajax add to quote en la página del producto.\n"
+
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:102
+#, fuzzy
+#| msgid "Enable or Disable Ajax add to quote on shop page."
+msgid "Enable/Disable Ajax add to quote on shop page."
+msgstr "Habilite o deshabilite ajax add to quote en la página de la tienda."
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:165
+msgid ""
+"Enable/Disable Approve new user at the Checkout page. If you enable it, the "
+"order of the customer with registration will be placed and pending status is "
+"assigned to the user. Once the user logout from the site, he will not able "
+"to log in again until the administrator approves the user. If you disable it,"
+" the user will be approved automatically when registered from the checkout "
+"page."
+msgstr ""
+"Activar / Desactivar Aprobar nuevo usuario en la página de pago. Si lo "
+"habilita, se colocará el pedido del cliente con registro y se asignará el "
+"estado pendiente al usuario. Una vez que el usuario cierre la sesión del "
+"sitio, no podrá volver a iniciar sesión hasta que el administrador apruebe "
+"al usuario. Si lo desactiva, el usuario será aprobado automáticamente cuando "
+"se registre desde la página de pago.\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:150
+msgid ""
+"Enable/Disable Approve new user. When this option is enabled all new "
+"registered users will be set to Pending until admin approves"
+msgstr ""
+"Activar / Desactivar Aprobar nuevo usuario. Cuando esta opción está "
+"habilitada, todos los nuevos usuarios registrados se establecerán en "
+"Pendiente hasta que el administrador lo apruebe."
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afreg_def_fields.php:16
+msgid "Enable/Disable Default Fields of WooCommerce."
+msgstr ""
+"Habilitar / deshabilitar campos predeterminados de WooCommerce.\n"
+
+#: woocommerce-request-a-quote/admin/settings/email-settings.php:26
+msgid "Enable/Disable Email"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:26
+msgid ""
+"Enable/Disable request a quote button for out of stock products. (Note: It "
+"is compatible with simple and variable products only"
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:78
+msgid ""
+"Enable/Disable User Role selection on registration page. If this is enable "
+"then a user role dropdown will be shown on registration page."
+msgstr ""
+"Habilitar / deshabilitar la selección de roles de usuario en la página de "
+"registro. Si está habilitado, se mostrará un menú desplegable de roles de "
+"usuario en la página de registro.\n"
+
+#: includes/afb2b_role_based_pricing_settings.php:44
+msgid "Enforce Min & Max Quantity"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/layout.php:53
+msgid "Enter company address info."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/layout.php:39
+msgid "Enter Company Name."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:470
+msgid "Enter Field Values"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:475
+msgid "Enter multiple option value with comma seprated."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/quote-attributes.php:58
+msgid ""
+"Enter number in percent to increase the offered price from standard price of "
+"product. Leave empty for standard price."
+msgstr ""
+
+#. %s: WP admin email
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:257
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:299
+#, php-format
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/layout.php:124
+msgid "Enter text for Term & Conditions in pdf."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:169
+msgid "Enter the text in above title field, that will become field label."
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-product-restrictions.php:39
+msgid "Entire Cart Discount"
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:175
+msgid "Exclude User Roles"
+msgstr "Excluir roles de usuario"
+
+#: includes/tax/tax-settings.php:44 includes/tax/tax-settings.php:59
+msgid "Excluding Tax"
+msgstr ""
+
+#: class_afb2b_admin.php:482
+msgid "Exemption Request"
+msgstr ""
+"Solicitud de exención\n"
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:175
+msgid "Expire Tax Info Email Message (Admin)"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:192
+msgid "Expire Tax Info Email Message (Customer)"
+msgstr ""
+
+#. ID used to identify this section and with which to register options.
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:167
+msgid "Expire Tax info Email Messages"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:287
+msgid "Expired"
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/class-dcv-discount-cart-admin.php:210
+msgid "Failed Ajax security check!"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:81
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:113
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:156
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:195
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:242
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:307
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:343
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:380
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:515
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:604
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:706
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:840
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:942
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:965
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:982
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:999
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:1016
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:1033
+msgid "Failed ajax security check!"
+msgstr ""
+
+#: additional_classes/class_afb2b_role_based_pricing_admin.php:376
+#: additional_classes/class_afb2b_role_based_pricing_admin.php:424
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:204
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:315
+msgid "Failed security check"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:167
+msgid "Field Attributes"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:471
+msgid "Field Attributes and Values"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:347
+msgid "Field Custom Css Class"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:143
+msgid "Field Default Value"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:341
+msgid "Field Description"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:151
+msgid "Field Details"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:155
+msgid "Field for Quote Rule"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:152
+msgid "Field Formating"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:445
+msgid "Field is read only once the user has been registered. on/off"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:427
+msgid "Field is required or not. on/off"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:168
+msgid "Field Label"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:118
+msgid "Field label"
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:93
+msgid "Field label for user role selection select box."
+msgstr ""
+"Etiqueta de campo para el cuadro de selección de selección de rol de usuario."
+"\n"
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:216
+msgid "Field Label/Text"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:88
+msgid "Field Name"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:348
+msgid "Field name should be unique for each field."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:210
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:198
+msgid "Field Options"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:421
+msgid "Field options for select, multi select, radio, multi check boxes."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:160
+msgid "Field Placeholder"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:336
+msgid "Field Placeholder Text"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:494
+msgid "Field Sort Order"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:154
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:499
+msgid "Field Status"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:173
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:655
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:101
+msgid "Field Type"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:415
+msgid "Field Type."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:327
+msgid "Field Width"
+msgstr ""
+
+#: includes/afreg_def_fields.php:122
+#: user-registration-plugin-for-woocommerce/admin/afreg_def_admin.php:66
+msgid "Field Width:"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:154
+msgid "Fields for Request a Quote"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:20
+msgid "File"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:17
+msgid "File Format:"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:191
+msgid "File size in bytes 1KB = 1000 bytes and 1MB = 1000000 bytes"
+msgstr ""
+
+#: includes/role-based/import_prices_csv_function.php:44
+msgid "File type is not allowed."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:185
+msgid "File Upload (Supports my account registration page only)"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/general.php:122
+msgid "File Upload Field Label"
+msgstr ""
+"\n"
+"Etiqueta de campo de carga de archivo\n"
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:200
+msgid "File Upload Size(MB)"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:1677
+msgid "Filter"
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:202
+msgid ""
+"First message that will be displayed to user when he/she completes the "
+"registration process, this message will be displayed only when manual "
+"approval is required. "
+msgstr ""
+"Primer mensaje que se mostrará al usuario cuando finalice el proceso de "
+"registro, este mensaje se mostrará solo cuando se requiera la aprobación "
+"manual.\n"
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:35
+msgid "First Name"
+msgstr ""
+
+#: includes/csp_product_level_variable_product.php:74
+#: includes/csp_product_level_variable_product.php:210
+#: includes/csp_product_level_variable_product.php:309
+#: includes/csp_product_level_variable_product.php:426
+#: includes/csp_rule_level.php:411 includes/csp_rule_level.php:532
+#: includes/csp_rule_level.php:628 includes/csp_rule_level.php:747
+#: includes/csp_product_level.php:81 includes/csp_product_level.php:224
+#: includes/csp_product_level.php:318 includes/csp_product_level.php:435
+msgid "Fixed Decrease"
+msgstr ""
+"Disminución fija\n"
+
+#: addify-cart-based-discount/include/admin/class-dcv-discount-cart-admin.php:72
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-restrictions.php:103
+msgid "Fixed Discount"
+msgstr ""
+
+#: includes/csp_product_level_variable_product.php:73
+#: includes/csp_product_level_variable_product.php:209
+#: includes/csp_product_level_variable_product.php:308
+#: includes/csp_product_level_variable_product.php:425
+#: includes/csp_rule_level.php:410 includes/csp_rule_level.php:531
+#: includes/csp_rule_level.php:627 includes/csp_rule_level.php:746
+#: includes/csp_product_level.php:80 includes/csp_product_level.php:223
+#: includes/csp_product_level.php:317 includes/csp_product_level.php:434
+msgid "Fixed Increase"
+msgstr ""
+"Aumento fijo\n"
+
+#: includes/csp_product_level_variable_product.php:72
+#: includes/csp_product_level_variable_product.php:208
+#: includes/csp_product_level_variable_product.php:307
+#: includes/csp_product_level_variable_product.php:424
+#: includes/csp_rule_level.php:409 includes/csp_rule_level.php:530
+#: includes/csp_rule_level.php:626 includes/csp_rule_level.php:745
+#: includes/csp_product_level.php:79 includes/csp_product_level.php:222
+#: includes/csp_product_level.php:316 includes/csp_product_level.php:433
+msgid "Fixed Price"
+msgstr ""
+"Precio fijo\n"
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:196
+msgid ""
+"For google reCaptcha field you must enter correct site key and secret key in "
+"our module settings. Without these keys google reCaptcha will not work."
+msgstr ""
+
+#: includes/afreg_def_fields.php:129
+#: user-registration-plugin-for-woocommerce/admin/afreg_def_admin.php:68
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:329
+msgid "Full Width"
+msgstr ""
+
+#: class_afb2b_admin.php:254 class_afb2b_admin.php:472
+#: woocommerce-request-a-quote/admin/settings/settings.php:24
+msgid "General"
+msgstr "General"
+
+#. ID used to identify this section and with which to register options.
+#: class_afb2b_admin.php:211 class_afb2b_admin.php:331
+#: class_afb2b_admin.php:408
+#: products-visibility-by-user-roles/class_afpvu_admin.php:65
+#: products-visibility-by-user-roles/settings/general.php:30
+#: woocommerce-tax-exempt-plugin/settings/exempted_customer_roles.php:9
+#: woocommerce-tax-exempt-plugin/settings/general.php:9
+#: addify-order-restrictions/includes/admin/settings/general.php:7
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:15
+msgid "General Settings"
+msgstr "Configuración general"
+
+#: class_afb2b_admin.php:215
+#: products-visibility-by-user-roles/class_afpvu_admin.php:66
+msgid "Global Visibility"
+msgstr ""
+
+#: products-visibility-by-user-roles/settings/global-visibility.php:125
+msgid "Global Visibility Settings"
+msgstr ""
+"Configuración de visibilidad global\n"
+
+#: woocommerce-request-a-quote/templates/my-account/quote-list-table.php:81
+msgid "Go to shop"
+msgstr ""
+"Ir a la tienda\n"
+
+#: class_afb2b_admin.php:266
+#: woocommerce-request-a-quote/admin/settings/settings.php:36
+msgid "Google Captcha"
+msgstr ""
+
+#. ID used to identify this section and with which to register options.
+#: woocommerce-request-a-quote/admin/settings/tabs/captcha-settings.php:15
+msgid "Google Captcha Settings"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:189
+msgid "Google reCAPTCHA (Supports my account registration page only"
+msgstr ""
+
+#: includes/afb2b_registration_settings.php:384
+msgid "Google reCaptcha Settings"
+msgstr "Configuración de Google reCaptcha"
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:640
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:219
+msgid "Government"
+msgstr ""
+
+#: includes/csp_product_level_variable_product.php:198
+#: includes/csp_product_level_variable_product.php:416
+#: includes/csp_rule_level.php:520 includes/csp_rule_level.php:737
+#: includes/csp_product_level.php:212 includes/csp_product_level.php:425
+#: includes/role-based/discount-setting.php:54
+#: includes/shipping/addify-shipping-by-user-roles-settings.php:84
+#: includes/payments/addify-payments-by-user-roles.php:86
+#: includes/tax/tax-settings.php:54
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:36
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:179
+#: addify-order-restrictions/includes/admin/meta-boxes/rule/general.php:67
+msgid "Guest"
+msgstr "Invitado"
+
+#. ID used to identify this section and with which to register options.
+#: woocommerce-tax-exempt-plugin/settings/guest.php:9
+msgid "Guest User Settings"
+msgstr ""
+
+#: class_afb2b_admin.php:492
+msgid "Guest Users"
+msgstr "Usuarios invitados"
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:306
+msgid "H1"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:307
+msgid "H2"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:308
+msgid "H3"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:309
+msgid "H4"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:310
+msgid "H5"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:311
+msgid "H6"
+msgstr ""
+
+#: includes/afreg_def_fields.php:138
+#: user-registration-plugin-for-woocommerce/admin/afreg_def_admin.php:72
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:330
+msgid "Half Width"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:190
+msgid "Heading"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:304
+msgid "Heading Format"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/email-settings.php:28
+msgid "Heading of Email"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:505
+msgid "Heading type for heading fields. H1, H2, H3, H4, H5, H6"
+msgstr ""
+
+#: products-visibility-by-user-roles/settings/visibility-by-user-roles.php:108
+#: products-visibility-by-user-roles/settings/global-visibility.php:142
+msgid "Hide"
+msgstr ""
+"Esconder\n"
+
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:368
+msgid "Hide Add to Cart Button"
+msgstr ""
+"Ocultar botón Añadir al carrito\n"
+"\n"
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:599
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:333
+msgid "Hide Price"
+msgstr ""
+"Ocultar precio\n"
+
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:348
+msgid "Hide Price Text"
+msgstr "Ocultar texto de precio"
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:251
+msgid "Hide Quote and show Add to Cart Button"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:250
+msgid "Hide Quote Button"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:343
+msgid "HTML tags are allowd."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://woocommerce.com/products/b2b-for-woocommerce/"
+msgstr "http://www.addifypro.com"
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com/vendor/addify/"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:271
+msgid "Icon and Number of items"
+msgstr ""
+
+#: includes/csp_product_level_variable_product.php:18
+#: includes/csp_rule_level.php:356 includes/csp_product_level.php:17
+msgid ""
+"If more than one rule is applied on same customer then rule that is added "
+"last will be applied."
+msgstr ""
+"Si se aplica más de una regla al mismo cliente, se aplicará la regla que se "
+"agregue en último lugar."
+
+#: woocommerce-tax-exempt-plugin/settings/guest.php:22
+msgid ""
+"If this option is checked then a message will be displayed for guest user "
+"about tax exemption."
+msgstr ""
+"Si esta opción está marcada, se mostrará un mensaje para el usuario invitado "
+"sobre la exención de impuestos.\n"
+
+#: woocommerce-tax-exempt-plugin/settings/request.php:57
+msgid ""
+"If this option is checked then a message will be displayed for the above "
+"selected user role users about tax exemption."
+msgstr ""
+"Si esta opción está marcada, se mostrará un mensaje para los usuarios de "
+"función de usuario seleccionados anteriormente sobre la exención de "
+"impuestos.\n"
+
+#: woocommerce-tax-exempt-plugin/settings/request.php:39
+msgid ""
+"If this option is checked then tax exempt requests will be auto-approved and "
+"users of above selected user roles will be eligible for tax exempt right "
+"after submitting the info."
+msgstr ""
+"Si esta opción está marcada, las solicitudes de exención de impuestos se "
+"aprobarán automáticamente y los usuarios de las funciones de usuario "
+"seleccionadas anteriormente serán elegibles para la exención de impuestos "
+"inmediatamente después de enviar la información.\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:110
+msgid ""
+"If this option is enabled then user can update user role from my account "
+"page."
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_role_based_pricing_settings.php:49
+msgid ""
+"If this option is enabled, the user will not be allowed to add to cart "
+"beyond the minimum and maximum quantity."
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:114
+msgid "Import CSV"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:103
+msgid "Import prices using CSV file only."
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:8
+msgid "Import Product Prices"
+msgstr ""
+
+#: class_afb2b_admin.php:81
+msgid "Import Role Base Prices"
+msgstr "Precios base de roles de importación"
+
+#: includes/csp_product_level_variable_product.php:3
+#: includes/csp_product_level.php:4 includes/csp_product_level.php:150
+msgid "Important Notes:"
+msgstr "Notas importantes:"
+
+#: woocommerce-tax-exempt-plugin/settings/general.php:158
+msgid ""
+"In general settings you can set auto/manual tax exemption choose which "
+"field(s) you want to show on the tax exemption request form."
+msgstr ""
+
+#: woocommerce-request-a-quote/front/class-af-r-f-q-front.php:306
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:35
+#: woocommerce-request-a-quote/admin/settings/email-settings.php:17
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-status.php:18
+msgid "In Process"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/settings/exempted_customer_roles.php:61
+msgid ""
+"In this section, you can specify the customers and user roles who are "
+"exempted from tax. These customers and roles are not required to fill the "
+"tax form from \"My Account\" page."
+msgstr ""
+"En esta sección, puede especificar los clientes y los roles de usuario que "
+"están exentos de impuestos. Estos clientes y roles no están obligados a "
+"completar el formulario de impuestos de la página \"Mi cuenta\".\n"
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:502
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:674
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:687
+msgid "Inactive"
+msgstr ""
+
+#: includes/tax/tax-settings.php:43 includes/tax/tax-settings.php:58
+msgid "Including Tax"
+msgstr "Incluyendo impuesto"
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/quote-attributes.php:53
+msgid "Increase offered price"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:83
+msgid "Instructions:"
+msgstr ""
+
+#. %s: post type
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:201
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:221
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:243
+#, php-format
+msgid "Invalid Field ID %s."
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:138
+msgid "Invalid file type, Only csv file is allowed."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:253
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:237
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:317
+msgid "Invalid ID."
+msgstr ""
+
+#: includes/role-based/import_prices_csv_function.php:63
+msgid "Invalid Path."
+msgstr ""
+
+#. %s: post type
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:185
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:205
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:227
+#, php-format
+msgid "Invalid Quote ID %s."
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:26
+msgid "Invalid quote."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote-fields.php:540
+#, fuzzy
+#| msgid "Invalid reCaptcha!"
+msgid "Invalid reCaptcha."
+msgstr "ReCaptcha inválido!"
+
+#. %s: Attribute name.
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote.php:613
+#, php-format
+msgid "Invalid value posted for %s"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:259
+msgid "Is add to cart button hidden?"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:430
+msgid "is Dependable on Fields ?"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:382
+msgid "is Dependable on User Role ?"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:493
+msgid "Is field dependable on user roles? on/off"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:249
+msgid "Is price of product is hidden?"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:229
+msgid "Is rule applies on all products."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:1011
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:1049
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:473
+msgid "Is Tax Exempt?"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-details-table.php:20
+msgid "Item"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:383
+msgid "Keep Add to Cart and add a new custom button"
+msgstr "Mantenga Agregar al carrito y agregue un nuevo botón personalizado"
+
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:377
+msgid "Keep Add to Cart button and add a new Quote Button"
+msgstr ""
+"Mantenga el botón Agregar al carrito y agregue un nuevo botón de cotización\n"
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:533
+msgid "Key of item."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:637
+msgid "Label"
+msgstr "Etiqueta"
+
+#: woocommerce-tax-exempt-plugin/settings/general.php:127
+#, fuzzy
+#| msgid "Label of file upload field."
+msgid "Label for fileupload field."
+msgstr ""
+"Etiqueta del campo de carga del archivo.\n"
+
+#: woocommerce-tax-exempt-plugin/settings/general.php:58
+#, fuzzy
+#| msgid "Label of text field."
+msgid "Label for text field."
+msgstr ""
+"Etiqueta del campo de texto.\n"
+
+#: woocommerce-tax-exempt-plugin/settings/general.php:93
+#, fuzzy
+#| msgid "Label of textarea field."
+msgid "Label for textarea field."
+msgstr ""
+"Etiqueta del campo textarea.\n"
+
+#: includes/afreg_def_fields.php:73
+#: user-registration-plugin-for-woocommerce/admin/afreg_def_admin.php:42
+msgid "Label:"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:36
+msgid "Last Name"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:405
+msgid "Link for custom button e.g \"http://www.example.com\""
+msgstr ""
+"Enlace para botón personalizado, por ejemplo, \"http://www.example.com\""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:274
+msgid "Link for custom button."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:526
+msgid "List of quote items along with Quantity and other data."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:246
+msgid "Manage add or update tax information email messages."
+msgstr ""
+
+#: includes/afb2b_registration_settings.php:485
+msgid "Manage Approve new user settings from here."
+msgstr "Manage Approve new user settings from here."
+
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:291
+msgid "Manage approve tax information email messages."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:337
+msgid "Manage disapprove tax information email messages."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:214
+msgid "Manage email and notification settings."
+msgstr ""
+
+#: includes/afb2b_registration_settings.php:590
+msgid "Manage Email Settings from here."
+msgstr ""
+"Administre la configuración de correo electrónico desde aquí.\n"
+
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:367
+msgid "Manage expire tax information email messages."
+msgstr ""
+
+#: includes/afb2b_role_based_pricing_settings.php:108
+msgid "Manage module general settings from here."
+msgstr "Administre la configuración general del módulo desde aquí."
+
+#: includes/afb2b_registration_settings.php:368
+msgid "Manage registration module general settings from here."
+msgstr "Administre la configuración general del módulo de registro desde aquí."
+
+#: includes/afb2b_registration_settings.php:408
+msgid ""
+"Manage user role settings from here. Choose whether you want to show user "
+"role dropdown on registration page or not and choose which user roles you "
+"want to show in dropdown on registration page."
+msgstr ""
+"Administre la configuración de roles de usuario desde aquí. Elija si desea "
+"mostrar el menú desplegable de roles de usuario en la página de registro o "
+"no y elija qué roles de usuario desea mostrar en el menú desplegable de la "
+"página de registro.\n"
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:641
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:220
+msgid "Marketplace"
+msgstr ""
+
+#: includes/csp_product_level_variable_product.php:27
+#: includes/csp_product_level_variable_product.php:149
+#: includes/csp_rule_level.php:365 includes/csp_rule_level.php:472
+#: includes/csp_product_level.php:26 includes/csp_product_level.php:170
+msgid "Max Qty"
+msgstr ""
+"Cantidad máxima\n"
+
+#: includes/afb2b_role_based_pricing_settings.php:75
+msgid "Max Qty Error Message"
+msgstr ""
+"Mensaje de error de cantidad máxima\n"
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-restrictions.php:75
+msgid "Maximum"
+msgstr ""
+
+#: addify-order-restrictions/includes/admin/meta-boxes/rule/general.php:98
+msgid "Maximum Amount"
+msgstr ""
+
+#: addify-order-restrictions/includes/admin/meta-boxes/rule/general.php:83
+msgid "Maximum Quantity"
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-message-restrictions.php:51
+msgid ""
+"Message Before Discount: This message appears before the discount is applied "
+"notifying customers to qualify for specific quantity or order amount to get "
+"discount. Customize message using variables like {required_amount}, "
+"{required_quantity}, {discount_amount}, {prod_name}."
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:197
+msgid "Message for Users when Account is Created"
+msgstr "Mensaje para los usuarios cuando se crea la cuenta"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:227
+msgid "Message for Users when Account is disapproved"
+msgstr ""
+"Mensaje para los usuarios cuando la cuenta es rechazada\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:232
+msgid "Message for Users when Account is Disapproved By Admin."
+msgstr ""
+"Mensaje para los usuarios cuando la cuenta es rechazada por el administrador."
+"\n"
+"\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:212
+msgid "Message for Users when Account is pending for approval"
+msgstr ""
+"Mensaje para los usuarios cuando la cuenta está pendiente de aprobación"
+
+#: addify-cart-based-discount/include/admin/class-dcv-discount-cart-admin.php:150
+msgid "Message Restrictions"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/request.php:70
+#: woocommerce-tax-exempt-plugin/settings/guest.php:35
+msgid "Message Text"
+msgstr ""
+"Mensaje de texto\n"
+
+#: includes/afreg_def_fields.php:93
+#: user-registration-plugin-for-woocommerce/admin/afreg_def_admin.php:52
+msgid "Message:"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:639
+msgid "Meta Key/ Field Name"
+msgstr ""
+
+#: includes/csp_product_level_variable_product.php:26
+#: includes/csp_product_level_variable_product.php:148
+#: includes/csp_rule_level.php:364 includes/csp_rule_level.php:471
+#: includes/csp_product_level.php:25 includes/csp_product_level.php:169
+msgid "Min Qty"
+msgstr ""
+"Cantidad mínima\n"
+
+#: includes/afb2b_role_based_pricing_settings.php:60
+msgid "Min Qty Error Message"
+msgstr ""
+"Mensaje de error de cantidad mínima\n"
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-restrictions.php:74
+msgid "Minimum"
+msgstr ""
+
+#: addify-order-restrictions/includes/admin/meta-boxes/rule/general.php:94
+msgid "Minimum Amount"
+msgstr ""
+
+#: addify-order-restrictions/includes/admin/meta-boxes/rule/general.php:79
+msgid "Minimum Quantity"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:181
+msgid "Multi Checkbox"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:26
+msgid "Multi Select"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:179
+msgid "Multi Selectbox"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:282
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:324
+msgid "N/A"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:159
+#, fuzzy
+#| msgid "Name Field"
+msgid "New Field"
+msgstr "Campo de nombre"
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:196
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:197
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:199
+msgid "New Quote"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/addify-registration-addon-main.php:75
+msgid "New Registration Field"
+msgstr "Nuevo campo de registro"
+
+#: addify_b2b.php:596
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:119
+#: addify-order-restrictions/includes/class-af-order-restrictions.php:34
+msgid "New Rule"
+msgstr ""
+"Nueva regla\n"
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-info-admin-email-class.php:102
+msgid "New Tax Exemption Form Submitted"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:66
+msgid "New User Registration"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:37
+msgid "Nickname"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-user-email-class.php:109
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:128
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:306
+#: user-registration-plugin-for-woocommerce/classes/afreg-pending-user-email-class.php:123
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:169
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:306
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:97
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-status.php:48
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:338
+msgid "No"
+msgstr "No"
+
+#: addify-cart-based-discount/class-discount-cart-main.php:51
+msgid "No Cart found"
+msgstr ""
+
+#: addify-cart-based-discount/class-discount-cart-main.php:52
+msgid "No cart found in trash"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:630
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:798
+msgid "No Expiry"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:163
+msgid "No Field found"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:164
+msgid "No Field found in trash"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:1032
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:493
+msgid "No file has been uploaded"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/customer-info.php:138
+msgid "No file was uploaded by user."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:618
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:784
+msgid "No information submitted"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote.php:948
+msgid "No item found in quote basket."
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/quote/mini-quote-dropdown.php:171
+#, fuzzy
+#| msgid "No products in quote basket."
+msgid "No products in the Quote Basket."
+msgstr ""
+"No hay productos en la cesta de cotizaciones.\n"
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:203
+msgid "No Quote found"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:204
+msgid "No quote found in trash"
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-list-table.php:81
+msgid "No quote has been made yet."
+msgstr ""
+"No se ha hecho ninguna cita todavía.\n"
+
+#: user-registration-plugin-for-woocommerce/addify-registration-addon-main.php:79
+msgid "No registration field found"
+msgstr ""
+"No se encontró campo de registro\n"
+"\n"
+
+#: user-registration-plugin-for-woocommerce/addify-registration-addon-main.php:80
+msgid "No registration field found in trash"
+msgstr "No se encontró campo de registro en la papelera"
+
+#: addify-order-restrictions/includes/class-af-order-restrictions.php:37
+msgid "No Rule found"
+msgstr ""
+
+#: addify_b2b.php:600
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:123
+msgid "No rule found"
+msgstr ""
+"No se encontró ninguna regla.\n"
+
+#: addify_b2b.php:601
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:124
+#: addify-order-restrictions/includes/class-af-order-restrictions.php:38
+msgid "No rule found in trash"
+msgstr ""
+"No se encontró ninguna regla en la papelera.\n"
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:643
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:222
+msgid "Non Exempt"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/templates/quote-details.php:82
+msgid "Note:"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/quote-attributes.php:59
+msgid ""
+"Note: offered price will be display according to settings of cart. "
+"(including/excluding tax)"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/quote-attributes.php:42
+msgid ""
+"Note: offered price will be excluding tax if products prices are excluding "
+"tax and including tax if prices are including tax."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-details-table.php:172
+msgid ""
+"Note: Tax/Vat will be calculated on quote conversion to order but it is "
+"visible to customers."
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-restrictions.php:145
+msgid ""
+"Note: When discount value is more than or less than the subtotal then rule "
+"will not be applied."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-status.php:44
+msgid "Notify Customer"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:183
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:19
+msgid "Number"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-details-table.php:22
+msgid "Off. Price"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-details-table.php:25
+msgid "Off. Subtotal"
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:87
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:164
+#: woocommerce-request-a-quote/templates/emails/quote-contents.php:35
+#: woocommerce-request-a-quote/templates/quote/quote-table.php:36
+#: woocommerce-request-a-quote/templates/quote/quote-table.php:135
+#: woocommerce-request-a-quote/includes/pdf/templates/quote-contents.php:45
+msgid "Offered Price"
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:232
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:233
+#: woocommerce-request-a-quote/templates/quote/quote-totals-table.php:41
+#: woocommerce-request-a-quote/templates/quote/quote-totals-table.php:42
+msgid "Offered Price Subtotal"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:573
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:607
+msgid "Offered price subtotal."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:563
+msgid "Offered Price."
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:94
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:183
+#: woocommerce-request-a-quote/templates/quote/quote-table.php:43
+msgid "Offered Subtotal"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:215
+msgid "Option Value"
+msgstr ""
+
+#: addify-order-restrictions/includes/admin/meta-boxes/rule/general.php:90
+msgid "Order Amount"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/templates/quote-details.php:18
+msgid "Order details"
+msgstr ""
+
+#: addify-order-restrictions/includes/admin/meta-boxes/rule/general.php:75
+msgid "Order Quantity"
+msgstr ""
+
+#: class_afb2b_admin.php:203
+#: addify-order-restrictions/includes/class-af-order-restrictions.php:30
+msgid "Order Restriction"
+msgstr ""
+
+#: addify-order-restrictions/includes/class-af-order-restrictions.php:29
+#: addify-order-restrictions/includes/class-af-order-restrictions.php:40
+#: addify-order-restrictions/includes/class-af-order-restrictions.php:41
+msgid "Order Restrictions"
+msgstr ""
+
+#: addify-order-restrictions/includes/class-af-o-r-admin.php:39
+msgid "Order Rule"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:642
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:221
+msgid "Other"
+msgstr ""
+
+#: class_afb2b_admin.php:270
+#: woocommerce-request-a-quote/admin/settings/settings.php:40
+msgid "Page builders"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:184
+msgid "Password"
+msgstr ""
+
+#: class_afb2b_admin.php:200
+msgid "Payments"
+msgstr ""
+"Pagos\n"
+
+#. ID used to identify this section and with which to register options.
+#: woocommerce-request-a-quote/admin/settings/settings.php:52
+#: woocommerce-request-a-quote/admin/settings/tabs/layout.php:15
+msgid "PDF Settings"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:792
+#: woocommerce-request-a-quote/front/class-af-r-f-q-front.php:305
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:34
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-status.php:17
+msgctxt "Pendiente"
+msgid "Pending"
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:310
+msgid "Pending Email Body Text"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/email-settings.php:16
+msgid "Pending/New Quote"
+msgstr "Pendiente/Nueva Cotización"
+
+#: addify-cart-based-discount/include/admin/class-dcv-discount-cart-admin.php:75
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-restrictions.php:109
+msgid "Percentage"
+msgstr ""
+
+#: includes/csp_product_level_variable_product.php:75
+#: includes/csp_product_level_variable_product.php:211
+#: includes/csp_product_level_variable_product.php:310
+#: includes/csp_product_level_variable_product.php:427
+#: includes/csp_rule_level.php:412 includes/csp_rule_level.php:533
+#: includes/csp_rule_level.php:629 includes/csp_rule_level.php:748
+#: includes/csp_product_level.php:82 includes/csp_product_level.php:225
+#: includes/csp_product_level.php:319 includes/csp_product_level.php:436
+msgid "Percentage Decrease"
+msgstr ""
+"Porcentaje de disminución\n"
+"\n"
+
+#: includes/csp_product_level_variable_product.php:76
+#: includes/csp_product_level_variable_product.php:212
+#: includes/csp_product_level_variable_product.php:311
+#: includes/csp_product_level_variable_product.php:428
+#: includes/csp_rule_level.php:413 includes/csp_rule_level.php:534
+#: includes/csp_rule_level.php:630 includes/csp_rule_level.php:749
+#: includes/csp_product_level.php:83 includes/csp_product_level.php:226
+#: includes/csp_product_level.php:320 includes/csp_product_level.php:437
+msgid "Percentage Increase"
+msgstr "Porcentaje de aumento"
+
+#: woocommerce-request-a-quote/templates/quote/addify-quote-request-page.php:158
+#: woocommerce-request-a-quote/admin/settings/tabs/button.php:70
+msgid "Place Quote"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/button.php:36
+msgid "Place quote button background color"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/button.php:50
+msgid "Place quote button color"
+msgstr ""
+
+#. ID used to identify this section and with which to register options.
+#: woocommerce-request-a-quote/admin/settings/tabs/button.php:15
+msgid "Place Quote Button Settings"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/button.php:22
+msgid "Place quote button text"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:463
+msgid "Placeholder of field."
+msgstr ""
+
+#: includes/afreg_def_fields.php:83
+#: user-registration-plugin-for-woocommerce/admin/afreg_def_admin.php:47
+msgid "Placeholder:"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:89
+msgid ""
+"Please add the user role ID/Value. For example the admin user roles is "
+"usually administrator, Shop Manager has shop_manager. No Caps and spaces!"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote.php:576
+msgid "Please choose product options&hellip;"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:102
+msgid ""
+"Please do not add empty rows like if you are not adding price for specific "
+"product, please remove its row."
+msgstr ""
+
+#: products-visibility-by-user-roles/settings/visibility-by-user-roles.php:32
+#: products-visibility-by-user-roles/settings/global-visibility.php:127
+msgid ""
+"Please note that Visibility by User Roles have high priority. If following "
+"configurations are active for any user role – the global settings won’t work "
+"for that specific role."
+msgstr ""
+"Tenga en cuenta que la visibilidad por roles de usuario tiene alta prioridad."
+" Si las siguientes configuraciones están activas para cualquier función de "
+"usuario, la configuración global no funcionará para esa función específica.\n"
+
+#: includes/role-based/import_prices_csv.php:147
+msgid "Please upload a CSV file."
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:93
+msgid ""
+"Please use the values as fixed_price, fixed_increase, fixed_decrease, "
+"percentage_decrease, percentage_increase."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote.php:941
+msgid "Post data should not be empty to create a quote."
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:84
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:158
+#: woocommerce-request-a-quote/templates/emails/quote-contents.php:30
+#: woocommerce-request-a-quote/templates/quote/quote-table.php:33
+#: woocommerce-request-a-quote/templates/quote/quote-table.php:123
+#: woocommerce-request-a-quote/includes/pdf/templates/quote-contents.php:40
+msgid "Price"
+msgstr ""
+
+#: class_afb2b_admin.php:412
+msgid "Price for Discount"
+msgstr "Precio de descuento"
+
+#. ID used to identify the field throughout the theme
+#: includes/role-based/discount-setting.php:11
+msgid "Price for discount by user roles"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:558
+msgid "Price of item."
+msgstr ""
+
+#: includes/csp_product_level_variable_product.php:7
+#: includes/csp_product_level.php:8 includes/csp_product_level.php:154
+msgid "Price Specific to a Customer"
+msgstr "Precio específico para un cliente"
+
+#: includes/csp_product_level_variable_product.php:8
+#: includes/csp_product_level.php:9 includes/csp_product_level.php:155
+msgid "Price Specific to a Role"
+msgstr "Precio específico de un rol"
+
+#: class_afb2b_admin.php:117
+msgid "Prices imported successfully."
+msgstr ""
+
+#: includes/csp_product_level_variable_product.php:5
+#: includes/csp_product_level.php:6 includes/csp_product_level.php:152
+msgid "Pricing Priority:"
+msgstr "Prioridad de precios:"
+
+#: addify-user-role-editor/includes/admin/af-ure-admin.php:167
+msgid "Primary"
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:82
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:133
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account-old-quotes.php:33
+#: woocommerce-request-a-quote/templates/emails/quote-contents.php:23
+#: woocommerce-request-a-quote/templates/quote/quote-table.php:31
+#: woocommerce-request-a-quote/templates/quote/quote-table.php:100
+#: woocommerce-request-a-quote/admin/templates/quote-details.php:24
+#: woocommerce-request-a-quote/admin/templates/addify-afrfq-edit-form.php:33
+#: woocommerce-request-a-quote/includes/pdf/templates/quote-contents.php:30
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-details.php:49
+msgid "Product"
+msgstr ""
+"Producto\n"
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-product-restrictions.php:33
+msgid "Product Discount"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:21
+msgid "Product ID"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:538
+msgid "Product ID."
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:85
+msgid "Product ID: "
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:23
+msgid "Product Name"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:88
+msgid ""
+"Product name can be added as the third column for reference. Just like SKU "
+"this won’t be used by extension while importing prices."
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:88
+msgid "Product Name: "
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-restrictions.php:56
+msgid "Product Price"
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/class-dcv-discount-cart-admin.php:136
+msgid "Product Restrictions"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/templates/addify-afrfq-edit-form.php:34
+msgid "Product SKU"
+msgstr "Producto SKU "
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-restrictions.php:60
+msgid "Product Subtotal"
+msgstr ""
+
+#: addify_b2b.php:208 class_afb2b_admin.php:190
+#: products-visibility-by-user-roles/class_afpvu_admin.php:49
+#: products-visibility-by-user-roles/class_afpvu_admin.php:49
+#: products-visibility-by-user-roles/addify_product_visibility.php:53
+msgid "Products Visibility"
+msgstr ""
+"Visibilidad de productos\n"
+
+#: products-visibility-by-user-roles/class_afpvu_admin.php:61
+msgid "Products Visibility by User Roles"
+msgstr ""
+
+#: includes/csp_rule_level.php:13
+msgid ""
+"Provide number between 0 and 100, If more than one rules are applied on same "
+"item then rule with higher priority will be applied. 1 is high and 100 is "
+"low."
+msgstr ""
+"Proporcione un número entre 0 y 100. Si se aplica más de una regla en el "
+"mismo elemento, se aplicará la regla con mayor prioridad. 1 es alto y 100 es "
+"bajo.\n"
+
+#: includes/afreg_def_fields.php:159
+#: user-registration-plugin-for-woocommerce/admin/afreg_def_admin.php:83
+msgid "Publish"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-details-table.php:23
+msgid "Qty"
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:89
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:169
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account-old-quotes.php:35
+#: woocommerce-request-a-quote/templates/emails/quote-contents.php:26
+#: woocommerce-request-a-quote/templates/quote/quote-table.php:38
+#: woocommerce-request-a-quote/templates/quote/quote-table.php:140
+#: woocommerce-request-a-quote/admin/templates/addify-afrfq-edit-form.php:35
+#: woocommerce-request-a-quote/includes/pdf/templates/quote-contents.php:36
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-details.php:50
+msgid "Quantity"
+msgstr ""
+"Cantidad\n"
+"\n"
+
+#: includes/role-based/import_prices_csv.php:26
+msgid "Quantity From(min qty)"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:91
+msgid "Quantity From: "
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-restrictions.php:43
+msgid "Quantity Range"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:27
+msgid "Quantity To(max qty)"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:92
+msgid "Quantity To: "
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:553
+msgid "Quantity."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/pdf/templates/pdf-header.php:33
+msgid "Quotation #:"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:195
+#: woocommerce-request-a-quote/templates/my-account/quote-list-table.php:20
+msgid "Quote"
+msgstr ""
+"Citar\n"
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account-old-quotes.php:23
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account-old-quotes.php:25
+msgid "Quote "
+msgstr ""
+"Citar\n"
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:702
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:59
+msgid "Quote #"
+msgstr ""
+"Cita #\n"
+
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/customer-info.php:39
+msgid "Quote #:"
+msgstr ""
+"Cita #:\n"
+
+#: class_afb2b_admin.php:274
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:461
+#: woocommerce-request-a-quote/admin/settings/settings.php:44
+msgid "Quote Attributes"
+msgstr ""
+
+#. ID used to identify this section and with which to register options.
+#: woocommerce-request-a-quote/admin/settings/tabs/quote-attributes.php:15
+msgid "Quote Attributes Settings"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:36
+msgid "Quote Basket Menu(s)"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:67
+msgid "Quote Basket Style"
+msgstr ""
+"Estilo de cesta de cotización\n"
+
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:268
+msgid "Quote Basket with Dropdown"
+msgstr ""
+
+#: class_afb2b_admin.php:278
+#: woocommerce-request-a-quote/admin/settings/settings.php:48
+msgid "Quote Buttons"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/pdf/templates/quote-contents.php:25
+msgid "Quote Contents"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote.php:816
+msgid "Quote Contents are empty."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-email-controller.php:403
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-pdf-controller.php:221
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:63
+msgid "Quote Date"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:452
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:77
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account-old-quotes.php:27
+msgid "Quote Details"
+msgstr ""
+"Detalles de cotización\n"
+"\n"
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:168
+msgid "Quote field published"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:169
+msgid "Quote field updated"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:166
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:148
+msgid "Quote Fields"
+msgstr "Campos de cotización"
+
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:3
+msgid "Quote for User Roles"
+msgstr ""
+"Presupuesto para roles de usuario\n"
+
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote.php:809
+msgid "Quote ID is required to convert a quote to order."
+msgstr ""
+
+#. %s: Product name
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:685
+msgid "Quote is not available for selected variation."
+msgstr ""
+
+#. %s: Product name
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:819
+#, php-format
+msgid "Quote is not available for “%s”."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote.php:581
+msgid "Quote is not permitted for selected variation &hellip;"
+msgstr ""
+
+#. %s: Product name
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:291
+#, php-format
+msgid "Quote is not permitted for “%s”."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:204
+msgid "Quote Item not found"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-email-controller.php:399
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-pdf-controller.php:217
+msgid "Quote Number"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/emails-setting.php:40
+msgid ""
+"Quote pdf attachment will be send to Admin as email when pdf is downloaded "
+"or qoute status updated"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/emails-setting.php:55
+msgid ""
+"Quote pdf attachment will be send to Customer as email when pdf is "
+"downloaded or qoute status updated"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:207
+msgid "Quote published"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:97
+msgid "Quote Rule for Selected Categories"
+msgstr ""
+"Regla de cotización para categorías seleccionadas\n"
+
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:70
+msgid "Quote Rule for Selected Products"
+msgstr ""
+"Regla de cotización para productos seleccionados\n"
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:128
+msgid "Quote rule published"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:129
+msgid "Quote rule updated"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:126
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:144
+#, fuzzy
+#| msgid "All Quote Rules"
+msgid "Quote Rules"
+msgstr ""
+"Todas las reglas de cotización\n"
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:705
+msgid "Quote Status"
+msgstr "Estado de la cotización"
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/custom-message.php:22
+msgid "Quote Submitted successfully Message"
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:217
+#: woocommerce-request-a-quote/templates/quote/addify-quote-request-page.php:98
+msgid "Quote totals"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:208
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:479
+msgid "Quote updated"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/customer-info.php:51
+msgid "Quote user:"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:194
+#: woocommerce-request-a-quote/front/class-af-r-f-q-front.php:280
+#: woocommerce-request-a-quote/front/class-af-r-f-q-front.php:294
+msgid "Quotes"
+msgstr "Citas"
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:27
+msgid "Radio"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:182
+msgid "Radio Button"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:317
+msgid "Read Only Field(Customer can not update this from My Account page)"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote-fields.php:544
+#, fuzzy
+#| msgid "reCaptcha is required!"
+msgid "reCaptcha is required."
+msgstr "Se requiere reCaptcha!"
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:254
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:296
+msgid "Recipient(s)"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:126
+#, fuzzy
+#| msgid "Redirect After Quote Submission"
+msgid "Redirect after Quote Submission"
+msgstr ""
+"Redirigir después del envío de la cotización\n"
+
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:130
+#, fuzzy
+#| msgid "Redirect to any page after Quote is submitted successfully."
+msgid "Redirect to any page after quote is submitted successfully."
+msgstr ""
+"Redirigir a cualquier página después de que la cotización se envíe "
+"correctamente.\n"
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:112
+msgid "Redirect to Quote Page"
+msgstr ""
+"Redirigir a la página de cotización\n"
+
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:116
+#, fuzzy
+#| msgid "Redirect to Quote page after a product added to Quote successfully."
+msgid "Redirect to quote page after a product added to quote successfully."
+msgstr ""
+"Redirigir a la página de cotización después de que un producto se haya "
+"agregado correctamente a la cotización.\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: products-visibility-by-user-roles/settings/global-visibility.php:98
+msgid ""
+"Redirect to this custom URL when user try to access restricted catalog. e.g "
+"http://www.example.com"
+msgstr ""
+"Redirigir a esta URL personalizada cuando el usuario intente acceder al "
+"catálogo restringido. por ejemplo, http://www.example.com\n"
+
+#. ID used to identify the field throughout the theme
+#: products-visibility-by-user-roles/settings/visibility-by-user-roles.php:387
+#: products-visibility-by-user-roles/settings/global-visibility.php:77
+msgid "Redirection Mode"
+msgstr ""
+"Modo de redireccionamiento\n"
+
+#: user-registration-plugin-for-woocommerce/addify-registration-addon-main.php:71
+msgid "Registration Field"
+msgstr ""
+"Campo de registro\n"
+
+#: user-registration-plugin-for-woocommerce/addify-registration-addon-main.php:70
+#: user-registration-plugin-for-woocommerce/addify-registration-addon-main.php:82
+#: user-registration-plugin-for-woocommerce/addify-registration-addon-main.php:83
+msgid "Registration Fields"
+msgstr ""
+"Campos de registro\n"
+"\n"
+
+#: includes/role-based/discount-setting.php:42
+#: includes/role-based/discount-setting.php:58
+msgid "Regular Price"
+msgstr ""
+
+#: includes/csp_product_level_variable_product.php:9
+#: includes/csp_product_level.php:10 includes/csp_product_level.php:156
+msgid "Regular Product Price"
+msgstr ""
+"Precio regular del producto\n"
+
+#: includes/csp_product_level_variable_product.php:33
+#: includes/csp_product_level_variable_product.php:155
+#: includes/csp_rule_level.php:371 includes/csp_rule_level.php:478
+#: includes/csp_product_level.php:32 includes/csp_product_level.php:176
+msgid "Remove"
+msgstr ""
+"Eliminar\n"
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:233
+msgid "Remove Option"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/general.php:17
+msgid "Remove Tax Automatically"
+msgstr ""
+"Eliminar impuestos automáticamente\n"
+
+#: woocommerce-request-a-quote/templates/quote/quote-table.php:77
+#: woocommerce-request-a-quote/templates/quote/mini-quote-dropdown.php:77
+msgid "Remove this item"
+msgstr "Eliminar este elemento"
+
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:374
+msgid "Replace Add to Cart button with a Quote Button"
+msgstr ""
+"Reemplace el botón Agregar al carrito con un botón de cotización\n"
+
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:380
+msgid "Replace Add to Cart with custom button"
+msgstr ""
+"Reemplace Agregar al carrito con un botón personalizado\n"
+
+#: includes/csp_rule_level.php:366 includes/csp_rule_level.php:473
+msgid "Replace Original Price?"
+msgstr ""
+"¿Reemplazar precio original?\n"
+
+#: includes/role-based/import_prices_csv.php:30
+msgid "Replace Orignal Price"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:95
+msgid "Replace Orignal Price: "
+msgstr ""
+
+#: includes/csp_product_level_variable_product.php:28
+#: includes/csp_product_level_variable_product.php:150
+#: includes/csp_product_level.php:27 includes/csp_product_level.php:171
+msgid "Replace Orignal Price?"
+msgstr "Reemplazar precio original?"
+
+#: addify_b2b.php:528 class_afb2b_admin.php:192
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:567
+msgid "Request a Quote"
+msgstr "Solicitar presupuesto"
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/emails-setting.php:68
+#, fuzzy
+#| msgid "Request a Quote Rules"
+msgid "Request a Quote Emails"
+msgstr ""
+"Solicitar una cotización Reglas\n"
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:115
+#, fuzzy
+#| msgid "Request for QuotevRule"
+msgid "Request for Quote Rule"
+msgstr "Solicitud de reglas de cotización"
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:114
+msgid "Request for Quote Rules"
+msgstr "Solicitud de reglas de cotización"
+
+#: addify_b2b.php:527
+#, fuzzy
+#| msgid "Request a quote!"
+msgid "request-a-quote"
+msgstr "¡Solicitar presupuesto!"
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:306
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:643
+#: woocommerce-tax-exempt-plugin/settings/general.php:193
+#: woocommerce-tax-exempt-plugin/settings/general.php:229
+#: woocommerce-tax-exempt-plugin/settings/general.php:265
+msgid "Required"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:281
+msgid "Required Field"
+msgstr ""
+
+#: includes/afreg_def_fields.php:103
+#: user-registration-plugin-for-woocommerce/admin/afreg_def_admin.php:57
+msgid "Required:"
+msgstr ""
+
+#: addify-order-restrictions/includes/admin/meta-boxes/rule/general.php:119
+msgid "Restriction Message"
+msgstr ""
+
+#: addify-order-restrictions/includes/admin/meta-boxes/rule/general.php:147
+msgid "Restriction Message to show customers."
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/quote/addify-quote-request-page.php:180
+msgid "Return To Shop"
+msgstr "Volver a la tienda"
+
+#: addify-user-role-editor/includes/af-ure-ajax-controller.php:87
+msgid "Role Already Created"
+msgstr ""
+
+#: includes/payments/addify-payments-by-user-roles.php:25
+msgid "Role Based Payment Methods"
+msgstr ""
+
+#: addify_b2b.php:603 addify_b2b.php:604 class_afb2b_admin.php:196
+msgid "Role Based Pricing"
+msgstr ""
+"Precios basados en roles\n"
+"\n"
+
+#: addify_b2b.php:591 addify_b2b.php:592
+msgid "Role Based Pricing Rules"
+msgstr "Reglas de precios basadas en roles"
+
+#: additional_classes/class_afb2b_role_based_pricing_admin.php:330
+#: includes/csp_product_level_variable_product.php:17
+#: includes/csp_rule_level.php:355 includes/csp_product_level.php:16
+msgid "Role Based Pricing(By Customers)"
+msgstr ""
+"Precios basados en roles (por clientes)\n"
+"\n"
+"\n"
+"\n"
+
+#: additional_classes/class_afb2b_role_based_pricing_admin.php:337
+#: includes/csp_product_level_variable_product.php:139
+#: includes/csp_rule_level.php:462 includes/csp_product_level.php:162
+msgid "Role Based Pricing(By User Roles)"
+msgstr "Precios basados en roles (por roles de usuario)"
+
+#: includes/shipping/addify-shipping-by-user-roles-settings.php:25
+msgid "Role Based Shipping Methods"
+msgstr ""
+
+#: addify-user-role-editor/includes/admin/view/add-new-user-role.php:122
+msgid "Role Key"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:239
+msgid "Rule applies on categories."
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-date-restrictions.php:20
+msgid "Rule Date:"
+msgstr ""
+
+#: additional_classes/class_afb2b_role_based_pricing_admin.php:451
+msgid "Rule Details"
+msgstr ""
+"Detalles de la regla\n"
+"\n"
+
+#: additional_classes/class_afb2b_role_based_pricing_admin.php:555
+#: includes/csp_rule_level.php:9
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:127
+#: addify-order-restrictions/includes/class-af-order-restrictions.php:42
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:601
+msgid "Rule Priority"
+msgstr "Prioridad de regla"
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:195
+msgid "Rule Priority."
+msgstr ""
+
+#: addify-order-restrictions/includes/class-af-order-restrictions.php:43
+msgid "Rule published"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:433
+msgid "Rule Settings"
+msgstr "Configuraciones de regla"
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:402
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:498
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:222
+msgid "Rule status (post status)."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:375
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:471
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:190
+msgid "Rule title."
+msgstr ""
+
+#: addify-order-restrictions/includes/class-af-order-restrictions.php:44
+msgid "Rule updated"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:234
+msgid "Rules applies on products."
+msgstr ""
+
+#: includes/role-based/discount-setting.php:43
+#: includes/role-based/discount-setting.php:59
+msgid "Sale Price"
+msgstr ""
+
+#: addify-cart-based-discount/class-discount-cart-main.php:50
+msgid "Search Cart Discounts"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:161
+msgid "Search Field"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:201
+msgid "Search Quote"
+msgstr "Buscar cotización"
+
+#: user-registration-plugin-for-woocommerce/addify-registration-addon-main.php:77
+msgid "Search Registration Field"
+msgstr "Buscar campo de registro"
+
+#: addify_b2b.php:598
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:121
+#: addify-order-restrictions/includes/class-af-order-restrictions.php:36
+msgid "Search Rule"
+msgstr ""
+"Regla de búsqueda\n"
+
+#: addify-user-role-editor/includes/admin/af-ure-admin.php:170
+msgid "Secondary"
+msgstr ""
+
+#: addify-user-role-editor/includes/admin/af-ure-admin.php:30
+msgid "Secondary Role"
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:49
+#: woocommerce-request-a-quote/admin/settings/tabs/captcha-settings.php:50
+msgid "Secret Key"
+msgstr ""
+"Llave secreta\n"
+
+#: user-registration-plugin-for-woocommerce/addify-registration-addon-main.php:124
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:525
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:1349
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:1863
+msgid "Security Violated"
+msgstr ""
+
+#: addify-user-role-editor/includes/af-ure-ajax-controller.php:32
+#: addify-user-role-editor/includes/af-ure-ajax-controller.php:162
+#: addify-user-role-editor/includes/af-ure-ajax-controller.php:225
+#: addify-user-role-editor/includes/af-ure-ajax-controller.php:241
+#: addify-user-role-editor/includes/admin/af-ure-admin.php:65
+#: addify-user-role-editor/includes/admin/af-ure-admin.php:95
+msgid "Security Violated!"
+msgstr ""
+
+#: class_afb2b_admin.php:129
+#: includes/role-based/import_prices_csv_function.php:8
+msgid "Security Violated."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-info-user-email-class.php:100
+#: woocommerce-tax-exempt-plugin/classes/aftax-info-admin-email-class.php:157
+#: woocommerce-tax-exempt-plugin/classes/aftax-approve-info-admin-email-class.php:107
+#: woocommerce-tax-exempt-plugin/classes/aftax-expire-info-user-email-class.php:102
+#: woocommerce-tax-exempt-plugin/classes/aftax-approve-info-user-email-class.php:110
+#: woocommerce-tax-exempt-plugin/classes/aftax-expire-info-admin-email-class.php:107
+#: woocommerce-tax-exempt-plugin/classes/aftax-disapprove-info-email-class.php:110
+msgid "See Attachment"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-status.php:52
+msgid "Select \"Yes\" to notify customer via email."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:25
+msgid "Select (Dropdown)"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/addify-registration-addon-main.php:165
+msgid "Select a county / state..."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/layout.php:81
+msgid "Select Background Color for Layout ."
+msgstr ""
+
+#: includes/csp_rule_level.php:318
+msgid "Select Brands"
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/csp_rule_level.php:60
+#: products-visibility-by-user-roles/settings/visibility-by-user-roles.php:149
+#: products-visibility-by-user-roles/settings/global-visibility.php:61
+msgid "Select Categories"
+msgstr "Seleccionar categorías"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: products-visibility-by-user-roles/settings/global-visibility.php:66
+msgid "Select categories on which products on which you want to apply."
+msgstr "Seleccione categorías en qué productos desea aplicar."
+
+#: addify-user-role-editor/includes/admin/view/add-new-user-role.php:84
+msgid "Select Custom Capabilities"
+msgstr ""
+
+#: addify-order-restrictions/includes/admin/meta-boxes/rule/general.php:24
+msgid "Select Customer"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:448
+msgid "Select Dependable Field"
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-product-restrictions.php:26
+msgid "Select Discount Type"
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: products-visibility-by-user-roles/settings/global-visibility.php:34
+msgid "Select either you want to show products or hide products."
+msgstr "Seleccione si desea mostrar productos u ocultar productos."
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:442
+msgid "Select Fields"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/layout.php:63
+msgid "Select Layout"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:41
+#, fuzzy
+#| msgid ""
+#| "Select Menu where you want to show Mini Quote Basket. If there is no menu "
+#| "then you have to create menu in WordPress menus otherwise mini quote "
+#| "basket will not show."
+msgid ""
+"Select Menu where you want to show Mini quote Basket. If there is no menu "
+"then you have to create menu in WordPress menus otherwise mini quote basket "
+"will not show."
+msgstr ""
+"Seleccione el menú donde desea mostrar la canasta de presupuestos pequeños. "
+"Si no hay un menú, entonces debe crear un menú en los menús de WordPress; de "
+"lo contrario, no se mostrará la canasta de mini cotizaciones.\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/payments/addify-payments-by-user-roles.php:11
+#, fuzzy
+#| msgid "Select Payement Method for User Roles"
+msgid "Select Payment Method for User Roles"
+msgstr ""
+"Seleccione el método de pago para los roles de usuario\n"
+
+#: includes/shipping/addify-shipping-by-user-roles-settings.php:92
+#: includes/payments/addify-payments-by-user-roles.php:49
+#: includes/payments/addify-payments-by-user-roles.php:94
+msgid "Select Payment Methods:"
+msgstr ""
+"Seleccionar métodos de pago:\n"
+
+#. ID used to identify the field throughout the theme
+#: includes/csp_rule_level.php:29
+#: products-visibility-by-user-roles/settings/visibility-by-user-roles.php:116
+#: products-visibility-by-user-roles/settings/global-visibility.php:46
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-product-restrictions.php:47
+msgid "Select Products"
+msgstr "Seleccionar productos"
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-product-restrictions.php:93
+msgid "Select Products Categories"
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: products-visibility-by-user-roles/settings/global-visibility.php:51
+msgid "Select products on which you want to apply."
+msgstr "Seleccione los productos en los que desea aplicar."
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-product-restrictions.php:115
+msgid "Select Products Tags"
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: products-visibility-by-user-roles/settings/global-visibility.php:82
+msgid "Select redirection mode for restricted items."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:64
+msgid "Select replace quote button with add to cart in order to activate it."
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/shipping/addify-shipping-by-user-roles-settings.php:11
+msgid "Select Shipping Methods for User Roles"
+msgstr ""
+"Seleccionar métodos de envío para roles de usuario\n"
+
+#: includes/shipping/addify-shipping-by-user-roles-settings.php:47
+msgid "Select Shipping Methods:"
+msgstr ""
+"Seleccionar métodos de envío:\n"
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-product-restrictions.php:69
+msgid "Select Specific Products"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:786
+msgid "Select Status"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:653
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:235
+msgid "Select Tax Exempt Type"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:284
+msgid "Select Tax Exemption Status"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/layout.php:67
+msgid "Select the Layout for pdf."
+msgstr ""
+
+#: addify-user-role-editor/includes/admin/af-ure-admin.php:50
+msgid "Select the secondary role for the user."
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-message-restrictions.php:27
+msgid "Select this checkbox to display discount related messages on cart page."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:72
+msgid "Select to show drop down or icon with number of items in Basket."
+msgstr ""
+"Seleccione para mostrar el menú desplegable o el ícono con la cantidad de "
+"artículos en la cesta."
+
+#: addify-user-role-editor/includes/admin/view/add-new-user-role.php:69
+#: addify-order-restrictions/includes/admin/meta-boxes/rule/general.php:52
+msgid "Select User Role"
+msgstr ""
+
+#: addify-user-role-editor/includes/admin/view/add-new-user-role.php:43
+msgid "Select User Role Key"
+msgstr ""
+
+#: addify-user-role-editor/includes/admin/view/add-new-user-role.php:34
+msgid "Select User Role Name"
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:121
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:393
+#: woocommerce-tax-exempt-plugin/settings/exempted_customer_roles.php:34
+#: woocommerce-tax-exempt-plugin/settings/request.php:17
+msgid "Select User Roles"
+msgstr "Seleccionar roles de usuario"
+
+#: woocommerce-tax-exempt-plugin/settings/request.php:97
+msgid ""
+"Select user roles for whom you want to display tax exemption form in \"My "
+"Account\" page and a checkbox in the checkout page to notify them that tax "
+"exemption is available."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:415
+msgid ""
+"Select user roles on which you want to show this field, leave empty for show "
+"in all."
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:180
+msgid ""
+"Select which user roles users you want to exclude from manual approval. "
+"These user roles users will be automatically approved."
+msgstr ""
+"Seleccione los roles de usuario que desea excluir de la aprobación manual. "
+"Estos roles de usuarios serán aprobados automáticamente."
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:126
+msgid ""
+"Select which user roles you want to show in dropdown on registration page. "
+"Note: Administrator role is not available for show in dropdown."
+msgstr ""
+"Seleccione qué roles de usuario desea mostrar en el menú desplegable de la "
+"página de registro. Nota: El rol de administrador no está disponible para "
+"mostrar en el menú desplegable."
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:178
+msgid "Selectbox"
+msgstr ""
+
+#. %s: label
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote-fields.php:607
+#, php-format
+msgid ""
+"Selected file type is not allowed for %1$s. Allowed extensions of file are "
+"%2$s"
+msgstr ""
+
+#: class_afb2b_admin.php:85 class_afb2b_admin.php:185
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:152
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:566
+msgid "Settings"
+msgstr ""
+"Configuraciones\n"
+
+#: user-registration-plugin-for-woocommerce/admin/afreg_def_admin.php:11
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:586
+msgid "Settings saved successfully."
+msgstr ""
+
+#: class_afb2b_admin.php:199
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:251
+msgid "Shipping"
+msgstr ""
+"Envío\n"
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:52
+msgid "Shipping Address 1"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:53
+msgid "Shipping Address 2"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:54
+msgid "Shipping City"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:51
+msgid "Shipping Company"
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:250
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-details-table.php:153
+msgid "Shipping Cost"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:57
+msgid "Shipping Email"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:49
+msgid "Shipping First Name"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:50
+msgid "Shipping Last Name"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:56
+msgid "Shipping Phone"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:55
+msgid "Shipping Postcode"
+msgstr ""
+
+#: products-visibility-by-user-roles/settings/visibility-by-user-roles.php:109
+#: products-visibility-by-user-roles/settings/global-visibility.php:143
+msgid "Show"
+msgstr ""
+"mostrar\n"
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:451
+msgid "Show field data in order. on/off"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:322
+msgid "Show in admin order detail page and order email"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:291
+msgid "Show in WooCommerce My Account"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:286
+msgid "Show in WooCommerce Registration Form"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: addify-order-restrictions/includes/admin/settings/general.php:14
+msgid "Show on Cart page"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: addify-order-restrictions/includes/admin/settings/general.php:37
+msgid "Show on Checkout page"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:247
+msgid "Show Quote button if rule applicable"
+msgstr ""
+
+#: addify-order-restrictions/includes/admin/settings/general.php:18
+msgid "Show restriction message(s) on cart page."
+msgstr ""
+
+#: addify-order-restrictions/includes/admin/settings/general.php:41
+msgid "Show restriction message(s) on checkout page."
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/guest.php:17
+msgid "Show tax exemption message"
+msgstr ""
+"Mostrar mensaje de exención de impuestos\n"
+
+#: woocommerce-tax-exempt-plugin/settings/guest.php:66
+msgid "Show tax exemption message for guest users."
+msgstr ""
+"Mostrar mensaje de exención de impuestos para usuarios invitados.\n"
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/request.php:52
+msgid "Show Tax Exemption Message on Checkout Page"
+msgstr ""
+"Mostrar mensaje de exención de impuestos en la página de pago\n"
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:254
+msgid "show/Disable/hide/replace request a quote for above variation."
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: products-visibility-by-user-roles/settings/visibility-by-user-roles.php:104
+#: products-visibility-by-user-roles/settings/global-visibility.php:29
+msgid "Show/Hide"
+msgstr "Mostrar ocultar"
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:245
+msgid "Show/Hide/Disable Quote"
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:34
+#: woocommerce-request-a-quote/admin/settings/tabs/captcha-settings.php:36
+msgid "Site Key"
+msgstr "Clave del sitio"
+
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/save-rule-settings.php:18
+msgid "Site Security Violated"
+msgstr ""
+
+#: woocommerce-request-a-quote/front/class-af-r-f-q-front.php:75
+#: woocommerce-request-a-quote/front/class-af-r-f-q-front.php:97
+msgid "Site security violated."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:481
+msgid "Size of file allowed for file upload field."
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:22
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account-old-quotes.php:34
+#: woocommerce-request-a-quote/includes/pdf/templates/quote-contents.php:33
+msgid "SKU"
+msgstr "SKU"
+
+#: woocommerce-request-a-quote/templates/emails/quote-contents.php:66
+#: woocommerce-request-a-quote/admin/templates/quote-items-table-row.php:36
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-details-table.php:79
+msgid "SKU:"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:87
+msgid "SKU: "
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/editors-settings.php:50
+msgid "Solution 2"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:52
+msgid "Sorry your {site_title} account has been disapproved!"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote.php:659
+msgid "Sorry, this product cannot be purchased."
+msgstr ""
+
+#. %s: post type
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:260
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:244
+#, php-format
+msgid "Sorry, you are not allowed to delete %s."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:657
+msgid "Sort Order"
+msgstr ""
+"Orden de clasificación\n"
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:409
+msgid "Sort Order of field."
+msgstr ""
+
+#: includes/afreg_def_fields.php:113
+#: user-registration-plugin-for-woocommerce/admin/afreg_def_admin.php:62
+msgid "Sort Order:"
+msgstr ""
+
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-product-restrictions.php:60
+msgid "Specific Products"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/settings/general.php:144
+msgid ""
+"Specify allowed upload file types. Add comma(,) separated values like doc,"
+"pdf , etc to allow multiple file types."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:656
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:642
+#: woocommerce-request-a-quote/templates/my-account/quote-list-table.php:21
+msgid "Status"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:511
+msgid "Status of field. enable/disable"
+msgstr ""
+
+#: includes/afreg_def_fields.php:152
+#: user-registration-plugin-for-woocommerce/admin/afreg_def_admin.php:81
+msgid "Status:"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:87
+msgid ""
+"Stock keeping unit can be added as the second column for your reference as "
+"it won’t be used by extension while importing."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:263
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:305
+msgid "Subject"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/email-settings.php:27
+msgid "Subject of Email"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:745
+msgid "Submit Tax Info"
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:91
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:178
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:224
+#: woocommerce-request-a-quote/templates/quote/quote-table.php:40
+#: woocommerce-request-a-quote/templates/quote/quote-table.php:161
+#: woocommerce-request-a-quote/templates/quote/quote-table.php:173
+#: woocommerce-request-a-quote/templates/quote/mini-quote-dropdown.php:154
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-details-table.php:24
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/emails/quote-contents.php:103
+msgid "Subtotal (Offered)"
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/quote/quote-totals-table.php:34
+#: woocommerce-request-a-quote/templates/quote/quote-totals-table.php:35
+msgid "Subtotal (Standard)"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:568
+msgid "Subtotal of item."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:602
+msgid "Subtotal of Quote."
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/emails/quote-contents.php:93
+msgid "Subtotal( Standard)"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/pdf/templates/quote-contents.php:106
+msgid "Subtotal(offered)"
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:223
+#: woocommerce-request-a-quote/includes/pdf/templates/quote-contents.php:95
+msgid "Subtotal(standard)"
+msgstr ""
+
+#: addify-user-role-editor/includes/admin/af-ure-admin.php:164
+msgid "Switch to"
+msgstr ""
+
+#: class_afb2b_admin.php:197
+msgid "Tax"
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/tax/tax-settings.php:11
+msgid "Tax display by user roles"
+msgstr ""
+
+#. ID used to identify this section and with which to register options
+#: includes/tax/tax-settings.php:4
+msgid "Tax Display Settings"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:1007
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:185
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:470
+msgid "Tax Exempt"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:624
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:792
+msgid "Tax Exempt Expiry Date"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:650
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:229
+msgid "Tax Exempt Type"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:360
+msgid "Tax exempted"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:276
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:292
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:304
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:320
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:335
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:503
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:526
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:1084
+msgid "Tax Exemption"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-approve-info-admin-email-class.php:56
+#: woocommerce-tax-exempt-plugin/classes/aftax-approve-info-admin-email-class.php:66
+#: woocommerce-tax-exempt-plugin/classes/aftax-approve-info-user-email-class.php:55
+#: woocommerce-tax-exempt-plugin/classes/aftax-approve-info-user-email-class.php:67
+msgid "Tax Exemption Approved"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-disapprove-info-email-class.php:55
+#: woocommerce-tax-exempt-plugin/classes/aftax-disapprove-info-email-class.php:67
+msgid "Tax Exemption Declined"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:294
+msgid "Tax Exemption Expire Date"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-expire-info-user-email-class.php:49
+#: woocommerce-tax-exempt-plugin/classes/aftax-expire-info-user-email-class.php:59
+#: woocommerce-tax-exempt-plugin/classes/aftax-expire-info-admin-email-class.php:56
+#: woocommerce-tax-exempt-plugin/classes/aftax-expire-info-admin-email-class.php:66
+msgid "Tax Exemption Expired"
+msgstr ""
+
+#. ID used to identify this section and with which to register options.
+#: woocommerce-tax-exempt-plugin/settings/request.php:9
+msgid "Tax Exemption Request Settings"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-info-user-email-class.php:47
+#: woocommerce-tax-exempt-plugin/classes/aftax-info-user-email-class.php:57
+msgid "Tax Exemption Request Submitted Successfully"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:587
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:753
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:115
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:280
+msgid "Tax Exemption Status"
+msgstr ""
+
+#: class_afb2b_admin.php:198
+msgid "Tax-Exempt"
+msgstr ""
+"Exento de impuestos\n"
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/layout.php:120
+msgid "Term and Condition Text"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:29
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:131
+msgid "Terms & Conditions"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:175
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:17
+msgid "Text"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/layout.php:92
+msgid "Text color for background"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/layout.php:96
+msgid "Text color is applied on text with background color ."
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/general.php:53
+msgid "Text Field Label"
+msgstr ""
+"Etiqueta de campo de texto\n"
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:280
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:322
+msgid "Text to appear below the main email content."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:254
+msgid "Text to replace add price of products."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:264
+msgid "Text to replace add to cart button."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:176
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:24
+msgid "Textarea"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-tax-exempt-plugin/settings/general.php:88
+msgid "Textarea Field Label"
+msgstr ""
+"Etiqueta de campo Textarea\n"
+
+#. %s: post type
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:277
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:261
+#, php-format
+msgid "The %s cannot be deleted."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:385
+msgid "The date the field was created, as GMT."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:380
+msgid "The date the field was created, in the site's timezone."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:396
+msgid "The date the field was last modified, as GMT."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:390
+msgid "The date the field was last modified, in the site's timezone."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:481
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:205
+msgid "The date the product was created, as GMT."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:476
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:200
+msgid "The date the product was created, in the site's timezone."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:492
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:216
+msgid "The date the product was last modified, as GMT."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:486
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:210
+msgid "The date the product was last modified, in the site's timezone."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:73
+msgid ""
+"The mini quote design may not work properly for some page builders/themes. "
+"Alternatively, you can use the icon only layout or override the mini quote "
+"template by copying it to yourtheme/woocommerce/addify/rfq/quote/mini-quote-"
+"dropdown.php"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:94
+msgid ""
+"The value will be considered as percentage value when percentage price "
+"adjustment is applied and when its fixed price, fixed increase or decrease, "
+"this will be considered as a number value."
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:315
+msgid ""
+"This email body text will be used when account is pending for approval. You "
+"can use {customer_details} variable to include customer details."
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:262
+msgid ""
+"This email text will be used when new user notification is sent to admin. "
+"You can use {approve_link}, {disapprove_link}, {customer_details} variables. "
+"{approve_link}, {disapprove_link} variables will work only when manual user "
+"approval is active. "
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:295
+msgid ""
+"This email text will be used when new user notification is sent to customer. "
+"You can use {customer_details} variable to include customer details. This "
+"email text will not work when new user pending approval is active."
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:278
+msgid ""
+"This email text will be used when update user notification is sent to admin. "
+"You can use {customer_details} variable to include user data. Only Custom "
+"fields data will be sent. "
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:19
+msgid "This email will be sent to admin when new account is created."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-info-admin-email-class.php:21
+msgid ""
+"This email will be sent to admin when tax information is added or updated by "
+"the user."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-approve-info-admin-email-class.php:21
+msgid ""
+"This email will be sent to admin when tax information is approved by admin."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-expire-info-admin-email-class.php:21
+msgid "This email will be sent to admin when tax information is expired."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:21
+msgid "This email will be sent to admin when user update account."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:19
+msgid "This email will be sent to customer when account is approved."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:19
+msgid "This email will be sent to customer when account is disapproved."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-pending-user-email-class.php:19
+msgid ""
+"This email will be sent to customer when account is pending for approval."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-user-email-class.php:19
+msgid "This email will be sent to customer when new account is created."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-info-user-email-class.php:21
+msgid ""
+"This email will be sent to customer when tax information is added or updated "
+"by the customer."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-approve-info-user-email-class.php:21
+msgid ""
+"This email will be sent to customer when tax information is approved by "
+"admin."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-disapprove-info-email-class.php:21
+msgid ""
+"This email will be sent to customer when tax information is disapproved by "
+"admin."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-expire-info-user-email-class.php:21
+msgid "This email will be sent to customer when tax information is expired."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:876
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:358
+msgid "This file type is not allowed."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/settings/general.php:110
+msgid ""
+"This file upload field will be shown in tax form in user my account page. "
+"This field can be used to collect tax certificate etc."
+msgstr ""
+"Este campo de carga de archivos se mostrará en el formulario de impuestos en "
+"la página de mi cuenta de usuario. Este campo se puede utilizar para recoger "
+"el certificado fiscal, etc.\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:54
+msgid ""
+"This is Google reCaptcha secret key, you can get this from Google. Without "
+"this key Google reCaptcha will not work."
+msgstr ""
+"Esta es la clave secreta de Google reCaptcha, puede obtenerla de google. Sin "
+"esta clave, Google reCaptcha no funcionará."
+
+#: woocommerce-request-a-quote/admin/settings/tabs/captcha-settings.php:54
+msgid ""
+"This is Google reCaptcha secret key, you can get this from google. Without "
+"this key google reCaptcha will not work."
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:39
+#: woocommerce-request-a-quote/admin/settings/tabs/captcha-settings.php:40
+msgid ""
+"This is Google reCaptcha site key, you can get this from Google. Without "
+"this key Google reCaptcha will not work."
+msgstr ""
+"Esta es la clave del sitio de Google reCaptcha, puede obtenerla de google. "
+"Sin esta clave, Google reCaptcha no funcionará."
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:333
+msgid ""
+"This is the approved email message, this message is used when account is "
+"approved by administrator. You can use {customer_details} variable to "
+"include customer details.  "
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:351
+msgid ""
+"This is the disapproved email message, this message is used when account is "
+"disapproved by administrator. You can use {customer_details} variable to "
+"include customer details."
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:92
+msgid ""
+"This is the maximum quantity at the prices will be applicable. If you want "
+"to add same price for no matter the quantity, please leave this empty."
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:91
+msgid ""
+"This is the minimum required quantity number to add prices. If you want to "
+"add same price for no matter the quantity, please leave this empty."
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:17
+msgid ""
+"This is the title for the section where additional fields are displayed on "
+"front end registration form."
+msgstr ""
+"Este es el título de la sección donde se muestran campos adicionales en el "
+"formulario de registro frontal."
+
+#: woocommerce-request-a-quote/admin/settings/tabs/custom-message.php:26
+msgid ""
+"This message will appear on quote submission page, when user submit quote."
+msgstr ""
+"Este mensaje aparecerá en la página de envío de presupuesto, cuando el "
+"usuario envíe el presupuesto."
+
+#: woocommerce-tax-exempt-plugin/settings/guest.php:40
+msgid "This message will be displayed for guest users on checkout page."
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: products-visibility-by-user-roles/settings/global-visibility.php:115
+msgid ""
+"This message will be displayed when user try to access restricted catalog."
+msgstr ""
+"Este mensaje se mostrará cuando el usuario intente acceder al catálogo "
+"restringido.\n"
+
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:39
+msgid ""
+"This message will be shown when user add or update tax info in my account."
+msgstr ""
+"Este mensaje se mostrará cuando el usuario agregue o actualice la "
+"información fiscal en mi cuenta.\n"
+
+#: includes/afb2b_role_based_pricing_settings.php:34
+msgid ""
+"This message will be used for displaying tiered prices with min and max "
+"quantities. Use \"{min_qty}\" for minimum quantity, \"{max_qty}\" for "
+"maximum  and \"{pro_price}\" for the product price."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:66
+msgid ""
+"This message will be used in admin email when a user add or update tax info "
+"from my account. You can use {user_name}, {customer_email}, {form_data}, "
+"{approve_link}, {disapprove_link} variables to add data in the message."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:110
+msgid ""
+"This message will be used in admin email when admin approves submitted tax "
+"info. You can use {user_name}, {customer_email}, {form_data} variables to "
+"add data in the message."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:180
+msgid ""
+"This message will be used in admin email when submitted tax information is "
+"expired. You can use {user_name}, {customer_email}, {form_data} variables to "
+"add data in the message."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:83
+msgid ""
+"This message will be used in customer email when a user add or update tax "
+"info from my account. You can use {user_name}, {customer_email}, {form_data} "
+"variables to add data in the message."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:127
+msgid ""
+"This message will be used in customer email when admin approves submitted "
+"tax info. You can use {user_name}, {customer_email}, {form_data} variables "
+"to add data in the message."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:154
+msgid ""
+"This message will be used in customer email when admin disapprove submitted "
+"tax info. You can use {user_name}, {customer_email}, {form_data} variables "
+"to add data in the message."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/settings/email_messages.php:197
+msgid ""
+"This message will be used in customer email when submitted tax information "
+"is expired. You can use {user_name}, {customer_email}, {form_data} variables "
+"to add data in the message."
+msgstr ""
+
+#: includes/afb2b_role_based_pricing_settings.php:80
+msgid ""
+"This message will be used when user add quantity greater than maximum qty "
+"set. Use \"%u\" for number of quantity."
+msgstr ""
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_role_based_pricing_settings.php:65
+msgid ""
+"This message will be used when user add quantity less than minimum qty set. "
+"Use \"%u\" for number of quantity."
+msgstr ""
+
+#: includes/afb2b_role_based_pricing_settings.php:96
+msgid ""
+"This message will be used when user update product in cart. Use \"%pro\" for "
+"Product Name, \"%min\" for Minimum Quantity and \"%max\" for Maximum "
+"Quantity. "
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/convert-quote-to-order.php:110
+msgid "This order has been created from "
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-details.php:92
+msgid "This quote has been converted to "
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/settings/general.php:40
+msgid ""
+"This text field will be shown in tax form in user my account page. This "
+"field can be used to collect name, tax id etc."
+msgstr ""
+"Este campo de texto se mostrará en el formulario de impuestos en la página "
+"de mi cuenta de usuario. Este campo se puede utilizar para recopilar el "
+"nombre, la identificación fiscal, etc.\n"
+
+#: woocommerce-request-a-quote/admin/settings/tabs/custom-message.php:40
+msgid "This text will be shown for view quote basket button."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/settings/general.php:76
+msgid ""
+"This textarea field will be shown in tax form in user my account page. This "
+"field can be used to collect additional info etc."
+msgstr ""
+"Este campo de área de texto se mostrará en el formulario de impuestos en la "
+"página de mi cuenta de usuario. Este campo se puede utilizar para recopilar "
+"información adicional, etc.\n"
+
+#. The array of arguments to pass to the callback. In this case, just a description.
+#: includes/afb2b_registration_settings.php:217
+msgid ""
+"This will be displayed when user will attempt to login after registration "
+"and his/her account is still pending for admin approval. "
+msgstr ""
+"Esto se mostrará cuando el usuario intente iniciar sesión después del "
+"registro y su cuenta aún esté pendiente de aprobación del administrador.\n"
+
+#: woocommerce-tax-exempt-plugin/settings/request.php:75
+msgid "This will be visible for the user roles customer has selected above."
+msgstr ""
+"Esto será visible para los roles de usuario que el cliente ha seleccionado "
+"anteriormente.\n"
+
+#: products-visibility-by-user-roles/settings/global-visibility.php:126
+msgid ""
+"This will help you to show or hide products for all customers including "
+"guests."
+msgstr ""
+"Esto lo ayudará a mostrar u ocultar productos para todos los clientes, "
+"incluidos los invitados."
+
+#: includes/csp_product_level_variable_product.php:30
+#: includes/csp_product_level_variable_product.php:152
+#: includes/csp_rule_level.php:368 includes/csp_rule_level.php:475
+#: includes/csp_product_level.php:29 includes/csp_product_level.php:173
+msgid ""
+"This will only work for Fixed Price, Fixed Decrease and Percentage Decrease."
+msgstr ""
+"Esto solo funcionará para precio fijo, disminución fija y disminución de "
+"porcentaje."
+
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-details-table.php:19
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/afb2b_role_based_pricing_settings.php:29
+msgid "Tiered Pricing Table"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:21
+msgid "Time"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:188
+msgid "Time Picker"
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:258
+#: woocommerce-request-a-quote/templates/quote/quote-totals-table.php:66
+#: woocommerce-request-a-quote/admin/templates/quote-details.php:25
+msgid "Total"
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/emails/quote-contents.php:123
+#: woocommerce-request-a-quote/templates/quote/quote-totals-table.php:65
+msgid "Total (Standard)"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:583
+msgid "Total of product."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:617
+msgid "Total of Quote."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:578
+msgid "Total tax of item."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:612
+msgid "Total tax."
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:257
+#: woocommerce-request-a-quote/includes/pdf/templates/quote-contents.php:128
+msgid "Total(standard)"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:595
+msgid "Totals of quote."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:638
+msgid "Type"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:487
+msgid "Type(s) of file allowed for file upload field."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:79
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:369
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:81
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:465
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:73
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-rules-controller.php:184
+msgid "Unique identifier for the resource."
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:85
+msgid ""
+"Unique product identifier, this is required as the extension will import "
+"prices based on product and variation IDs."
+msgstr ""
+
+#: includes/afreg_def_fields.php:165
+#: user-registration-plugin-for-woocommerce/admin/afreg_def_admin.php:84
+msgid "Unpublish"
+msgstr ""
+
+#: addify-user-role-editor/includes/admin/view/add-new-user-role.php:212
+msgid "Update"
+msgstr ""
+
+#: includes/afb2b_role_based_pricing_settings.php:91
+msgid "Update Cart Error Message"
+msgstr "Mensaje de error del carro de actualización"
+
+#: woocommerce-request-a-quote/templates/quote/quote-table.php:191
+#: woocommerce-request-a-quote/admin/settings/tabs/button.php:165
+msgid "Update Quote"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/button.php:131
+msgid "Update quote button background color"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/button.php:145
+msgid "Update quote button color"
+msgstr ""
+
+#. ID used to identify this section and with which to register options.
+#: woocommerce-request-a-quote/admin/settings/tabs/button.php:110
+msgid "Update Quote Button Settings"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/button.php:117
+msgid "Update quote button text"
+msgstr ""
+
+#. %s File Type
+#: includes/role-based/import_prices_csv_function.php:24
+msgid "Upload a CSV file to import."
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/layout.php:26
+msgid "Upload Company Logo."
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:108
+msgid "Upload CSV File"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:140
+msgid "URL to Redirect"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/settings/tabs/general.php:144
+#, fuzzy
+#| msgid "URL of page to redirect after Quote is submitted successfully."
+msgid "URL to redirect after quote is submitted successfully."
+msgstr ""
+"URL de la página para redirigir después de que la cotización se envíe "
+"correctamente.\n"
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:518
+msgid "User ID."
+msgstr ""
+
+#: includes/csp_product_level_variable_product.php:145
+#: includes/csp_rule_level.php:468 includes/csp_product_level.php:166
+#: includes/role-based/import_prices_csv.php:24
+#: addify-user-role-editor/includes/admin/view/add-new-user-role.php:121
+msgid "User Role"
+msgstr "Rol del usuario"
+
+#: addify-user-role-editor/includes/af-ure-ajax-controller.php:141
+msgid "User Role created Successfully."
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:88
+msgid "User Role Field Label"
+msgstr "Etiqueta de campo de rol de usuario"
+
+#: class_afb2b_admin.php:341
+msgid "User Role Settings"
+msgstr "Configuración de rol de usuario"
+
+#: includes/role-based/import_prices_csv.php:89
+msgid "User Role: "
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/class-af-r-f-q-admin.php:598
+#: addify-cart-based-discount/include/admin/meta-boxes/rules/af-dcv-discount-restrictions.php:72
+msgid "User Roles"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:499
+msgid "User roles of field."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:780
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:1477
+msgid "User Status"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:54
+msgid "User Updated"
+msgstr ""
+
+#. ID used to identify the field throughout the theme
+#: includes/afb2b_registration_settings.php:290
+msgid "User Welcome Email Text"
+msgstr ""
+
+#: woocommerce-request-a-quote/admin/meta-boxes/fields/field-attribute.php:34
+msgid "Username"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-user-email-class.php:76
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:82
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:90
+#: user-registration-plugin-for-woocommerce/classes/afreg-pending-user-email-class.php:90
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:121
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:90
+msgid "Username: "
+msgstr ""
+
+#: includes/csp_product_level_variable_product.php:25
+#: includes/csp_product_level_variable_product.php:147
+#: includes/csp_rule_level.php:363 includes/csp_rule_level.php:470
+#: includes/csp_product_level.php:24 includes/csp_product_level.php:168
+msgid "Value"
+msgstr ""
+"Valor\n"
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:543
+msgid "Variation ID."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:548
+msgid "Variation."
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:242
+msgid "Vat"
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/emails/quote-contents.php:113
+#: woocommerce-request-a-quote/templates/quote/quote-totals-table.php:58
+#: woocommerce-request-a-quote/templates/quote/quote-totals-table.php:59
+msgid "Vat (Standard)"
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-details-my-account.php:241
+#: woocommerce-request-a-quote/includes/pdf/templates/quote-contents.php:117
+msgid "Vat(standard)"
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/my-account/quote-list-table.php:47
+msgid "View"
+msgstr ""
+"Ver\n"
+
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:1681
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:1683
+msgid "View all users"
+msgstr ""
+
+#: addify-user-role-editor/includes/admin/view/add-new-user-role.php:223
+msgid "View Capabilities"
+msgstr ""
+
+#: addify-cart-based-discount/class-discount-cart-main.php:49
+msgid "View Cart Discounts"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:160
+msgid "View Field"
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-email-controller.php:439
+msgid "View File"
+msgstr ""
+
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:200
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote.php:654
+#: woocommerce-request-a-quote/templates/quote/mini-quote.php:26
+#: woocommerce-request-a-quote/templates/quote/mini-quote.php:36
+msgid "View Quote"
+msgstr "Ver cotización"
+
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:586
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:688
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:822
+msgid "View quote"
+msgstr ""
+
+#. ID used to identify the field throughout the theme.
+#: woocommerce-request-a-quote/admin/settings/tabs/custom-message.php:36
+msgid "View Quote Basket Button Text"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/addify-registration-addon-main.php:76
+msgid "View Registration Field"
+msgstr "Ver campo de registro"
+
+#: addify_b2b.php:597
+#: woocommerce-request-a-quote/class-addify-request-for-quote.php:120
+#: addify-order-restrictions/includes/class-af-order-restrictions.php:35
+msgid "View Rule"
+msgstr "Ver regla"
+
+#. ID used to identify the field throughout the theme
+#: products-visibility-by-user-roles/class_afpvu_admin.php:67
+#: products-visibility-by-user-roles/settings/visibility-by-user-roles.php:17
+msgid "Visibility By User Roles"
+msgstr "Visibilidad por roles de usuario"
+
+#: class_afb2b_admin.php:219
+msgid "Visibility by User Roles"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-user-email-class.php:50
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:64
+#: user-registration-plugin-for-woocommerce/classes/afreg-pending-user-email-class.php:64
+msgid "Welcome to {site_title}"
+msgstr ""
+
+#: includes/role-based/import_prices_csv.php:101
+msgid ""
+"When importing the existing prices will be removed. For example, if the "
+"import sheet includes prices for Album, the existing role based prices for "
+"album will be removed and the new prices will be added using CSV."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:108
+#: woocommerce-request-a-quote/includes/rest-api/controllers/class-af-r-f-q-rest-quotes-controller.php:110
+msgid "Whether to bypass trash and force deletion."
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:639
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:218
+msgid "Wholesale"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/includes/rest-api/controllers/class-af-reg-rest-fields-controller.php:457
+msgid "Width of field. half/full"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WooCommerce B2B plugin offers merchants a complete wholesale solution to "
+"optimize their website for both B2B & B2C customers. (PLEASE TAKE BACKUP "
+"BEFORE UPDATING THE PLUGIN)."
+msgstr ""
+
+#: includes/cart-based-discount/cart-based-discount-settings.php:63
+msgid "Write a message for restricted coupons."
+msgstr ""
+
+#: includes/csp_product_level_variable_product.php:244
+#: includes/csp_product_level_variable_product.php:345
+#: includes/csp_product_level_variable_product.php:461
+#: includes/csp_rule_level.php:565 includes/csp_rule_level.php:663
+#: includes/csp_rule_level.php:782 includes/csp_product_level.php:114
+#: includes/csp_product_level.php:257 includes/csp_product_level.php:353
+#: includes/csp_product_level.php:469
+msgid "X"
+msgstr "X"
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:1012
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:1050
+#: user-registration-plugin-for-woocommerce/classes/afreg-user-email-class.php:107
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class-update-account.php:126
+#: user-registration-plugin-for-woocommerce/classes/afreg-approved-user-email-class.php:304
+#: user-registration-plugin-for-woocommerce/classes/afreg-pending-user-email-class.php:121
+#: user-registration-plugin-for-woocommerce/classes/afreg-admin-email-class.php:167
+#: user-registration-plugin-for-woocommerce/classes/afreg-disapproved-user-email-class.php:304
+#: user-registration-plugin-for-woocommerce/admin/class-afreg-fields-admin.php:95
+#: woocommerce-request-a-quote/admin/meta-boxes/quotes/quote-status.php:49
+#: woocommerce-request-a-quote/admin/meta-boxes/rules/new-quote-rule.php:339
+msgid "Yes"
+msgstr ""
+"si\n"
+
+#: woocommerce-tax-exempt-plugin/class_aftax_admin.php:474
+msgid "Yes "
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/class-aftax-front.php:579
+msgid "You are exempted from tax."
+msgstr ""
+
+#: includes/role-based/import_prices_csv_function.php:12
+msgid "You are not allowed to upload_files."
+msgstr ""
+
+#. %s: product name
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote.php:643
+#, php-format
+msgid "You cannot add another \"%s\" to your quote."
+msgstr ""
+
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote.php:1065
+msgid "Your quote has been submitted successfully."
+msgstr ""
+
+#: woocommerce-request-a-quote/templates/quote/addify-quote-request-page.php:179
+msgid "Your quote is currently empty."
+msgstr "Su cotización está actualmente vacía."
+
+#. 1: Quote ID, 2: Order ID
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-quote.php:920
+#, php-format
+msgid "Your Quote# %1$s has been converted to Order# %2$s."
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-pending-user-email-class.php:52
+msgid "Your {site_title} account has been created and pending for approval!"
+msgstr ""
+
+#: user-registration-plugin-for-woocommerce/classes/afreg-user-email-class.php:40
+msgid "Your {site_title} account has been created!"
+msgstr ""
+
+#: woocommerce-tax-exempt-plugin/classes/aftax-info-admin-email-class.php:90
+msgid "{user_name} New Tax Exemption Form Submitted"
+msgstr ""
+
+#. %s: Product name
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:588
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:690
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:824
+#, php-format
+msgid "“%1$s” has been added to your quote. %2$s"
+msgstr ""
+
+#. %s: Product name
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:895
+#, php-format
+msgid "“%s” has been removed from quote basket."
+msgstr ""
+
+#. %s: Product name
+#: woocommerce-request-a-quote/includes/class-af-r-f-q-ajax-controller.php:583
+#, php-format
+msgid "“%s” has not been added to your quote."
+msgstr ""

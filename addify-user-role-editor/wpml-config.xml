@@ -1,0 +1,77 @@
+<wpml-config>
+  <admin-texts>
+    <key name="af_ure_admin_order_page"/>
+    <key name="af_ure_after_converted_guest_to_reg_from_checkout_send_mail"/>
+    <key name="af_ure_assign_order_when_get_register"/>
+    <key name="af_ure_auto_fill_billing_email_from_email_field"/>
+    <key name="af_ure_auto_fill_billing_first_name_from_first_name_field"/>
+    <key name="af_ure_auto_fill_billing_last_name_from_last_name_field"/>
+    <key name="af_ure_automatic_fill_billing_fist_name_from_first_name_field"/>
+    <key name="af_ure_automatic_fill_billing_last_name_from_last_name_field"/>
+    <key name="af_ure_automatic_generate_password"/>
+    <key name="af_ure_automatic_generate_user_name"/>
+    <key name="af_ure_convert_to_reg_from_my_account">
+      <key name="order_status">
+        <key name="0"/>
+        <key name="1"/>
+        <key name="2"/>
+        <key name="3"/>
+        <key name="4"/>
+        <key name="5"/>
+        <key name="6"/>
+        <key name="7"/>
+      </key>
+      <key name="minimum_order_total"/>
+    </key>
+    <key name="af_ure_cron_base_guest_conversion_country">
+      <key name="0"/>
+      <key name="1"/>
+    </key>
+    <key name="af_ure_cron_base_guest_conversion_days_left_after_last_order"/>
+    <key name="af_ure_cron_base_guest_conversion_minimum_spend"/>
+    <key name="af_ure_cron_schedule">
+      <key name="time"/>
+      <key name="type"/>
+    </key>
+    <key name="af_ure_customer_table_default_column"/>
+    <key name="af_ure_customer_table_remove_column"/>
+    <key name="af_ure_export_guest_user"/>
+    <key name="af_ure_export_user_meta"/>
+    <key name="af_ure_hide_customer_who_havenot_purchase_anything">
+      <key name="order_status">
+        <key name="0"/>
+        <key name="1"/>
+        <key name="2"/>
+      </key>
+    </key>
+    <key name="af_ure_hide_map_on_customer_detail_page"/>
+    <key name="af_ure_manual_order_creation"/>
+    <key name="af_ure_manual_order_creation_guest_page"/>
+    <key name="af_ure_map_zoom_level_on_customer_detail_page"/>
+    <key name="af_ure_min_spend_on_order_from_checkout"/>
+    <key name="af_ure_new_account_default_user_role"/>
+    <key name="af_ure_order_status_for_checkout_order">
+      <key name="0"/>
+      <key name="1"/>
+      <key name="2"/>
+      <key name="3"/>
+    </key>
+    <key name="af_ure_select_filters">
+      <key name="0"/>
+      <key name="1"/>
+      <key name="2"/>
+      <key name="3"/>
+      <key name="4"/>
+      <key name="5"/>
+      <key name="6"/>
+      <key name="7"/>
+    </key>
+    <key name="af_ure_send_email_with_login_info"/>
+    <key name="af_ure_shipping_address_instead_of_billing_address"/>
+    <key name="af_ure_user_per_page">
+      <key name="item_per_page"/>
+      <key name="item_asc_ord_desc"/>
+    </key>
+    <key name="af_ure_when_order_place_convert_to_reg"/>
+  </admin-texts>
+</wpml-config>

@@ -1,0 +1,38 @@
+<wpml-config>
+  <admin-texts>
+    <key name="action_scheduler_hybrid_store_demarkation"/>
+    <key name="action_scheduler_lock_async-request-runner"/>
+    <key name="addify_atq_page_id"/>
+    <key name="admin_email_lifespan"/>
+    <key name="af_tax_flush_rules"/>
+    <key name="aftax_admin_approve_tax_info_email_message"/>
+    <key name="aftax_admin_email_message"/>
+    <key name="aftax_allowed_file_types"/>
+    <key name="aftax_approve_tax_info_email_message"/>
+    <key name="aftax_customer_email_message"/>
+    <key name="aftax_customer_expire_tax_info_email_message"/>
+    <key name="aftax_disapprove_tax_info_email_message"/>
+    <key name="aftax_enable_auto_tax_exempt"/>
+    <key name="aftax_enable_auto_tax_exempttion"/>
+    <key name="aftax_enable_fileupload_field"/>
+    <key name="aftax_enable_guest_message"/>
+    <key name="aftax_enable_tax_exm_msg"/>
+    <key name="aftax_enable_text_field"/>
+    <key name="aftax_enable_textarea_field"/>
+    <key name="aftax_exempted_customers"/>
+    <key name="aftax_exempted_user_roles">
+      <key name="0"/>
+    </key>
+    <key name="aftax_expire_tax_info_email_message"/>
+    <key name="aftax_fileupload_field_label"/>
+    <key name="aftax_guest_message_text"/>
+    <key name="aftax_requested_roles">
+      <key name="0"/>
+    </key>
+    <key name="aftax_role_message_text"/>
+    <key name="aftax_text_field_label"/>
+    <key name="aftax_textarea_field_label"/>
+    <key name="alg_wc_ccf_version"/>
+    <key name="wc_admin_show_legacy_coupon_menu"/>
+  </admin-texts>
+</wpml-config>

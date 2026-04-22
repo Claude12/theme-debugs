@@ -1,0 +1,1186 @@
+.fa,
+.af-ure-list-show-table-list {
+    cursor: pointer;
+}
+
+.af-ure-delete-and-assign-new-user-role-to-user-main-div,
+.af-ure-order-detail-table-product-level,
+.af-ure-order-detail-table {
+
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 99999;
+    box-shadow: 0px 0px 6px 6px;
+}
+
+.af-ure-order-detail-table {
+
+    position: fixed;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    max-width: 60%;
+    z-index: 99999;
+    box-shadow: 0px 0px 6px 6px;
+}
+
+.af-ure-list-hide-table-list,
+.af-ure-list-hide-table-list-product-level {
+    float: right;
+}
+
+.af-ure-main-section,
+.af-ure-ship-billing-adresses {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.af-ure-main-section .col-left,
+.main-section .col-right,
+.billing-details,
+.shipping-detail {
+    width: 49%;
+}
+
+.af-ure- h2 {
+    color: #0073aa;
+    background-color: #efefef;
+    padding: 10px 15px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.af-ure-general-detail table {
+    width: 100%;
+}
+
+.af-ure-general-detail table tr th {
+    width: 45%;
+    padding: 10px 20px 10px 0;
+    text-align: left;
+
+}
+
+.af-ure- button {
+    margin: 15px 0 30px;
+}
+
+.af-ure- .notes form textarea,
+.af-ure-send-mail-form form textarea {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.af-ure-send-mail-form label {
+    display: block;
+    font-size: 16px;
+    line-height: 31px;
+}
+
+.af-ure-send-mail-form input {
+    width: 100%;
+    height: 34px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+
+.af-ure- p {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 12px 0 20px;
+}
+
+.af-ure-send-mail-form input[type="submit"] {
+    background: #0073aa;
+    border: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    height: 100%;
+    margin-top: 15px;
+    padding: 10px 0;
+}
+
+.af-ure-col-left,
+.af-ure-col-right,
+.af-ure-billing-details,
+.af-ure-shipping-detail {
+    width: 48%;
+}
+
+.af-ure-notes textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.af-ure-all-order-list-customer-level {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.af-ure-all-order-list-customer-level .af-ure-current-order-data-div-customer-level {
+    width: 48%;
+}
+
+.af-ure-list-hide-table-list-product-level,
+.af-ure-list-hide-table-list {
+    color: white;
+    background: red;
+    padding: 8px;
+    margin: -26px;
+    border-radius: 22px;
+}
+
+.af-ure-list-hide-table-list-product-level {
+    margin: 0px !important;
+}
+
+.af-ure-select-all,
+.fa-send,
+.fa-trash {
+    cursor: pointer;
+}
+
+.column-cost_of_goods {
+    width: 6%;
+}
+
+.af-ure-main-sale-product {
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.af-ure-tabs {
+    background: #f5f5f5;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.af-ure-export-btn-div {
+    border-left: 1px solid #00000017;
+    height: 30px;
+    padding: 10px 0;
+}
+
+.af-ure-tabs ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.af-ure-tabs ul li:last-child {
+    border-right: none;
+}
+
+.af-ure-tabs ul li {
+    padding: 12px 15px;
+    border-right: 1px solid lightgray;
+}
+
+.af-ure-tabs ul li:active {
+    background: #fff;
+}
+
+.af-ure-tabs ul li {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #2271b1;
+    position: relative;
+    margin: 0;
+    height: 30px;
+}
+
+.af-ure-tabs ul li input.select_date {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+}
+
+.af-ure-tabs ul li label {
+    color: #000;
+    font-weight: 600;
+    line-height: 26px;
+    font-size: 16px;
+    margin-right: 7px;
+}
+
+.af-ure-tabs ul li:last-child div {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.af-ure-tabs ul li:last-child input {
+    height: 30px;
+    margin: 0 10px;
+    font-size: 12px;
+    line-height: 24px;
+    border: 1px solid #0000002b;
+}
+
+.af-ure-tabs ul li:last-child span {
+    width: 100px;
+}
+
+.af-ure-tabs ul li .date {
+    border: 0;
+    font-size: 14px;
+    color: gray;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.af-ure-filter-btn {
+    width: 100%;
+    height: 30px;
+    max-width: 40px;
+    font-size: 12px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    color: #2271b1;
+    border: 1px solid #2271b1;
+    background: #f6f7f7;
+    vertical-align: top;
+    font-style: normal;
+    border-radius: 3px;
+}
+
+.af-ure-filter-btn:hover,
+.af-ure-filter-btn:focus,
+.af-ure-filter-btn:active {
+    background: #135e96;
+    border-color: #135e96;
+    color: #fff;
+}
+
+.af-ure-tabs .export-btn {
+    text-decoration: none;
+    padding: 12px 14px;
+    border-left: 1px solid lightgray;
+    font-size: 12px;
+    line-height: 22px;
+
+}
+
+.af-ure-form-field {
+    border: 1px solid #00000026;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+.af-ure-select-all-div {
+    text-align: right;
+}
+
+.af-ure-form-field h5 {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 0 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #000;
+    text-align: left;
+}
+
+.af-ure-form {
+    padding: 15px;
+}
+
+.af-ure-form .af-ure-submit-btn {
+    width: 53px;
+    border-radius: 7px;
+    height: 37px;
+    color: #2271b1;
+    border: 1px solid #2271b1;
+    background: transparent;
+    cursor: pointer;
+
+}
+
+.af-ure-prouct-table tbody {
+    background: #f5f5f5;
+}
+
+.af-ure-prouct-table table tfoot .af-ure-total-col {
+    padding: 8px;
+}
+
+.af-ure-show {
+    cursor: pointer;
+}
+
+.af-ure-prouct-table table {
+    border-collapse: collapse;
+    margin-bottom: 25px;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    background-color: #fff;
+}
+
+.af-ure-prouct-table table thead td {
+    color: #2c3338;
+    padding: 7px;
+    line-height: 1.4em;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: 1px solid #c3c4c7;
+    background-color: #fff;
+}
+
+.af-ure-prouct-table table tr:nth-child(odd) {
+    background-color: #f6f7f7;
+}
+
+.af-ure-prouct-table table tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.af-tips {
+    border: 1px solid #2271b1;
+    border-radius: 4px;
+    width: 22px;
+    height: 22px;
+    padding: 5px 6px;
+    text-align: center;
+    background-color: #f6f7f7;
+    position: relative;
+}
+
+.af-tips:hover span {
+    display: block;
+}
+
+.af-tips span {
+    display: none;
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    bottom: -7px;
+    left: 50%;
+    font-size: 12px;
+    text-align: center;
+    line-height: 26px;
+    z-index: 999;
+    transform: translate(-50%, 100%);
+    color: #fff;
+    max-width: 150px;
+    background: #333;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+}
+
+.af-ure-prouct-table table tbody td {
+    text-align: left;
+    font-size: 12px;
+    line-height: 22px;
+    padding: 15px 10px;
+}
+
+.af-ure-tabs a {
+    display: inline-block;
+    width: 100%;
+    max-width: 75px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+    background: transparent;
+    color: #2271b1;
+    text-decoration: none;
+    padding: 5px 15px;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.af-ure-tabs a::before {
+    font-family: Dashicons;
+    speak: never;
+    font-weight: 400;
+    left: 7px;
+    top: 10px;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    content: "\f346";
+    text-decoration: none;
+    margin-right: 4px;
+    position: absolute;
+}
+
+.af-ure-prouct-table .page-numbers {
+    font-size: 12px;
+    line-height: 16px;
+    background: #fff;
+    color: #2271b1;
+    border: 1px solid #2271b1;
+    padding: 5px;
+    text-decoration: none;
+    margin: 1px;
+    font-weight: 600;
+    width: 15px;
+    display: inline-block;
+    text-align: center;
+    height: 15px;
+    border-radius: 2px;
+}
+
+.af-ure-prouct-table .page-numbers.current,
+.af-ure-prouct-table .page-numbers:hover,
+.af-ure-prouct-table .page-numbers:active,
+.af-ure-prouct-table .page-numbers:focus {
+    background: #2271b1;
+    color: #fff;
+}
+
+.af-ure-live-search .select2,
+.af-ure-live-search .select2-search__field {
+    width: 100% !important;
+}
+
+.af-ure-select-all-div ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.af-ure-select-all-div ul li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 5px 15px 0;
+    position: relative;
+    width: 30%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.af_ure_show_all {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    width: 100% !important;
+    height: 100% !important;
+    transform: translate(-50%, -50%);
+    margin: 0 !important;
+}
+
+.af-ure-form-field .af-ure-show,
+.af-ure-select-all {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    max-width: 45px;
+    background: #2271b1;
+    color: white;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    padding: 8px 10px;
+    font-weight: 600;
+    font-style: normal;
+    border-radius: 3px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.af-ure-form-field .af-ure-show:hover,
+.af-ure-form-field .af-ure-show:focus,
+.af-ure-form-field .af-ure-show:active,
+.af-ure-select-all:hover,
+.af-ure-select-all:focus,
+.af-ure-select-all:active {
+    background: #fff;
+    color: #2271b1;
+    border: 1px solid #2271b1;
+}
+
+
+.af-ure-pagination {
+    padding: 20px;
+    float: right;
+}
+
+#af_ure_rule_restriction table td,
+#af_ure_rule_restriction table th {
+    padding: 25px 10px;
+    text-align: left;
+}
+
+#af_ure_rule_restriction table td i {
+    color: #00000063;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+#af_ure_rule_restriction input[type=text],
+#af_ure_rule_restriction input[type=number],
+#af_ure_rule_restriction select {
+    width: 100%;
+    border: 1px solid #0000002e;
+    height: 45px;
+}
+
+.af-ure-export-btn i {
+    margin: 4px;
+}
+
+.af-ure-table-and-search-filed {
+    display: flex;
+    position: relative;
+    justify-content: safe flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.af-ure-main-table-data {
+    width: 23%;
+    padding-right: 15px;
+}
+
+.af-ure-loading-icon-div {
+    position: fixed;
+    z-index: 99999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.af-ure-loading-icon-div img {
+    width: 65px;
+    height: 65px;
+}
+
+.import-steps ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 630px;
+    border-bottom: 4px solid;
+    border-color: #ccc;
+    color: #a16696;
+}
+
+.import-steps ul li {
+    position: relative;
+    margin-bottom: -4px;
+    padding: 0 0 0.8em;
+    text-align: center;
+    width: 33.3333333%;
+}
+
+.import-steps ul li.active {
+    border-bottom: 4px solid;
+    border-color: #a16696;
+    color: #a16696;
+}
+
+.import-steps ul li::before {
+    content: "";
+    border: 4px solid #ccc;
+    border-radius: 100%;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -6px;
+    margin-bottom: -8px;
+    background: #fff;
+    border-color: #a16696;
+}
+
+.steps-content {
+    display: block;
+    width: 100%;
+    max-width: 580px;
+    background-color: #fff;
+    margin: 25px auto;
+    border-bottom: 1px solid #eee;
+    padding: 25px;
+}
+
+.upload-content-box {
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    padding: 25px 0;
+}
+
+
+.af-ure-continue-btn-div {
+    text-align: right;
+    padding-top: 25px;
+}
+
+.af-ure-continue-btn-div button,
+.af-ure-step-3 a {
+    color: #fff;
+    font-size: 1.25em !important;
+    padding: 0.5em 1em !important;
+    line-height: 1.5em !important;
+    margin-right: 0.5em !important;
+    margin-bottom: 2px !important;
+    height: auto !important;
+    border-radius: 4px !important;
+    background-color: #bb77ae !important;
+    border-color: #a36597 !important;
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 25%), 0 1px 0 #a36597 !important;
+    text-shadow: 0 -1px 1px #a36597, 1px 0 1px #a36597, 0 1px 1px #a36597, -1px 0 1px #a36597 !important;
+    margin: 0 !important;
+    opacity: 1 !important;
+}
+
+
+.progress-bar {
+    height: 30px;
+    width: 100%;
+    background-color: #BFADA3;
+    overflow: hidden;
+    box-shadow: 2px 0 10px inset rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+*+.progress-bar {
+    margin-top: 2rem;
+}
+
+.bar {
+    width: 0;
+    height: 100%;
+    background-color: #a36597;
+    background-size: 30px 30px;
+    animation: move 2s linear infinite;
+    box-shadow: 2px 0 10px inset rgba(0, 0, 0, 0.2);
+    transition: width 2s ease-out;
+}
+
+/*Lollipop background gradient animation*/
+@keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 30px 30px;
+    }
+}
+
+.perc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: bold;
+}
+
+.af-ure-step-3 .success-icon {
+    text-align: center;
+}
+
+.af-ure-step-3 i {
+    border-radius: 65px;
+    border: 1px solid #a36597;
+    color: white;
+    background: #a36597;
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 80px;
+}
+
+.success-icon {
+    position: relative;
+}
+
+.success-icon::before {
+    font-family: WooCommerce;
+    speak: never;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "\e015";
+    color: #a16696;
+    position: static;
+    font-size: 100px;
+    display: block;
+    float: none;
+    margin: 0 0 24px;
+}
+
+.af-ure-step-3 .af-ure-view-button-div {
+    text-align: right;
+}
+
+.af-ure-total-of-selected-table table {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+
+.af-ure-container {
+    width: calc(100% - 20px);
+    margin: 15px auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.af-main-customer-wrap {
+    background-color: rgb(255, 255, 255);
+    color: rgb(30, 30, 30);
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
+    outline: none;
+    border-radius: calc(1px);
+}
+
+.af-customer-match-header,
+.af-customer-filter-button-wrap {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-top-color: rgba(0, 0, 0, 0.1);
+    border-right-color: rgba(0, 0, 0, 0.1);
+    border-left-color: rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+.af-customer-match-header select {
+    height: 35px;
+    padding: 0 0px 0 8px;
+    margin: 0;
+    width: 70px;
+    margin: 0 8px;
+}
+
+.af-customer-match-header span {
+    color: #000;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.af-customer-repeater-field ul li .title {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.af-customer-repeater-field ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.af-customer-repeater-field ul li {
+    padding: 16px;
+    margin: 0;
+    display: grid;
+    background-color: #f0f0f0;
+    -ms-grid-columns: 11% 12% 72% auto auto;
+    align-items: center;
+    grid-template-columns: 11% 12% 72% auto auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.af-customer-repeater-field .woocommerce-select-control__control-input:focus {
+    box-shadow: none !important;
+}
+
+.af-customer-repeater-field .af-ure-searchbar:focus,
+.af-customer-repeater-field .af-ure-searchbar:active,
+.af-customer-repeater-field .af-ure-searchbar:focus-visible {
+    box-shadow: 0 0 0 1px #2271b1;
+}
+
+.af-ure-searchbar,
+.af-ure-searchbar-input {
+    height: 38px;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3px 2px 3px 38px;
+    border-radius: 0;
+    background: #fff;
+    border: 1px solid #757575;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .05);
+}
+
+.af-customer-repeater-field ul li.af-ure-show-multiple-input {
+    grid-template-columns: 11% 12% 37% 37% auto;
+    -ms-grid-columns: 11% 12% 37% 37% auto;
+}
+
+.af-ure-searchbar-input input,
+.af-ure-searchbar input {
+    border: 0;
+    box-shadow: none;
+    outline: none;
+    font-size: 14px;
+    min-height: auto;
+    color: #2c3338;
+    margin: 2px 0 0;
+    padding-right: 0;
+    width: 100%;
+    line-height: 25px;
+    text-align: left;
+    padding-left: 12px;
+    letter-spacing: inherit;
+    background: transparent;
+}
+
+.af-ure-show-multiple-input .title,
+.af-ure-show-multiple-input .af-select-include,
+.af-ure-show-multiple-input .af-ure-cross-button {
+    margin-top: 20px;
+}
+
+.af-ure-searchbar input:focus-visible {
+    outline: none;
+}
+
+.af-select-include select {
+    height: 38px;
+    padding: 0 0 0 8px;
+    margin: 0;
+    width: 98%;
+}
+
+.af-ure-cross-button {
+    text-align: right;
+}
+
+.af-ure-cross-button button {
+    width: 40px;
+    height: 38px;
+    padding: 8px;
+    border: 0;
+    background: transparent;
+}
+
+.af-ure-cross-button button svg {
+    color: #757575;
+}
+
+.af-cusotmer-add-filter-btn {
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    height: auto;
+    max-height: 100%;
+    padding: 16px;
+}
+
+.af-cusotmer-add-filter-btn button {
+    color: #757575;
+    padding: 8px;
+    display: flex;
+    cursor: pointer;
+    border: 0;
+    font-size: 13px;
+    height: 37px;
+    align-items: center;
+}
+
+.af-cusotmer-add-filter-btn button svg {
+    margin-right: 10px;
+}
+
+.af-customer-filter-button-wrap button {
+    background: #007cba;
+    border-color: #007cba;
+    color: #fff;
+    outline: none;
+    height: 36px;
+    border: 0;
+    border-radius: 2px;
+    padding: 6px 12px;
+    margin-right: 20px;
+}
+
+.af-customer-filter-button-wrap A {
+    font-size: 14px;
+    line-height: 24px;
+    color: #135e96;
+
+}
+
+.af-ure-send-bulk-email-popup-main-container {
+    box-shadow: 0px 0px 6px 6px;
+}
+
+
+.af-ure-send-bulk-email-popup-main-container {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    max-width: 70%;
+    width: 100%;
+    z-index: 99999;
+    max-height: 70%;
+    height: auto;
+    box-shadow: 0px 0px 6px 6px;
+}
+
+.af-ure-create-edit-user-role-capabilities,
+.af-ure-create-user-role-capabilities,
+.af-ure-create-new-user-role-container {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    z-index: 999;
+    box-shadow: 1px 0px 10px 10px lightgray;
+    border: 1px solid black;
+}
+
+.af-customer-repeater-field ul li.select2-search.select2-search--inline {
+    background-color: transparent !important;
+    border-bottom: none !important;
+}
+
+.af-ure-register-user-list-table .tablenav-pages,
+.af-customer-filter-button-wrap input {
+    margin-right: 10px;
+}
+
+.af-purchased-product-detail-table {
+    height: 300px;
+    overflow-y: scroll;
+    padding: 15px;
+}
+
+.af-ure-send-bulk-email-popup-2nd-container {
+    background: #fff;
+    padding: 20px;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+
+.af-ure-order-detail-main-div .af-ure-order-detail-table-product-level,
+.af-ure-order-detail-main-div .af-ure-order-detail-table {
+    padding: 8px;
+}
+
+.af-ure-order-detail-main-div .af-ure-order-detail-table-product-level,
+.af-ure-order-detail-main-div .af-ure-order-detail-table,
+.af-ure-order-detail-main-div table,
+.af-ure-order-detail-main-div .af-ure-order-detail-main-div {
+    background: white;
+}
+
+.af-ure-order-detail-main-div select[name="DataTables_Table_1_length"] {
+    width: 100%;
+}
+
+.af-ure-order-detail-main-div table,
+.af-ure-send-bulk-email-popup-2nd-container table {
+    border: 0 !important;
+}
+
+.af-ure-order-detail-main-div table tr,
+.af-ure-send-bulk-email-popup-2nd-container table tr {
+    background-color: #fff !important;
+}
+
+.af-ure-order-detail-main-div table tr th {
+    width: 30%;
+}
+
+.af-ure-send-bulk-email-popup-2nd-container table tr th {
+    width: 13%;
+}
+
+.af-ure-order-detail-main-div table tr td input,
+.af-ure-send-bulk-email-popup-2nd-container table tr td input {
+    width: 100%;
+    height: 40px;
+}
+
+.af-ure-order-detail-main-div::-webkit-scrollbar,
+.af-ure-send-bulk-email-popup-2nd-container::-webkit-scrollbar {
+    width: 5px;
+}
+
+.af-ure-close-send-bulk-email-popup-main-container {
+    background-color: red;
+    color: #fff;
+    padding: 6px 7px;
+    position: absolute;
+    line-height: 12px;
+    border-radius: 50%;
+    right: 0px;
+    top: -13px;
+}
+
+.af-ure-guest-page-listing-user select[name=DataTables_Table_0_length],
+.af-ure-register-user-list-table select[name=DataTables_Table_0_length] {
+    width: 8%;
+}
+
+
+.af-ure-guest-page-listing-user .dataTables_length,
+.af-ure-register-user-list-table .dataTables_length {
+    width: 50%;
+}
+
+.af-ure-guest-page-listing-user .dataTables_filter,
+.af-ure-register-user-list-table .dataTables_filter {
+    width: 40%;
+}
+
+.af-ure-guest-page-listing-user .dataTables_filter input[type=search],
+.af-ure-register-user-list-table .dataTables_filter input[type=search] {
+    width: 60%;
+}
+
+
+.af-tips {
+    border-radius: 4px;
+    width: 22px;
+    height: 22px;
+    padding: 5px 6px;
+    text-align: center;
+    position: relative;
+}
+
+.af-tips:hover span {
+    display: block;
+}
+
+.af-tips span {
+    display: none;
+    position: absolute;
+    width: 130px;
+    height: 30px;
+    color: #fff;
+    bottom: -7px;
+    left: 50%;
+    font-size: 12px;
+    text-align: center;
+    line-height: 26px;
+    z-index: 999;
+    transform: translate(-50%, 100%);
+    color: #fff;
+    max-width: 150px;
+    background: #333;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+}
+
+.af-ure-create-user-role-capabilities ul,
+.af-ure-create-edit-user-role-capabilities ul {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.af-ure-create-user-role-capabilities,
+.af-ure-create-edit-user-role-capabilities {
+    /* overflow-y: scroll; */
+}
+
+.af-ure-create-user-role-capabilities form,
+.af-ure-create-edit-user-role-capabilities form {
+    background: white;
+    padding: 4px;
+}
+
+.af-ure-create-user-role-capabilities li,
+.af-ure-create-edit-user-role-capabilities li {
+    width: 20%;
+}
+
+.af-ure-create-user-role-capabilities span.selection li,
+.af-ure-create-edit-user-role-capabilities span.selection li {
+    width: auto;
+}
+
+.select2-dropdown.select2-dropdown--below {
+    z-index: 999999999999;
+}
+
+
+.af-ure-user-role-popup {
+    padding: 34px !important;
+    background: #fff !important;
+    box-shadow: 0px 0px 5px 0px #706e6e !important;
+    border: none !important;
+}
+
+.af-ure-user-role-popup select {
+    display: block;
+    border-radius: 0;
+    border: 1px solid #d3d3d36e;
+    width: 100%;
+    height: 40px;
+    max-width: 100% !important;
+    margin: 13px 0 21px;
+}
+
+.af-ure-delete-and-assign-new-user-role-to-user-main-div {
+    padding: 20px;
+    background: #fff;
+    box-shadow: none;
+    border: 1px solid #0000008f;
+}
+
+.af-ure-delete-and-assign-new-user-role-to-user-main-div p {
+    margin: 0 !important;
+}
+
+.af-cmfw-loading-icon-div {
+    position: fixed;
+    z-index: 99999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999999;
+}
+
+.af-cmfw-loading-icon-div img {
+    width: 65px;
+    height: 65px;
+}

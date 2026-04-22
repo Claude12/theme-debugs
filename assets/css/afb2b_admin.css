@@ -1,0 +1,78 @@
+
+.impnote{ color: red; }
+
+.afb2b_options_form .select2-container{ width: 80% !important; }
+
+.all_cats { width: 97%; border: solid 1px #b6b1b1; border-radius: 4px; padding: 10px; float: left; }
+
+.par_cat { width: auto; padding: 5px; }
+
+.child_cat{ width: auto; padding:3px 15px; }
+
+.af_number_class{ width: 100%;}
+
+.af_number_class {
+	width: 100%;
+	background: rgba(204, 204, 204, 0.22) !important;
+	line-height: 1.75em;
+	padding: 10px;
+}
+
+
+.counter1, .counter2, .counter3{ display: none;}
+
+em { color: red;}
+
+.afrfq_input_class {
+	
+	
+	line-height: 1.75em;
+	padding: 10px;
+	
+}
+
+.afpvu_accordian #accordion .ui-state-active{ background-color: #ccc; border-color: #ccc;   }
+
+.afpvu_accordian #accordion h3{ padding: 15px !important; }
+
+.afpuv_role_inner{ width: 100%; float: left; margin-top: 10px; margin-bottom: 20px; }
+
+.afpuv_role_inner_left{ width: 20%; float: left; }
+
+.afpuv_role_inner_right{ width: 80%; float: left; }
+
+.afpuv_role_inner_left label { color: #23282d; font-size: 14px; font-weight: 600; line-height: 1.3; }
+
+.submit_b2b_settings{ width: 100%; float: left; margin-top: 20px; }
+
+.afb2b_setting_div{ width: 100%; float: left; margin-top: 20px; }
+
+.ruleactive{ font-weight: bold; margin-left: 10px; }
+
+.showcustommessage{display: none;}
+
+.setting_input_fields{ width: 50%; padding: 5px; }
+
+ul.subsubsub{
+	float: none;
+}
+
+.csp_import_prices_div{ width: 100%; float: left; margin-top: 30px; }
+
+.csp_import_prices_div label{ width: 20%; float: left; font-weight: bold; }
+
+.csp_import_prices_div2{ width: 100%; float: left; margin-top: 20px; }
+
+.csp_import_prices_div2 label{ width: 20%; float: left; font-weight: bold; }
+
+.csp_import_prices_div2 .submit { float: left; text-align: left; }
+
+.format_table th{ font-weight: bold; padding: 10px; }
+
+.format_table tr td{ text-align: center !important; padding: 10px !important; }
+
+.imp_msg{ color: red; }
+
+.csvFromatData ul{ width: 100%; padding-left: 20px; }
+
+.csvFromatData ul li{ width: 100%; list-style: disc; }

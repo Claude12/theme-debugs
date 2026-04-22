@@ -1,0 +1,51 @@
+.af_number_class{ width: 100%;}
+
+.af_number_class {
+	width: 100%;
+	background: rgba(204, 204, 204, 0.22) !important;
+	line-height: 1.75em;
+	padding: 10px;
+}
+
+input[type="number"] { height: 50px; !important;}
+
+.counter1, .counter2, .counter3{ display: none;}
+
+em { color: red;}
+
+.afrfq_input_class {
+	
+	line-height: 1.75em;
+	padding: 10px;
+	
+}
+
+.addify-option-field h3{ line-height: 26px;}
+
+.aftax_pending{ background: #00a0d2; padding: 5px 20px; color: #fff; text-transform: capitalize;}
+
+.aftax_approved{ background: green; padding: 5px 20px; color: #fff; text-transform: capitalize;}
+
+.aftax_disapproved{ background: red; padding: 5px 20px; color: #fff; text-transform: capitalize; }
+
+.aftax_expired{ background: palevioletred; padding: 5px 20px; color: #fff; text-transform: capitalize;}
+
+.order_data_column .aftax_order_details{
+	white-space: nowrap;
+}
+
+.aftax_checkbox{ margin-top: -4px !important; }
+
+.addify-tax-exempt-settings input[type="text"] {
+	width: 30%;
+}
+
+.addify-tax-exempt-settings select { width: 50%; }
+
+.aftax_des{ font-size: 12px !important; clear: both; width: 100%; }
+
+.aftax_enable_tax_exm_msg{ width: 90%; }
+
+.aftax_textarea{ width: 400px; }
+
+

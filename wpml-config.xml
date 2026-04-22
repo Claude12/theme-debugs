@@ -1,0 +1,51 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">afreg_fields</custom-type>
+    <custom-type translate="1">addify_b2b</custom-type>
+    <custom-type translate="1">addify_quote</custom-type>
+    <custom-type translate="1">csp_rules</custom-type>
+    <custom-type translate="1">addify_rfq</custom-type>
+    <custom-type translate="1">addify_rfq_fields</custom-type>
+    <custom-type translate="1">discount_cart</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">product_visibility</taxonomy>
+  </taxonomies>
+  <custom-fields>
+    <custom-field action="translate">afreg_field_order_details</custom-field>
+    <custom-field action="translate">afreg_field_placeholder</custom-field>
+    <custom-field action="translate">afreg_field_description</custom-field>
+    <custom-field action="translate">message</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="afpvu_global_custom_msg"/>
+    <key name="afreg_additional_fields_section_title"/>
+    <key name="afreg_admin_email_text"/>
+    <key name="afreg_update_user_admin_email_text"/>
+    <key name="afreg_approved_email_text"/>
+    <key name="afreg_disapproved_email_text"/>
+    <key name="afreg_pending_approval_email_text"/>
+    <key name="afreg_user_approval_message"/>
+    <key name="afreg_user_disapproved_message"/>
+    <key name="afreg_user_email_text"/>
+    <key name="afreg_user_pending_approval_message"/>
+    <key name="afreg_user_role_field_text"/>
+    <key name="afrfq_pro_success_message"/>
+    <key name="afrfq_success_message"/>
+    <key name="afrfq_view_button_message"/>
+    <key name="aftax_add_tax_info_message"/>
+    <key name="aftax_admin_email_message"/>
+    <key name="aftax_admin_email_subject"/>
+    <key name="aftax_approve_tax_info_email_message"/>
+    <key name="aftax_approve_tax_info_email_subject"/>
+    <key name="aftax_disapprove_tax_info_email_message"/>
+    <key name="aftax_disapprove_tax_info_email_subject"/>
+    <key name="aftax_enable_guest_message"/>
+    <key name="aftax_enable_tax_exm_msg"/>
+    <key name="aftax_fileupload_field_label"/>
+    <key name="aftax_guest_message_text"/>
+    <key name="aftax_role_message_text"/>
+    <key name="aftax_text_field_label"/>
+    <key name="aftax_textarea_field_label"/>
+  </admin-texts>
+</wpml-config>

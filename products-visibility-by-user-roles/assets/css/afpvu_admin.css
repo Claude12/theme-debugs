@@ -1,0 +1,68 @@
+
+.impnote{ color: red; }
+
+.addify_pro_visibility .select2-container{ width: 80% !important; }
+
+.all_cats { width: 97%; border: solid 1px #b6b1b1; border-radius: 4px; padding: 10px; float: left; }
+
+.par_cat { width: auto; padding: 5px; }
+
+.child_cat{ width: auto; padding:3px 15px; }
+
+.af_number_class{ width: 100%;}
+
+.af_number_class {
+	width: 100%;
+	background: rgba(204, 204, 204, 0.22) !important;
+	line-height: 1.75em;
+	padding: 10px;
+}
+
+input[type="number"] { height: 50px; !important;}
+
+.counter1, .counter2, .counter3{ display: none;}
+
+em { color: red;}
+
+.afrfq_input_class {
+	
+	line-height: 1.75em;
+	padding: 10px;
+	
+}
+
+.afpvu_accordian #accordion h3{ 
+	padding: 15px !important;
+	background: #e5e5e5;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.afpvu_accordian #accordion h3.ui-state-active{ 
+	background: #dedede;
+	border: 1px solid #c5c5c5;
+}
+
+
+.afpvu_accordian #accordion h3:hover{
+	background: #dedede;
+	border: 1px solid #c5c5c5;
+}
+
+.afpvu_accordian div.ui-accordion-content{
+	padding: 0px 1.7em;
+}
+
+.afpuv_role_inner{ width: 100%; float: left; margin-top: 10px; margin-bottom: 20px; }
+
+.afpuv_role_inner_left{ width: 20%; float: left; }
+
+.afpuv_role_inner_right{ width: 80%; float: left; }
+
+.afpuv_role_inner_left label { color: #23282d; font-size: 14px; font-weight: 600; line-height: 1.3; }
+
+.ruleactive{ font-weight: bold; margin-left: 10px; }
+
+.showcustommessage{display: none;}
+
+.setting_input_fields{ width: 50%; padding: 5px; }
